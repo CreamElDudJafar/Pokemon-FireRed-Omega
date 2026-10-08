@@ -42,7 +42,8 @@
     "gMapGroup_IndoorFiveIslandRoute",
     "gMapGroup_IndoorTwoIslandRoute",
     "gMapGroup_IndoorSixIslandRoute",
-    "gMapGroup_IndoorSevenIslandRoute"
+    "gMapGroup_IndoorSevenIslandRoute",
+    "gMapGroup_OmegaGroup43"
   ],
   "gMapGroup_Link": [
     "BattleColosseum_2P",
@@ -619,5 +620,21 @@
     "SevenIsland_SevaultCanyon_Entrance",
     "SevenIsland_SevaultCanyon",
     "SevenIsland_TanobyRuins"
+  ],
+  "gMapGroup_OmegaGroup43": [
+    "OmegaGroup43_Map00",
+    "OmegaGroup43_Map01",
+    "OmegaGroup43_Map02",
+    "OmegaGroup43_Map03",
+    "OmegaGroup43_Map04",
+    "OmegaGroup43_Map05",
+    "OmegaGroup43_Map06",
+    "OmegaGroup43_Map07",
+    "OmegaGroup43_Map08",
+    "OmegaGroup43_Map09",
+    "OmegaGroup43_Map10",
+    "OmegaGroup43_Map11",
+    "OmegaGroup43_Map12",
+    "OmegaGroup43_Map13"
   ]
 }

@@ -113,3 +113,13 @@ Movement_DeoxysApproach:
 	walk_slower_down
 	walk_slower_down
 	step_end
+
+BirthIsland_Exterior_EventScript_OmegaTravelerTomb::
+	lock
+	msgbox BirthIsland_Exterior_Text_OmegaTravelerTomb, MSGBOX_DEFAULT
+	warpteleport MAP_SIX_ISLAND_ALTERING_CAVE, 4, 5, 5
+	end
+
+BirthIsland_Exterior_Text_OmegaTravelerTomb::
+	.string "WARPING TO...\n"
+	.string "Traveler's Tomb$"

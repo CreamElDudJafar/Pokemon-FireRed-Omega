@@ -190,26 +190,11 @@ PewterCity_Movement_PlayerWaitForGuideNorth::
 	delay_16
 	step_end
 
-PewterCity_Movement_PlayerWalkToGymNorth::
-	walk_up
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_to_gym_alt
-	step_end
-
 PewterCity_Movement_GuideMoveToLeadEast::
 	walk_down
 	walk_left
 	walk_in_place_faster_up
 	walk_in_place_up
-	step_end
-
-PewterCity_Movement_GuideWalkToGymEast::
-	walk_to_gym
-	walk_right
-	walk_in_place_faster_left
 	step_end
 
 PewterCity_Movement_GuideMoveToLeadWest::
@@ -230,16 +215,6 @@ PewterCity_Movement_GuideMoveToLeadNorth::
 	walk_in_place_down
 	step_end
 
-PewterCity_Movement_GuideWalkToGymNorth::
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_to_gym_alt
-	walk_right
-	walk_in_place_faster_left
-	step_end
-
 PewterCity_Movement_GymGuideExit::
 	walk_down
 	walk_left
@@ -253,65 +228,6 @@ PewterCity_Movement_GymGuideExit::
 	walk_left
 	step_end
 
-PewterCity_EventScript_GymGuideTriggerTop::
-	lockall
-	setvar VAR_TEMP_1, 0
-	goto PewterCity_EventScript_GymGuideTrigger
-	end
-
-PewterCity_EventScript_GymGuideTriggerMid::
-	lockall
-	setvar VAR_TEMP_1, 1
-	goto PewterCity_EventScript_GymGuideTrigger
-	end
-
-PewterCity_EventScript_GymGuideTriggerBottom::
-	lockall
-	setvar VAR_TEMP_1, 2
-	goto PewterCity_EventScript_GymGuideTrigger
-	end
-
-@ This trigger is inaccessible and its corresponding movement script isnt linked
-PewterCity_EventScript_GymGuideTriggerRight::
-	lockall
-	setvar VAR_TEMP_1, 3
-	goto PewterCity_EventScript_GymGuideTrigger
-	end
-
-PewterCity_EventScript_GymGuideTrigger::
-	textcolor NPC_TEXT_COLOR_MALE
-	msgbox PewterCity_Text_BrocksLookingForChallengersFollowMe
-	closemessage
-	playbgm MUS_FOLLOW_ME, 0
-	call_if_eq VAR_TEMP_1, 0, PewterCity_EventScript_WalkToGymTop
-	call_if_eq VAR_TEMP_1, 1, PewterCity_EventScript_WalkToGymMid
-	call_if_eq VAR_TEMP_1, 2, PewterCity_EventScript_WalkToGymBottom
-	msgbox PewterCity_Text_GoTakeOnBrock
-	closemessage
-	applymovement LOCALID_PEWTER_GYM_GUIDE, PewterCity_Movement_GymGuideExit
-	waitmovement 0
-	fadedefaultbgm
-	removeobject LOCALID_PEWTER_GYM_GUIDE
-	clearflag FLAG_HIDE_PEWTER_CITY_GYM_GUIDE
-	releaseall
-	end
-
-PewterCity_EventScript_WalkToGymTop::
-	applymovement LOCALID_PEWTER_GYM_GUIDE, PewterCity_Movement_GuideMoveToLeadTop
-	waitmovement 0
-	applymovement LOCALID_PLAYER, PewterCity_Movement_PlayerWalkToGymTop
-	applymovement LOCALID_PEWTER_GYM_GUIDE, PewterCity_Movement_GuideWalkToGymTop
-	waitmovement 0
-	return
-
-PewterCity_EventScript_WalkToGymMid::
-	applymovement LOCALID_PEWTER_GYM_GUIDE, PewterCity_Movement_GuideMoveToLeadMid
-	waitmovement 0
-	applymovement LOCALID_PLAYER, PewterCity_Movement_PlayerWalkToGymMid
-	applymovement LOCALID_PEWTER_GYM_GUIDE, PewterCity_Movement_GuideWalkToGymMid
-	waitmovement 0
-	return
-
 PewterCity_EventScript_WalkToGymBottom::
 	applymovement LOCALID_PEWTER_GYM_GUIDE, PewterCity_Movement_GuideMoveToLeadBottom
 	waitmovement 0
@@ -321,14 +237,6 @@ PewterCity_EventScript_WalkToGymBottom::
 	return
 
 @ Unused
-PewterCity_EventScript_WalkToGymRight::
-	applymovement LOCALID_PEWTER_GYM_GUIDE, PewterCity_Movement_GuideApproachPlayerRight
-	waitmovement 0
-	applymovement LOCALID_PLAYER, PewterCity_Movement_PlayerWalkToGymRight
-	applymovement LOCALID_PEWTER_GYM_GUIDE, PewterCity_Movement_GuideWalkToGymRight
-	waitmovement 0
-	return
-
 PewterCity_Movement_PlayerWalkToGymTop::
 	walk_left
 	walk_to_gym
@@ -533,19 +441,6 @@ PewterCity_EventScript_CheckedOutMuseum::
 	walk_left
 .endm
 
-PewterCity_Movement_PlayerWalkToMuseumNorth::
-	walk_up
-	walk_to_museum
-	delay_8
-	walk_in_place_faster_up
-	step_end
-
-PewterCity_Movement_GuideWalkToMuseumNorth::
-	walk_to_museum
-	walk_left
-	walk_in_place_faster_up
-	step_end
-
 PewterCity_Movement_PlayerWalkToMuseumSouth::
 	delay_16
 	delay_16
@@ -559,19 +454,6 @@ PewterCity_Movement_GuideWalkToMuseumSouth::
 	walk_left
 	walk_up
 	walk_to_museum_south
-	walk_left
-	walk_in_place_faster_up
-	step_end
-
-PewterCity_Movement_PlayerWalkToMuseumWest::
-	walk_left
-	walk_to_museum
-	delay_8
-	walk_in_place_faster_up
-	step_end
-
-PewterCity_Movement_GuideWalkToMuseumWest::
-	walk_to_museum
 	walk_left
 	walk_in_place_faster_up
 	step_end
@@ -651,35 +533,6 @@ PewterCity_EventScript_CitySign::
 	msgbox PewterCity_Text_CitySign, MSGBOX_SIGN
 	end
 
-PewterCity_EventScript_RunningShoesAide::
-	lock
-	faceplayer
-	setvar VAR_TEMP_1, 0
-	call PewterCity_EventScript_AideGiveRunningShoes
-	release
-	end
-
-PewterCity_EventScript_RunningShoesAideTriggerTop::
-	lockall
-	setvar VAR_TEMP_1, 1
-	call PewterCity_EventScript_AideGiveRunningShoes
-	releaseall
-	end
-
-PewterCity_EventScript_RunningShoesAideTriggerMid::
-	lockall
-	setvar VAR_TEMP_1, 2
-	call PewterCity_EventScript_AideGiveRunningShoes
-	releaseall
-	end
-
-PewterCity_EventScript_RunningShoesAideTriggerBottom::
-	lockall
-	setvar VAR_TEMP_1, 3
-	call PewterCity_EventScript_AideGiveRunningShoes
-	releaseall
-	end
-
 PewterCity_EventScript_AideGiveRunningShoes::
 	textcolor NPC_TEXT_COLOR_MALE
 	call_if_eq VAR_TEMP_1, 1, PewterCity_EventScript_AideNoticePlayer
@@ -732,28 +585,6 @@ PewterCity_EventScript_AideNoticePlayer::
 PewterCity_EventScript_AideApproachPlayer0::
 	closemessage
 	delay 20
-	return
-
-PewterCity_EventScript_AideApproachPlayer1::
-	closemessage
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	return
-
-PewterCity_EventScript_AideApproachPlayer2::
-	closemessage
-	applymovement LOCALID_PEWTER_AIDE, PewterCity_Movement_AideApproachPlayerMid
-	waitmovement 0
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	return
-
-PewterCity_EventScript_AideApproachPlayer3::
-	closemessage
-	applymovement LOCALID_PEWTER_AIDE, PewterCity_Movement_AideApproachPlayerBottom
-	waitmovement 0
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
 	return
 
 PewterCity_EventScript_AideExit0::
@@ -841,3 +672,24 @@ PewterCity_Movement_AideExit3::
 PewterCity_Movement_WalkInPlaceLeft::
 	walk_in_place_left
 	step_end
+
+PewterCity_EventScript_OmegaTogepiEgg::
+	lock
+	faceplayer
+	goto_if_set 0x62A, PewterCity_EventScript_OmegaTogepiEggReceived
+	msgbox PewterCity_Text_OmegaTogepiEggGive, MSGBOX_AUTOCLOSE
+	giveegg SPECIES_TOGEPI
+	setflag 0x62A
+	lock
+	faceplayer
+	msgbox PewterCity_Text_OmegaTogepiEggObtained, MSGBOX_AUTOCLOSE
+	release
+	end
+
+PewterCity_Text_OmegaTogepiEggGive::
+	.string "You look like a caring soul!\n"
+	.string "Please, take this egg.$"
+
+PewterCity_Text_OmegaTogepiEggReceived::
+	.string "Is that egg doing well?$"
+

@@ -30,3 +30,8 @@ Route20_EventScript_ResetSeafoamBouldersForB4F::
 Route20_EventScript_SeafoamIslandsSign::
 	msgbox Route20_Text_SeafoamIslands, MSGBOX_SIGN
 	end
+
+Route20_EventScript_OmegaTrainer::
+	trainerbattle_single TRAINER_RS_LADY, Route20_Text_OmegaTrainerIntro, Route20_Text_OmegaTrainerDefeat
+	msgbox Route20_Text_OmegaTrainerPostBattle, MSGBOX_AUTOCLOSE
+	end

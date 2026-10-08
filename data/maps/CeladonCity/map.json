@@ -232,6 +232,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "CeladonCity_EventScript_SilphCoScientist",
       "flag": "FLAG_HIDE_CELADON_ROCKETS"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 54,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CeladonCity_EventScript_ItemSunStone",
+      "flag": "FLAG_HIDE_CELADON_CITY_SUN_STONE"
     }
   ],
   "warp_events": [

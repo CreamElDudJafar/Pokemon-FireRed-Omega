@@ -14,4 +14,4 @@
 
     .section .rodata
 
-    .include "data/maps/events.inc"
+    .include "data/maps/events_omega_layout.inc"

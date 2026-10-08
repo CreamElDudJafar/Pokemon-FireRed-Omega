@@ -1,0 +1,3 @@
+Pass 17: remove erroneous two-byte gOmegaSpeciesAlignment insertion from Pass 16.
+Preserves Pass 16 alias and trainer-money fixes already present in working tree.
+Rebuild only src/pokemon.o and relink.

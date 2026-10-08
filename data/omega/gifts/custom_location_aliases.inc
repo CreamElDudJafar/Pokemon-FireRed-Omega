@@ -1,0 +1,14 @@
+.set FlameSanctuary_MapScripts, OmegaGroup43_Map00_MapScripts
+.set AquaSanctuary_MapScripts, OmegaGroup43_Map01_MapScripts
+.set VoltSanctuary_MapScripts, OmegaGroup43_Map02_MapScripts
+.set ChronumTower_1F_MapScripts, OmegaGroup43_Map03_MapScripts
+.set ChronumTower_2F_MapScripts, OmegaGroup43_Map04_MapScripts
+.set ChronumTower_3F_MapScripts, OmegaGroup43_Map05_MapScripts
+.set ChronumTower_4F_MapScripts, OmegaGroup43_Map06_MapScripts
+.set ChronumTower_5F_MapScripts, OmegaGroup43_Map07_MapScripts
+.set ChronumTower_6F_MapScripts, OmegaGroup43_Map08_MapScripts
+.set ChronumTower_7F_MapScripts, OmegaGroup43_Map09_MapScripts
+.set ChronumTower_8F_MapScripts, OmegaGroup43_Map10_MapScripts
+.set ChronumTower_9F_MapScripts, OmegaGroup43_Map11_MapScripts
+.set YggdrasillForest_MapScripts, OmegaGroup43_Map12_MapScripts
+.set AncientLabyrinth_MapScripts, OmegaGroup43_Map13_MapScripts

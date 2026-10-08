@@ -1,0 +1,3 @@
+SaffronCity_EventScript_OmegaTyrogueTransferredToPC::
+	call 0x081A8C3C
+	goto SaffronCity_EventScript_OmegaTyrogueFinish

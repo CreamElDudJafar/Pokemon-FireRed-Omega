@@ -17,4 +17,3 @@ Route2_ViridianForest_NorthEntrance_Text_CanCancelEvolution::
     .string "can stop the process.\p"
     .string "It's a technique for raising\n"
     .string "POKéMON the way they are.$"
-

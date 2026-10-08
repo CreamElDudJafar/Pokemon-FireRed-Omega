@@ -1,0 +1,45 @@
+{
+  "id": "MAP_OMEGA_GROUP43_MAP01",
+  "name": "OmegaGroup43_Map01",
+  "layout": "LAYOUT_OMEGA_GROUP43_MAP01",
+  "music": "MUS_SEVII_DUNGEON",
+  "region_map_section": "MAPSEC_SEVII_ISLE_23",
+  "requires_flash": false,
+  "weather": "WEATHER_SNOW",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "type": "object",
+      "object_id": "1",
+      "graphics_id": "OBJ_EVENT_GFX_SUICUNE",
+      "x": 9,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "OmegaGroup43_Map01_EventScript_Object1",
+      "flag": "0x77c"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_TWO_ISLAND_CAPE_BRINK",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

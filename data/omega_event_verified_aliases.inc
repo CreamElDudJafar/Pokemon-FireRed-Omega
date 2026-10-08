@@ -1,0 +1,12111 @@
+@ Verified exact Fire Red Omega event-script/text aliases.
+@ Readable pret-style source remains in the original included files; these aliases bind them to the exact bank.
+
+	.global SSAnne_1F_Corridor_Text_LeStrongSilentType
+	.set SSAnne_1F_Corridor_Text_LeStrongSilentType, 0x08172EE7
+	.global SSAnne_1F_Corridor_Text_PassengersAreRestless
+	.set SSAnne_1F_Corridor_Text_PassengersAreRestless, 0x08172F60
+	.global SSAnne_2F_Corridor_Text_ThisShipIsLuxuryLiner
+	.set SSAnne_2F_Corridor_Text_ThisShipIsLuxuryLiner, 0x08172FC3
+	.global SSAnne_2F_Corridor_Text_RivalIntro
+	.set SSAnne_2F_Corridor_Text_RivalIntro, 0x08173035
+	.global SSAnne_2F_Corridor_Text_RivalDefeat
+	.set SSAnne_2F_Corridor_Text_RivalDefeat, 0x08173110
+	.global SSAnne_2F_Corridor_Text_RivalVictory
+	.set SSAnne_2F_Corridor_Text_RivalVictory, 0x0817313D
+	.global SSAnne_2F_Corridor_Text_RivalPostBattle
+	.set SSAnne_2F_Corridor_Text_RivalPostBattle, 0x08173164
+	.global SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons
+	.set SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons, 0x0817320C
+	.global SSAnne_Kitchen_Text_BusyOutOfTheWay
+	.set SSAnne_Kitchen_Text_BusyOutOfTheWay, 0x081733F8
+	.global SSAnne_Kitchen_Text_SawOddBerryInTrash
+	.set SSAnne_Kitchen_Text_SawOddBerryInTrash, 0x08173429
+	.global SSAnne_Kitchen_Text_SoBusyImDizzy
+	.set SSAnne_Kitchen_Text_SoBusyImDizzy, 0x08173462
+	.global SSAnne_Kitchen_Text_PeelSpudsEveryDay
+	.set SSAnne_Kitchen_Text_PeelSpudsEveryDay, 0x081734A0
+	.global SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton
+	.set SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton, 0x081734D3
+	.global SSAnne_Kitchen_Text_OnlyGetToPeelOnions
+	.set SSAnne_Kitchen_Text_OnlyGetToPeelOnions, 0x0817353E
+	.global SSAnne_Kitchen_Text_IAmLeChefMainCourseIs
+	.set SSAnne_Kitchen_Text_IAmLeChefMainCourseIs, 0x08173570
+	.global SSAnne_Kitchen_Text_SalmonDuSalad
+	.set SSAnne_Kitchen_Text_SalmonDuSalad, 0x0817359F
+	.global SSAnne_Kitchen_Text_EelsAuBarbecue
+	.set SSAnne_Kitchen_Text_EelsAuBarbecue, 0x081735DF
+	.global SSAnne_Kitchen_Text_PrimeBeefsteak
+	.set SSAnne_Kitchen_Text_PrimeBeefsteak, 0x08173611
+	.global SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick
+	.set SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick, 0x08173646
+	.global SSAnne_CaptainsOffice_Text_RubbedCaptainsBack
+	.set SSAnne_CaptainsOffice_Text_RubbedCaptainsBack, 0x08173676
+	.global SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut
+	.set SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut, 0x081736A6
+	.global SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain
+	.set SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain, 0x081737AF
+	.global SSAnne_CaptainsOffice_Text_ExplainCut
+	.set SSAnne_CaptainsOffice_Text_ExplainCut, 0x081737D2
+	.global SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon
+	.set SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon, 0x08173831
+	.global SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis
+	.set SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis, 0x081738C3
+	.global SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked
+	.set SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked, 0x081738E6
+	.global SSAnne_CaptainsOffice_Text_HowToConquerSeasickness
+	.set SSAnne_CaptainsOffice_Text_HowToConquerSeasickness, 0x08173903
+	.global SSAnne_1F_Room1_Text_ImAGlobalPoliceAgent
+	.set SSAnne_1F_Room1_Text_ImAGlobalPoliceAgent, 0x0817393B
+	.global SSAnne_1F_Room2_Text_TylerIntro
+	.set SSAnne_1F_Room2_Text_TylerIntro, 0x08173999
+	.global SSAnne_1F_Room2_Text_TylerDefeat
+	.set SSAnne_1F_Room2_Text_TylerDefeat, 0x081739B1
+	.global SSAnne_1F_Room2_Text_TylerPostBattle
+	.set SSAnne_1F_Room2_Text_TylerPostBattle, 0x081739C5
+	.global SSAnne_1F_Room2_Text_AnnIntro
+	.set SSAnne_1F_Room2_Text_AnnIntro, 0x08173A1A
+	.global SSAnne_1F_Room2_Text_AnnDefeat
+	.set SSAnne_1F_Room2_Text_AnnDefeat, 0x08173A4F
+	.global SSAnne_1F_Room2_Text_AnnPostBattle
+	.set SSAnne_1F_Room2_Text_AnnPostBattle, 0x08173A7A
+	.global SSAnne_1F_Room2_Text_CruisingAroundWorld
+	.set SSAnne_1F_Room2_Text_CruisingAroundWorld, 0x08173AC5
+	.global SSAnne_1F_Room3_Text_CruiseIsElegantAndCozy
+	.set SSAnne_1F_Room3_Text_CruiseIsElegantAndCozy, 0x08173AFA
+	.global SSAnne_1F_Room3_Text_AlwaysTravelWithWigglytuff
+	.set SSAnne_1F_Room3_Text_AlwaysTravelWithWigglytuff, 0x08173B21
+	.global SSAnne_1F_Room3_Text_Wigglytuff
+	.set SSAnne_1F_Room3_Text_Wigglytuff, 0x08173B61
+	.global SSAnne_1F_Room4_Text_WaiterCherryPiePlease
+	.set SSAnne_1F_Room4_Text_WaiterCherryPiePlease, 0x08173B79
+	.global SSAnne_1F_Room4_Text_WaitressCherryPiePlease
+	.set SSAnne_1F_Room4_Text_WaitressCherryPiePlease, 0x08173BA4
+	.global SSAnne_1F_Room5_Text_ArthurIntro
+	.set SSAnne_1F_Room5_Text_ArthurIntro, 0x08173BD1
+	.global SSAnne_1F_Room5_Text_ArthurDefeat
+	.set SSAnne_1F_Room5_Text_ArthurDefeat, 0x08173BFA
+	.global SSAnne_1F_Room5_Text_ArthurPostBattle
+	.set SSAnne_1F_Room5_Text_ArthurPostBattle, 0x08173C30
+	.global SSAnne_1F_Room7_Text_ThomasIntro
+	.set SSAnne_1F_Room7_Text_ThomasIntro, 0x08173C52
+	.global SSAnne_1F_Room7_Text_ThomasDefeat
+	.set SSAnne_1F_Room7_Text_ThomasDefeat, 0x08173CB4
+	.global SSAnne_1F_Room7_Text_ThomasPostBattle
+	.set SSAnne_1F_Room7_Text_ThomasPostBattle, 0x08173CC4
+	.global SSAnne_2F_Room1_Text_SleepingMonLookedLikeThis
+	.set SSAnne_2F_Room1_Text_SleepingMonLookedLikeThis, 0x08173CE3
+	.global SSAnne_2F_Room2_Text_BrooksIntro
+	.set SSAnne_2F_Room2_Text_BrooksIntro, 0x08173D63
+	.global SSAnne_2F_Room2_Text_BrooksDefeat
+	.set SSAnne_2F_Room2_Text_BrooksDefeat, 0x08173D92
+	.global SSAnne_2F_Room2_Text_BrooksPostBattle
+	.set SSAnne_2F_Room2_Text_BrooksPostBattle, 0x08173DB6
+	.global SSAnne_2F_Room2_Text_DaleIntro
+	.set SSAnne_2F_Room2_Text_DaleIntro, 0x08173DDB
+	.global SSAnne_2F_Room2_Text_DaleDefeat
+	.set SSAnne_2F_Room2_Text_DaleDefeat, 0x08173DF7
+	.global SSAnne_2F_Room2_Text_DalePostBattle
+	.set SSAnne_2F_Room2_Text_DalePostBattle, 0x08173E04
+	.global SSAnne_2F_Room3_Text_SeenMonsFerryPeople
+	.set SSAnne_2F_Room3_Text_SeenMonsFerryPeople, 0x08173E3A
+	.global SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown
+	.set SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown, 0x08173E7B
+	.global SSAnne_2F_Room5_Text_HaveYouGoneToSafariZone
+	.set SSAnne_2F_Room5_Text_HaveYouGoneToSafariZone, 0x08173FF7
+	.global SSAnne_2F_Room5_Text_WeThinkSafariZoneIsAwesome
+	.set SSAnne_2F_Room5_Text_WeThinkSafariZoneIsAwesome, 0x0817404F
+	.global SSAnne_2F_Room6_Text_CaptainIsAwfullySick
+	.set SSAnne_2F_Room6_Text_CaptainIsAwfullySick, 0x081740A1
+	.global SSAnne_2F_Room6_Text_ManyPeopleGetSeasick
+	.set SSAnne_2F_Room6_Text_ManyPeopleGetSeasick, 0x081740D6
+	.global SSAnne_B1F_Room1_Text_PhillipIntro
+	.set SSAnne_B1F_Room1_Text_PhillipIntro, 0x081740F6
+	.global SSAnne_B1F_Room1_Text_PhillipDefeat
+	.set SSAnne_B1F_Room1_Text_PhillipDefeat, 0x08174123
+	.global SSAnne_B1F_Room1_Text_PhillipPostBattle
+	.set SSAnne_B1F_Room1_Text_PhillipPostBattle, 0x0817413A
+	.global SSAnne_B1F_Room1_Text_BarnyIntro
+	.set SSAnne_B1F_Room1_Text_BarnyIntro, 0x08174177
+	.global SSAnne_B1F_Room1_Text_BarnyDefeat
+	.set SSAnne_B1F_Room1_Text_BarnyDefeat, 0x081741EF
+	.global SSAnne_B1F_Room1_Text_BarnyPostBattle
+	.set SSAnne_B1F_Room1_Text_BarnyPostBattle, 0x0817420E
+	.global SSAnne_B1F_Room2_Text_HueyIntro
+	.set SSAnne_B1F_Room2_Text_HueyIntro, 0x08174239
+	.global SSAnne_B1F_Room2_Text_HueyDefeat
+	.set SSAnne_B1F_Room2_Text_HueyDefeat, 0x0817425C
+	.global SSAnne_B1F_Room2_Text_HueyPostBattle
+	.set SSAnne_B1F_Room2_Text_HueyPostBattle, 0x08174272
+	.global SSAnne_B1F_Room3_Text_DylanIntro
+	.set SSAnne_B1F_Room3_Text_DylanIntro, 0x081742A6
+	.global SSAnne_B1F_Room3_Text_DylanDefeat
+	.set SSAnne_B1F_Room3_Text_DylanDefeat, 0x081742C3
+	.global SSAnne_B1F_Room3_Text_DylanPostBattle
+	.set SSAnne_B1F_Room3_Text_DylanPostBattle, 0x081742D2
+	.global SSAnne_B1F_Room4_Text_LeonardIntro
+	.set SSAnne_B1F_Room4_Text_LeonardIntro, 0x08174315
+	.global SSAnne_B1F_Room4_Text_LeonardDefeat
+	.set SSAnne_B1F_Room4_Text_LeonardDefeat, 0x08174348
+	.global SSAnne_B1F_Room4_Text_LeonardPostBattle
+	.set SSAnne_B1F_Room4_Text_LeonardPostBattle, 0x08174362
+	.global SSAnne_B1F_Room4_Text_DuncanIntro
+	.set SSAnne_B1F_Room4_Text_DuncanIntro, 0x08174385
+	.global SSAnne_B1F_Room4_Text_DuncanDefeat
+	.set SSAnne_B1F_Room4_Text_DuncanDefeat, 0x081743B3
+	.global SSAnne_B1F_Room4_Text_DuncanPostBattle
+	.set SSAnne_B1F_Room4_Text_DuncanPostBattle, 0x081743C8
+	.global SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks
+	.set SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks, 0x081743F8
+	.global SSAnne_B1F_Room5_Text_Machoke
+	.set SSAnne_B1F_Room5_Text_Machoke, 0x08174444
+	.global UndergroundPath_SouthEntrance_Text_PeopleLoseThingsInTheDarkness
+	.set UndergroundPath_SouthEntrance_Text_PeopleLoseThingsInTheDarkness, 0x08174559
+	.global UndergroundPath_WestEntrance_Text_SleepyMonNearCeladon
+	.set UndergroundPath_WestEntrance_Text_SleepyMonNearCeladon, 0x0817459B
+	.global UndergroundPath_EastEntrance_Text_DoYouGoToCeladonDeptStore
+	.set UndergroundPath_EastEntrance_Text_DoYouGoToCeladonDeptStore, 0x081745D9
+	.global DiglettsCave_NorthEntrance_RockTunnelPitchBlack
+	.set DiglettsCave_NorthEntrance_RockTunnelPitchBlack, 0x0817462C
+	.global DiglettsCave_SouthEntrance_Text_DiglettDugThisTunnel
+	.set DiglettsCave_SouthEntrance_Text_DiglettDugThisTunnel, 0x081746A7
+	.global VictoryRoad_1F_Text_NaomiIntro
+	.set VictoryRoad_1F_Text_NaomiIntro, 0x08174710
+	.global VictoryRoad_1F_Text_NaomiDefeat
+	.set VictoryRoad_1F_Text_NaomiDefeat, 0x08174738
+	.global VictoryRoad_1F_Text_NaomiPostBattle
+	.set VictoryRoad_1F_Text_NaomiPostBattle, 0x08174744
+	.global VictoryRoad_1F_Text_RolandoIntro
+	.set VictoryRoad_1F_Text_RolandoIntro, 0x08174784
+	.global VictoryRoad_1F_Text_RolandoDefeat
+	.set VictoryRoad_1F_Text_RolandoDefeat, 0x081747B8
+	.global VictoryRoad_1F_Text_RolandoPostBattle
+	.set VictoryRoad_1F_Text_RolandoPostBattle, 0x081747C8
+	.global RocketHideout_B3F_Text_Grunt1Intro
+	.set RocketHideout_B3F_Text_Grunt1Intro, 0x0817511A
+	.global RocketHideout_B3F_Text_Grunt1Defeat
+	.set RocketHideout_B3F_Text_Grunt1Defeat, 0x0817514A
+	.global RocketHideout_B3F_Text_Grunt1PostBattle
+	.set RocketHideout_B3F_Text_Grunt1PostBattle, 0x0817515B
+	.global RocketHideout_B3F_Text_Grunt2Intro
+	.set RocketHideout_B3F_Text_Grunt2Intro, 0x0817519E
+	.global RocketHideout_B3F_Text_Grunt2Defeat
+	.set RocketHideout_B3F_Text_Grunt2Defeat, 0x081751CE
+	.global RocketHideout_B3F_Text_Grunt2PostBattle
+	.set RocketHideout_B3F_Text_Grunt2PostBattle, 0x081751E0
+	.global RocketHideout_Elevator_Text_AppearsToNeedAKey
+	.set RocketHideout_Elevator_Text_AppearsToNeedAKey, 0x081754DD
+	.global SilphCo_1F_Text_WelcomePresidentInBoardroom
+	.set SilphCo_1F_Text_WelcomePresidentInBoardroom, 0x081754F7
+	.global SilphCo_1F_Text_DestroyedWontBeFixedForWhile
+	.set SilphCo_1F_Text_DestroyedWontBeFixedForWhile, 0x0817552A
+	.global SilphCo_1F_Text_FloorSign
+	.set SilphCo_1F_Text_FloorSign, 0x08175549
+	.global SilphCo_10F_Text_GruntIntro
+	.set SilphCo_10F_Text_GruntIntro, 0x08176CED
+	.global SilphCo_10F_Text_GruntDefeat
+	.set SilphCo_10F_Text_GruntDefeat, 0x08176D18
+	.global SilphCo_10F_Text_GruntPostBattle
+	.set SilphCo_10F_Text_GruntPostBattle, 0x08176D25
+	.global SilphCo_10F_Text_TravisIntro
+	.set SilphCo_10F_Text_TravisIntro, 0x08176D57
+	.global SilphCo_10F_Text_TravisDefeat
+	.set SilphCo_10F_Text_TravisDefeat, 0x08176D73
+	.global SilphCo_10F_Text_TravisPostBattle
+	.set SilphCo_10F_Text_TravisPostBattle, 0x08176D86
+	.global SilphCo_10F_Text_WaaaImScared
+	.set SilphCo_10F_Text_WaaaImScared, 0x08176DBA
+	.global SilphCo_10F_Text_KeepMeCryingASecret
+	.set SilphCo_10F_Text_KeepMeCryingASecret, 0x08176DCE
+	.global SilphCo_10F_Text_FloorSign
+	.set SilphCo_10F_Text_FloorSign, 0x08176DF8
+	.global SafariZone_Center_Text_WhereDidErikGo
+	.set SafariZone_Center_Text_WhereDidErikGo, 0x08177A5A
+	.global SafariZone_Center_Text_CatchingMonsAsGifts
+	.set SafariZone_Center_Text_CatchingMonsAsGifts, 0x08177A82
+	.global SafariZone_East_Text_HowManyDidYouCatch
+	.set SafariZone_East_Text_HowManyDidYouCatch, 0x08177AAE
+	.global SafariZone_East_Text_CaughtChanseyAllWorthwhile
+	.set SafariZone_East_Text_CaughtChanseyAllWorthwhile, 0x08177AE2
+	.global SafariZone_East_Text_TiredFromAllTheFun
+	.set SafariZone_East_Text_TiredFromAllTheFun, 0x08177B16
+	.global SafariZone_East_Text_KeepAnyItemFoundOnSafari
+	.set SafariZone_East_Text_KeepAnyItemFoundOnSafari, 0x08177B38
+	.global SafariZone_East_Text_PrizeInDeepestPartOfSafariZone
+	.set SafariZone_East_Text_PrizeInDeepestPartOfSafariZone, 0x08177BAB
+	.global SafariZone_East_Text_MyEeveeEvolvedIntoFlareon
+	.set SafariZone_East_Text_MyEeveeEvolvedIntoFlareon, 0x08177BEC
+	.global SafariZone_SecretHouse_Text_CongratsYouveWon
+	.set SafariZone_SecretHouse_Text_CongratsYouveWon, 0x08177DC1
+	.global SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant
+	.set SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant, 0x08177E92
+	.global SafariZone_SecretHouse_Text_ExplainSurf
+	.set SafariZone_SecretHouse_Text_ExplainSurf, 0x08177EB7
+	.global SafariZone_SecretHouse_Text_DontHaveRoomForPrize
+	.set SafariZone_SecretHouse_Text_DontHaveRoomForPrize, 0x08177F72
+	.global PokemonLeague_HallOfFame_Text_OakCongratulations
+	.set PokemonLeague_HallOfFame_Text_OakCongratulations, 0x0817922F
+	.global Text_RockSlideTeach
+	.set Text_RockSlideTeach, 0x081799E0
+	.global Text_RockSlideDeclined
+	.set Text_RockSlideDeclined, 0x08179AC0
+	.global Text_RockSlideWhichMon
+	.set Text_RockSlideWhichMon, 0x08179AE1
+	.global Text_RockSlideTaught
+	.set Text_RockSlideTaught, 0x08179B0A
+	.global SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow
+	.set SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow, 0x08179B36
+	.global SeafoamIslands_B4F_Text_DangerFastCurrent
+	.set SeafoamIslands_B4F_Text_DangerFastCurrent, 0x08179B65
+	.global PokemonTower_2F_Text_RivalIntro
+	.set PokemonTower_2F_Text_RivalIntro, 0x08179CFF
+	.global PokemonTower_2F_Text_RivalDefeat
+	.set PokemonTower_2F_Text_RivalDefeat, 0x08179D73
+	.global PokemonTower_2F_Text_RivalVictory
+	.set PokemonTower_2F_Text_RivalVictory, 0x08179DA2
+	.global PokemonTower_2F_Text_RivalPostBattle
+	.set PokemonTower_2F_Text_RivalPostBattle, 0x08179DD4
+	.global PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts
+	.set PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts, 0x08179EAE
+	.global PokemonTower_3F_Text_HopeIntro
+	.set PokemonTower_3F_Text_HopeIntro, 0x08179F09
+	.global PokemonTower_3F_Text_HopeDefeat
+	.set PokemonTower_3F_Text_HopeDefeat, 0x08179F21
+	.global PokemonTower_3F_Text_HopePostBattle
+	.set PokemonTower_3F_Text_HopePostBattle, 0x08179F31
+	.global PokemonTower_3F_Text_CarlyIntro
+	.set PokemonTower_3F_Text_CarlyIntro, 0x08179F62
+	.global PokemonTower_3F_Text_CarlyDefeat
+	.set PokemonTower_3F_Text_CarlyDefeat, 0x08179F72
+	.global PokemonTower_3F_Text_CarlyPostBattle
+	.set PokemonTower_3F_Text_CarlyPostBattle, 0x08179F88
+	.global PokemonTower_3F_Text_PatriciaIntro
+	.set PokemonTower_3F_Text_PatriciaIntro, 0x08179FA0
+	.global PokemonTower_3F_Text_PatriciaDefeat
+	.set PokemonTower_3F_Text_PatriciaDefeat, 0x08179FBC
+	.global PokemonTower_3F_Text_PatriciaPostBattle
+	.set PokemonTower_3F_Text_PatriciaPostBattle, 0x08179FD3
+	.global MtEmber_RubyPath_B3F_Text_FoundARuby
+	.set MtEmber_RubyPath_B3F_Text_FoundARuby, 0x0817ADC5
+	.global ThreeIsland_BerryForest_Text_HelpScaryPokemon
+	.set ThreeIsland_BerryForest_Text_HelpScaryPokemon, 0x0817ADD6
+	.global ThreeIsland_BerryForest_Text_HereItComesAgain
+	.set ThreeIsland_BerryForest_Text_HereItComesAgain, 0x0817AE8E
+	.global ThreeIsland_BerryForest_Text_ThankYouHaveThis
+	.set ThreeIsland_BerryForest_Text_ThankYouHaveThis, 0x0817AEE1
+	.global ThreeIsland_BerryForest_Text_LetsGoHome
+	.set ThreeIsland_BerryForest_Text_LetsGoHome, 0x0817AF3B
+	.global ThreeIsland_BerryForest_Text_BerryPouchIsFull
+	.set ThreeIsland_BerryForest_Text_BerryPouchIsFull, 0x0817AF9F
+	.global ThreeIsland_BerryForest_Text_WelcomeToBerryForest
+	.set ThreeIsland_BerryForest_Text_WelcomeToBerryForest, 0x0817AFD6
+	.global ThreeIsland_BerryForest_Text_BewareWildBerryLovingMons
+	.set ThreeIsland_BerryForest_Text_BewareWildBerryLovingMons, 0x0817B029
+	.global FourIsland_IcefallCave_Back_Text_LoreleiKeepHandsOffMons
+	.set FourIsland_IcefallCave_Back_Text_LoreleiKeepHandsOffMons, 0x0817B04F
+	.global FourIsland_IcefallCave_Back_Text_ShutItLadyLeaveUsBe
+	.set FourIsland_IcefallCave_Back_Text_ShutItLadyLeaveUsBe, 0x0817B0B9
+	.global FourIsland_IcefallCave_Back_Text_LoreleiPlayerHelpMeKickPoachersOut
+	.set FourIsland_IcefallCave_Back_Text_LoreleiPlayerHelpMeKickPoachersOut, 0x0817B109
+	.global FourIsland_IcefallCave_Back_Text_GruntIntro
+	.set FourIsland_IcefallCave_Back_Text_GruntIntro, 0x0817B20B
+	.global FourIsland_IcefallCave_Back_Text_GruntDefeat
+	.set FourIsland_IcefallCave_Back_Text_GruntDefeat, 0x0817B251
+	.global FourIsland_IcefallCave_Back_Text_LoreleiWhereHaveYouTakenMons
+	.set FourIsland_IcefallCave_Back_Text_LoreleiWhereHaveYouTakenMons, 0x0817B269
+	.global FourIsland_IcefallCave_Back_Text_NotTellingYouThat
+	.set FourIsland_IcefallCave_Back_Text_NotTellingYouThat, 0x0817B2EF
+	.global FourIsland_IcefallCave_Back_Text_LoreleiWellDeepFreezeYou
+	.set FourIsland_IcefallCave_Back_Text_LoreleiWellDeepFreezeYou, 0x0817B313
+	.global FourIsland_IcefallCave_Back_Text_OkayRocketWareHouseFiveIsland
+	.set FourIsland_IcefallCave_Back_Text_OkayRocketWareHouseFiveIsland, 0x0817B399
+	.global FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful
+	.set FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful, 0x0817B457
+	.global FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen
+	.set FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen, 0x0817B4E3
+	.global FiveIsland_RocketWarehouse_Text_PenUnlockedMonsFled
+	.set FiveIsland_RocketWarehouse_Text_PenUnlockedMonsFled, 0x0817B512
+	.global FiveIsland_RocketWarehouse_Text_Grunt2Intro
+	.set FiveIsland_RocketWarehouse_Text_Grunt2Intro, 0x0817B54D
+	.global FiveIsland_RocketWarehouse_Text_Grunt2Defeat
+	.set FiveIsland_RocketWarehouse_Text_Grunt2Defeat, 0x0817B585
+	.global FiveIsland_RocketWarehouse_Text_Grunt2PostBattle
+	.set FiveIsland_RocketWarehouse_Text_Grunt2PostBattle, 0x0817B5A6
+	.global FiveIsland_RocketWarehouse_Text_Grunt1Intro
+	.set FiveIsland_RocketWarehouse_Text_Grunt1Intro, 0x0817B5D6
+	.global FiveIsland_RocketWarehouse_Text_Grunt1Defeat
+	.set FiveIsland_RocketWarehouse_Text_Grunt1Defeat, 0x0817B62F
+	.global FiveIsland_RocketWarehouse_Text_Grunt1PostBattle
+	.set FiveIsland_RocketWarehouse_Text_Grunt1PostBattle, 0x0817B642
+	.global FiveIsland_RocketWarehouse_Text_Grunt3Intro
+	.set FiveIsland_RocketWarehouse_Text_Grunt3Intro, 0x0817B677
+	.global FiveIsland_RocketWarehouse_Text_Grunt3Defeat
+	.set FiveIsland_RocketWarehouse_Text_Grunt3Defeat, 0x0817B6D9
+	.global FiveIsland_RocketWarehouse_Text_Grunt3PostBattle
+	.set FiveIsland_RocketWarehouse_Text_Grunt3PostBattle, 0x0817B6EF
+	.global FiveIsland_RocketWarehouse_Text_Admin1Intro
+	.set FiveIsland_RocketWarehouse_Text_Admin1Intro, 0x0817B72D
+	.global FiveIsland_RocketWarehouse_Text_Admin1Defeat
+	.set FiveIsland_RocketWarehouse_Text_Admin1Defeat, 0x0817B79C
+	.global FiveIsland_RocketWarehouse_Text_Admin1PostBattle
+	.set FiveIsland_RocketWarehouse_Text_Admin1PostBattle, 0x0817B7AE
+	.global FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough
+	.set FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough, 0x0817B7FA
+	.global FiveIsland_RocketWarehouse_Text_Admin2Intro
+	.set FiveIsland_RocketWarehouse_Text_Admin2Intro, 0x0817B8DA
+	.global FiveIsland_RocketWarehouse_Text_Admin2Defeat
+	.set FiveIsland_RocketWarehouse_Text_Admin2Defeat, 0x0817B9FB
+	.global FiveIsland_RocketWarehouse_Text_Admin2PostBattle
+	.set FiveIsland_RocketWarehouse_Text_Admin2PostBattle, 0x0817BA64
+	.global FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText
+	.set FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText, 0x0817BB15
+	.global FiveIsland_RocketWarehouse_Text_GideonIntro
+	.set FiveIsland_RocketWarehouse_Text_GideonIntro, 0x0817BBAF
+	.global FiveIsland_RocketWarehouse_Text_GideonDefeat
+	.set FiveIsland_RocketWarehouse_Text_GideonDefeat, 0x0817BC55
+	.global FiveIsland_RocketWarehouse_Text_GideonPostBattle
+	.set FiveIsland_RocketWarehouse_Text_GideonPostBattle, 0x0817BC6C
+	.global FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe
+	.set FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe, 0x0817BCA3
+	.global FiveIsland_RocketWarehouse_Text_GiovannisKidHasRedHair
+	.set FiveIsland_RocketWarehouse_Text_GiovannisKidHasRedHair, 0x0817BCD7
+	.global SixIsland_DottedHole_SapphireRoom_Text_FoundSapphire
+	.set SixIsland_DottedHole_SapphireRoom_Text_FoundSapphire, 0x0817BD82
+	.global SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou
+	.set SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou, 0x0817BD97
+	.global SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword
+	.set SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword, 0x0817BDD4
+	.global SixIsland_PatternBush_Text_BethanyIntro
+	.set SixIsland_PatternBush_Text_BethanyIntro, 0x0817BF3A
+	.global SixIsland_PatternBush_Text_BethanyDefeat
+	.set SixIsland_PatternBush_Text_BethanyDefeat, 0x0817BF66
+	.global SixIsland_PatternBush_Text_BethanyPostBattle
+	.set SixIsland_PatternBush_Text_BethanyPostBattle, 0x0817BF97
+	.global SixIsland_PatternBush_Text_AllisonIntro
+	.set SixIsland_PatternBush_Text_AllisonIntro, 0x0817BFEB
+	.global SixIsland_PatternBush_Text_AllisonDefeat
+	.set SixIsland_PatternBush_Text_AllisonDefeat, 0x0817C028
+	.global SixIsland_PatternBush_Text_AllisonPostBattle
+	.set SixIsland_PatternBush_Text_AllisonPostBattle, 0x0817C056
+	.global SixIsland_PatternBush_Text_GarretIntro
+	.set SixIsland_PatternBush_Text_GarretIntro, 0x0817C0BE
+	.global SixIsland_PatternBush_Text_GarretDefeat
+	.set SixIsland_PatternBush_Text_GarretDefeat, 0x0817C0F2
+	.global SixIsland_PatternBush_Text_GarretPostBattle
+	.set SixIsland_PatternBush_Text_GarretPostBattle, 0x0817C113
+	.global SixIsland_PatternBush_Text_JonahIntro
+	.set SixIsland_PatternBush_Text_JonahIntro, 0x0817C155
+	.global SixIsland_PatternBush_Text_JonahDefeat
+	.set SixIsland_PatternBush_Text_JonahDefeat, 0x0817C196
+	.global SixIsland_PatternBush_Text_JonahPostBattle
+	.set SixIsland_PatternBush_Text_JonahPostBattle, 0x0817C1D0
+	.global SixIsland_PatternBush_Text_VanceIntro
+	.set SixIsland_PatternBush_Text_VanceIntro, 0x0817C246
+	.global SixIsland_PatternBush_Text_VanceDefeat
+	.set SixIsland_PatternBush_Text_VanceDefeat, 0x0817C275
+	.global SixIsland_PatternBush_Text_VancePostBattle
+	.set SixIsland_PatternBush_Text_VancePostBattle, 0x0817C2A4
+	.global SixIsland_PatternBush_Text_NashIntro
+	.set SixIsland_PatternBush_Text_NashIntro, 0x0817C2D9
+	.global SixIsland_PatternBush_Text_NashDefeat
+	.set SixIsland_PatternBush_Text_NashDefeat, 0x0817C30D
+	.global SixIsland_PatternBush_Text_NashPostBattle
+	.set SixIsland_PatternBush_Text_NashPostBattle, 0x0817C31C
+	.global SixIsland_PatternBush_Text_CordellIntro
+	.set SixIsland_PatternBush_Text_CordellIntro, 0x0817C373
+	.global SixIsland_PatternBush_Text_CordellDefeat
+	.set SixIsland_PatternBush_Text_CordellDefeat, 0x0817C3A5
+	.global SixIsland_PatternBush_Text_CordellPostBattle
+	.set SixIsland_PatternBush_Text_CordellPostBattle, 0x0817C3CE
+	.global SixIsland_PatternBush_Text_DaliaIntro
+	.set SixIsland_PatternBush_Text_DaliaIntro, 0x0817C42B
+	.global SixIsland_PatternBush_Text_DaliaDefeat
+	.set SixIsland_PatternBush_Text_DaliaDefeat, 0x0817C458
+	.global SixIsland_PatternBush_Text_DaliaPostBattle
+	.set SixIsland_PatternBush_Text_DaliaPostBattle, 0x0817C490
+	.global SixIsland_PatternBush_Text_JoanaIntro
+	.set SixIsland_PatternBush_Text_JoanaIntro, 0x0817C4FE
+	.global SixIsland_PatternBush_Text_JoanaDefeat
+	.set SixIsland_PatternBush_Text_JoanaDefeat, 0x0817C552
+	.global SixIsland_PatternBush_Text_JoanaPostBattle
+	.set SixIsland_PatternBush_Text_JoanaPostBattle, 0x0817C590
+	.global SixIsland_PatternBush_Text_RileyIntro
+	.set SixIsland_PatternBush_Text_RileyIntro, 0x0817C5DB
+	.global SixIsland_PatternBush_Text_RileyDefeat
+	.set SixIsland_PatternBush_Text_RileyDefeat, 0x0817C609
+	.global SixIsland_PatternBush_Text_RileyPostBattle
+	.set SixIsland_PatternBush_Text_RileyPostBattle, 0x0817C615
+	.global SixIsland_PatternBush_Text_MarcyIntro
+	.set SixIsland_PatternBush_Text_MarcyIntro, 0x0817C63E
+	.global SixIsland_PatternBush_Text_MarcyDefeat
+	.set SixIsland_PatternBush_Text_MarcyDefeat, 0x0817C660
+	.global SixIsland_PatternBush_Text_MarcyPostBattle
+	.set SixIsland_PatternBush_Text_MarcyPostBattle, 0x0817C68E
+	.global SixIsland_PatternBush_Text_LaytonIntro
+	.set SixIsland_PatternBush_Text_LaytonIntro, 0x0817C6C9
+	.global SixIsland_PatternBush_Text_LaytonDefeat
+	.set SixIsland_PatternBush_Text_LaytonDefeat, 0x0817C6FB
+	.global SixIsland_PatternBush_Text_LaytonPostBattle
+	.set SixIsland_PatternBush_Text_LaytonPostBattle, 0x0817C728
+	.global FiveIsland_LostCave_Room1_Text_LawsonIntro
+	.set FiveIsland_LostCave_Room1_Text_LawsonIntro, 0x0817CEF5
+	.global FiveIsland_LostCave_Room1_Text_LawsonDefeat
+	.set FiveIsland_LostCave_Room1_Text_LawsonDefeat, 0x0817CF42
+	.global FiveIsland_LostCave_Room1_Text_LawsonPostBattle
+	.set FiveIsland_LostCave_Room1_Text_LawsonPostBattle, 0x0817CF54
+	.global FiveIsland_LostCave_Room4_Text_LauraIntro
+	.set FiveIsland_LostCave_Room4_Text_LauraIntro, 0x0817CFC1
+	.global FiveIsland_LostCave_Room4_Text_LauraDefeat
+	.set FiveIsland_LostCave_Room4_Text_LauraDefeat, 0x0817CFFB
+	.global FiveIsland_LostCave_Room4_Text_LauraPostBattle
+	.set FiveIsland_LostCave_Room4_Text_LauraPostBattle, 0x0817D037
+	.global FiveIsland_LostCave_Room10_Text_SelphyIntro
+	.set FiveIsland_LostCave_Room10_Text_SelphyIntro, 0x0817D062
+	.global FiveIsland_LostCave_Room10_Text_SelphyDefeat
+	.set FiveIsland_LostCave_Room10_Text_SelphyDefeat, 0x0817D086
+	.global FiveIsland_LostCave_Room10_Text_MayIAskYouToTakeMeHome
+	.set FiveIsland_LostCave_Room10_Text_MayIAskYouToTakeMeHome, 0x0817D0B2
+	.global ThreeIsland_DunsparceTunnel_Text_ProspectingForGold
+	.set ThreeIsland_DunsparceTunnel_Text_ProspectingForGold, 0x0817D13B
+	.global ThreeIsland_DunsparceTunnel_Text_StruckGoldThisIsForYou
+	.set ThreeIsland_DunsparceTunnel_Text_StruckGoldThisIsForYou, 0x0817D1C9
+	.global ThreeIsland_DunsparceTunnel_Text_ThatsANugget
+	.set ThreeIsland_DunsparceTunnel_Text_ThatsANugget, 0x0817D28C
+	.global ThreeIsland_DunsparceTunnel_Text_WhoopsBagCrammedFull
+	.set ThreeIsland_DunsparceTunnel_Text_WhoopsBagCrammedFull, 0x0817D2DC
+	.global SevenIsland_SevaultCanyon_TanobyKey_Text_MysteriousRumbleFarAway
+	.set SevenIsland_SevaultCanyon_TanobyKey_Text_MysteriousRumbleFarAway, 0x0817D31B
+	.global OneIsland_KindleRoad_EmberSpa_Text_WaterWarmsMeToCore
+	.set OneIsland_KindleRoad_EmberSpa_Text_WaterWarmsMeToCore, 0x0817D34A
+	.global OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder
+	.set OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder, 0x0817D3DE
+	.global OneIsland_KindleRoad_EmberSpa_Text_WaterExquisiteFullyRefreshed
+	.set OneIsland_KindleRoad_EmberSpa_Text_WaterExquisiteFullyRefreshed, 0x0817D450
+	.global OneIsland_KindleRoad_EmberSpa_Text_HotSpringIsTherapeutic
+	.set OneIsland_KindleRoad_EmberSpa_Text_HotSpringIsTherapeutic, 0x0817D4AA
+	.global OneIsland_KindleRoad_EmberSpa_Text_SeeHowSmoothMySkinIs
+	.set OneIsland_KindleRoad_EmberSpa_Text_SeeHowSmoothMySkinIs, 0x0817D4E3
+	.global OneIsland_KindleRoad_EmberSpa_Text_BrunoVisitsSpaOnOccasion
+	.set OneIsland_KindleRoad_EmberSpa_Text_BrunoVisitsSpaOnOccasion, 0x0817D550
+	.global OneIsland_KindleRoad_EmberSpa_Text_UsedThisToMakeEmberSpa
+	.set OneIsland_KindleRoad_EmberSpa_Text_UsedThisToMakeEmberSpa, 0x0817D622
+	.global OneIsland_KindleRoad_EmberSpa_Text_ExplainHM06
+	.set OneIsland_KindleRoad_EmberSpa_Text_ExplainHM06, 0x0817D6F3
+	.global LavenderTown_Text_DoYouBelieveInGhosts
+	.set LavenderTown_Text_DoYouBelieveInGhosts, 0x0817F52E
+	.global LavenderTown_Text_SoThereAreBelievers
+	.set LavenderTown_Text_SoThereAreBelievers, 0x0817F548
+	.global LavenderTown_Text_JustImaginingWhiteHand
+	.set LavenderTown_Text_JustImaginingWhiteHand, 0x0817F568
+	.global LavenderTown_Text_TownKnownAsMonGraveSite
+	.set LavenderTown_Text_TownKnownAsMonGraveSite, 0x0817F5B6
+	.global LavenderTown_Text_GhostsAppearedInTower
+	.set LavenderTown_Text_GhostsAppearedInTower, 0x0817F614
+	.global LavenderTown_Text_TownSign
+	.set LavenderTown_Text_TownSign, 0x0817F676
+	.global LavenderTown_Text_SilphScopeNotice
+	.set LavenderTown_Text_SilphScopeNotice, 0x0817F69A
+	.global LavenderTown_Text_VolunteerPokemonHouse
+	.set LavenderTown_Text_VolunteerPokemonHouse, 0x0817F6D6
+	.global LavenderTown_Text_PokemonTowerSign
+	.set LavenderTown_Text_PokemonTowerSign, 0x0817F6F7
+	.global TwoIsland_Text_IslandSign
+	.set TwoIsland_Text_IslandSign, 0x08181A88
+	.global TwoIsland_Text_JoyfulGameCornerSign
+	.set TwoIsland_Text_JoyfulGameCornerSign, 0x08181AA7
+	.global TwoIsland_Text_DangerFastCurrent
+	.set TwoIsland_Text_DangerFastCurrent, 0x08181AC8
+	.global TwoIsland_Text_WelcomeToShopMerchandiseLimited
+	.set TwoIsland_Text_WelcomeToShopMerchandiseLimited, 0x08181AFE
+	.global TwoIsland_Text_AddedMerchandiseForLostelle
+	.set TwoIsland_Text_AddedMerchandiseForLostelle, 0x08181B7C
+	.global TwoIsland_Text_HopeYouGiveItYourBest
+	.set TwoIsland_Text_HopeYouGiveItYourBest, 0x08181C77
+	.global TwoIsland_Text_BringingItemsFromDistantLands
+	.set TwoIsland_Text_BringingItemsFromDistantLands, 0x08181CAE
+	.global TwoIsland_Text_FellowMovedFromCeladonCity
+	.set TwoIsland_Text_FellowMovedFromCeladonCity, 0x08181D2F
+	.global TwoIsland_Text_ShopkeepersBrotherWorksGameCorner
+	.set TwoIsland_Text_ShopkeepersBrotherWorksGameCorner, 0x08181DCA
+	.global TwoIsland_Text_BrunoCameToIslandWhileBack
+	.set TwoIsland_Text_BrunoCameToIslandWhileBack, 0x08181E47
+	.global TwoIsland_Text_BuyRareItemsHere
+	.set TwoIsland_Text_BuyRareItemsHere, 0x08181F28
+	.global TwoIsland_Text_OldWomanLivesOutOnCape
+	.set TwoIsland_Text_OldWomanLivesOutOnCape, 0x08181F5D
+	.global TwoIsland_Text_HaveYouTriedJumpingGame
+	.set TwoIsland_Text_HaveYouTriedJumpingGame, 0x08181FCE
+	.global FourIsland_Text_IslandSign
+	.set FourIsland_Text_IslandSign, 0x08182A03
+	.global FourIsland_Text_LoreleiHasReturned
+	.set FourIsland_Text_LoreleiHasReturned, 0x08182A2B
+	.global FourIsland_Text_LoreleiMetLaprasAsChild
+	.set FourIsland_Text_LoreleiMetLaprasAsChild, 0x08182A75
+	.global FourIsland_Text_RivalAlreadyGotEggBeSmellingYa
+	.set FourIsland_Text_RivalAlreadyGotEggBeSmellingYa, 0x08182B37
+	.global FourIsland_Text_LoreleiHasLotsOfStuffedDolls
+	.set FourIsland_Text_LoreleiHasLotsOfStuffedDolls, 0x08182CE3
+	.global FourIsland_Text_MadeSlushieUsingIcefallCaveIce
+	.set FourIsland_Text_MadeSlushieUsingIcefallCaveIce, 0x08182D8E
+	.global FourIsland_Text_LoreleisHouse
+	.set FourIsland_Text_LoreleisHouse, 0x08182DEB
+	.global FiveIsland_Text_IslandSign
+	.set FiveIsland_Text_IslandSign, 0x08182DFB
+	.global FiveIsland_Text_WeirdBuildingInMeadow
+	.set FiveIsland_Text_WeirdBuildingInMeadow, 0x08182E26
+	.global FiveIsland_Text_BeenGettingBusierAroundHere
+	.set FiveIsland_Text_BeenGettingBusierAroundHere, 0x08182E96
+	.global Text_SwordsDanceTeach
+	.set Text_SwordsDanceTeach, 0x08182F01
+	.global Text_SwordsDanceDeclined
+	.set Text_SwordsDanceDeclined, 0x08182FC1
+	.global Text_SwordsDanceWhichMon
+	.set Text_SwordsDanceWhichMon, 0x08182FD9
+	.global Text_SwordsDanceTaught
+	.set Text_SwordsDanceTaught, 0x0818300D
+	.global SevenIsland_Text_IslandSign
+	.set SevenIsland_Text_IslandSign, 0x08183046
+	.global SevenIsland_Text_IslandsMadeInSevenDays
+	.set SevenIsland_Text_IslandsMadeInSevenDays, 0x0818306C
+	.global SevenIsland_Text_IslandVirtuallyUntouched
+	.set SevenIsland_Text_IslandVirtuallyUntouched, 0x08183143
+	.global SixIsland_Text_IslandSign
+	.set SixIsland_Text_IslandSign, 0x081831C6
+	.global SixIsland_Text_ThatWayToWaterPathRuinValley
+	.set SixIsland_Text_ThatWayToWaterPathRuinValley, 0x081831EF
+	.global SixIsland_Text_SkyAtNightIsFantastic
+	.set SixIsland_Text_SkyAtNightIsFantastic, 0x08183255
+	.global Route1_Text_WorkAtPokeMartTakeSample
+	.set Route1_Text_WorkAtPokeMartTakeSample, 0x0818329D
+	.global Route1_Text_ComeSeeUsIfYouNeedPokeBalls
+	.set Route1_Text_ComeSeeUsIfYouNeedPokeBalls, 0x08183347
+	.global Route1_Text_PutPotionAway
+	.set Route1_Text_PutPotionAway, 0x08183387
+	.global Route1_Text_CanJumpFromLedges
+	.set Route1_Text_CanJumpFromLedges, 0x081833B9
+	.global Route1_Text_RouteSign
+	.set Route1_Text_RouteSign, 0x0818343A
+	.global Route4_Text_TrippedOverGeodude
+	.set Route4_Text_TrippedOverGeodude, 0x081838D7
+	.global Route4_Text_CrissyIntro
+	.set Route4_Text_CrissyIntro, 0x08183906
+	.global Route4_Text_CrissyDefeat
+	.set Route4_Text_CrissyDefeat, 0x08183938
+	.global Route4_Text_CrissyPostBattle
+	.set Route4_Text_CrissyPostBattle, 0x08183957
+	.global Route4_Text_MtMoonEntrance
+	.set Route4_Text_MtMoonEntrance, 0x0818399B
+	.global Route4_Text_RouteSign
+	.set Route4_Text_RouteSign, 0x081839B4
+	.global Text_MegaPunchTeach
+	.set Text_MegaPunchTeach, 0x081839D5
+	.global Text_MegaPunchDeclined
+	.set Text_MegaPunchDeclined, 0x08183A83
+	.global Text_MegaPunchWhichMon
+	.set Text_MegaPunchWhichMon, 0x08183ABF
+	.global Text_MegaPunchTaught
+	.set Text_MegaPunchTaught, 0x08183AE2
+	.global Text_MegaKickTeach
+	.set Text_MegaKickTeach, 0x08183B74
+	.global Text_MegaKickDeclined
+	.set Text_MegaKickDeclined, 0x08183C25
+	.global Text_MegaKickWhichMon
+	.set Text_MegaKickWhichMon, 0x08183C68
+	.global Text_MegaKickTaught
+	.set Text_MegaKickTaught, 0x08183C94
+	.global Route4_Text_PeopleLikeAndRespectBrock
+	.set Route4_Text_PeopleLikeAndRespectBrock, 0x08183D26
+	.global Route22_Text_EarlyRivalIntro
+	.set Route22_Text_EarlyRivalIntro, 0x08188890
+	.global Route22_Text_EarlyRivalDefeat
+	.set Route22_Text_EarlyRivalDefeat, 0x08188959
+	.global Route22_Text_EarlyRivalPostBattle
+	.set Route22_Text_EarlyRivalPostBattle, 0x08188974
+	.global Route22_Text_RivalShouldCatchSomeMons
+	.set Route22_Text_RivalShouldCatchSomeMons, 0x08188A07
+	.global Route22_Text_LateRivalIntro
+	.set Route22_Text_LateRivalIntro, 0x08188A3C
+	.global Route22_Text_LateRivalDefeat
+	.set Route22_Text_LateRivalDefeat, 0x08188B08
+	.global Route22_Text_LateRivalPostBattle
+	.set Route22_Text_LateRivalPostBattle, 0x08188B29
+	.global Route22_Text_LateRivalVictory
+	.set Route22_Text_LateRivalVictory, 0x08188BAF
+	.global Route22_Text_LeagueGateSign
+	.set Route22_Text_LeagueGateSign, 0x08188BFF
+	.global Route23_Text_VictoryRoadGateSign
+	.set Route23_Text_VictoryRoadGateSign, 0x08188C19
+	.global OneIsland_TreasureBeach_Text_AmaraIntro
+	.set OneIsland_TreasureBeach_Text_AmaraIntro, 0x08189D5A
+	.global OneIsland_TreasureBeach_Text_AmaraDefeat
+	.set OneIsland_TreasureBeach_Text_AmaraDefeat, 0x08189D8B
+	.global OneIsland_TreasureBeach_Text_AmaraPostBattle
+	.set OneIsland_TreasureBeach_Text_AmaraPostBattle, 0x08189DA3
+	.global OneIsland_TreasureBeach_Text_GoodThingsWashUpOnBeach
+	.set OneIsland_TreasureBeach_Text_GoodThingsWashUpOnBeach, 0x08189DCE
+	.global ThreeIsland_Port_Text_WereKantoRiderFederation
+	.set ThreeIsland_Port_Text_WereKantoRiderFederation, 0x0818A261
+	.global ThreeIsland_Port_Text_ForkOverMoney
+	.set ThreeIsland_Port_Text_ForkOverMoney, 0x0818A2D8
+	.global ThreeIsland_Port_Text_IllCallThePolice
+	.set ThreeIsland_Port_Text_IllCallThePolice, 0x0818A307
+	.global ThreeIsland_Port_Text_ThankGoodnessBikersGone
+	.set ThreeIsland_Port_Text_ThankGoodnessBikersGone, 0x0818A339
+	.global ThreeIsland_Port_Text_EverythingTurnedOutForBest
+	.set ThreeIsland_Port_Text_EverythingTurnedOutForBest, 0x0818A38B
+	.global FiveIsland_WaterLabyrinth_Text_LetMeTakeLookAtMons
+	.set FiveIsland_WaterLabyrinth_Text_LetMeTakeLookAtMons, 0x0818A80D
+	.global FiveIsland_WaterLabyrinth_Text_HmmISeeIsee
+	.set FiveIsland_WaterLabyrinth_Text_HmmISeeIsee, 0x0818A88F
+	.global FiveIsland_WaterLabyrinth_Text_TreatMonRightHaveThis
+	.set FiveIsland_WaterLabyrinth_Text_TreatMonRightHaveThis, 0x0818A8A6
+	.global FiveIsland_WaterLabyrinth_Text_ReceivedEggFromMan
+	.set FiveIsland_WaterLabyrinth_Text_ReceivedEggFromMan, 0x0818A91F
+	.global FiveIsland_WaterLabyrinth_Text_DontHaveSpaceInYourParty
+	.set FiveIsland_WaterLabyrinth_Text_DontHaveSpaceInYourParty, 0x0818A940
+	.global FiveIsland_WaterLabyrinth_Text_YouveComeBackForTheEgg
+	.set FiveIsland_WaterLabyrinth_Text_YouveComeBackForTheEgg, 0x0818A9A9
+	.global FiveIsland_WaterLabyrinth_Text_GladIMetSomeoneLikeYou
+	.set FiveIsland_WaterLabyrinth_Text_GladIMetSomeoneLikeYou, 0x0818A9C0
+	.global FiveIsland_WaterLabyrinth_Text_CuteMonRemindsMeOfDaisy
+	.set FiveIsland_WaterLabyrinth_Text_CuteMonRemindsMeOfDaisy, 0x0818AA0C
+	.global FiveIsland_WaterLabyrinth_Text_AlizeIntro
+	.set FiveIsland_WaterLabyrinth_Text_AlizeIntro, 0x0818AAD5
+	.global FiveIsland_WaterLabyrinth_Text_AlizeDefeat
+	.set FiveIsland_WaterLabyrinth_Text_AlizeDefeat, 0x0818AB0B
+	.global FiveIsland_WaterLabyrinth_Text_AlizePostBattle
+	.set FiveIsland_WaterLabyrinth_Text_AlizePostBattle, 0x0818AB37
+	.global FiveIsland_Meadow_Text_DoorNeedsTwoPasswords
+	.set FiveIsland_Meadow_Text_DoorNeedsTwoPasswords, 0x0818AB73
+	.global FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded
+	.set FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded, 0x0818AB8E
+	.global FiveIsland_Meadow_Text_EnteredPasswordDoorOpened
+	.set FiveIsland_Meadow_Text_EnteredPasswordDoorOpened, 0x0818ABF4
+	.global FiveIsland_Meadow_Text_WarehouseDoorAlreadyOpen
+	.set FiveIsland_Meadow_Text_WarehouseDoorAlreadyOpen, 0x0818AC62
+	.global FiveIsland_Meadow_Text_Rocket1Intro
+	.set FiveIsland_Meadow_Text_Rocket1Intro, 0x0818AC88
+	.global FiveIsland_Meadow_Text_Rocket1Defeat
+	.set FiveIsland_Meadow_Text_Rocket1Defeat, 0x0818ACB3
+	.global FiveIsland_Meadow_Text_Rocket1PostBattle
+	.set FiveIsland_Meadow_Text_Rocket1PostBattle, 0x0818ACC5
+	.global FiveIsland_Meadow_Text_Rocket2Intro
+	.set FiveIsland_Meadow_Text_Rocket2Intro, 0x0818ACF0
+	.global FiveIsland_Meadow_Text_Rocket2Defeat
+	.set FiveIsland_Meadow_Text_Rocket2Defeat, 0x0818AD39
+	.global FiveIsland_Meadow_Text_Rocket2PostBattle
+	.set FiveIsland_Meadow_Text_Rocket2PostBattle, 0x0818AD59
+	.global FiveIsland_Meadow_Text_Rocket3Intro
+	.set FiveIsland_Meadow_Text_Rocket3Intro, 0x0818ADC6
+	.global FiveIsland_Meadow_Text_Rocket3Defeat
+	.set FiveIsland_Meadow_Text_Rocket3Defeat, 0x0818ADFB
+	.global FiveIsland_Meadow_Text_Rocket3PostBattle
+	.set FiveIsland_Meadow_Text_Rocket3PostBattle, 0x0818AE16
+	.global SixIsland_GreenPath_Text_JaclynIntro
+	.set SixIsland_GreenPath_Text_JaclynIntro, 0x0818B7B0
+	.global SixIsland_GreenPath_Text_JaclynDefeat
+	.set SixIsland_GreenPath_Text_JaclynDefeat, 0x0818B7F0
+	.global SixIsland_GreenPath_Text_JaclynPostBattle
+	.set SixIsland_GreenPath_Text_JaclynPostBattle, 0x0818B7FD
+	.global SixIsland_GreenPath_Text_LeftRouteSign
+	.set SixIsland_GreenPath_Text_LeftRouteSign, 0x0818B84D
+	.global SixIsland_GreenPath_Text_RightRouteSign
+	.set SixIsland_GreenPath_Text_RightRouteSign, 0x0818B86B
+	.global PalletTown_PlayersHouse_2F_Text_PlayedWithNES
+	.set PalletTown_PlayersHouse_2F_Text_PlayedWithNES, 0x0818D50B
+	.global PalletTown_PlayersHouse_2F_Text_PressLRForHelp
+	.set PalletTown_PlayersHouse_2F_Text_PressLRForHelp, 0x0818D53B
+	.global PalletTown_RivalsHouse_Text_HiBrothersAtLab
+	.set PalletTown_RivalsHouse_Text_HiBrothersAtLab, 0x0818D58C
+	.global PalletTown_RivalsHouse_Text_HeardYouBattledRival
+	.set PalletTown_RivalsHouse_Text_HeardYouBattledRival, 0x0818D5C4
+	.global PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp
+	.set PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp, 0x0818D60A
+	.global PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy
+	.set PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy, 0x0818D661
+	.global PalletTown_RivalsHouse_Text_DontHaveSpaceForThis
+	.set PalletTown_RivalsHouse_Text_DontHaveSpaceForThis, 0x0818D684
+	.global PalletTown_RivalsHouse_Text_ExplainTownMap
+	.set PalletTown_RivalsHouse_Text_ExplainTownMap, 0x0818D6AF
+	.global PalletTown_RivalsHouse_Text_PleaseGiveMonsRest
+	.set PalletTown_RivalsHouse_Text_PleaseGiveMonsRest, 0x0818D701
+	.global PalletTown_RivalsHouse_Text_ItsBigMapOfKanto
+	.set PalletTown_RivalsHouse_Text_ItsBigMapOfKanto, 0x0818D763
+	.global PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks
+	.set PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks, 0x0818D7A1
+	.global PalletTown_RivalsHouse_Text_LikeMeToGroomMon
+	.set PalletTown_RivalsHouse_Text_LikeMeToGroomMon, 0x0818D7D3
+	.global PalletTown_RivalsHouse_Text_DontNeedAnyGrooming
+	.set PalletTown_RivalsHouse_Text_DontNeedAnyGrooming, 0x0818D875
+	.global PalletTown_RivalsHouse_Text_GroomWhichOne
+	.set PalletTown_RivalsHouse_Text_GroomWhichOne, 0x0818D8B2
+	.global PalletTown_RivalsHouse_Text_LookingNiceInNoTime
+	.set PalletTown_RivalsHouse_Text_LookingNiceInNoTime, 0x0818D8CC
+	.global PalletTown_RivalsHouse_Text_ThereYouGoAllDone
+	.set PalletTown_RivalsHouse_Text_ThereYouGoAllDone, 0x0818D8FE
+	.global PalletTown_RivalsHouse_Text_CantGroomAnEgg
+	.set PalletTown_RivalsHouse_Text_CantGroomAnEgg, 0x0818D97B
+	.global PalletTown_RivalsHouse_Text_MayISeeFirstMon
+	.set PalletTown_RivalsHouse_Text_MayISeeFirstMon, 0x0818D9A5
+	.global PalletTown_RivalsHouse_Text_CouldntLoveYouMore
+	.set PalletTown_RivalsHouse_Text_CouldntLoveYouMore, 0x0818DA16
+	.global PalletTown_RivalsHouse_Text_ItLooksVeryHappy
+	.set PalletTown_RivalsHouse_Text_ItLooksVeryHappy, 0x0818DA73
+	.global PalletTown_RivalsHouse_Text_ItsQuiteFriendly
+	.set PalletTown_RivalsHouse_Text_ItsQuiteFriendly, 0x0818DABE
+	.global PalletTown_RivalsHouse_Text_ItsWarmingUpToYou
+	.set PalletTown_RivalsHouse_Text_ItsWarmingUpToYou, 0x0818DAF3
+	.global PalletTown_RivalsHouse_Text_NotFamiliarWithYouYet
+	.set PalletTown_RivalsHouse_Text_NotFamiliarWithYouYet, 0x0818DB2E
+	.global PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou
+	.set PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou, 0x0818DB88
+	.global PalletTown_RivalsHouse_Text_WhyWouldMonHateYouSoMuch
+	.set PalletTown_RivalsHouse_Text_WhyWouldMonHateYouSoMuch, 0x0818DBDD
+	.global PalletTown_RivalsHouse_Text_LovelyAndSweetClefairy
+	.set PalletTown_RivalsHouse_Text_LovelyAndSweetClefairy, 0x0818DC47
+	.global ViridianCity_House_Text_NicknamingIsFun
+	.set ViridianCity_House_Text_NicknamingIsFun, 0x0818F292
+	.global ViridianCity_House_Text_MyDaddyLovesMonsToo
+	.set ViridianCity_House_Text_MyDaddyLovesMonsToo, 0x0818F30F
+	.global ViridianCity_House_Text_Speary
+	.set ViridianCity_House_Text_Speary, 0x0818F32C
+	.global ViridianCity_House_Text_SpearowNameSpeary
+	.set ViridianCity_House_Text_SpearowNameSpeary, 0x0818F33D
+	.global ViridianCity_School_Text_TryingToMemorizeNotes
+	.set ViridianCity_School_Text_TryingToMemorizeNotes, 0x0818FC00
+	.global ViridianCity_School_Text_ReadBlackboardCarefully
+	.set ViridianCity_School_Text_ReadBlackboardCarefully, 0x0818FC2B
+	.global ViridianCity_School_Text_NotebookFirstPage
+	.set ViridianCity_School_Text_NotebookFirstPage, 0x0818FC65
+	.global ViridianCity_School_Text_NotebookSecondPage
+	.set ViridianCity_School_Text_NotebookSecondPage, 0x0818FD23
+	.global ViridianCity_School_Text_NotebookThirdPage
+	.set ViridianCity_School_Text_NotebookThirdPage, 0x0818FDA8
+	.global ViridianCity_School_Text_NotebookFourthPage
+	.set ViridianCity_School_Text_NotebookFourthPage, 0x0818FE5C
+	.global ViridianCity_School_Text_TurnThePage
+	.set ViridianCity_School_Text_TurnThePage, 0x0818FF19
+	.global ViridianCity_School_Text_HeyDontLookAtMyNotes
+	.set ViridianCity_School_Text_HeyDontLookAtMyNotes, 0x0818FF28
+	.global ViridianCity_School_Text_BlackboardListsStatusProblems
+	.set ViridianCity_School_Text_BlackboardListsStatusProblems, 0x0818FF4B
+	.global ViridianCity_School_Text_ReadWhichTopic
+	.set ViridianCity_School_Text_ReadWhichTopic, 0x0818FF88
+	.global ViridianCity_School_Text_ExplainSleep
+	.set ViridianCity_School_Text_ExplainSleep, 0x0818FFA9
+	.global ViridianCity_School_Text_ExplainBurn
+	.set ViridianCity_School_Text_ExplainBurn, 0x08190025
+	.global ViridianCity_School_Text_ExplainPoison
+	.set ViridianCity_School_Text_ExplainPoison, 0x0819009F
+	.global ViridianCity_School_Text_ExplainFreeze
+	.set ViridianCity_School_Text_ExplainFreeze, 0x0819010F
+	.global ViridianCity_School_Text_ExplainParalysis
+	.set ViridianCity_School_Text_ExplainParalysis, 0x08190199
+	.global ViridianCity_Mart_Text_YouCameFromPallet
+	.set ViridianCity_Mart_Text_YouCameFromPallet, 0x0819021A
+	.global ViridianCity_Mart_Text_TakeThisToProfOak
+	.set ViridianCity_Mart_Text_TakeThisToProfOak, 0x0819023A
+	.global ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk
+	.set ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk, 0x08190289
+	.global ViridianCity_Mart_Text_SayHiToOakForMe
+	.set ViridianCity_Mart_Text_SayHiToOakForMe, 0x081902BF
+	.global ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes
+	.set ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes, 0x081902F5
+	.global ViridianCity_Mart_Text_GotToBuySomePotions
+	.set ViridianCity_Mart_Text_GotToBuySomePotions, 0x0819032C
+	.global ViridianCity_PokemonCenter_1F_Text_FeelFreeToUsePC
+	.set ViridianCity_PokemonCenter_1F_Text_FeelFreeToUsePC, 0x08190384
+	.global ViridianCity_PokemonCenter_1F_Text_PokeCenterInEveryTown
+	.set ViridianCity_PokemonCenter_1F_Text_PokeCenterInEveryTown, 0x081903E5
+	.global ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons
+	.set ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons, 0x08190450
+	.global Text_SeismicTossTeach
+	.set Text_SeismicTossTeach, 0x081909A3
+	.global Text_SeismicTossDeclined
+	.set Text_SeismicTossDeclined, 0x08190AA9
+	.global Text_SeismicTossWhichMon
+	.set Text_SeismicTossWhichMon, 0x08190AD5
+	.global Text_SeismicTossTaught
+	.set Text_SeismicTossTaught, 0x08190B00
+	.global PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone
+	.set PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone, 0x08190B30
+	.global PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding
+	.set PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding, 0x08190B80
+	.global PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth
+	.set PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth, 0x08190BF3
+	.global PewterCity_Museum_1F_Text_AskedDaddyToCatchPikachu
+	.set PewterCity_Museum_1F_Text_AskedDaddyToCatchPikachu, 0x08190C1E
+	.global PewterCity_Museum_1F_Text_PikachuSoonIPromise
+	.set PewterCity_Museum_1F_Text_PikachuSoonIPromise, 0x08190C60
+	.global PewterCity_Museum_1F_Text_SpaceShuttle
+	.set PewterCity_Museum_1F_Text_SpaceShuttle, 0x08190C81
+	.global PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon
+	.set PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon, 0x08190C8F
+	.global PewterCity_Mart_Text_BoughtWeirdFishFromShadyGuy
+	.set PewterCity_Mart_Text_BoughtWeirdFishFromShadyGuy, 0x081914DE
+	.global PewterCity_Mart_Text_GoodThingsIfRaiseMonsDiligently
+	.set PewterCity_Mart_Text_GoodThingsIfRaiseMonsDiligently, 0x08191541
+	.global PewterCity_House1_Text_Nidoran
+	.set PewterCity_House1_Text_Nidoran, 0x081915BB
+	.global PewterCity_House1_Text_NidoranSit
+	.set PewterCity_House1_Text_NidoranSit, 0x081915CD
+	.global PewterCity_House1_Text_TradeMonsAreFinicky
+	.set PewterCity_House1_Text_TradeMonsAreFinicky, 0x081915DB
+	.global PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone
+	.set PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone, 0x081916A9
+	.global PewterCity_PokemonCenter_1F_Text_Jigglypuff
+	.set PewterCity_PokemonCenter_1F_Text_Jigglypuff, 0x081916EA
+	.global PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy
+	.set PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy, 0x08191701
+	.global PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu
+	.set PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu, 0x08191743
+	.global PewterCity_PokemonCenter_1F_Text_TradingPikachuWithKid
+	.set PewterCity_PokemonCenter_1F_Text_TradingPikachuWithKid, 0x08191780
+	.global PewterCity_House2_Text_MonsLearnTechniquesAsTheyGrow
+	.set PewterCity_House2_Text_MonsLearnTechniquesAsTheyGrow, 0x081917E4
+	.global PewterCity_House2_Text_MonsEasierCatchIfStatused
+	.set PewterCity_House2_Text_MonsEasierCatchIfStatused, 0x08191840
+	.global CeruleanCity_House1_Text_BadgesHaveAmazingSecrets
+	.set CeruleanCity_House1_Text_BadgesHaveAmazingSecrets, 0x081918E7
+	.global CeruleanCity_House1_Text_DescribeWhichBadge
+	.set CeruleanCity_House1_Text_DescribeWhichBadge, 0x08191967
+	.global CeruleanCity_House1_Text_ComeVisitAnytime
+	.set CeruleanCity_House1_Text_ComeVisitAnytime, 0x0819199E
+	.global CeruleanCity_House1_Text_AttackStatFlash
+	.set CeruleanCity_House1_Text_AttackStatFlash, 0x081919BE
+	.global CeruleanCity_House1_Text_ObeyLv30Cut
+	.set CeruleanCity_House1_Text_ObeyLv30Cut, 0x08191A31
+	.global CeruleanCity_House1_Text_SpeedStatFly
+	.set CeruleanCity_House1_Text_SpeedStatFly, 0x08191AF9
+	.global CeruleanCity_House1_Text_ObeyLv50Strength
+	.set CeruleanCity_House1_Text_ObeyLv50Strength, 0x08191B69
+	.global CeruleanCity_House1_Text_DefenseStatSurf
+	.set CeruleanCity_House1_Text_DefenseStatSurf, 0x08191C36
+	.global CeruleanCity_House1_Text_ObeyLv70RockSmash
+	.set CeruleanCity_House1_Text_ObeyLv70RockSmash, 0x08191CA9
+	.global CeruleanCity_House1_Text_SpStatsWaterfall
+	.set CeruleanCity_House1_Text_SpStatsWaterfall, 0x08191D78
+	.global CeruleanCity_House1_Text_AllMonsWillObeyYou
+	.set CeruleanCity_House1_Text_AllMonsWillObeyYou, 0x08191DF8
+	.global CeruleanCity_House2_Text_RocketsStoleTMForDig
+	.set CeruleanCity_House2_Text_RocketsStoleTMForDig, 0x08191E13
+	.global CeruleanCity_House2_Text_TeachDiglettDigWithoutTM
+	.set CeruleanCity_House2_Text_TeachDiglettDigWithoutTM, 0x08191ED8
+	.global CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood
+	.set CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood, 0x08191F2A
+	.global CeruleanCity_House2_Text_TeamRocketLeftWayOut
+	.set CeruleanCity_House2_Text_TeamRocketLeftWayOut, 0x08191F64
+	.global CeruleanCity_House3_Text_PleaseTradeWithMyHusband
+	.set CeruleanCity_House3_Text_PleaseTradeWithMyHusband, 0x08191F80
+	.global CeruleanCity_BikeShop_Text_WelcomeToBikeShop
+	.set CeruleanCity_BikeShop_Text_WelcomeToBikeShop, 0x08192755
+	.global CeruleanCity_BikeShop_Text_SorryYouCantAffordIt
+	.set CeruleanCity_BikeShop_Text_SorryYouCantAffordIt, 0x08192796
+	.global CeruleanCity_BikeShop_Text_OhBikeVoucherHereYouGo
+	.set CeruleanCity_BikeShop_Text_OhBikeVoucherHereYouGo, 0x081927B2
+	.global CeruleanCity_BikeShop_Text_ExchangedVoucherForBicycle
+	.set CeruleanCity_BikeShop_Text_ExchangedVoucherForBicycle, 0x081927E1
+	.global CeruleanCity_BikeShop_Text_ThankYouComeAgain
+	.set CeruleanCity_BikeShop_Text_ThankYouComeAgain, 0x0819280E
+	.global CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle
+	.set CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle, 0x08192833
+	.global CeruleanCity_BikeShop_Text_MakeRoomForBicycle
+	.set CeruleanCity_BikeShop_Text_MakeRoomForBicycle, 0x081928A8
+	.global CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe
+	.set CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe, 0x081928CF
+	.global CeruleanCity_BikeShop_Text_BikesCoolButExpensive
+	.set CeruleanCity_BikeShop_Text_BikesCoolButExpensive, 0x08192937
+	.global CeruleanCity_BikeShop_Text_WowYourBikeIsCool
+	.set CeruleanCity_BikeShop_Text_WowYourBikeIsCool, 0x08192968
+	.global CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket
+	.set CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket, 0x08192987
+	.global CeruleanCity_BikeShop_Text_ShinyNewBicycle
+	.set CeruleanCity_BikeShop_Text_ShinyNewBicycle, 0x081929AD
+	.global CeruleanCity_Mart_Text_RepelWorksOnWeakMons
+	.set CeruleanCity_Mart_Text_RepelWorksOnWeakMons, 0x081929C2
+	.global CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy
+	.set CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy, 0x08192A79
+	.global CeruleanCity_House4_Text_NothingEntertaining
+	.set CeruleanCity_House4_Text_NothingEntertaining, 0x08192AF0
+	.global CeruleanCity_House4_Text_NewNewsInformativeHaveThis
+	.set CeruleanCity_House4_Text_NewNewsInformativeHaveThis, 0x08192B43
+	.global CeruleanCity_House4_Text_IncredibleNewsHaveBerries
+	.set CeruleanCity_House4_Text_IncredibleNewsHaveBerries, 0x08192C07
+	.global CeruleanCity_House4_Text_WishCouldShareNewsWithOthers
+	.set CeruleanCity_House4_Text_WishCouldShareNewsWithOthers, 0x08192CD5
+	.global CeruleanCity_House4_Text_ThanksForSpreadingNewsTakeThis
+	.set CeruleanCity_House4_Text_ThanksForSpreadingNewsTakeThis, 0x08192D4B
+	.global CeruleanCity_House4_Text_MagnificentNewsSpreadHaveBerries
+	.set CeruleanCity_House4_Text_MagnificentNewsSpreadHaveBerries, 0x08192DE3
+	.global CeruleanCity_House4_Text_EnjoyingMyselfWithAllSortsOfNews
+	.set CeruleanCity_House4_Text_EnjoyingMyselfWithAllSortsOfNews, 0x08192EC5
+	.global CeruleanCity_House4_Text_YourBerryPouchIsFull
+	.set CeruleanCity_House4_Text_YourBerryPouchIsFull, 0x08192F2A
+	.global CeruleanCity_House1_Text_AnyInterestInBerries
+	.set CeruleanCity_House1_Text_AnyInterestInBerries, 0x08192F67
+	.global CeruleanCity_House1_Text_HaveJustTheThing
+	.set CeruleanCity_House1_Text_HaveJustTheThing, 0x08193003
+	.global CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner
+	.set CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner, 0x08193033
+	.global CeruleanCity_House1_Text_WhyMustYouLieNoBerries
+	.set CeruleanCity_House1_Text_WhyMustYouLieNoBerries, 0x0819321D
+	.global CeruleanCity_House1_Text_TakeInterestInAllSortsOfThings
+	.set CeruleanCity_House1_Text_TakeInterestInAllSortsOfThings, 0x0819325E
+	.global CeruleanCity_House1_Text_HaveYouBroughtBerryPowder
+	.set CeruleanCity_House1_Text_HaveYouBroughtBerryPowder, 0x081932C5
+	.global CeruleanCity_House5_Text_ExchangeWithWhat
+	.set CeruleanCity_House5_Text_ExchangeWithWhat, 0x081932F4
+	.global CeruleanCity_House1_Text_YoullExchangeBerryPowderForItem
+	.set CeruleanCity_House1_Text_YoullExchangeBerryPowderForItem, 0x0819331E
+	.global CeruleanCity_House1_Text_DontHaveEnoughBerryPowder
+	.set CeruleanCity_House1_Text_DontHaveEnoughBerryPowder, 0x08193352
+	.global CeruleanCity_House1_Text_TradeMoreBerryPowder
+	.set CeruleanCity_House1_Text_TradeMoreBerryPowder, 0x0819337A
+	.global CeruleanCity_House1_Text_HopeToSeeYouAgain
+	.set CeruleanCity_House1_Text_HopeToSeeYouAgain, 0x081933FB
+	.global CeruleanCity_House1_Text_SeeMeIfYoudLikeToTradePowder
+	.set CeruleanCity_House1_Text_SeeMeIfYoudLikeToTradePowder, 0x0819342F
+	.global LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney
+	.set LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney, 0x08193465
+	.global LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets
+	.set LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets, 0x081934DE
+	.global LavenderTown_PokemonCenter_1F_Text_PeoplePayForCuboneSkulls
+	.set LavenderTown_PokemonCenter_1F_Text_PeoplePayForCuboneSkulls, 0x0819353A
+	.global LavenderTown_House1_Text_Cubone
+	.set LavenderTown_House1_Text_Cubone, 0x0819396B
+	.global LavenderTown_House1_Text_RocketsKilledCubonesMother
+	.set LavenderTown_House1_Text_RocketsKilledCubonesMother, 0x0819397D
+	.global LavenderTown_House1_Text_GhostOfPokemonTowerIsGone
+	.set LavenderTown_House1_Text_GhostOfPokemonTowerIsGone, 0x081939F8
+	.global LavenderTown_Mart_Text_SearchingForStatRaiseItems
+	.set LavenderTown_Mart_Text_SearchingForStatRaiseItems, 0x08193CE5
+	.global LavenderTown_Mart_Text_DidYouBuyRevives
+	.set LavenderTown_Mart_Text_DidYouBuyRevives, 0x08193DB6
+	.global LavenderTown_Mart_Text_TrainerDuosCanChallengeYou
+	.set LavenderTown_Mart_Text_TrainerDuosCanChallengeYou, 0x08193DF1
+	.global LavenderTown_Mart_Text_SoldNuggetFromMountainsFor5000
+	.set LavenderTown_Mart_Text_SoldNuggetFromMountainsFor5000, 0x08193E82
+	.global VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild
+	.set VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild, 0x081940AF
+	.global VermilionCity_PokemonCenter_1F_Text_PoisonedMonFaintedWhileWalking
+	.set VermilionCity_PokemonCenter_1F_Text_PoisonedMonFaintedWhileWalking, 0x08194145
+	.global VermilionCity_PokemonCenter_1F_Text_AllMonWeakToSpecificTypes
+	.set VermilionCity_PokemonCenter_1F_Text_AllMonWeakToSpecificTypes, 0x08194180
+	.global VermilionCity_PokemonCenter_1F_Text_UrgeToBattleSomeoneAgain
+	.set VermilionCity_PokemonCenter_1F_Text_UrgeToBattleSomeoneAgain, 0x08194234
+	.global VermilionCity_PokemonCenter_1F_Text_UseDeviceForRematches
+	.set VermilionCity_PokemonCenter_1F_Text_UseDeviceForRematches, 0x0819430F
+	.global VermilionCity_PokemonCenter_1F_Text_ExplainVSSeeker
+	.set VermilionCity_PokemonCenter_1F_Text_ExplainVSSeeker, 0x08194381
+	.global VermilionCity_Mart_Text_TeamRocketAreWickedPeople
+	.set VermilionCity_Mart_Text_TeamRocketAreWickedPeople, 0x08194A77
+	.global VermilionCity_Mart_Text_MonsGoodOrBadDependingOnTrainer
+	.set VermilionCity_Mart_Text_MonsGoodOrBadDependingOnTrainer, 0x08194B65
+	.global CeladonCity_DepartmentStore_1F_Text_WelcomeToDeptStore
+	.set CeladonCity_DepartmentStore_1F_Text_WelcomeToDeptStore, 0x081954DD
+	.global CeladonCity_DepartmentStore_1F_Text_FloorDescriptions
+	.set CeladonCity_DepartmentStore_1F_Text_FloorDescriptions, 0x08195537
+	.global CeladonCity_DepartmentStore_1F_Text_ServiceCounter
+	.set CeladonCity_DepartmentStore_1F_Text_ServiceCounter, 0x081955B3
+	.global CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent
+	.set CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent, 0x08195A68
+	.global CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll
+	.set CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll, 0x08195AC9
+	.global CeladonCity_DepartmentStore_4F_Text_FloorSign
+	.set CeladonCity_DepartmentStore_4F_Text_FloorSign, 0x08195B5B
+	.global CeladonCity_Condominiums_1F_Text_Meowth
+	.set CeladonCity_Condominiums_1F_Text_Meowth, 0x081960BB
+	.global CeladonCity_Condominiums_1F_Text_TryThisDrinkInstead
+	.set CeladonCity_Condominiums_1F_Text_TryThisDrinkInstead, 0x081960C9
+	.global CeladonCity_Condominiums_1F_Text_NothingBeatsThirstLikeTea
+	.set CeladonCity_Condominiums_1F_Text_NothingBeatsThirstLikeTea, 0x08196109
+	.global CeladonCity_Condominiums_1F_Text_MyDearMonsKeepMeCompany
+	.set CeladonCity_Condominiums_1F_Text_MyDearMonsKeepMeCompany, 0x08196148
+	.global CeladonCity_Condominiums_1F_Text_DaisyComesToBuyTea
+	.set CeladonCity_Condominiums_1F_Text_DaisyComesToBuyTea, 0x08196188
+	.global CeladonCity_Condominiums_1F_Text_Clefairy
+	.set CeladonCity_Condominiums_1F_Text_Clefairy, 0x0819625B
+	.global CeladonCity_Condominiums_1F_Text_Nidoran
+	.set CeladonCity_Condominiums_1F_Text_Nidoran, 0x08196272
+	.global CeladonCity_Condominiums_1F_Text_ManagersSuite
+	.set CeladonCity_Condominiums_1F_Text_ManagersSuite, 0x08196287
+	.global CeladonCity_Condominiums_2F_Text_GameFreakMeetingRoom
+	.set CeladonCity_Condominiums_2F_Text_GameFreakMeetingRoom, 0x081962A7
+	.global CeladonCity_Condominiums_3F_Text_ImTheProgrammer
+	.set CeladonCity_Condominiums_3F_Text_ImTheProgrammer, 0x081962BF
+	.global CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist
+	.set CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist, 0x081962D7
+	.global CeladonCity_Condominiums_3F_Text_IWroteTheStory
+	.set CeladonCity_Condominiums_3F_Text_IWroteTheStory, 0x081962FB
+	.global CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex
+	.set CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex, 0x08196356
+	.global CeladonCity_Condominiums_3F_Text_CompletedPokedexCongratulations
+	.set CeladonCity_Condominiums_3F_Text_CompletedPokedexCongratulations, 0x081963CD
+	.global CeladonCity_Condominiums_3F_Text_ItsTheGameProgram
+	.set CeladonCity_Condominiums_3F_Text_ItsTheGameProgram, 0x0819640C
+	.global CeladonCity_Condominiums_3F_Text_SomeonesPlayingGame
+	.set CeladonCity_Condominiums_3F_Text_SomeonesPlayingGame, 0x0819644B
+	.global CeladonCity_Condominiums_3F_Text_ItsScriptBetterNotLookAtEnding
+	.set CeladonCity_Condominiums_3F_Text_ItsScriptBetterNotLookAtEnding, 0x08196478
+	.global CeladonCity_Condominiums_3F_Text_GameFreakDevelopmentRoom
+	.set CeladonCity_Condominiums_3F_Text_GameFreakDevelopmentRoom, 0x081964A8
+	.global CeladonCity_Condominiums_Roof_Text_IKnowEverything
+	.set CeladonCity_Condominiums_Roof_Text_IKnowEverything, 0x081964C4
+	.global CeladonCity_Condominiums_RoofRoom_Text_TheresNothingIDontKnow
+	.set CeladonCity_Condominiums_RoofRoom_Text_TheresNothingIDontKnow, 0x081964D7
+	.global CeladonCity_Condominiums_RoofRoom_Text_ObtainedAnEevee
+	.set CeladonCity_Condominiums_RoofRoom_Text_ObtainedAnEevee, 0x08196591
+	.global CeladonCity_Condominiums_RoofRoom_Text_BoxIsFull
+	.set CeladonCity_Condominiums_RoofRoom_Text_BoxIsFull, 0x081965A7
+	.global CeladonCity_Condominiums_RoofRoom_Text_WirelessAdapterLecture
+	.set CeladonCity_Condominiums_RoofRoom_Text_WirelessAdapterLecture, 0x081965C2
+	.global CeladonCity_Condominiums_RoofRoom_Text_ReadWhichHeading
+	.set CeladonCity_Condominiums_RoofRoom_Text_ReadWhichHeading, 0x081965F4
+	.global CeladonCity_Condominiums_RoofRoom_Text_ExplainWirelessClub
+	.set CeladonCity_Condominiums_RoofRoom_Text_ExplainWirelessClub, 0x08196617
+	.global CeladonCity_Condominiums_RoofRoom_Text_ExplainDirectCorner
+	.set CeladonCity_Condominiums_RoofRoom_Text_ExplainDirectCorner, 0x08196695
+	.global CeladonCity_Condominiums_RoofRoom_Text_ExplainUnionRoom
+	.set CeladonCity_Condominiums_RoofRoom_Text_ExplainUnionRoom, 0x0819673C
+	.global CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs
+	.set CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs, 0x081967E3
+	.global CeladonCity_PokemonCenter_1F_Text_PokeFluteAwakensSleepingMons
+	.set CeladonCity_PokemonCenter_1F_Text_PokeFluteAwakensSleepingMons, 0x0819685B
+	.global CeladonCity_PokemonCenter_1F_Text_RodeHereFromFuchsia
+	.set CeladonCity_PokemonCenter_1F_Text_RodeHereFromFuchsia, 0x081968C2
+	.global CeladonCity_PokemonCenter_1F_Text_GoToCyclingRoadIfIHadBike
+	.set CeladonCity_PokemonCenter_1F_Text_GoToCyclingRoadIfIHadBike, 0x08196913
+	.global CeladonCity_Hotel_Text_ThisHotelIsForPeople
+	.set CeladonCity_Hotel_Text_ThisHotelIsForPeople, 0x08197B77
+	.global CeladonCity_Hotel_Text_OnVacationWithBrotherAndBoyfriend
+	.set CeladonCity_Hotel_Text_OnVacationWithBrotherAndBoyfriend, 0x08197BBE
+	.global CeladonCity_Hotel_Text_WhyDidSheBringBrother
+	.set CeladonCity_Hotel_Text_WhyDidSheBringBrother, 0x08197C0C
+	.global CeladonCity_Hotel_Text_SisBroughtMeOnVacation
+	.set CeladonCity_Hotel_Text_SisBroughtMeOnVacation, 0x08197C30
+	.global FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants
+	.set FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants, 0x081980BC
+	.global FuchsiaCity_Mart_Text_DidYouTryXSpeed
+	.set FuchsiaCity_Mart_Text_DidYouTryXSpeed, 0x08198134
+	.global FuchsiaCity_SafariZone_Office_Text_NicknamedWardenSlowpoke
+	.set FuchsiaCity_SafariZone_Office_Text_NicknamedWardenSlowpoke, 0x0819816B
+	.global FuchsiaCity_SafariZone_Office_Text_WardenIsVeryKnowledgeable
+	.set FuchsiaCity_SafariZone_Office_Text_WardenIsVeryKnowledgeable, 0x081981C2
+	.global FuchsiaCity_SafariZone_Office_Text_CouldntUnderstandWarden
+	.set FuchsiaCity_SafariZone_Office_Text_CouldntUnderstandWarden, 0x0819822A
+	.global FuchsiaCity_SafariZone_Office_Text_PrizeInSafariZone
+	.set FuchsiaCity_SafariZone_Office_Text_PrizeInSafariZone, 0x08198285
+	.global FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth
+	.set FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth, 0x08198BBB
+	.global FuchsiaCity_House1_Text_BillIsMyGrandson
+	.set FuchsiaCity_House1_Text_BillIsMyGrandson, 0x08198C1F
+	.global FuchsiaCity_House1_Text_BillFilesHisOwnMonData
+	.set FuchsiaCity_House1_Text_BillFilesHisOwnMonData, 0x08198C7B
+	.global FuchsiaCity_PokemonCenter_1F_Text_CantBecomeGoodTrainerWithOneMon
+	.set FuchsiaCity_PokemonCenter_1F_Text_CantBecomeGoodTrainerWithOneMon, 0x08198CB7
+	.global FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian
+	.set FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian, 0x08198D2E
+	.global FuchsiaCity_PokemonCenter_1F_Text_VisitSafariZoneForPokedex
+	.set FuchsiaCity_PokemonCenter_1F_Text_VisitSafariZoneForPokedex, 0x08198D9B
+	.global FuchsiaCity_WardensHouse_Text_HifFuffHefifoo
+	.set FuchsiaCity_WardensHouse_Text_HifFuffHefifoo, 0x08198DF9
+	.global FuchsiaCity_WardensHouse_Text_AhHowheeHoHoo
+	.set FuchsiaCity_WardensHouse_Text_AhHowheeHoHoo, 0x08198E3F
+	.global FuchsiaCity_WardensHouse_Text_HeOhayHeHaHoo
+	.set FuchsiaCity_WardensHouse_Text_HeOhayHeHaHoo, 0x08198E63
+	.global FuchsiaCity_WardensHouse_Text_GaveGoldTeethToWarden
+	.set FuchsiaCity_WardensHouse_Text_GaveGoldTeethToWarden, 0x08198E84
+	.global FuchsiaCity_WardensHouse_Text_WardenPoppedInHisTeeth
+	.set FuchsiaCity_WardensHouse_Text_WardenPoppedInHisTeeth, 0x08198EAA
+	.global FuchsiaCity_WardensHouse_Text_ThanksSonGiveYouSomething
+	.set FuchsiaCity_WardensHouse_Text_ThanksSonGiveYouSomething, 0x08198ECA
+	.global FuchsiaCity_WardensHouse_Text_ThanksLassieGiveYouSomething
+	.set FuchsiaCity_WardensHouse_Text_ThanksLassieGiveYouSomething, 0x08198F96
+	.global FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden
+	.set FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden, 0x08199068
+	.global FuchsiaCity_WardensHouse_Text_ExplainStrength
+	.set FuchsiaCity_WardensHouse_Text_ExplainStrength, 0x0819908A
+	.global FuchsiaCity_WardensHouse_Text_YouHaveTooMuchStuff
+	.set FuchsiaCity_WardensHouse_Text_YouHaveTooMuchStuff, 0x0819912B
+	.global FuchsiaCity_WardensHouse_Text_MonPhotosFossilsOnDisplay
+	.set FuchsiaCity_WardensHouse_Text_MonPhotosFossilsOnDisplay, 0x0819913C
+	.global FuchsiaCity_WardensHouse_Text_OldMonMerchandiseOnDisplay
+	.set FuchsiaCity_WardensHouse_Text_OldMonMerchandiseOnDisplay, 0x08199167
+	.global FuchsiaCity_House3_Text_WouldYouLikeToForgetMove
+	.set FuchsiaCity_House3_Text_WouldYouLikeToForgetMove, 0x081993B9
+	.global FuchsiaCity_House3_Text_WhichMonShouldForgetMove
+	.set FuchsiaCity_House3_Text_WhichMonShouldForgetMove, 0x08199421
+	.global FuchsiaCity_House3_Text_WhichMoveShouldBeForgotten
+	.set FuchsiaCity_House3_Text_WhichMoveShouldBeForgotten, 0x08199445
+	.global FuchsiaCity_House3_Text_MonOnlyKnowsOneMove
+	.set FuchsiaCity_House3_Text_MonOnlyKnowsOneMove, 0x08199465
+	.global FuchsiaCity_House3_Text_MonsMoveShouldBeForgotten
+	.set FuchsiaCity_House3_Text_MonsMoveShouldBeForgotten, 0x08199485
+	.global FuchsiaCity_House3_Text_MonHasForgottenMoveCompletely
+	.set FuchsiaCity_House3_Text_MonHasForgottenMoveCompletely, 0x081994B1
+	.global FuchsiaCity_House3_Text_ComeAgainToForgetOtherMoves
+	.set FuchsiaCity_House3_Text_ComeAgainToForgetOtherMoves, 0x081994EA
+	.global FuchsiaCity_House3_Text_NoEggShouldKnowMoves
+	.set FuchsiaCity_House3_Text_NoEggShouldKnowMoves, 0x0819951F
+	.global CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon
+	.set CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon, 0x08199FB3
+	.global CinnabarIsland_PokemonLab_ResearchRoom_Text_EeveeCanEvolveIntroThreeMons
+	.set CinnabarIsland_PokemonLab_ResearchRoom_Text_EeveeCanEvolveIntroThreeMons, 0x0819A015
+	.global CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail
+	.set CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail, 0x0819A04A
+	.global CinnabarIsland_PokemonLab_ResearchRoom_Text_AnAmberPipe
+	.set CinnabarIsland_PokemonLab_ResearchRoom_Text_AnAmberPipe, 0x0819A128
+	.global Text_MetronomeTeach
+	.set Text_MetronomeTeach, 0x0819A137
+	.global Text_MetronomeDeclined
+	.set Text_MetronomeDeclined, 0x0819A1CB
+	.global Text_MetronomeWhichMon
+	.set Text_MetronomeWhichMon, 0x0819A1EA
+	.global Text_MetronomeTaught
+	.set Text_MetronomeTaught, 0x0819A20E
+	.global CinnabarIsland_PokemonLab_ExperimentRoom_Text_HaveYouAFossilForMe
+	.set CinnabarIsland_PokemonLab_ExperimentRoom_Text_HaveYouAFossilForMe, 0x0819A282
+	.global CinnabarIsland_PokemonLab_ExperimentRoom_Text_NoIsTooBad
+	.set CinnabarIsland_PokemonLab_ExperimentRoom_Text_NoIsTooBad, 0x0819A314
+	.global CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalkJP
+	.set CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalkJP, 0x0819A324
+	.global CinnabarIsland_PokemonLab_ExperimentRoom_Text_FossilMonBackToLife
+	.set CinnabarIsland_PokemonLab_ExperimentRoom_Text_FossilMonBackToLife, 0x0819A34F
+	.global CinnabarIsland_PokemonLab_ExperimentRoom_Text_ReceivedMonFromDoctor
+	.set CinnabarIsland_PokemonLab_ExperimentRoom_Text_ReceivedMonFromDoctor, 0x0819A39E
+	.global CinnabarIsland_PokemonLab_ExperimentRoom_Text_NoRoomForPokemon
+	.set CinnabarIsland_PokemonLab_ExperimentRoom_Text_NoRoomForPokemon, 0x0819A3C2
+	.global CinnabarIsland_PokemonLab_ExperimentRoom_Text_ThatFossilIsOfMonMakeItLiveAgain
+	.set CinnabarIsland_PokemonLab_ExperimentRoom_Text_ThatFossilIsOfMonMakeItLiveAgain, 0x0819A3D4
+	.global CinnabarIsland_PokemonLab_ExperimentRoom_Text_HandedFossilToWeirdDoctor
+	.set CinnabarIsland_PokemonLab_ExperimentRoom_Text_HandedFossilToWeirdDoctor, 0x0819A45D
+	.global CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalk
+	.set CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalk, 0x0819A4AB
+	.global CinnabarIsland_PokemonLab_ExperimentRoom_Text_YouComeAgain
+	.set CinnabarIsland_PokemonLab_ExperimentRoom_Text_YouComeAgain, 0x0819A4E1
+	.global CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked
+	.set CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked, 0x0819A4F8
+	.global CinnabarIsland_PokemonCenter_1F_Text_VisitUnionRoom
+	.set CinnabarIsland_PokemonCenter_1F_Text_VisitUnionRoom, 0x0819A5BE
+	.global CinnabarIsland_PokemonCenter_1F_Text_EvolutionCanWaitForNewMoves
+	.set CinnabarIsland_PokemonCenter_1F_Text_EvolutionCanWaitForNewMoves, 0x0819A6B1
+	.global CinnabarIsland_PokemonCenter_1F_Text_ReadyToSailToOneIsland
+	.set CinnabarIsland_PokemonCenter_1F_Text_ReadyToSailToOneIsland, 0x0819A725
+	.global CinnabarIsland_PokemonCenter_1F_Text_OhNotDoneYet
+	.set CinnabarIsland_PokemonCenter_1F_Text_OhNotDoneYet, 0x0819A766
+	.global CinnabarIsland_PokemonCenter_1F_Text_LetsGo
+	.set CinnabarIsland_PokemonCenter_1F_Text_LetsGo, 0x0819A785
+	.global CinnabarIsland_Mart_Text_DontTheyHaveXAttack
+	.set CinnabarIsland_Mart_Text_DontTheyHaveXAttack, 0x0819A7A0
+	.global CinnabarIsland_Mart_Text_ExtraItemsNeverHurt
+	.set CinnabarIsland_Mart_Text_ExtraItemsNeverHurt, 0x0819A7F1
+	.global SaffronCity_CopycatsHouse_1F_Text_DaughterIsSelfCentered
+	.set SaffronCity_CopycatsHouse_1F_Text_DaughterIsSelfCentered, 0x0819AB9B
+	.global SaffronCity_CopycatsHouse_1F_Text_DaughterLikesToMimicPeople
+	.set SaffronCity_CopycatsHouse_1F_Text_DaughterLikesToMimicPeople, 0x0819ABD7
+	.global SaffronCity_CopycatsHouse_1F_Text_Chansey
+	.set SaffronCity_CopycatsHouse_1F_Text_Chansey, 0x0819AC4B
+	.global SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper
+	.set SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper, 0x0819BF8F
+	.global SaffronCity_Mart_Text_ReviveIsCostly
+	.set SaffronCity_Mart_Text_ReviveIsCostly, 0x0819BFF1
+	.global SaffronCity_PokemonCenter_1F_Text_GrowthRatesDifferBySpecies
+	.set SaffronCity_PokemonCenter_1F_Text_GrowthRatesDifferBySpecies, 0x0819C023
+	.global SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame
+	.set SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame, 0x0819C058
+	.global SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets
+	.set SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets, 0x0819C0B4
+	.global SaffronCity_PokemonCenter_1F_Text_TeamRocketTookOff
+	.set SaffronCity_PokemonCenter_1F_Text_TeamRocketTookOff, 0x0819C102
+	.global SaffronCity_MrPsychicsHouse_Text_YouWantedThis
+	.set SaffronCity_MrPsychicsHouse_Text_YouWantedThis, 0x0819C142
+	.global SaffronCity_MrPsychicsHouse_Text_ReceivedTM29FromMrPsychic
+	.set SaffronCity_MrPsychicsHouse_Text_ReceivedTM29FromMrPsychic, 0x0819C16C
+	.global SaffronCity_MrPsychicsHouse_Text_ExplainTM29
+	.set SaffronCity_MrPsychicsHouse_Text_ExplainTM29, 0x0819C18F
+	.global SaffronCity_MrPsychicsHouse_Text_YouveNoRoom
+	.set SaffronCity_MrPsychicsHouse_Text_YouveNoRoom, 0x0819C1FC
+	.global Route2_ViridianForest_SouthEntrance_Text_ForestIsMaze
+	.set Route2_ViridianForest_SouthEntrance_Text_ForestIsMaze, 0x0819D52C
+	.global Route2_ViridianForest_SouthEntrance_Text_RattataHasWickedBite
+	.set Route2_ViridianForest_SouthEntrance_Text_RattataHasWickedBite, 0x0819D58B
+	.global Route2_House_Text_FaintedMonsCanUseFieldMoves
+	.set Route2_House_Text_FaintedMonsCanUseFieldMoves, 0x0819D5E7
+	.global Route2_ViridianForest_NorthEntrance_Text_ManyMonsOnlyInForests
+	.set Route2_ViridianForest_NorthEntrance_Text_ManyMonsOnlyInForests, 0x0819D85C
+	.global Route2_ViridianForest_NorthEntrance_Text_CanCutSkinnyTrees
+	.set Route2_ViridianForest_NorthEntrance_Text_CanCutSkinnyTrees, 0x0819D8D0
+	.global Route2_ViridianForest_NorthEntrance_Text_CanCancelEvolution
+	.set Route2_ViridianForest_NorthEntrance_Text_CanCancelEvolution, 0x0819D93B
+	.global Route4_PokemonCenter_1F_Text_CanHaveSixMonsWithYou
+	.set Route4_PokemonCenter_1F_Text_CanHaveSixMonsWithYou, 0x0819D9D4
+	.global Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean
+	.set Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean, 0x0819DA3A
+	.global Route4_PokemonCenter_1F_Text_LaddieBuyMagikarpForJust500
+	.set Route4_PokemonCenter_1F_Text_LaddieBuyMagikarpForJust500, 0x0819DA9A
+	.global Route4_PokemonCenter_1F_Text_SweetieBuyMagikarpForJust500
+	.set Route4_PokemonCenter_1F_Text_SweetieBuyMagikarpForJust500, 0x0819DB34
+	.global Route4_PokemonCenter_1F_Text_PaidOutrageouslyForMagikarp
+	.set Route4_PokemonCenter_1F_Text_PaidOutrageouslyForMagikarp, 0x0819DBD3
+	.global Route4_PokemonCenter_1F_Text_OnlyDoingThisAsFavorToYou
+	.set Route4_PokemonCenter_1F_Text_OnlyDoingThisAsFavorToYou, 0x0819DC07
+	.global Route4_PokemonCenter_1F_Text_NoRoomForMorePokemon
+	.set Route4_PokemonCenter_1F_Text_NoRoomForMorePokemon, 0x0819DC3E
+	.global Route4_PokemonCenter_1F_Text_YoullNeedMoreMoney
+	.set Route4_PokemonCenter_1F_Text_YoullNeedMoreMoney, 0x0819DC78
+	.global Route4_PokemonCenter_1F_Text_IDontGiveRefunds
+	.set Route4_PokemonCenter_1F_Text_IDontGiveRefunds, 0x0819DC9A
+	.global Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC
+	.set Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC, 0x0819DCDB
+	.global Route4_PokemonCenter_1F_Text_ItsANewspaper
+	.set Route4_PokemonCenter_1F_Text_ItsANewspaper, 0x0819DD54
+	.global Route11_EastEntrance_1F_Text_BagIsFull
+	.set Route11_EastEntrance_1F_Text_BagIsFull, 0x0819E890
+	.global Route11_EastEntrance_1F_Text_ManInLavenderRatesNames
+	.set Route11_EastEntrance_1F_Text_ManInLavenderRatesNames, 0x0819E8A6
+	.global Route11_EastEntrance_1F_Text_RockTunnelToReachLavender
+	.set Route11_EastEntrance_1F_Text_RockTunnelToReachLavender, 0x0819E97B
+	.global Route12_NorthEntrance_1F_Text_LookoutSpotUpstairs
+	.set Route12_NorthEntrance_1F_Text_LookoutSpotUpstairs, 0x0819EDA7
+	.global Route15_WestEntrance_1F_Text_OaksAideCameByHere
+	.set Route15_WestEntrance_1F_Text_OaksAideCameByHere, 0x0819F560
+	.global Route16_House_Text_FoundMySecretRetreat
+	.set Route16_House_Text_FoundMySecretRetreat, 0x0819F851
+	.global Route16_House_Text_ReceivedHM02FromGirl
+	.set Route16_House_Text_ReceivedHM02FromGirl, 0x0819F8C0
+	.global Route16_House_Text_ExplainHM02
+	.set Route16_House_Text_ExplainHM02, 0x0819F8E0
+	.global Route16_House_Text_DontHaveAnyRoomForThis
+	.set Route16_House_Text_DontHaveAnyRoomForThis, 0x0819F92D
+	.global Route16_House_Text_Fearow
+	.set Route16_House_Text_Fearow, 0x0819F94F
+	.global Route16_NorthEntrance_1F_Text_NoPedestriansOnCyclingRoad
+	.set Route16_NorthEntrance_1F_Text_NoPedestriansOnCyclingRoad, 0x0819F95F
+	.global Route16_NorthEntrance_1F_Text_CyclingRoadIsDownhillCourse
+	.set Route16_NorthEntrance_1F_Text_CyclingRoadIsDownhillCourse, 0x0819F98B
+	.global Route16_NorthEntrance_1F_Text_ExcuseMeWaitUp
+	.set Route16_NorthEntrance_1F_Text_ExcuseMeWaitUp, 0x0819F9CC
+	.global Route16_NorthEntrance_1F_Text_HowdYouGetInGoodEffort
+	.set Route16_NorthEntrance_1F_Text_HowdYouGetInGoodEffort, 0x0819F9E8
+	.global SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn
+	.set SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn, 0x081A0A4F
+	.global SevenIsland_Mart_Text_PreparationsCompleteForRuins
+	.set SevenIsland_Mart_Text_PreparationsCompleteForRuins, 0x081A0ACC
+	.global SevenIsland_Mart_Text_NeedToFishOnSevenIsland
+	.set SevenIsland_Mart_Text_NeedToFishOnSevenIsland, 0x081A0B09
+	.global SevenIsland_PokemonCenter_1F_Text_EventsDependingOnConnections
+	.set SevenIsland_PokemonCenter_1F_Text_EventsDependingOnConnections, 0x081A0B98
+	.global SevenIsland_PokemonCenter_1F_Text_DidYouRideSeagallopHere
+	.set SevenIsland_PokemonCenter_1F_Text_DidYouRideSeagallopHere, 0x081A0C1F
+	.global SevenIsland_PokemonCenter_1F_Text_CheckOutTrainerTower
+	.set SevenIsland_PokemonCenter_1F_Text_CheckOutTrainerTower, 0x081A0CA5
+	.global OneIsland_PokemonCenter_1F_Text_BillHeyThereCelio
+	.set OneIsland_PokemonCenter_1F_Text_BillHeyThereCelio, 0x081A0CDE
+	.global OneIsland_PokemonCenter_1F_Text_CelioCantBelieveYouCameOut
+	.set OneIsland_PokemonCenter_1F_Text_CelioCantBelieveYouCameOut, 0x081A0CF7
+	.global OneIsland_PokemonCenter_1F_Text_BillHowsYourResearchComing
+	.set OneIsland_PokemonCenter_1F_Text_BillHowsYourResearchComing, 0x081A0D27
+	.global OneIsland_PokemonCenter_1F_Text_ThisIsMyBuddyCelio
+	.set OneIsland_PokemonCenter_1F_Text_ThisIsMyBuddyCelio, 0x081A0D72
+	.global OneIsland_PokemonCenter_1F_Text_PlayerIsRisingPokemonChamp
+	.set OneIsland_PokemonCenter_1F_Text_PlayerIsRisingPokemonChamp, 0x081A0DAC
+	.global OneIsland_PokemonCenter_1F_Text_PlayerIsReigningPokemonChamp
+	.set OneIsland_PokemonCenter_1F_Text_PlayerIsReigningPokemonChamp, 0x081A0DE8
+	.global OneIsland_PokemonCenter_1F_Text_CelioThatsReallyImpressive
+	.set OneIsland_PokemonCenter_1F_Text_CelioThatsReallyImpressive, 0x081A0E17
+	.global OneIsland_PokemonCenter_1F_Text_BillBringMeUpToSpeed
+	.set OneIsland_PokemonCenter_1F_Text_BillBringMeUpToSpeed, 0x081A0E90
+	.global OneIsland_PokemonCenter_1F_Text_CelioPCsCantLinkWithYours
+	.set OneIsland_PokemonCenter_1F_Text_CelioPCsCantLinkWithYours, 0x081A0ECC
+	.global OneIsland_PokemonCenter_1F_Text_BillLetMeHelpYou
+	.set OneIsland_PokemonCenter_1F_Text_BillLetMeHelpYou, 0x081A0F40
+	.global OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer
+	.set OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer, 0x081A0FB1
+	.global OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill
+	.set OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill, 0x081A10EE
+	.global OneIsland_PokemonCenter_1F_Text_CelioPleaseTakeThis
+	.set OneIsland_PokemonCenter_1F_Text_CelioPleaseTakeThis, 0x081A1113
+	.global OneIsland_PokemonCenter_1F_Text_PassLetsYouTravelBetweenIslands
+	.set OneIsland_PokemonCenter_1F_Text_PassLetsYouTravelBetweenIslands, 0x081A1150
+	.global OneIsland_PokemonCenter_1F_Text_ReceivedExtraPageForTownMap
+	.set OneIsland_PokemonCenter_1F_Text_ReceivedExtraPageForTownMap, 0x081A11EC
+	.global OneIsland_PokemonCenter_1F_Text_ReceivedTownMap
+	.set OneIsland_PokemonCenter_1F_Text_ReceivedTownMap, 0x081A1218
+	.global OneIsland_PokemonCenter_1F_Text_BillCatchYouLater
+	.set OneIsland_PokemonCenter_1F_Text_BillCatchYouLater, 0x081A1230
+	.global OneIsland_PokemonCenter_1F_Text_HmmHowAboutLikeThis
+	.set OneIsland_PokemonCenter_1F_Text_HmmHowAboutLikeThis, 0x081A1266
+	.global OneIsland_PokemonCenter_1F_Text_GotPCWorkingStrollAWhileMore
+	.set OneIsland_PokemonCenter_1F_Text_GotPCWorkingStrollAWhileMore, 0x081A128C
+	.global OneIsland_PokemonCenter_1F_Text_SorryForBeingPoorHost
+	.set OneIsland_PokemonCenter_1F_Text_SorryForBeingPoorHost, 0x081A1321
+	.global OneIsland_PokemonCenter_1F_Text_UsualPCServicesUnavailable
+	.set OneIsland_PokemonCenter_1F_Text_UsualPCServicesUnavailable, 0x081A1390
+	.global OneIsland_PokemonCenter_1F_Text_BillOhHeyPlayer
+	.set OneIsland_PokemonCenter_1F_Text_BillOhHeyPlayer, 0x081A13B8
+	.global OneIsland_PokemonCenter_1F_Text_BillWeGotItDone
+	.set OneIsland_PokemonCenter_1F_Text_BillWeGotItDone, 0x081A13CB
+	.global OneIsland_PokemonCenter_1F_Text_CelioJobWentQuick
+	.set OneIsland_PokemonCenter_1F_Text_CelioJobWentQuick, 0x081A1431
+	.global OneIsland_PokemonCenter_1F_Text_BillYouveLearnedALot
+	.set OneIsland_PokemonCenter_1F_Text_BillYouveLearnedALot, 0x081A1470
+	.global OneIsland_PokemonCenter_1F_Text_CelioOhReallyEhehe
+	.set OneIsland_PokemonCenter_1F_Text_CelioOhReallyEhehe, 0x081A14E1
+	.global OneIsland_PokemonCenter_1F_Text_BillWeShouldHeadBackToKanto
+	.set OneIsland_PokemonCenter_1F_Text_BillWeShouldHeadBackToKanto, 0x081A14FB
+	.global OneIsland_PokemonCenter_1F_Text_CelioPromiseIllShowYouAroundSometime
+	.set OneIsland_PokemonCenter_1F_Text_CelioPromiseIllShowYouAroundSometime, 0x081A1574
+	.global OneIsland_PokemonCenter_1F_Text_CelioImModifyingMyNetworkMachine
+	.set OneIsland_PokemonCenter_1F_Text_CelioImModifyingMyNetworkMachine, 0x081A15EC
+	.global OneIsland_PokemonCenter_1F_Text_CelioCaughtMoreMonMaybeICanBeUseful
+	.set OneIsland_PokemonCenter_1F_Text_CelioCaughtMoreMonMaybeICanBeUseful, 0x081A169B
+	.global OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway
+	.set OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway, 0x081A1723
+	.global OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone
+	.set OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone, 0x081A17DF
+	.global OneIsland_PokemonCenter_1F_Text_TryingToFindGem
+	.set OneIsland_PokemonCenter_1F_Text_TryingToFindGem, 0x081A1896
+	.global OneIsland_PokemonCenter_1F_Text_OhThats
+	.set OneIsland_PokemonCenter_1F_Text_OhThats, 0x081A197E
+	.global OneIsland_PokemonCenter_1F_Text_HandedRubyToCelio
+	.set OneIsland_PokemonCenter_1F_Text_HandedRubyToCelio, 0x081A198D
+	.global OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor
+	.set OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor, 0x081A19AA
+	.global OneIsland_PokemonCenter_1F_Text_PleaseINeedYourHelp
+	.set OneIsland_PokemonCenter_1F_Text_PleaseINeedYourHelp, 0x081A1A08
+	.global OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands
+	.set OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands, 0x081A1A3F
+	.global OneIsland_PokemonCenter_1F_Text_ReturnedTriPassForRainbowPass
+	.set OneIsland_PokemonCenter_1F_Text_ReturnedTriPassForRainbowPass, 0x081A1B56
+	.global OneIsland_PokemonCenter_1F_Text_ObtainedExtraMapPage
+	.set OneIsland_PokemonCenter_1F_Text_ObtainedExtraMapPage, 0x081A1B8E
+	.global OneIsland_PokemonCenter_1F_Text_PassLetYouGetToAllIslands
+	.set OneIsland_PokemonCenter_1F_Text_PassLetYouGetToAllIslands, 0x081A1BB7
+	.global OneIsland_PokemonCenter_1F_Text_HandedSapphireToCelio
+	.set OneIsland_PokemonCenter_1F_Text_HandedSapphireToCelio, 0x081A1C2D
+	.global OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime
+	.set OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime, 0x081A1C4E
+	.global OneIsland_PokemonCenter_1F_Text_OkayThisIsGood
+	.set OneIsland_PokemonCenter_1F_Text_OkayThisIsGood, 0x081A1D45
+	.global OneIsland_PokemonCenter_1F_Text_LinkedUpWithLanette
+	.set OneIsland_PokemonCenter_1F_Text_LinkedUpWithLanette, 0x081A1D59
+	.global OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou
+	.set OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou, 0x081A1D7D
+	.global OneIsland_PokemonCenter_1F_Text_WishYouBestOfLuck
+	.set OneIsland_PokemonCenter_1F_Text_WishYouBestOfLuck, 0x081A1E39
+	.global OneIsland_PokemonCenter_1F_Text_CelioHearingRumorsAboutYou
+	.set OneIsland_PokemonCenter_1F_Text_CelioHearingRumorsAboutYou, 0x081A1EBD
+	.global OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra
+	.set OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra, 0x081A1EF3
+	.global OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod
+	.set OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod, 0x081A1F7C
+	.global OneIsland_PokemonCenter_1F_Text_BillCantStomachMilk
+	.set OneIsland_PokemonCenter_1F_Text_BillCantStomachMilk, 0x081A2076
+	.global OneIsland_PokemonCenter_1F_Text_CameFromPalletDontKnowIt
+	.set OneIsland_PokemonCenter_1F_Text_CameFromPalletDontKnowIt, 0x081A20D5
+	.global OneIsland_PokemonCenter_1F_Text_EnormousVolcanoOnIsland
+	.set OneIsland_PokemonCenter_1F_Text_EnormousVolcanoOnIsland, 0x081A212D
+	.global OneIsland_PokemonCenter_1F_Text_WishICouldTradeWithBoyfriend
+	.set OneIsland_PokemonCenter_1F_Text_WishICouldTradeWithBoyfriend, 0x081A218D
+	.global OneIsland_PokemonCenter_1F_Text_TradedWithFarAwayBoyfriend
+	.set OneIsland_PokemonCenter_1F_Text_TradedWithFarAwayBoyfriend, 0x081A21D0
+	.global OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment
+	.set OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment, 0x081A223F
+	.global OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKanto
+	.set OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKanto, 0x081A2286
+	.global OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKantoAndHoenn
+	.set OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKantoAndHoenn, 0x081A22CB
+	.global OneIsland_PokemonCenter_1F_Text_ObtainedTriPass
+	.set OneIsland_PokemonCenter_1F_Text_ObtainedTriPass, 0x081A231B
+	.global OneIsland_House1_Text_GazeUponVolcanoOnSunnyDays
+	.set OneIsland_House1_Text_GazeUponVolcanoOnSunnyDays, 0x081A2332
+	.global OneIsland_House1_Text_LastTimeMtEmberErupted
+	.set OneIsland_House1_Text_LastTimeMtEmberErupted, 0x081A2380
+	.global OneIsland_House2_Text_IWantToStayHereForever
+	.set OneIsland_House2_Text_IWantToStayHereForever, 0x081A23B8
+	.global TwoIsland_JoyfulGameCorner_Text_WhereHasLostelleGottenTo
+	.set TwoIsland_JoyfulGameCorner_Text_WhereHasLostelleGottenTo, 0x081A2408
+	.global TwoIsland_JoyfulGameCorner_Text_PleaseHelpFindLostelle
+	.set TwoIsland_JoyfulGameCorner_Text_PleaseHelpFindLostelle, 0x081A2465
+	.global TwoIsland_JoyfulGameCorner_Text_IsThisOnlyThreeIsland
+	.set TwoIsland_JoyfulGameCorner_Text_IsThisOnlyThreeIsland, 0x081A259A
+	.global TwoIsland_JoyfulGameCorner_Text_ThisIsTwoIslandMoveIt
+	.set TwoIsland_JoyfulGameCorner_Text_ThisIsTwoIslandMoveIt, 0x081A2658
+	.global TwoIsland_JoyfulGameCorner_Text_TheseIslandsAreConfusing
+	.set TwoIsland_JoyfulGameCorner_Text_TheseIslandsAreConfusing, 0x081A26D5
+	.global TwoIsland_JoyfulGameCorner_Text_PunkScuffedUpMyFloor
+	.set TwoIsland_JoyfulGameCorner_Text_PunkScuffedUpMyFloor, 0x081A270C
+	.global TwoIsland_JoyfulGameCorner_Text_PleaseGoToThreeIsland
+	.set TwoIsland_JoyfulGameCorner_Text_PleaseGoToThreeIsland, 0x081A2743
+	.global TwoIsland_JoyfulGameCorner_Text_NotRunningAnyGamesToday
+	.set TwoIsland_JoyfulGameCorner_Text_NotRunningAnyGamesToday, 0x081A285C
+	.global TwoIsland_JoyfulGameCorner_Text_GetGamesGoingSoon
+	.set TwoIsland_JoyfulGameCorner_Text_GetGamesGoingSoon, 0x081A288A
+	.global TwoIsland_JoyfulGameCorner_Text_YouRescuedLostelle
+	.set TwoIsland_JoyfulGameCorner_Text_YouRescuedLostelle, 0x081A28B2
+	.global TwoIsland_JoyfulGameCorner_Text_LostelleItsOkayDaddy
+	.set TwoIsland_JoyfulGameCorner_Text_LostelleItsOkayDaddy, 0x081A2931
+	.global TwoIsland_JoyfulGameCorner_Text_ThisIsForMe
+	.set TwoIsland_JoyfulGameCorner_Text_ThisIsForMe, 0x081A296A
+	.global TwoIsland_JoyfulGameCorner_Text_HandedMeteoriteToLostellesDaddy
+	.set TwoIsland_JoyfulGameCorner_Text_HandedMeteoriteToLostellesDaddy, 0x081A29F7
+	.global TwoIsland_JoyfulGameCorner_Text_OhThisIsFromBill
+	.set TwoIsland_JoyfulGameCorner_Text_OhThisIsFromBill, 0x081A2A24
+	.global TwoIsland_JoyfulGameCorner_Text_ReceivedMoonStoneFromLostellesDaddy
+	.set TwoIsland_JoyfulGameCorner_Text_ReceivedMoonStoneFromLostellesDaddy, 0x081A2A9A
+	.global TwoIsland_JoyfulGameCorner_Text_NotGoingToFitInBag
+	.set TwoIsland_JoyfulGameCorner_Text_NotGoingToFitInBag, 0x081A2ACA
+	.global TwoIsland_JoyfulGameCorner_Text_IllGetGameCornerRunning
+	.set TwoIsland_JoyfulGameCorner_Text_IllGetGameCornerRunning, 0x081A2AF5
+	.global TwoIsland_JoyfulGameCorner_Text_PleaseShowMeYouBeingCool
+	.set TwoIsland_JoyfulGameCorner_Text_PleaseShowMeYouBeingCool, 0x081A2B53
+	.global TwoIsland_PokemonCenter_1F_Text_HaveYouVisitedGameCorner
+	.set TwoIsland_PokemonCenter_1F_Text_HaveYouVisitedGameCorner, 0x081A2E59
+	.global TwoIsland_PokemonCenter_1F_Text_OldLadyLivesOutOnCape
+	.set TwoIsland_PokemonCenter_1F_Text_OldLadyLivesOutOnCape, 0x081A2EBE
+	.global ThreeIsland_House1_Text_YoureAlwaysSoCool
+	.set ThreeIsland_House1_Text_YoureAlwaysSoCool, 0x081A2F3E
+	.global ThreeIsland_House1_Text_RareRocksGemsDisplayed
+	.set ThreeIsland_House1_Text_RareRocksGemsDisplayed, 0x081A2F92
+	.global ThreeIsland_PokemonCenter_1F_Text_PCNetworkCanLinkWithKanto
+	.set ThreeIsland_PokemonCenter_1F_Text_PCNetworkCanLinkWithKanto, 0x081A2FB5
+	.global ThreeIsland_PokemonCenter_1F_Text_ImpossibleToSurfBetweenIslands
+	.set ThreeIsland_PokemonCenter_1F_Text_ImpossibleToSurfBetweenIslands, 0x081A303B
+	.global ThreeIsland_PokemonCenter_1F_Text_AlwaysBerriesInBerryForest
+	.set ThreeIsland_PokemonCenter_1F_Text_AlwaysBerriesInBerryForest, 0x081A30A3
+	.global ThreeIsland_Mart_Text_TrueThatCeldadonDeptStoreBigger
+	.set ThreeIsland_Mart_Text_TrueThatCeldadonDeptStoreBigger, 0x081A3114
+	.global ThreeIsland_Mart_Text_PeopleHealWithBerriesFromForest
+	.set ThreeIsland_Mart_Text_PeopleHealWithBerriesFromForest, 0x081A315C
+	.global ThreeIsland_Mart_Text_BikersWereAboutToTrashMart
+	.set ThreeIsland_Mart_Text_BikersWereAboutToTrashMart, 0x081A31F0
+	.global ThreeIsland_House3_Text_WantedToLiveSomewhereQuiet
+	.set ThreeIsland_House3_Text_WantedToLiveSomewhereQuiet, 0x081A3379
+	.global ThreeIsland_House4_Text_GhostsInBerryForest
+	.set ThreeIsland_House4_Text_GhostsInBerryForest, 0x081A33DB
+	.global ThreeIsland_House4_Text_PapaKeepsLyingToMe
+	.set ThreeIsland_House4_Text_PapaKeepsLyingToMe, 0x081A342F
+	.global ThreeIsland_House5_Text_ImNotLostelle
+	.set ThreeIsland_House5_Text_ImNotLostelle, 0x081A3469
+	.global ThreeIsland_House5_Text_IllGoPlayWithLostelle
+	.set ThreeIsland_House5_Text_IllGoPlayWithLostelle, 0x081A34DB
+	.global FourIsland_LoreleisHouse_Text_IfAnythingWereToHappenToIsland
+	.set FourIsland_LoreleisHouse_Text_IfAnythingWereToHappenToIsland, 0x081A3826
+	.global FourIsland_LoreleisHouse_Text_IllReturnToLeagueInShortWhile
+	.set FourIsland_LoreleisHouse_Text_IllReturnToLeagueInShortWhile, 0x081A390C
+	.global FourIsland_LoreleisHouse_Text_WillDoWhatICanHereAndNow
+	.set FourIsland_LoreleisHouse_Text_WillDoWhatICanHereAndNow, 0x081A39D8
+	.global FourIsland_LoreleisHouse_Text_StuffedMonDollsGalore
+	.set FourIsland_LoreleisHouse_Text_StuffedMonDollsGalore, 0x081A3A42
+	.global FiveIsland_PokemonCenter_1F_Text_OnMyWayToPrepareMeal
+	.set FiveIsland_PokemonCenter_1F_Text_OnMyWayToPrepareMeal, 0x081A3BBA
+	.global FiveIsland_PokemonCenter_1F_Text_YoureOnQuestToCatchEveryMon
+	.set FiveIsland_PokemonCenter_1F_Text_YoureOnQuestToCatchEveryMon, 0x081A3BFD
+	.global FiveIsland_House1_JPText_HusbandWentOffFishing
+	.set FiveIsland_House1_JPText_HusbandWentOffFishing, 0x081A3C71
+	.global FiveIsland_House1_Text_HusbandWentOffFishing
+	.set FiveIsland_House1_Text_HusbandWentOffFishing, 0x081A3CAC
+	.global FiveIsland_House2_Text_MeadowBelongedToFamily
+	.set FiveIsland_House2_Text_MeadowBelongedToFamily, 0x081A3D5E
+	.global SixIsland_PokemonCenter_1F_Text_SomethingHiddenOnThisIsland
+	.set SixIsland_PokemonCenter_1F_Text_SomethingHiddenOnThisIsland, 0x081A3E02
+	.global SixIsland_PokemonCenter_1F_Text_SomeMonsEvolveByTradingWithHeldItem
+	.set SixIsland_PokemonCenter_1F_Text_SomeMonsEvolveByTradingWithHeldItem, 0x081A3E87
+	.global SixIsland_PokemonCenter_1F_Text_RivalImpossibleToGetAllMonsAroundHere
+	.set SixIsland_PokemonCenter_1F_Text_RivalImpossibleToGetAllMonsAroundHere, 0x081A3F30
+	.global SixIsland_House_Text_GoodPlaceForNatureAndHistory
+	.set SixIsland_House_Text_GoodPlaceForNatureAndHistory, 0x081A412E
+	.global SixIsland_Mart_Text_AgathaOldestEverEliteFourMember
+	.set SixIsland_Mart_Text_AgathaOldestEverEliteFourMember, 0x081A41CA
+	.global SixIsland_Mart_Text_ShouldBuyMailAndWriteLetter
+	.set SixIsland_Mart_Text_ShouldBuyMailAndWriteLetter, 0x081A4271
+	.global FiveIsland_ResortGorgeous_House_Text_PleaseHearMyWish
+	.set FiveIsland_ResortGorgeous_House_Text_PleaseHearMyWish, 0x081A42A0
+	.global FiveIsland_ResortGorgeous_House_Text_WishToSeeMonPlease
+	.set FiveIsland_ResortGorgeous_House_Text_WishToSeeMonPlease, 0x081A4315
+	.global FiveIsland_ResortGorgeous_House_Text_OhImTiredOfWaiting
+	.set FiveIsland_ResortGorgeous_House_Text_OhImTiredOfWaiting, 0x081A437A
+	.global FiveIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou
+	.set FiveIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou, 0x081A43F7
+	.global FiveIsland_ResortGorgeous_House_Text_ButlerYesMyLady
+	.set FiveIsland_ResortGorgeous_House_Text_ButlerYesMyLady, 0x081A450B
+	.global FiveIsland_ResortGorgeous_House_Text_SelphyGiveTokenOfAppreciation
+	.set FiveIsland_ResortGorgeous_House_Text_SelphyGiveTokenOfAppreciation, 0x081A4521
+	.global FiveIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid
+	.set FiveIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid, 0x081A4566
+	.global FiveIsland_ResortGorgeous_House_Text_ButlerPleaseAcceptThisAsHerThanks
+	.set FiveIsland_ResortGorgeous_House_Text_ButlerPleaseAcceptThisAsHerThanks, 0x081A458E
+	.global FiveIsland_ResortGorgeous_House_Text_ButlerBagAppearsToBeFull
+	.set FiveIsland_ResortGorgeous_House_Text_ButlerBagAppearsToBeFull, 0x081A45E8
+	.global FiveIsland_ResortGorgeous_House_Text_OhHowDisappointing
+	.set FiveIsland_ResortGorgeous_House_Text_OhHowDisappointing, 0x081A461B
+	.global FiveIsland_ResortGorgeous_House_Text_SelphyWishYouBestOfLuck
+	.set FiveIsland_ResortGorgeous_House_Text_SelphyWishYouBestOfLuck, 0x081A4632
+	.global FiveIsland_ResortGorgeous_House_Text_LadySelphySmileHasBrillianceOfSun
+	.set FiveIsland_ResortGorgeous_House_Text_LadySelphySmileHasBrillianceOfSun, 0x081A4657
+	.global Text_UltimateMoveThatMon
+	.set Text_UltimateMoveThatMon, 0x081A46C6
+	.global Text_JustMistaken
+	.set Text_JustMistaken, 0x081A4737
+	.global Text_AllowMeToTeachMonUltimateMove
+	.set Text_AllowMeToTeachMonUltimateMove, 0x081A4751
+	.global Text_YouRejectIt
+	.set Text_YouRejectIt, 0x081A47E5
+	.global Text_LetMeConferUltimateMove
+	.set Text_LetMeConferUltimateMove, 0x081A4814
+	.global Text_TaughtMove
+	.set Text_TaughtMove, 0x081A4865
+	.global Text_MakeBestUseOfMove
+	.set Text_MakeBestUseOfMove, 0x081A48B3
+	.global Text_PassedOnEverythingIKnow
+	.set Text_PassedOnEverythingIKnow, 0x081A48F3
+	.global Text_FeelRejuvenated
+	.set Text_FeelRejuvenated, 0x081A4972
+	.global SixIsland_WaterPath_House2_Text_MyNeighborMeasuredMe
+	.set SixIsland_WaterPath_House2_Text_MyNeighborMeasuredMe, 0x081A4D0D
+	.global SevenIsland_SevaultCanyon_House_Text_ChanseyDanceJoinIn
+	.set SevenIsland_SevaultCanyon_House_Text_ChanseyDanceJoinIn, 0x081A4D72
+	.global SevenIsland_SevaultCanyon_House_Text_WouldYouLikeToDance
+	.set SevenIsland_SevaultCanyon_House_Text_WouldYouLikeToDance, 0x081A4DAF
+	.global SevenIsland_SevaultCanyon_House_Text_ComeOnDance
+	.set SevenIsland_SevaultCanyon_House_Text_ComeOnDance, 0x081A4DC8
+	.global SevenIsland_SevaultCanyon_House_Text_DancedChanseyDance
+	.set SevenIsland_SevaultCanyon_House_Text_DancedChanseyDance, 0x081A4DD8
+	.global SevenIsland_SevaultCanyon_House_Text_YoureAllChipperNow
+	.set SevenIsland_SevaultCanyon_House_Text_YoureAllChipperNow, 0x081A4DF5
+	.global SevenIsland_SevaultCanyon_House_Text_Chansey
+	.set SevenIsland_SevaultCanyon_House_Text_Chansey, 0x081A4E26
+	.global Text_WantToSurf
+	.set Text_WantToSurf, 0x081A556E
+	.global Text_UsedSurf
+	.set Text_UsedSurf, 0x081A55A5
+	.global Text_CurrentTooFast
+	.set Text_CurrentTooFast, 0x081A55B3
+	.global Text_OnlySkilledTrainersAllowedThrough
+	.set Text_OnlySkilledTrainersAllowedThrough, 0x081A572A
+	.global Text_CantLetYouPass
+	.set Text_CantLetYouPass, 0x081A5776
+	.global Text_OhThatsBadgeGoRightAhead
+	.set Text_OhThatsBadgeGoRightAhead, 0x081A579D
+	.global Text_OnlyPassWithBadgeDontHaveYet
+	.set Text_OnlyPassWithBadgeDontHaveYet, 0x081A57C1
+	.global Text_OnlyPassWithBadgeOhGoAhead
+	.set Text_OnlyPassWithBadgeOhGoAhead, 0x081A5839
+	.global Aide_Text_HaventCaughtEnoughMonsForItem
+	.set Aide_Text_HaventCaughtEnoughMonsForItem, 0x081A58A7
+	.global Aide_Text_GetEnoughMonsComeBackForItem
+	.set Aide_Text_GetEnoughMonsComeBackForItem, 0x081A5909
+	.global Aide_Text_DontHaveAnyRoomForItem
+	.set Aide_Text_DontHaveAnyRoomForItem, 0x081A594D
+	.global Text_MayIHelpYou
+	.set Text_MayIHelpYou, 0x081A6211
+	.global Text_FillOutQuestionnaire
+	.set Text_FillOutQuestionnaire, 0x081A622C
+	.global Text_QuestionnaireThankYou
+	.set Text_QuestionnaireThankYou, 0x081A6265
+	.global Text_YouKnowThoseWords
+	.set Text_YouKnowThoseWords, 0x081A62D3
+	.global Text_YouCanAccessMysteryGift
+	.set Text_YouCanAccessMysteryGift, 0x081A6359
+	.global Text_ThankYouForAccessingMysteryGift
+	.set Text_ThankYouForAccessingMysteryGift, 0x081A6393
+	.global Text_WhereDoYouWantToGo
+	.set Text_WhereDoYouWantToGo, 0x081A6407
+	.global Text_AllAboardSeagallopNum
+	.set Text_AllAboardSeagallopNum, 0x081A641B
+	.global ViridianCity_School_EventScript_PokemonJournal
+	.set ViridianCity_School_EventScript_PokemonJournal, 0x081ACD65
+	.global EventScript_PokemonJournalUnused1
+	.set EventScript_PokemonJournalUnused1, 0x081ACD8D
+	.global EventScript_PokemonJournalUnused2
+	.set EventScript_PokemonJournalUnused2, 0x081ACDB5
+	.global FourIsland_PokemonCenter_1F_EventScript_PokemonJournal
+	.set FourIsland_PokemonCenter_1F_EventScript_PokemonJournal, 0x081ACDD0
+	.global Route4_EventScript_Boy
+	.set Route4_EventScript_Boy, 0x081ACDEA
+	.global MtMoon_1F_EventScript_BaldingMan
+	.set MtMoon_1F_EventScript_BaldingMan, 0x081ACE03
+	.global PewterCity_Museum_1F_EventScript_PokemonJournalBrock
+	.set PewterCity_Museum_1F_EventScript_PokemonJournalBrock, 0x081ACE1C
+	.global Route20_EventScript_Camper
+	.set Route20_EventScript_Camper, 0x081ACE36
+	.global Route25_EventScript_Beauty
+	.set Route25_EventScript_Beauty, 0x081ACE4F
+	.global CeruleanCity_PokemonCenter_1F_EventScript_PokemonJournalMisty
+	.set CeruleanCity_PokemonCenter_1F_EventScript_PokemonJournalMisty, 0x081ACE68
+	.global VermilionCity_PokemonCenter_1F_EventScript_PokemonJournalLtSurge
+	.set VermilionCity_PokemonCenter_1F_EventScript_PokemonJournalLtSurge, 0x081ACE83
+	.global CeladonCity_Condominiums_2F_EventScript_PokemonJournalErika
+	.set CeladonCity_Condominiums_2F_EventScript_PokemonJournalErika, 0x081ACE9D
+	.global FuchsiaCity_WardensHouse_EventScript_PokemonJournalKoga
+	.set FuchsiaCity_WardensHouse_EventScript_PokemonJournalKoga, 0x081ACEB8
+	.global SafariZone_North_RestHouse_EventScript_BaldingMan
+	.set SafariZone_North_RestHouse_EventScript_BaldingMan, 0x081ACED3
+	.global SaffronCity_PokemonCenter_1F_EventScript_PokemonJournalSabrina
+	.set SaffronCity_PokemonCenter_1F_EventScript_PokemonJournalSabrina, 0x081ACEEC
+	.global CinnabarIsland_Gym_EventScript_BlaineFujiPhoto
+	.set CinnabarIsland_Gym_EventScript_BlaineFujiPhoto, 0x081ACF07
+	.global FiveIsland_ResortGorgeous_House_EventScript_PokemonJournal
+	.set FiveIsland_ResortGorgeous_House_EventScript_PokemonJournal, 0x081ACF2C
+	.global FourIsland_Mart_EventScript_OldMan
+	.set FourIsland_Mart_EventScript_OldMan, 0x081ACF46
+	.global FiveIsland_PokemonCenter_1F_EventScript_PokemonJournal
+	.set FiveIsland_PokemonCenter_1F_EventScript_PokemonJournal, 0x081ACF5F
+	.global SaffronCity_PokemonTrainerFanClub_EventScript_PokemonJournalBruno
+	.set SaffronCity_PokemonTrainerFanClub_EventScript_PokemonJournalBruno, 0x081ACF7A
+	.global SevenIsland_SevaultCanyon_EventScript_BlackBelt
+	.set SevenIsland_SevaultCanyon_EventScript_BlackBelt, 0x081ACF95
+	.global IndigoPlateau_PokemonCenter_1F_EventScript_BlackBelt
+	.set IndigoPlateau_PokemonCenter_1F_EventScript_BlackBelt, 0x081ACFAE
+	.global SevenIsland_PokemonCenter_1F_EventScript_PokemonJournal
+	.set SevenIsland_PokemonCenter_1F_EventScript_PokemonJournal, 0x081ACFD4
+	.global SixIsland_Mart_EventScript_OldWoman
+	.set SixIsland_Mart_EventScript_OldWoman, 0x081ACFEF
+	.global EventScript_LanceUnused
+	.set EventScript_LanceUnused, 0x081AD008
+	.global SaffronCity_EventScript_CrushGirlUnused
+	.set SaffronCity_EventScript_CrushGirlUnused, 0x081AD021
+	.global SaffronCity_EventScript_CrushGirl
+	.set SaffronCity_EventScript_CrushGirl, 0x081AD03A
+	.global CeladonCity_DepartmentStore_2F_EventScript_Woman
+	.set CeladonCity_DepartmentStore_2F_EventScript_Woman, 0x081AD053
+	.global IndigoPlateau_PokemonCenter_1F_EventScript_PokemonJournal
+	.set IndigoPlateau_PokemonCenter_1F_EventScript_PokemonJournal, 0x081AD06C
+	.global IndigoPlateau_PokemonCenter_1F_EventScript_CooltrainerM
+	.set IndigoPlateau_PokemonCenter_1F_EventScript_CooltrainerM, 0x081AD087
+	.global LavenderTown_PokemonCenter_1F_EventScript_BaldingMan
+	.set LavenderTown_PokemonCenter_1F_EventScript_BaldingMan, 0x081AD0A0
+	.global CinnabarIsland_PokemonCenter_1F_EventScript_PokemonJournalMrFuji
+	.set CinnabarIsland_PokemonCenter_1F_EventScript_PokemonJournalMrFuji, 0x081AD0B9
+	.global SilphCo_5F_EventScript_Scientist
+	.set SilphCo_5F_EventScript_Scientist, 0x081AD0D4
+	.global SilphCo_8F_EventScript_Scientist
+	.set SilphCo_8F_EventScript_Scientist, 0x081AD0ED
+	.global PalletTown_Text_HmmIsThatRight
+	.set PalletTown_Text_HmmIsThatRight, 0x081B1C8B
+	.global PalletTown_Text_OhLookLook
+	.set PalletTown_Text_OhLookLook, 0x081B1C9F
+	.global PalletTown_Text_ReadItReadIt
+	.set PalletTown_Text_ReadItReadIt, 0x081B1CAF
+	.global PalletTown_Text_PressStartToOpenMenu
+	.set PalletTown_Text_PressStartToOpenMenu, 0x081B1CC1
+	.global PalletTown_Text_SignsAreUsefulArentThey
+	.set PalletTown_Text_SignsAreUsefulArentThey, 0x081B1CEC
+	.global PalletTown_Text_LookCopiedTrainerTipsSign
+	.set PalletTown_Text_LookCopiedTrainerTipsSign, 0x081B1D0B
+	.global PalletTown_Text_PressStartToOpenMenuCopy
+	.set PalletTown_Text_PressStartToOpenMenuCopy, 0x081B1D51
+	.global SootopolisCity_Text_PleaseShowMeBigMon
+	.set SootopolisCity_Text_PleaseShowMeBigMon, 0x081C0283
+	.global SootopolisCity_Text_GrandMonThanksForShowingMe
+	.set SootopolisCity_Text_GrandMonThanksForShowingMe, 0x081C02CB
+	.global SootopolisCity_Text_ReceivedOneItem
+	.set SootopolisCity_Text_ReceivedOneItem, 0x081C0309
+	.global SootopolisCity_Text_HuhBagIsCrammedFull
+	.set SootopolisCity_Text_HuhBagIsCrammedFull, 0x081C0317
+	.global SootopolisCity_Text_IveSeenBiggerMonThanThisOne
+	.set SootopolisCity_Text_IveSeenBiggerMonThanThisOne, 0x081C032B
+	.global SootopolisCity_Text_QuiteSomethingButNotMon
+	.set SootopolisCity_Text_QuiteSomethingButNotMon, 0x081C034D
+	.global SootopolisCity_Text_TooBadDontHaveBigMon
+	.set SootopolisCity_Text_TooBadDontHaveBigMon, 0x081C036C
+	.global SootopolisCity_Text_BiggestMonPlayersXCmColossus
+	.set SootopolisCity_Text_BiggestMonPlayersXCmColossus, 0x081C0399
+	.global Text_DadLetterArrivedForYouPlayer
+	.set Text_DadLetterArrivedForYouPlayer, 0x081C03B5
+	.global Text_DadPassForShipNeverSeenBefore
+	.set Text_DadPassForShipNeverSeenBefore, 0x081C03D7
+	.global Text_FerryToSlateportOhThatPass
+	.set Text_FerryToSlateportOhThatPass, 0x081C0407
+	.global Text_YoureOneWhoBroughtOddPass
+	.set Text_YoureOneWhoBroughtOddPass, 0x081C0426
+	.global Text_NothingHereSailBackToLilycove
+	.set Text_NothingHereSailBackToLilycove, 0x081C049D
+	.global Text_SailHomeWeWill
+	.set Text_SailHomeWeWill, 0x081C04BB
+	.global Text_AsYouLikeThen
+	.set Text_AsYouLikeThen, 0x081C04C9
+	.global SouthernIsland_Interior_Text_Sign
+	.set SouthernIsland_Interior_Text_Sign, 0x081C04DC
+	.global SouthernIsland_Exterior_Text_Sign
+	.set SouthernIsland_Exterior_Text_Sign, 0x081C0500
+	.global Text_Bookshelf
+	.set Text_Bookshelf, 0x081C0DB0
+	.global Text_NothingButPokemonBooks
+	.set Text_NothingButPokemonBooks, 0x081C0DD4
+	.global Text_ATownMap
+	.set Text_ATownMap, 0x081C0DF1
+	.global Text_PokeMartShelf
+	.set Text_PokeMartShelf, 0x081C0DFD
+	.global Text_DishesPlatesNeatlyLinedUp
+	.set Text_DishesPlatesNeatlyLinedUp, 0x081C0E19
+	.global Text_Kitchen
+	.set Text_Kitchen, 0x081C0E40
+	.global Text_Dresser
+	.set Text_Dresser, 0x081C0E73
+	.global Text_Snacks
+	.set Text_Snacks, 0x081C0EAC
+	.global Text_PokemartSign
+	.set Text_PokemartSign, 0x081C0ECB
+	.global Text_PokecenterSign
+	.set Text_PokecenterSign, 0x081C0EF7
+	.global Text_Indigo_UltimateGoal
+	.set Text_Indigo_UltimateGoal, 0x081C0F19
+	.global Text_Indigo_HighestAuthority
+	.set Text_Indigo_HighestAuthority, 0x081C0F59
+	.global Text_Food
+	.set Text_Food, 0x081C0F99
+	.global Text_Blueprints
+	.set Text_Blueprints, 0x081C0FD8
+	.global Text_Painting
+	.set Text_Painting, 0x081C101B
+	.global Text_PowerPlantMachine
+	.set Text_PowerPlantMachine, 0x081C1060
+	.global Text_Telephone
+	.set Text_Telephone, 0x081C109C
+	.global Text_Computer
+	.set Text_Computer, 0x081C10C1
+	.global Text_AdvertisingPoster
+	.set Text_AdvertisingPoster, 0x081C10FC
+	.global Text_TastyFood
+	.set Text_TastyFood, 0x081C1134
+	.global Text_TrashBin
+	.set Text_TrashBin, 0x081C116E
+	.global Text_Cup
+	.set Text_Cup, 0x081C1194
+	.global Text_PolishedWindow
+	.set Text_PolishedWindow, 0x081C11BA
+	.global Text_BeautifulSkyWindow
+	.set Text_BeautifulSkyWindow, 0x081C11DC
+	.global Text_BlinkingLights
+	.set Text_BlinkingLights, 0x081C1217
+	.global Text_NeatlyLinedUpTools
+	.set Text_NeatlyLinedUpTools, 0x081C124B
+	.global Text_ImpressiveMachine
+	.set Text_ImpressiveMachine, 0x081C1273
+	.global Text_VideoGame
+	.set Text_VideoGame, 0x081C12A7
+	.global Text_Burglary
+	.set Text_Burglary, 0x081C12D6
+	.global Text_PlayerFacingTVScreen
+	.set Text_PlayerFacingTVScreen, 0x081C1300
+	.global gText_WouldYouLikeToSaveTheGame
+	.set gText_WouldYouLikeToSaveTheGame, 0x081C55C9
+	.global gText_AlreadySaveFile_WouldLikeToOverwrite
+	.set gText_AlreadySaveFile_WouldLikeToOverwrite, 0x081C55EA
+	.global gText_SavingDontTurnOffThePower
+	.set gText_SavingDontTurnOffThePower, 0x081C5625
+	.global gText_PlayerSavedTheGame
+	.set gText_PlayerSavedTheGame, 0x081C5647
+	.global gText_SaveFailed2
+	.set gText_SaveFailed2, 0x081C565A
+	.global gText_DifferentGameFile
+	.set gText_DifferentGameFile, 0x081C566A
+	.global Pokedude_Text_SpeedierBattlerGoesFirst
+	.set Pokedude_Text_SpeedierBattlerGoesFirst, 0x081C5F69
+	.global Pokedude_Text_MyRattataFasterThanPidgey
+	.set Pokedude_Text_MyRattataFasterThanPidgey, 0x081C5FA7
+	.global Pokedude_Text_BattlersTakeTurnsAttacking
+	.set Pokedude_Text_BattlersTakeTurnsAttacking, 0x081C5FDC
+	.global Pokedude_Text_MyRattataWonGetsEXP
+	.set Pokedude_Text_MyRattataWonGetsEXP, 0x081C601C
+	.global Pokedude_Text_UhOhRattataPoisoned
+	.set Pokedude_Text_UhOhRattataPoisoned, 0x081C60FA
+	.global Pokedude_Text_HealStatusRightAway
+	.set Pokedude_Text_HealStatusRightAway, 0x081C615A
+	.global Pokedude_Text_UsingItemTakesTurn
+	.set Pokedude_Text_UsingItemTakesTurn, 0x081C6196
+	.global Pokedude_Text_YayWeManagedToWin
+	.set Pokedude_Text_YayWeManagedToWin, 0x081C61EA
+	.global Pokedude_Text_WaterNotVeryEffectiveAgainstGrass
+	.set Pokedude_Text_WaterNotVeryEffectiveAgainstGrass, 0x081C6202
+	.global Pokedude_Text_GrassEffectiveAgainstWater
+	.set Pokedude_Text_GrassEffectiveAgainstWater, 0x081C6301
+	.global Pokedude_Text_LetsTryShiftingMons
+	.set Pokedude_Text_LetsTryShiftingMons, 0x081C63A9
+	.global Pokedude_Text_ShiftingUsesTurn
+	.set Pokedude_Text_ShiftingUsesTurn, 0x081C63F9
+	.global Pokedude_Text_ButterfreeDoubleResistsGrass
+	.set Pokedude_Text_ButterfreeDoubleResistsGrass, 0x081C6446
+	.global Pokedude_Text_ButterfreeGoodAgainstOddish
+	.set Pokedude_Text_ButterfreeGoodAgainstOddish, 0x081C657A
+	.global Pokedude_Text_YeahWeWon
+	.set Pokedude_Text_YeahWeWon, 0x081C6637
+	.global Pokedude_Text_WeakenMonBeforeCatching
+	.set Pokedude_Text_WeakenMonBeforeCatching, 0x081C6645
+	.global Pokedude_Text_BestIfTargetStatused
+	.set Pokedude_Text_BestIfTargetStatused, 0x081C66CF
+	.global Pokedude_Text_CantDoubleUpOnStatus
+	.set Pokedude_Text_CantDoubleUpOnStatus, 0x081C6787
+	.global Pokedude_Text_LetMeThrowBall
+	.set Pokedude_Text_LetMeThrowBall, 0x081C684B
+	.global Pokedude_Text_PickBestKindOfBall
+	.set Pokedude_Text_PickBestKindOfBall, 0x081C686C
+
+@ Pass 2: whole-include byte-exact mappings.
+	.global gScriptCmdTable
+	.set gScriptCmdTable, 0x0815F9B4
+	.global gScriptCmdTableEnd
+	.set gScriptCmdTableEnd, 0x0815FD08
+	.global SSAnne_1F_Corridor_MapScripts
+	.set SSAnne_1F_Corridor_MapScripts, 0x081608CB
+	.global SSAnne_1F_Corridor_EventScript_WorkerM
+	.set SSAnne_1F_Corridor_EventScript_WorkerM, 0x081608CC
+	.global SSAnne_1F_Corridor_EventScript_Sailor
+	.set SSAnne_1F_Corridor_EventScript_Sailor, 0x081608D5
+	.global SSAnne_3F_Corridor_MapScripts
+	.set SSAnne_3F_Corridor_MapScripts, 0x08160A5D
+	.global SSAnne_3F_Corridor_EventScript_Sailor
+	.set SSAnne_3F_Corridor_EventScript_Sailor, 0x08160A5E
+	.global SSAnne_B1F_Corridor_MapScripts
+	.set SSAnne_B1F_Corridor_MapScripts, 0x08160A67
+	.global SSAnne_1F_Room1_MapScripts
+	.set SSAnne_1F_Room1_MapScripts, 0x08160BDB
+	.global SSAnne_1F_Room1_EventScript_Gentleman
+	.set SSAnne_1F_Room1_EventScript_Gentleman, 0x08160BDC
+	.global SSAnne_1F_Room2_MapScripts
+	.set SSAnne_1F_Room2_MapScripts, 0x08160BE5
+	.global SSAnne_1F_Room2_EventScript_Woman
+	.set SSAnne_1F_Room2_EventScript_Woman, 0x08160BE6
+	.global SSAnne_1F_Room2_EventScript_Ann
+	.set SSAnne_1F_Room2_EventScript_Ann, 0x08160BEF
+	.global SSAnne_1F_Room2_EventScript_Tyler
+	.set SSAnne_1F_Room2_EventScript_Tyler, 0x08160C06
+	.global SSAnne_1F_Room3_MapScripts
+	.set SSAnne_1F_Room3_MapScripts, 0x08160C1D
+	.global SSAnne_1F_Room3_EventScript_LittleGirl
+	.set SSAnne_1F_Room3_EventScript_LittleGirl, 0x08160C1E
+	.global SSAnne_1F_Room3_EventScript_BaldingMan
+	.set SSAnne_1F_Room3_EventScript_BaldingMan, 0x08160C27
+	.global SSAnne_1F_Room3_EventScript_Wigglytuff
+	.set SSAnne_1F_Room3_EventScript_Wigglytuff, 0x08160C30
+	.global SSAnne_1F_Room5_MapScripts
+	.set SSAnne_1F_Room5_MapScripts, 0x08160C66
+	.global SSAnne_1F_Room5_EventScript_Arthur
+	.set SSAnne_1F_Room5_EventScript_Arthur, 0x08160C67
+	.global SSAnne_1F_Room7_MapScripts
+	.set SSAnne_1F_Room7_MapScripts, 0x08160C7E
+	.global SSAnne_1F_Room7_EventScript_Thomas
+	.set SSAnne_1F_Room7_EventScript_Thomas, 0x08160C7F
+	.global SSAnne_2F_Room1_MapScripts
+	.set SSAnne_2F_Room1_MapScripts, 0x08160C96
+	.global SSAnne_2F_Room1_EventScript_Gentleman
+	.set SSAnne_2F_Room1_EventScript_Gentleman, 0x08160C97
+	.global SSAnne_2F_Room2_MapScripts
+	.set SSAnne_2F_Room2_MapScripts, 0x08160CB0
+	.global SSAnne_2F_Room2_EventScript_Dale
+	.set SSAnne_2F_Room2_EventScript_Dale, 0x08160CB1
+	.global SSAnne_2F_Room2_EventScript_Brooks
+	.set SSAnne_2F_Room2_EventScript_Brooks, 0x08160CC8
+	.global SSAnne_2F_Room3_MapScripts
+	.set SSAnne_2F_Room3_MapScripts, 0x08160CDF
+	.global SSAnne_2F_Room3_EventScript_Gentleman
+	.set SSAnne_2F_Room3_EventScript_Gentleman, 0x08160CE0
+	.global SSAnne_2F_Room3_EventScript_OldMan
+	.set SSAnne_2F_Room3_EventScript_OldMan, 0x08160CE9
+	.global SSAnne_2F_Room5_MapScripts
+	.set SSAnne_2F_Room5_MapScripts, 0x08160D21
+	.global SSAnne_2F_Room5_EventScript_Gentleman
+	.set SSAnne_2F_Room5_EventScript_Gentleman, 0x08160D22
+	.global SSAnne_2F_Room5_EventScript_LittleBoy
+	.set SSAnne_2F_Room5_EventScript_LittleBoy, 0x08160D2B
+	.global SSAnne_2F_Room6_MapScripts
+	.set SSAnne_2F_Room6_MapScripts, 0x08160D34
+	.global SSAnne_2F_Room6_EventScript_Woman1
+	.set SSAnne_2F_Room6_EventScript_Woman1, 0x08160D35
+	.global SSAnne_2F_Room6_EventScript_Woman2
+	.set SSAnne_2F_Room6_EventScript_Woman2, 0x08160D3E
+	.global SSAnne_B1F_Room1_MapScripts
+	.set SSAnne_B1F_Room1_MapScripts, 0x08160D47
+	.global SSAnne_B1F_Room1_EventScript_Barny
+	.set SSAnne_B1F_Room1_EventScript_Barny, 0x08160D48
+	.global SSAnne_B1F_Room1_EventScript_Phillip
+	.set SSAnne_B1F_Room1_EventScript_Phillip, 0x08160D5F
+	.global SSAnne_B1F_Room2_MapScripts
+	.set SSAnne_B1F_Room2_MapScripts, 0x08160D76
+	.global SSAnne_B1F_Room2_EventScript_Huey
+	.set SSAnne_B1F_Room2_EventScript_Huey, 0x08160D77
+	.global SSAnne_B1F_Room3_MapScripts
+	.set SSAnne_B1F_Room3_MapScripts, 0x08160D8E
+	.global SSAnne_B1F_Room3_EventScript_Dylan
+	.set SSAnne_B1F_Room3_EventScript_Dylan, 0x08160D8F
+	.global SSAnne_B1F_Room4_MapScripts
+	.set SSAnne_B1F_Room4_MapScripts, 0x08160DA6
+	.global SSAnne_B1F_Room4_EventScript_Leonard
+	.set SSAnne_B1F_Room4_EventScript_Leonard, 0x08160DA7
+	.global SSAnne_B1F_Room4_EventScript_Duncan
+	.set SSAnne_B1F_Room4_EventScript_Duncan, 0x08160DBE
+	.global SSAnne_B1F_Room5_MapScripts
+	.set SSAnne_B1F_Room5_MapScripts, 0x08160DD5
+	.global SSAnne_B1F_Room5_EventScript_Boy
+	.set SSAnne_B1F_Room5_EventScript_Boy, 0x08160DD6
+	.global SSAnne_B1F_Room5_EventScript_Machoke
+	.set SSAnne_B1F_Room5_EventScript_Machoke, 0x08160DDF
+	.global UndergroundPath_SouthEntrance_MapScripts
+	.set UndergroundPath_SouthEntrance_MapScripts, 0x08160EBF
+	.global UndergroundPath_SouthEntrance_EventScript_Woman
+	.set UndergroundPath_SouthEntrance_EventScript_Woman, 0x08160EC0
+	.global UndergroundPath_WestEntrance_MapScripts
+	.set UndergroundPath_WestEntrance_MapScripts, 0x08160EC9
+	.global UndergroundPath_WestEntrance_EventScript_BaldingMan
+	.set UndergroundPath_WestEntrance_EventScript_BaldingMan, 0x08160ECA
+	.global UndergroundPath_EastEntrance_MapScripts
+	.set UndergroundPath_EastEntrance_MapScripts, 0x08160EDD
+	.global UndergroundPath_EastEntrance_EventScript_Woman
+	.set UndergroundPath_EastEntrance_EventScript_Woman, 0x08160EDE
+	.global DiglettsCave_NorthEntrance_MapScripts
+	.set DiglettsCave_NorthEntrance_MapScripts, 0x08160EE7
+	.global DiglettsCave_NorthEntrance_EventScript_Hiker
+	.set DiglettsCave_NorthEntrance_EventScript_Hiker, 0x08160EE8
+	.global SafariZone_Center_RestHouse_MapScripts
+	.set SafariZone_Center_RestHouse_MapScripts, 0x081623EB
+	.global SafariZone_Center_RestHouse_EventScript_Sara
+	.set SafariZone_Center_RestHouse_EventScript_Sara, 0x081623EC
+	.global SafariZone_Center_RestHouse_EventScript_Scientist
+	.set SafariZone_Center_RestHouse_EventScript_Scientist, 0x081623F5
+	.global SafariZone_East_RestHouse_MapScripts
+	.set SafariZone_East_RestHouse_MapScripts, 0x081623FE
+	.global SafariZone_East_RestHouse_EventScript_Rocker
+	.set SafariZone_East_RestHouse_EventScript_Rocker, 0x081623FF
+	.global SafariZone_East_RestHouse_EventScript_Scientist
+	.set SafariZone_East_RestHouse_EventScript_Scientist, 0x08162408
+	.global SafariZone_East_RestHouse_EventScript_BaldingMan
+	.set SafariZone_East_RestHouse_EventScript_BaldingMan, 0x08162411
+	.global SafariZone_North_RestHouse_MapScripts
+	.set SafariZone_North_RestHouse_MapScripts, 0x0816241A
+	.global SafariZone_North_RestHouse_EventScript_Fisher
+	.set SafariZone_North_RestHouse_EventScript_Fisher, 0x0816241B
+	.global SafariZone_North_RestHouse_EventScript_Scientist
+	.set SafariZone_North_RestHouse_EventScript_Scientist, 0x08162424
+	.global SafariZone_North_RestHouse_EventScript_Gentleman
+	.set SafariZone_North_RestHouse_EventScript_Gentleman, 0x0816242D
+	.global PokemonTower_3F_MapScripts
+	.set PokemonTower_3F_MapScripts, 0x081633A6
+	.global PokemonTower_3F_EventScript_Patricia
+	.set PokemonTower_3F_EventScript_Patricia, 0x081633A7
+	.global PokemonTower_3F_EventScript_Carly
+	.set PokemonTower_3F_EventScript_Carly, 0x081633BE
+	.global PokemonTower_3F_EventScript_Hope
+	.set PokemonTower_3F_EventScript_Hope, 0x081633D5
+	.global MtEmber_RubyPath_1F_MapScripts
+	.set MtEmber_RubyPath_1F_MapScripts, 0x08163C45
+	.global MtEmber_RubyPath_B1F_MapScripts
+	.set MtEmber_RubyPath_B1F_MapScripts, 0x08163C46
+	.global MtEmber_RubyPath_B2F_MapScripts
+	.set MtEmber_RubyPath_B2F_MapScripts, 0x08163C47
+	.global MtEmber_RubyPath_B3F_MapScripts
+	.set MtEmber_RubyPath_B3F_MapScripts, 0x08163C48
+	.global MtEmber_RubyPath_B5F_EventScript_Ruby
+	.set MtEmber_RubyPath_B5F_EventScript_Ruby, 0x08163C49
+	.global MtEmber_RubyPath_B1F_Stairs_MapScripts
+	.set MtEmber_RubyPath_B1F_Stairs_MapScripts, 0x08163C6F
+	.global MtEmber_RubyPath_B2F_Stairs_MapScripts
+	.set MtEmber_RubyPath_B2F_Stairs_MapScripts, 0x08163C70
+	.global SixIsland_DottedHole_B1F_MapScripts
+	.set SixIsland_DottedHole_B1F_MapScripts, 0x081641B0
+	.global SixIsland_DottedHole_B2F_MapScripts
+	.set SixIsland_DottedHole_B2F_MapScripts, 0x081641B1
+	.global SixIsland_DottedHole_B3F_MapScripts
+	.set SixIsland_DottedHole_B3F_MapScripts, 0x081641B2
+	.global SixIsland_DottedHole_B4F_MapScripts
+	.set SixIsland_DottedHole_B4F_MapScripts, 0x081641B3
+	.global FiveIsland_LostCave_Room1_MapScripts
+	.set FiveIsland_LostCave_Room1_MapScripts, 0x08164BF6
+	.global FiveIsland_LostCave_Room1_EventScript_Lawson
+	.set FiveIsland_LostCave_Room1_EventScript_Lawson, 0x08164BF7
+	.global FiveIsland_LostCave_Room2_MapScripts
+	.set FiveIsland_LostCave_Room2_MapScripts, 0x08164C0E
+	.global FiveIsland_LostCave_Room3_MapScripts
+	.set FiveIsland_LostCave_Room3_MapScripts, 0x08164C0F
+	.global FiveIsland_LostCave_Room4_MapScripts
+	.set FiveIsland_LostCave_Room4_MapScripts, 0x08164C10
+	.global FiveIsland_LostCave_Room4_EventScript_Laura
+	.set FiveIsland_LostCave_Room4_EventScript_Laura, 0x08164C11
+	.global FiveIsland_LostCave_Room5_MapScripts
+	.set FiveIsland_LostCave_Room5_MapScripts, 0x08164C28
+	.global FiveIsland_LostCave_Room6_MapScripts
+	.set FiveIsland_LostCave_Room6_MapScripts, 0x08164C29
+	.global FiveIsland_LostCave_Room7_MapScripts
+	.set FiveIsland_LostCave_Room7_MapScripts, 0x08164C2A
+	.global FiveIsland_LostCave_Room8_MapScripts
+	.set FiveIsland_LostCave_Room8_MapScripts, 0x08164C2B
+	.global FiveIsland_LostCave_Room9_MapScripts
+	.set FiveIsland_LostCave_Room9_MapScripts, 0x08164C2C
+	.global Route4_MapScripts
+	.set Route4_MapScripts, 0x08167F8A
+	.global Route4_EventScript_Unused
+	.set Route4_EventScript_Unused, 0x08167F8B
+	.global Route4_EventScript_Woman
+	.set Route4_EventScript_Woman, 0x08167F8C
+	.global Route4_EventScript_MtMoonSign
+	.set Route4_EventScript_MtMoonSign, 0x08167F95
+	.global Route4_EventScript_RouteSign
+	.set Route4_EventScript_RouteSign, 0x08167F9E
+	.global Prototype_SeviiIsle_6_MapScripts
+	.set Prototype_SeviiIsle_6_MapScripts, 0x081687E0
+	.global Prototype_SeviiIsle_7_MapScripts
+	.set Prototype_SeviiIsle_7_MapScripts, 0x081687E1
+	.global Prototype_SeviiIsle_8_MapScripts
+	.set Prototype_SeviiIsle_8_MapScripts, 0x081687E2
+	.global Prototype_SeviiIsle_9_MapScripts
+	.set Prototype_SeviiIsle_9_MapScripts, 0x081687E3
+	.global ViridianCity_House_MapScripts
+	.set ViridianCity_House_MapScripts, 0x08169E9A
+	.global ViridianCity_House_EventScript_BaldingMan
+	.set ViridianCity_House_EventScript_BaldingMan, 0x08169E9B
+	.global ViridianCity_House_EventScript_LittleGirl
+	.set ViridianCity_House_EventScript_LittleGirl, 0x08169EA4
+	.global ViridianCity_House_EventScript_Speary
+	.set ViridianCity_House_EventScript_Speary, 0x08169EAD
+	.global ViridianCity_House_EventScript_NicknameSign
+	.set ViridianCity_House_EventScript_NicknameSign, 0x08169EC0
+	.global PewterCity_Museum_2F_MapScripts
+	.set PewterCity_Museum_2F_MapScripts, 0x0816A552
+	.global PewterCity_Museum_2F_EventScript_Man
+	.set PewterCity_Museum_2F_EventScript_Man, 0x0816A553
+	.global PewterCity_Museum_2F_EventScript_OldMan
+	.set PewterCity_Museum_2F_EventScript_OldMan, 0x0816A55C
+	.global PewterCity_Museum_2F_EventScript_Scientist
+	.set PewterCity_Museum_2F_EventScript_Scientist, 0x0816A565
+	.global PewterCity_Museum_2F_EventScript_LittleGirl
+	.set PewterCity_Museum_2F_EventScript_LittleGirl, 0x0816A56E
+	.global PewterCity_Museum_2F_EventScript_BaldingMan
+	.set PewterCity_Museum_2F_EventScript_BaldingMan, 0x0816A577
+	.global PewterCity_Museum_2F_EventScript_SpaceShuttle
+	.set PewterCity_Museum_2F_EventScript_SpaceShuttle, 0x0816A580
+	.global PewterCity_Museum_2F_EventScript_MoonStone
+	.set PewterCity_Museum_2F_EventScript_MoonStone, 0x0816A589
+	.global PewterCity_House2_MapScripts
+	.set PewterCity_House2_MapScripts, 0x0816A7DC
+	.global PewterCity_House2_EventScript_OldMan
+	.set PewterCity_House2_EventScript_OldMan, 0x0816A7DD
+	.global PewterCity_House2_EventScript_LittleBoy
+	.set PewterCity_House2_EventScript_LittleBoy, 0x0816A7E6
+	.global CeladonCity_DepartmentStore_1F_MapScripts
+	.set CeladonCity_DepartmentStore_1F_MapScripts, 0x0816BAD8
+	.global CeladonCity_DepartmentStore_1F_EventScript_Receptionist
+	.set CeladonCity_DepartmentStore_1F_EventScript_Receptionist, 0x0816BAD9
+	.global CeladonCity_DepartmentStore_1F_EventScript_LayoutSign
+	.set CeladonCity_DepartmentStore_1F_EventScript_LayoutSign, 0x0816BAE2
+	.global CeladonCity_DepartmentStore_1F_EventScript_FloorSign
+	.set CeladonCity_DepartmentStore_1F_EventScript_FloorSign, 0x0816BAEB
+	.global CeladonCity_Condominiums_2F_MapScripts
+	.set CeladonCity_Condominiums_2F_MapScripts, 0x0816C3D0
+	.global CeladonCity_Condominiums_2F_EventScript_MeetingRoomSign
+	.set CeladonCity_Condominiums_2F_EventScript_MeetingRoomSign, 0x0816C3D1
+	.global CeladonCity_Condominiums_Roof_MapScripts
+	.set CeladonCity_Condominiums_Roof_MapScripts, 0x0816C459
+	.global CeladonCity_Condominiums_Roof_EventScript_Sign
+	.set CeladonCity_Condominiums_Roof_EventScript_Sign, 0x0816C45A
+	.global CeladonCity_Hotel_MapScripts
+	.set CeladonCity_Hotel_MapScripts, 0x0816D283
+	.global CeladonCity_Hotel_EventScript_Receptionist
+	.set CeladonCity_Hotel_EventScript_Receptionist, 0x0816D284
+	.global CeladonCity_Hotel_EventScript_Beauty
+	.set CeladonCity_Hotel_EventScript_Beauty, 0x0816D28D
+	.global CeladonCity_Hotel_EventScript_BeautyBoyfriend
+	.set CeladonCity_Hotel_EventScript_BeautyBoyfriend, 0x0816D296
+	.global CeladonCity_Hotel_EventScript_BeautyBrother
+	.set CeladonCity_Hotel_EventScript_BeautyBrother, 0x0816D29F
+	.global FuchsiaCity_SafariZone_Office_MapScripts
+	.set FuchsiaCity_SafariZone_Office_MapScripts, 0x0816D528
+	.global FuchsiaCity_SafariZone_Office_EventScript_Worker1
+	.set FuchsiaCity_SafariZone_Office_EventScript_Worker1, 0x0816D529
+	.global FuchsiaCity_SafariZone_Office_EventScript_Worker2
+	.set FuchsiaCity_SafariZone_Office_EventScript_Worker2, 0x0816D532
+	.global FuchsiaCity_SafariZone_Office_EventScript_Worker3
+	.set FuchsiaCity_SafariZone_Office_EventScript_Worker3, 0x0816D53B
+	.global FuchsiaCity_SafariZone_Office_EventScript_Worker4
+	.set FuchsiaCity_SafariZone_Office_EventScript_Worker4, 0x0816D544
+	.global FuchsiaCity_House1_MapScripts
+	.set FuchsiaCity_House1_MapScripts, 0x0816D6C5
+	.global FuchsiaCity_House1_EventScript_Woman
+	.set FuchsiaCity_House1_EventScript_Woman, 0x0816D6C6
+	.global FuchsiaCity_House1_EventScript_OldMan
+	.set FuchsiaCity_House1_EventScript_OldMan, 0x0816D6CF
+	.global FuchsiaCity_House1_EventScript_LittleBoy
+	.set FuchsiaCity_House1_EventScript_LittleBoy, 0x0816D6E8
+	.global SaffronCity_CopycatsHouse_1F_MapScripts
+	.set SaffronCity_CopycatsHouse_1F_MapScripts, 0x0816EB36
+	.global SaffronCity_CopycatsHouse_1F_EventScript_CopycatsMom
+	.set SaffronCity_CopycatsHouse_1F_EventScript_CopycatsMom, 0x0816EB37
+	.global SaffronCity_CopycatsHouse_1F_EventScript_CopycatsDad
+	.set SaffronCity_CopycatsHouse_1F_EventScript_CopycatsDad, 0x0816EB40
+	.global SaffronCity_CopycatsHouse_1F_EventScript_Chansey
+	.set SaffronCity_CopycatsHouse_1F_EventScript_Chansey, 0x0816EB49
+	.global Route2_ViridianForest_SouthEntrance_MapScripts
+	.set Route2_ViridianForest_SouthEntrance_MapScripts, 0x0816F5E5
+	.global Route2_ViridianForest_SouthEntrance_EventScript_Woman1
+	.set Route2_ViridianForest_SouthEntrance_EventScript_Woman1, 0x0816F5E6
+	.global Route2_ViridianForest_SouthEntrance_EventScript_Woman2
+	.set Route2_ViridianForest_SouthEntrance_EventScript_Woman2, 0x0816F5EF
+	.global Route2_ViridianForest_NorthEntrance_MapScripts
+	.set Route2_ViridianForest_NorthEntrance_MapScripts, 0x0816F71D
+	.global Route2_ViridianForest_NorthEntrance_EventScript_Youngster
+	.set Route2_ViridianForest_NorthEntrance_EventScript_Youngster, 0x0816F71E
+	.global Route2_ViridianForest_NorthEntrance_EventScript_OldMan
+	.set Route2_ViridianForest_NorthEntrance_EventScript_OldMan, 0x0816F727
+	.global Route2_ViridianForest_NorthEntrance_EventScript_CooltrainerF
+	.set Route2_ViridianForest_NorthEntrance_EventScript_CooltrainerF, 0x0816F730
+	.global Route11_EastEntrance_1F_MapScripts
+	.set Route11_EastEntrance_1F_MapScripts, 0x0816FD21
+	.global Route11_EastEntrance_1F_EventScript_TopGuard
+	.set Route11_EastEntrance_1F_EventScript_TopGuard, 0x0816FD22
+	.global Route11_EastEntrance_1F_EventScript_BottomGuard
+	.set Route11_EastEntrance_1F_EventScript_BottomGuard, 0x0816FD2B
+	.global Route12_NorthEntrance_1F_MapScripts
+	.set Route12_NorthEntrance_1F_MapScripts, 0x0816FE6D
+	.global Route12_NorthEntrance_1F_EventScript_Guard
+	.set Route12_NorthEntrance_1F_EventScript_Guard, 0x0816FE6E
+	.global OneIsland_House1_MapScripts
+	.set OneIsland_House1_MapScripts, 0x0817135B
+	.global OneIsland_House1_EventScript_OldMan
+	.set OneIsland_House1_EventScript_OldMan, 0x0817135C
+	.global OneIsland_House1_EventScript_OldWoman
+	.set OneIsland_House1_EventScript_OldWoman, 0x08171365
+	.global OneIsland_House2_MapScripts
+	.set OneIsland_House2_MapScripts, 0x0817136E
+	.global OneIsland_House2_EventScript_Lass
+	.set OneIsland_House2_EventScript_Lass, 0x0817136F
+	.global ThreeIsland_House1_MapScripts
+	.set ThreeIsland_House1_MapScripts, 0x08171819
+	.global ThreeIsland_House1_EventScript_Lostelle
+	.set ThreeIsland_House1_EventScript_Lostelle, 0x0817181A
+	.global ThreeIsland_House1_EventScript_DisplayCase
+	.set ThreeIsland_House1_EventScript_DisplayCase, 0x08171829
+	.global ThreeIsland_House3_MapScripts
+	.set ThreeIsland_House3_MapScripts, 0x08171902
+	.global ThreeIsland_House3_EventScript_Beauty
+	.set ThreeIsland_House3_EventScript_Beauty, 0x08171903
+	.global ThreeIsland_House4_MapScripts
+	.set ThreeIsland_House4_MapScripts, 0x0817190C
+	.global ThreeIsland_House4_EventScript_BaldingMan
+	.set ThreeIsland_House4_EventScript_BaldingMan, 0x0817190D
+	.global ThreeIsland_House4_EventScript_LittleBoy
+	.set ThreeIsland_House4_EventScript_LittleBoy, 0x08171916
+	.global FiveIsland_House1_MapScripts
+	.set FiveIsland_House1_MapScripts, 0x08171D56
+	.global FiveIsland_House1_EventScript_Woman
+	.set FiveIsland_House1_EventScript_Woman, 0x08171D57
+	.global FiveIsland_House2_MapScripts
+	.set FiveIsland_House2_MapScripts, 0x08171D60
+	.global FiveIsland_House2_EventScript_OldMan
+	.set FiveIsland_House2_EventScript_OldMan, 0x08171D61
+	.global SixIsland_House_MapScripts
+	.set SixIsland_House_MapScripts, 0x08171E5B
+	.global SixIsland_House_EventScript_OldMan
+	.set SixIsland_House_EventScript_OldMan, 0x08171E5C
+	.global TwoIsland_CapeBrink_House_MapScripts
+	.set TwoIsland_CapeBrink_House_MapScripts, 0x0817206B
+	.global ViridianForest_Text_FriendsItchingToBattle
+	.set ViridianForest_Text_FriendsItchingToBattle, 0x08172255
+	.global ViridianForest_Text_RickIntro
+	.set ViridianForest_Text_RickIntro, 0x081722C7
+	.global ViridianForest_Text_RickDefeat
+	.set ViridianForest_Text_RickDefeat, 0x081722F9
+	.global ViridianForest_Text_RickPostBattle
+	.set ViridianForest_Text_RickPostBattle, 0x08172315
+	.global ViridianForest_Text_DougIntro
+	.set ViridianForest_Text_DougIntro, 0x0817234A
+	.global ViridianForest_Text_DougDefeat
+	.set ViridianForest_Text_DougDefeat, 0x0817237D
+	.global ViridianForest_Text_DougPostBattle
+	.set ViridianForest_Text_DougPostBattle, 0x08172398
+	.global ViridianForest_Text_SammyIntro
+	.set ViridianForest_Text_SammyIntro, 0x081723D4
+	.global ViridianForest_Text_SammyDefeat
+	.set ViridianForest_Text_SammyDefeat, 0x08172402
+	.global ViridianForest_Text_SammyPostBattle
+	.set ViridianForest_Text_SammyPostBattle, 0x0817241F
+	.global ViridianForest_Text_AnthonyIntro
+	.set ViridianForest_Text_AnthonyIntro, 0x08172482
+	.global ViridianForest_Text_AnthonyDefeat
+	.set ViridianForest_Text_AnthonyDefeat, 0x081724BF
+	.global ViridianForest_Text_AnthonyPostBattle
+	.set ViridianForest_Text_AnthonyPostBattle, 0x081724DC
+	.global ViridianForest_Text_CharlieIntro
+	.set ViridianForest_Text_CharlieIntro, 0x081724F9
+	.global ViridianForest_Text_CharlieDefeat
+	.set ViridianForest_Text_CharlieDefeat, 0x0817251B
+	.global ViridianForest_Text_CharliePostBattle
+	.set ViridianForest_Text_CharliePostBattle, 0x08172527
+	.global ViridianForest_Text_RanOutOfPokeBalls
+	.set ViridianForest_Text_RanOutOfPokeBalls, 0x08172559
+	.global ViridianForest_Text_AvoidGrassyAreasWhenWeak
+	.set ViridianForest_Text_AvoidGrassyAreasWhenWeak, 0x081725C7
+	.global ViridianForest_Text_UseAntidoteForPoison
+	.set ViridianForest_Text_UseAntidoteForPoison, 0x08172629
+	.global ViridianForest_Text_ContactOakViaPCToRatePokedex
+	.set ViridianForest_Text_ContactOakViaPCToRatePokedex, 0x0817265C
+	.global ViridianForest_Text_CantCatchOwnedMons
+	.set ViridianForest_Text_CantCatchOwnedMons, 0x081726A3
+	.global ViridianForest_Text_WeakenMonsBeforeCapture
+	.set ViridianForest_Text_WeakenMonsBeforeCapture, 0x0817271D
+	.global ViridianForest_Text_LeavingViridianForest
+	.set ViridianForest_Text_LeavingViridianForest, 0x08172773
+	.global MtMoon_1F_Text_MarcosIntro
+	.set MtMoon_1F_Text_MarcosIntro, 0x0817279D
+	.global MtMoon_1F_Text_MarcosDefeat
+	.set MtMoon_1F_Text_MarcosDefeat, 0x081727CB
+	.global MtMoon_1F_Text_MarcosPostBattle
+	.set MtMoon_1F_Text_MarcosPostBattle, 0x081727DF
+	.global MtMoon_1F_Text_JoshIntro
+	.set MtMoon_1F_Text_JoshIntro, 0x0817281D
+	.global MtMoon_1F_Text_JoshDefeat
+	.set MtMoon_1F_Text_JoshDefeat, 0x08172844
+	.global MtMoon_1F_Text_JoshPostBattle
+	.set MtMoon_1F_Text_JoshPostBattle, 0x08172863
+	.global MtMoon_1F_Text_MiriamIntro
+	.set MtMoon_1F_Text_MiriamIntro, 0x08172896
+	.global MtMoon_1F_Text_MiriamDefeat
+	.set MtMoon_1F_Text_MiriamDefeat, 0x081728C3
+	.global MtMoon_1F_Text_MiriamPostBattle
+	.set MtMoon_1F_Text_MiriamPostBattle, 0x081728D2
+	.global MtMoon_1F_Text_JovanIntro
+	.set MtMoon_1F_Text_JovanIntro, 0x0817290B
+	.global MtMoon_1F_Text_JovanDefeat
+	.set MtMoon_1F_Text_JovanDefeat, 0x08172927
+	.global MtMoon_1F_Text_JovanPostBattle
+	.set MtMoon_1F_Text_JovanPostBattle, 0x0817293C
+	.global MtMoon_1F_Text_IrisIntro
+	.set MtMoon_1F_Text_IrisIntro, 0x08172972
+	.global MtMoon_1F_Text_IrisDefeat
+	.set MtMoon_1F_Text_IrisDefeat, 0x081729A4
+	.global MtMoon_1F_Text_IrisPostBattle
+	.set MtMoon_1F_Text_IrisPostBattle, 0x081729AC
+	.global MtMoon_1F_Text_KentIntro
+	.set MtMoon_1F_Text_KentIntro, 0x081729EA
+	.global MtMoon_1F_Text_KentDefeat
+	.set MtMoon_1F_Text_KentDefeat, 0x08172A1A
+	.global MtMoon_1F_Text_KentPostBattle
+	.set MtMoon_1F_Text_KentPostBattle, 0x08172A26
+	.global MtMoon_1F_Text_RobbyIntro
+	.set MtMoon_1F_Text_RobbyIntro, 0x08172A55
+	.global MtMoon_1F_Text_RobbyDefeat
+	.set MtMoon_1F_Text_RobbyDefeat, 0x08172A8F
+	.global MtMoon_1F_Text_RobbyPostBattle
+	.set MtMoon_1F_Text_RobbyPostBattle, 0x08172A97
+	.global MtMoon_1F_Text_ZubatIsABloodsucker
+	.set MtMoon_1F_Text_ZubatIsABloodsucker, 0x08172AE0
+	.global MtMoon_1F_Text_BrockHelpsExcavateFossils
+	.set MtMoon_1F_Text_BrockHelpsExcavateFossils, 0x08172B00
+	.global MtMoon_B2F_Text_MiguelIntro
+	.set MtMoon_B2F_Text_MiguelIntro, 0x08172B64
+	.global MtMoon_B2F_Text_MiguelDefeat
+	.set MtMoon_B2F_Text_MiguelDefeat, 0x08172B99
+	.global MtMoon_B2F_Text_WellEachTakeAFossil
+	.set MtMoon_B2F_Text_WellEachTakeAFossil, 0x08172BAB
+	.global MtMoon_B2F_Text_ThenThisFossilIsMine
+	.set MtMoon_B2F_Text_ThenThisFossilIsMine, 0x08172BD6
+	.global MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils
+	.set MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils, 0x08172BFB
+	.global MtMoon_B2F_Text_Grunt1Intro
+	.set MtMoon_B2F_Text_Grunt1Intro, 0x08172C5A
+	.global MtMoon_B2F_Text_Grunt1Defeat
+	.set MtMoon_B2F_Text_Grunt1Defeat, 0x08172CB8
+	.global MtMoon_B2F_Text_Grunt1PostBattle
+	.set MtMoon_B2F_Text_Grunt1PostBattle, 0x08172CCB
+	.global MtMoon_B2F_Text_Grunt2Intro
+	.set MtMoon_B2F_Text_Grunt2Intro, 0x08172CFC
+	.global MtMoon_B2F_Text_Grunt2Defeat
+	.set MtMoon_B2F_Text_Grunt2Defeat, 0x08172D46
+	.global MtMoon_B2F_Text_Grunt2PostBattle
+	.set MtMoon_B2F_Text_Grunt2PostBattle, 0x08172D51
+	.global MtMoon_B2F_Text_Grunt3Intro
+	.set MtMoon_B2F_Text_Grunt3Intro, 0x08172D82
+	.global MtMoon_B2F_Text_Grunt3Defeat
+	.set MtMoon_B2F_Text_Grunt3Defeat, 0x08172DAF
+	.global MtMoon_B2F_Text_Grunt3PostBattle
+	.set MtMoon_B2F_Text_Grunt3PostBattle, 0x08172DC1
+	.global MtMoon_B2F_Text_Grunt4Intro
+	.set MtMoon_B2F_Text_Grunt4Intro, 0x08172DF0
+	.global MtMoon_B2F_Text_Grunt4Defeat
+	.set MtMoon_B2F_Text_Grunt4Defeat, 0x08172E3E
+	.global MtMoon_B2F_Text_Grunt4PostBattle
+	.set MtMoon_B2F_Text_Grunt4PostBattle, 0x08172E4B
+	.global MtMoon_B2F_Text_YouWantDomeFossil
+	.set MtMoon_B2F_Text_YouWantDomeFossil, 0x08172E77
+	.global MtMoon_B2F_Text_YouWantHelixFossil
+	.set MtMoon_B2F_Text_YouWantHelixFossil, 0x08172E94
+	.global MtMoon_B2F_Text_ObtainedHelixFossil
+	.set MtMoon_B2F_Text_ObtainedHelixFossil, 0x08172EB2
+	.global MtMoon_B2F_Text_ObtainedDomeFossil
+	.set MtMoon_B2F_Text_ObtainedDomeFossil, 0x08172ECD
+	.global SSAnne_Deck_Text_ShipDepartingSoon
+	.set SSAnne_Deck_Text_ShipDepartingSoon, 0x0817326F
+	.global SSAnne_Deck_Text_ScrubbingDecksHardWork
+	.set SSAnne_Deck_Text_ScrubbingDecksHardWork, 0x081732A2
+	.global SSAnne_Deck_Text_FeelSeasick
+	.set SSAnne_Deck_Text_FeelSeasick, 0x081732C6
+	.global SSAnne_Deck_Text_EdmondIntro
+	.set SSAnne_Deck_Text_EdmondIntro, 0x08173308
+	.global SSAnne_Deck_Text_EdmondDefeat
+	.set SSAnne_Deck_Text_EdmondDefeat, 0x0817332B
+	.global SSAnne_Deck_Text_EdmondPostBattle
+	.set SSAnne_Deck_Text_EdmondPostBattle, 0x0817333E
+	.global SSAnne_Deck_Text_TrevorIntro
+	.set SSAnne_Deck_Text_TrevorIntro, 0x08173382
+	.global SSAnne_Deck_Text_TrevorDefeat
+	.set SSAnne_Deck_Text_TrevorDefeat, 0x081733A0
+	.global SSAnne_Deck_Text_TrevorPostBattle
+	.set SSAnne_Deck_Text_TrevorPostBattle, 0x081733B5
+	.global SSAnne_2F_Room4_Text_LamarIntro
+	.set SSAnne_2F_Room4_Text_LamarIntro, 0x08173F07
+	.global SSAnne_2F_Room4_Text_LamarDefeat
+	.set SSAnne_2F_Room4_Text_LamarDefeat, 0x08173F42
+	.global SSAnne_2F_Room4_Text_LamarPostBattle
+	.set SSAnne_2F_Room4_Text_LamarPostBattle, 0x08173F55
+	.global SSAnne_2F_Room4_Text_DawnIntro
+	.set SSAnne_2F_Room4_Text_DawnIntro, 0x08173F83
+	.global SSAnne_2F_Room4_Text_DawnDefeat
+	.set SSAnne_2F_Room4_Text_DawnDefeat, 0x08173FAB
+	.global SSAnne_2F_Room4_Text_DawnPostBattle
+	.set SSAnne_2F_Room4_Text_DawnPostBattle, 0x08173FB9
+	.global SSAnne_1F_Room6_Text_TakeAShortRest
+	.set SSAnne_1F_Room6_Text_TakeAShortRest, 0x0817445B
+	.global SSAnne_1F_Room6_Text_GladEveryoneIsRefreshed
+	.set SSAnne_1F_Room6_Text_GladEveryoneIsRefreshed, 0x08174490
+	.global SSAnne_1F_Room6_Text_SorryYouLookLikeMyBrother
+	.set SSAnne_1F_Room6_Text_SorryYouLookLikeMyBrother, 0x081744D0
+	.global SSAnne_1F_Room6_Text_SorryYouLookLikeMySister
+	.set SSAnne_1F_Room6_Text_SorryYouLookLikeMySister, 0x08174515
+	.global VictoryRoad_2F_Text_DawsonIntro
+	.set VictoryRoad_2F_Text_DawsonIntro, 0x081747EF
+	.global VictoryRoad_2F_Text_DawsonDefeat
+	.set VictoryRoad_2F_Text_DawsonDefeat, 0x0817482C
+	.global VictoryRoad_2F_Text_DawsonPostBattle
+	.set VictoryRoad_2F_Text_DawsonPostBattle, 0x0817483E
+	.global VictoryRoad_2F_Text_DaisukeIntro
+	.set VictoryRoad_2F_Text_DaisukeIntro, 0x08174877
+	.global VictoryRoad_2F_Text_DaisukeDefeat
+	.set VictoryRoad_2F_Text_DaisukeDefeat, 0x081748B4
+	.global VictoryRoad_2F_Text_DaisukePostBattle
+	.set VictoryRoad_2F_Text_DaisukePostBattle, 0x081748BB
+	.global VictoryRoad_2F_Text_NelsonIntro
+	.set VictoryRoad_2F_Text_NelsonIntro, 0x081748EE
+	.global VictoryRoad_2F_Text_NelsonDefeat
+	.set VictoryRoad_2F_Text_NelsonDefeat, 0x0817491B
+	.global VictoryRoad_2F_Text_NelsonPostBattle
+	.set VictoryRoad_2F_Text_NelsonPostBattle, 0x08174927
+	.global VictoryRoad_2F_Text_VincentIntro
+	.set VictoryRoad_2F_Text_VincentIntro, 0x08174942
+	.global VictoryRoad_2F_Text_VincentDefeat
+	.set VictoryRoad_2F_Text_VincentDefeat, 0x0817495A
+	.global VictoryRoad_2F_Text_VincentPostBattle
+	.set VictoryRoad_2F_Text_VincentPostBattle, 0x08174969
+	.global VictoryRoad_2F_Text_GregoryIntro
+	.set VictoryRoad_2F_Text_GregoryIntro, 0x08174995
+	.global VictoryRoad_2F_Text_GregoryDefeat
+	.set VictoryRoad_2F_Text_GregoryDefeat, 0x081749B0
+	.global VictoryRoad_2F_Text_GregoryPostBattle
+	.set VictoryRoad_2F_Text_GregoryPostBattle, 0x081749BB
+	.global VictoryRoad_2F_Text_Gyaoo
+	.set VictoryRoad_2F_Text_Gyaoo, 0x081749F3
+	.global Text_DoubleEdgeTeach
+	.set Text_DoubleEdgeTeach, 0x081749F9
+	.global Text_DoubleEdgeDeclined
+	.set Text_DoubleEdgeDeclined, 0x08174ABC
+	.global Text_DoubleEdgeWhichMon
+	.set Text_DoubleEdgeWhichMon, 0x08174AE2
+	.global Text_DoubleEdgeTaught
+	.set Text_DoubleEdgeTaught, 0x08174B0C
+	.global VictoryRoad_3F_Text_GeorgeIntro
+	.set VictoryRoad_3F_Text_GeorgeIntro, 0x08174B60
+	.global VictoryRoad_3F_Text_GeorgeDefeat
+	.set VictoryRoad_3F_Text_GeorgeDefeat, 0x08174B83
+	.global VictoryRoad_3F_Text_GeorgePostBattle
+	.set VictoryRoad_3F_Text_GeorgePostBattle, 0x08174B99
+	.global VictoryRoad_3F_Text_AlexaIntro
+	.set VictoryRoad_3F_Text_AlexaIntro, 0x08174BCA
+	.global VictoryRoad_3F_Text_AlexaDefeat
+	.set VictoryRoad_3F_Text_AlexaDefeat, 0x08174BF4
+	.global VictoryRoad_3F_Text_AlexaPostBattle
+	.set VictoryRoad_3F_Text_AlexaPostBattle, 0x08174C03
+	.global VictoryRoad_3F_Text_CarolineIntro
+	.set VictoryRoad_3F_Text_CarolineIntro, 0x08174C30
+	.global VictoryRoad_3F_Text_CarolineDefeat
+	.set VictoryRoad_3F_Text_CarolineDefeat, 0x08174C5A
+	.global VictoryRoad_3F_Text_CarolinePostBattle
+	.set VictoryRoad_3F_Text_CarolinePostBattle, 0x08174C67
+	.global VictoryRoad_3F_Text_ColbyIntro
+	.set VictoryRoad_3F_Text_ColbyIntro, 0x08174C8A
+	.global VictoryRoad_3F_Text_ColbyDefeat
+	.set VictoryRoad_3F_Text_ColbyDefeat, 0x08174CA9
+	.global VictoryRoad_3F_Text_ColbyPostBattle
+	.set VictoryRoad_3F_Text_ColbyPostBattle, 0x08174CBD
+	.global VictoryRoad_3F_Text_RayIntro
+	.set VictoryRoad_3F_Text_RayIntro, 0x08174D0C
+	.global VictoryRoad_3F_Text_RayDefeat
+	.set VictoryRoad_3F_Text_RayDefeat, 0x08174D45
+	.global VictoryRoad_3F_Text_RayPostBattle
+	.set VictoryRoad_3F_Text_RayPostBattle, 0x08174D64
+	.global VictoryRoad_3F_Text_RayNotEnoughMons
+	.set VictoryRoad_3F_Text_RayNotEnoughMons, 0x08174D96
+	.global VictoryRoad_3F_Text_TyraIntro
+	.set VictoryRoad_3F_Text_TyraIntro, 0x08174E08
+	.global VictoryRoad_3F_Text_TyraDefeat
+	.set VictoryRoad_3F_Text_TyraDefeat, 0x08174E39
+	.global VictoryRoad_3F_Text_TyraPostBattle
+	.set VictoryRoad_3F_Text_TyraPostBattle, 0x08174E48
+	.global VictoryRoad_3F_Text_TyraNotEnoughMons
+	.set VictoryRoad_3F_Text_TyraNotEnoughMons, 0x08174E8D
+	.global RocketHideout_B1F_Text_Grunt1Intro
+	.set RocketHideout_B1F_Text_Grunt1Intro, 0x08174ECA
+	.global RocketHideout_B1F_Text_Grunt1Defeat
+	.set RocketHideout_B1F_Text_Grunt1Defeat, 0x08174EED
+	.global RocketHideout_B1F_Text_Grunt1PostBattle
+	.set RocketHideout_B1F_Text_Grunt1PostBattle, 0x08174EFA
+	.global RocketHideout_B1F_Text_Grunt2Intro
+	.set RocketHideout_B1F_Text_Grunt2Intro, 0x08174F2C
+	.global RocketHideout_B1F_Text_Grunt2Defeat
+	.set RocketHideout_B1F_Text_Grunt2Defeat, 0x08174F60
+	.global RocketHideout_B1F_Text_Grunt2PostBattle
+	.set RocketHideout_B1F_Text_Grunt2PostBattle, 0x08174F66
+	.global RocketHideout_B1F_Text_Grunt3Intro
+	.set RocketHideout_B1F_Text_Grunt3Intro, 0x08174F94
+	.global RocketHideout_B1F_Text_Grunt3Defeat
+	.set RocketHideout_B1F_Text_Grunt3Defeat, 0x08174FA4
+	.global RocketHideout_B1F_Text_Grunt3PostBattle
+	.set RocketHideout_B1F_Text_Grunt3PostBattle, 0x08174FB3
+	.global RocketHideout_B1F_Text_Grunt4Intro
+	.set RocketHideout_B1F_Text_Grunt4Intro, 0x08174FE1
+	.global RocketHideout_B1F_Text_Grunt4Defeat
+	.set RocketHideout_B1F_Text_Grunt4Defeat, 0x08174FF8
+	.global RocketHideout_B1F_Text_Grunt4PostBattle
+	.set RocketHideout_B1F_Text_Grunt4PostBattle, 0x08175007
+	.global RocketHideout_B1F_Text_Grunt5Intro
+	.set RocketHideout_B1F_Text_Grunt5Intro, 0x0817503A
+	.global RocketHideout_B1F_Text_Grunt5Defeat
+	.set RocketHideout_B1F_Text_Grunt5Defeat, 0x0817505A
+	.global RocketHideout_B1F_Text_Grunt5PostBattle
+	.set RocketHideout_B1F_Text_Grunt5PostBattle, 0x08175060
+	.global RocketHideout_B2F_Text_GruntIntro
+	.set RocketHideout_B2F_Text_GruntIntro, 0x0817508C
+	.global RocketHideout_B2F_Text_GruntDefeat
+	.set RocketHideout_B2F_Text_GruntDefeat, 0x081750BF
+	.global RocketHideout_B2F_Text_GruntPostBattle
+	.set RocketHideout_B2F_Text_GruntPostBattle, 0x081750CC
+	.global RocketHideout_B4F_Text_GiovanniIntro
+	.set RocketHideout_B4F_Text_GiovanniIntro, 0x08175226
+	.global RocketHideout_B4F_Text_GiovanniDefeat
+	.set RocketHideout_B4F_Text_GiovanniDefeat, 0x08175318
+	.global RocketHideout_B4F_Text_GiovanniPostBattle
+	.set RocketHideout_B4F_Text_GiovanniPostBattle, 0x0817532D
+	.global RocketHideout_B4F_Text_Grunt2Intro
+	.set RocketHideout_B4F_Text_Grunt2Intro, 0x081753D0
+	.global RocketHideout_B4F_Text_Grunt2Defeat
+	.set RocketHideout_B4F_Text_Grunt2Defeat, 0x081753FE
+	.global RocketHideout_B4F_Text_Grunt2PostBattle
+	.set RocketHideout_B4F_Text_Grunt2PostBattle, 0x0817540C
+	.global RocketHideout_B4F_Text_Grunt3Intro
+	.set RocketHideout_B4F_Text_Grunt3Intro, 0x08175437
+	.global RocketHideout_B4F_Text_Grunt3Defeat
+	.set RocketHideout_B4F_Text_Grunt3Defeat, 0x08175463
+	.global RocketHideout_B4F_Text_Grunt3PostBattle
+	.set RocketHideout_B4F_Text_Grunt3PostBattle, 0x0817546A
+	.global RocketHideout_B4F_Text_Grunt1Intro
+	.set RocketHideout_B4F_Text_Grunt1Intro, 0x08175488
+	.global RocketHideout_B4F_Text_Grunt1Defeat
+	.set RocketHideout_B4F_Text_Grunt1Defeat, 0x081754B9
+	.global RocketHideout_B4F_Text_Grunt1PostBattle
+	.set RocketHideout_B4F_Text_Grunt1PostBattle, 0x081754BD
+	.global SilphCo_2F_Text_ConnorIntro
+	.set SilphCo_2F_Text_ConnorIntro, 0x08175562
+	.global SilphCo_2F_Text_ConnorDefeat
+	.set SilphCo_2F_Text_ConnorDefeat, 0x0817557E
+	.global SilphCo_2F_Text_ConnorPostBattle
+	.set SilphCo_2F_Text_ConnorPostBattle, 0x0817559F
+	.global SilphCo_2F_Text_JerryIntro
+	.set SilphCo_2F_Text_JerryIntro, 0x081755C6
+	.global SilphCo_2F_Text_JerryDefeat
+	.set SilphCo_2F_Text_JerryDefeat, 0x081755E5
+	.global SilphCo_2F_Text_JerryPostBattle
+	.set SilphCo_2F_Text_JerryPostBattle, 0x081755F2
+	.global SilphCo_2F_Text_Grunt1Intro
+	.set SilphCo_2F_Text_Grunt1Intro, 0x0817562D
+	.global SilphCo_2F_Text_Grunt1Defeat
+	.set SilphCo_2F_Text_Grunt1Defeat, 0x0817564A
+	.global SilphCo_2F_Text_Grunt1PostBattle
+	.set SilphCo_2F_Text_Grunt1PostBattle, 0x08175651
+	.global SilphCo_2F_Text_Grunt2Intro
+	.set SilphCo_2F_Text_Grunt2Intro, 0x081756AD
+	.global SilphCo_2F_Text_Grunt2Defeat
+	.set SilphCo_2F_Text_Grunt2Defeat, 0x081756D8
+	.global SilphCo_2F_Text_Grunt2PostBattle
+	.set SilphCo_2F_Text_Grunt2PostBattle, 0x081756E2
+	.global Text_ThunderWaveTeach
+	.set Text_ThunderWaveTeach, 0x08175711
+	.global Text_ThunderWaveDeclined
+	.set Text_ThunderWaveDeclined, 0x0817579D
+	.global Text_ThunderWaveWhichMon
+	.set Text_ThunderWaveWhichMon, 0x081757C1
+	.global Text_ThunderWaveTaught
+	.set Text_ThunderWaveTaught, 0x081757EC
+	.global SilphCo_2F_Text_FloorSign
+	.set SilphCo_2F_Text_FloorSign, 0x08175894
+	.global SilphCo_3F_Text_WhatAmIToDo
+	.set SilphCo_3F_Text_WhatAmIToDo, 0x081758AD
+	.global SilphCo_3F_Text_YouAndYourMonsSavedUs
+	.set SilphCo_3F_Text_YouAndYourMonsSavedUs, 0x081758D3
+	.global SilphCo_3F_Text_GruntIntro
+	.set SilphCo_3F_Text_GruntIntro, 0x081758F6
+	.global SilphCo_3F_Text_GruntDefeat
+	.set SilphCo_3F_Text_GruntDefeat, 0x08175911
+	.global SilphCo_3F_Text_GruntPostBattle
+	.set SilphCo_3F_Text_GruntPostBattle, 0x0817591C
+	.global SilphCo_3F_Text_JoseIntro
+	.set SilphCo_3F_Text_JoseIntro, 0x08175948
+	.global SilphCo_3F_Text_JoseDefeat
+	.set SilphCo_3F_Text_JoseDefeat, 0x0817597D
+	.global SilphCo_3F_Text_JosePostBattle
+	.set SilphCo_3F_Text_JosePostBattle, 0x08175990
+	.global SilphCo_3F_Text_FloorSign
+	.set SilphCo_3F_Text_FloorSign, 0x081759DC
+	.global SilphCo_4F_Text_CantYouSeeImHiding
+	.set SilphCo_4F_Text_CantYouSeeImHiding, 0x081759F5
+	.global SilphCo_4F_Text_TeamRocketIsGone
+	.set SilphCo_4F_Text_TeamRocketIsGone, 0x08175A15
+	.global SilphCo_4F_Text_Grunt1Intro
+	.set SilphCo_4F_Text_Grunt1Intro, 0x08175A2F
+	.global SilphCo_4F_Text_Grunt1Defeat
+	.set SilphCo_4F_Text_Grunt1Defeat, 0x08175A5B
+	.global SilphCo_4F_Text_Grunt1PostBattle
+	.set SilphCo_4F_Text_Grunt1PostBattle, 0x08175A62
+	.global SilphCo_4F_Text_RodneyIntro
+	.set SilphCo_4F_Text_RodneyIntro, 0x08175A90
+	.global SilphCo_4F_Text_RodneyDefeat
+	.set SilphCo_4F_Text_RodneyDefeat, 0x08175AB0
+	.global SilphCo_4F_Text_RodneyPostBattle
+	.set SilphCo_4F_Text_RodneyPostBattle, 0x08175AC8
+	.global SilphCo_4F_Text_Grunt2Intro
+	.set SilphCo_4F_Text_Grunt2Intro, 0x08175B19
+	.global SilphCo_4F_Text_Grunt2Defeat
+	.set SilphCo_4F_Text_Grunt2Defeat, 0x08175B2B
+	.global SilphCo_4F_Text_Grunt2PostBattle
+	.set SilphCo_4F_Text_Grunt2PostBattle, 0x08175B38
+	.global SilphCo_4F_Text_FloorSign
+	.set SilphCo_4F_Text_FloorSign, 0x08175B57
+	.global SilphCo_5F_Text_RocketsInUproarAboutIntruder
+	.set SilphCo_5F_Text_RocketsInUproarAboutIntruder, 0x08175B70
+	.global SilphCo_5F_Text_YoureOurHeroThankYou
+	.set SilphCo_5F_Text_YoureOurHeroThankYou, 0x08175BB3
+	.global SilphCo_5F_Text_Grunt1Intro
+	.set SilphCo_5F_Text_Grunt1Intro, 0x08175BE5
+	.global SilphCo_5F_Text_Grunt1Defeat
+	.set SilphCo_5F_Text_Grunt1Defeat, 0x08175C09
+	.global SilphCo_5F_Text_Grunt1PostBattle
+	.set SilphCo_5F_Text_Grunt1PostBattle, 0x08175C0F
+	.global SilphCo_5F_Text_BeauIntro
+	.set SilphCo_5F_Text_BeauIntro, 0x08175C40
+	.global SilphCo_5F_Text_BeauDefeat
+	.set SilphCo_5F_Text_BeauDefeat, 0x08175C6D
+	.global SilphCo_5F_Text_BeauPostBattle
+	.set SilphCo_5F_Text_BeauPostBattle, 0x08175C7D
+	.global SilphCo_5F_Text_DaltonIntro
+	.set SilphCo_5F_Text_DaltonIntro, 0x08175CBD
+	.global SilphCo_5F_Text_DaltonDefeat
+	.set SilphCo_5F_Text_DaltonDefeat, 0x08175CEB
+	.global SilphCo_5F_Text_DaltonPostBattle
+	.set SilphCo_5F_Text_DaltonPostBattle, 0x08175CF9
+	.global SilphCo_5F_Text_Grunt2Intro
+	.set SilphCo_5F_Text_Grunt2Intro, 0x08175D28
+	.global SilphCo_5F_Text_Grunt2Defeat
+	.set SilphCo_5F_Text_Grunt2Defeat, 0x08175D4B
+	.global SilphCo_5F_Text_Grunt2PostBattle
+	.set SilphCo_5F_Text_Grunt2PostBattle, 0x08175D59
+	.global SilphCo_5F_Text_PorygonFirstVRMon
+	.set SilphCo_5F_Text_PorygonFirstVRMon, 0x08175D89
+	.global SilphCo_5F_Text_Over350TechniquesConfirmed
+	.set SilphCo_5F_Text_Over350TechniquesConfirmed, 0x08175DE0
+	.global SilphCo_5F_Text_SomeMonsEvolveWhenTraded
+	.set SilphCo_5F_Text_SomeMonsEvolveWhenTraded, 0x08175E28
+	.global SilphCo_5F_Text_FloorSign
+	.set SilphCo_5F_Text_FloorSign, 0x08175E80
+	.global SilphCo_5F_Text_RocketBossLookingForStrongMons
+	.set SilphCo_5F_Text_RocketBossLookingForStrongMons, 0x08175E99
+	.global SilphCo_6F_Text_RocketsTookOverBuilding
+	.set SilphCo_6F_Text_RocketsTookOverBuilding, 0x08175F24
+	.global SilphCo_6F_Text_BetterGetBackToWork
+	.set SilphCo_6F_Text_BetterGetBackToWork, 0x08175F51
+	.global SilphCo_6F_Text_HelpMePlease
+	.set SilphCo_6F_Text_HelpMePlease, 0x08175F70
+	.global SilphCo_6F_Text_WeGotEngaged
+	.set SilphCo_6F_Text_WeGotEngaged, 0x08175F93
+	.global SilphCo_6F_Text_ThatManIsSuchACoward
+	.set SilphCo_6F_Text_ThatManIsSuchACoward, 0x08175FAA
+	.global SilphCo_6F_Text_NeedsMeToLookAfterHim
+	.set SilphCo_6F_Text_NeedsMeToLookAfterHim, 0x08175FD3
+	.global SilphCo_6F_Text_RocketsTryingToConquerWorld
+	.set SilphCo_6F_Text_RocketsTryingToConquerWorld, 0x08176012
+	.global SilphCo_6F_Text_RocketsRanAwayBecauseOfYou
+	.set SilphCo_6F_Text_RocketsRanAwayBecauseOfYou, 0x0817604B
+	.global SilphCo_6F_Text_TargetedSilphForOurMonProducts
+	.set SilphCo_6F_Text_TargetedSilphForOurMonProducts, 0x0817607E
+	.global SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder
+	.set SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder, 0x081760B6
+	.global SilphCo_6F_Text_Grunt1Intro
+	.set SilphCo_6F_Text_Grunt1Intro, 0x081760DE
+	.global SilphCo_6F_Text_Grunt1Defeat
+	.set SilphCo_6F_Text_Grunt1Defeat, 0x08176104
+	.global SilphCo_6F_Text_Grunt1PostBattle
+	.set SilphCo_6F_Text_Grunt1PostBattle, 0x0817610F
+	.global SilphCo_6F_Text_TaylorIntro
+	.set SilphCo_6F_Text_TaylorIntro, 0x08176136
+	.global SilphCo_6F_Text_TaylorDefeat
+	.set SilphCo_6F_Text_TaylorDefeat, 0x081761BD
+	.global SilphCo_6F_Text_TaylorPostBattle
+	.set SilphCo_6F_Text_TaylorPostBattle, 0x081761C4
+	.global SilphCo_6F_Text_Grunt2Intro
+	.set SilphCo_6F_Text_Grunt2Intro, 0x081761F1
+	.global SilphCo_6F_Text_Grunt2Defeat
+	.set SilphCo_6F_Text_Grunt2Defeat, 0x0817620E
+	.global SilphCo_6F_Text_Grunt2PostBattle
+	.set SilphCo_6F_Text_Grunt2PostBattle, 0x0817621B
+	.global SilphCo_6F_Text_FloorSign
+	.set SilphCo_6F_Text_FloorSign, 0x0817624D
+	.global SilphCo_8F_Text_WonderIfSilphIsFinished
+	.set SilphCo_8F_Text_WonderIfSilphIsFinished, 0x0817696D
+	.global SilphCo_8F_Text_ThanksForSavingUs
+	.set SilphCo_8F_Text_ThanksForSavingUs, 0x0817698C
+	.global SilphCo_8F_Text_Grunt1Intro
+	.set SilphCo_8F_Text_Grunt1Intro, 0x081769A2
+	.global SilphCo_8F_Text_Grunt1Defeat
+	.set SilphCo_8F_Text_Grunt1Defeat, 0x081769BE
+	.global SilphCo_8F_Text_Grunt1PostBattle
+	.set SilphCo_8F_Text_Grunt1PostBattle, 0x081769CF
+	.global SilphCo_8F_Text_ParkerIntro
+	.set SilphCo_8F_Text_ParkerIntro, 0x081769FD
+	.global SilphCo_8F_Text_ParkerDefeat
+	.set SilphCo_8F_Text_ParkerDefeat, 0x08176A19
+	.global SilphCo_8F_Text_ParkerPostBattle
+	.set SilphCo_8F_Text_ParkerPostBattle, 0x08176A26
+	.global SilphCo_8F_Text_Grunt2Intro
+	.set SilphCo_8F_Text_Grunt2Intro, 0x08176A56
+	.global SilphCo_8F_Text_Grunt2Defeat
+	.set SilphCo_8F_Text_Grunt2Defeat, 0x08176A7C
+	.global SilphCo_8F_Text_Grunt2PostBattle
+	.set SilphCo_8F_Text_Grunt2PostBattle, 0x08176A90
+	.global SilphCo_8F_Text_FloorSign
+	.set SilphCo_8F_Text_FloorSign, 0x08176AB2
+	.global SilphCo_8F_Text_ToRocketBossMonsAreTools
+	.set SilphCo_8F_Text_ToRocketBossMonsAreTools, 0x08176ACB
+	.global SilphCo_9F_Text_YouShouldTakeQuickNap
+	.set SilphCo_9F_Text_YouShouldTakeQuickNap, 0x08176B54
+	.global SilphCo_9F_Text_DontGiveUp
+	.set SilphCo_9F_Text_DontGiveUp, 0x08176B81
+	.global SilphCo_9F_Text_ThankYouSoMuch
+	.set SilphCo_9F_Text_ThankYouSoMuch, 0x08176B90
+	.global SilphCo_9F_Text_Grunt1Intro
+	.set SilphCo_9F_Text_Grunt1Intro, 0x08176BA3
+	.global SilphCo_9F_Text_Grunt1Defeat
+	.set SilphCo_9F_Text_Grunt1Defeat, 0x08176BC8
+	.global SilphCo_9F_Text_Grunt1PostBattle
+	.set SilphCo_9F_Text_Grunt1PostBattle, 0x08176BD0
+	.global SilphCo_9F_Text_EdIntro
+	.set SilphCo_9F_Text_EdIntro, 0x08176BFB
+	.global SilphCo_9F_Text_EdDefeat
+	.set SilphCo_9F_Text_EdDefeat, 0x08176C2B
+	.global SilphCo_9F_Text_EdPostBattle
+	.set SilphCo_9F_Text_EdPostBattle, 0x08176C3C
+	.global SilphCo_9F_Text_Grunt2Intro
+	.set SilphCo_9F_Text_Grunt2Intro, 0x08176C7A
+	.global SilphCo_9F_Text_Grunt2Defeat
+	.set SilphCo_9F_Text_Grunt2Defeat, 0x08176CA0
+	.global SilphCo_9F_Text_Grunt2PostBattle
+	.set SilphCo_9F_Text_Grunt2PostBattle, 0x08176CB8
+	.global SilphCo_9F_Text_FloorSign
+	.set SilphCo_9F_Text_FloorSign, 0x08176CD4
+	.global SilphCo_11F_Text_ThanksForSavingMeDearBoy
+	.set SilphCo_11F_Text_ThanksForSavingMeDearBoy, 0x08176E12
+	.global SilphCo_11F_Text_ThanksForSavingMeDearGirl
+	.set SilphCo_11F_Text_ThanksForSavingMeDearGirl, 0x08176EE7
+	.global SilphCo_11F_Text_ObtainedMasterBallFromPresident
+	.set SilphCo_11F_Text_ObtainedMasterBallFromPresident, 0x08176FBD
+	.global SilphCo_11F_Text_ThatsOurSecretPrototype
+	.set SilphCo_11F_Text_ThatsOurSecretPrototype, 0x08176FEB
+	.global SilphCo_11F_Text_YouHaveNoRoomForThis
+	.set SilphCo_11F_Text_YouHaveNoRoomForThis, 0x0817708E
+	.global SilphCo_11F_Text_ThanksForRescuingUs
+	.set SilphCo_11F_Text_ThanksForRescuingUs, 0x081770A9
+	.global SilphCo_11F_Text_GiovanniIntro
+	.set SilphCo_11F_Text_GiovanniIntro, 0x08177108
+	.global SilphCo_11F_Text_GiovanniDefeat
+	.set SilphCo_11F_Text_GiovanniDefeat, 0x081771AB
+	.global SilphCo_11F_Text_GiovanniPostBattle
+	.set SilphCo_11F_Text_GiovanniPostBattle, 0x081771C2
+	.global SilphCo_11F_Text_Grunt2Intro
+	.set SilphCo_11F_Text_Grunt2Intro, 0x0817726A
+	.global SilphCo_11F_Text_Grunt2Defeat
+	.set SilphCo_11F_Text_Grunt2Defeat, 0x0817728C
+	.global SilphCo_11F_Text_Grunt2PostBattle
+	.set SilphCo_11F_Text_Grunt2PostBattle, 0x0817729B
+	.global SilphCo_11F_Text_Grunt1Intro
+	.set SilphCo_11F_Text_Grunt1Intro, 0x081772B8
+	.global SilphCo_11F_Text_Grunt1Defeat
+	.set SilphCo_11F_Text_Grunt1Defeat, 0x081772E7
+	.global SilphCo_11F_Text_Grunt1PostBattle
+	.set SilphCo_11F_Text_Grunt1PostBattle, 0x081772F9
+	.global SilphCo_11F_Text_MonitorHasMonsOnIt
+	.set SilphCo_11F_Text_MonitorHasMonsOnIt, 0x0817732B
+	.global SilphCo_11F_Text_FloorSign
+	.set SilphCo_11F_Text_FloorSign, 0x0817734A
+	.global PokemonMansion_1F_Text_TedIntro
+	.set PokemonMansion_1F_Text_TedIntro, 0x08177364
+	.global PokemonMansion_1F_Text_TedDefeat
+	.set PokemonMansion_1F_Text_TedDefeat, 0x08177391
+	.global PokemonMansion_1F_Text_TedPostBattle
+	.set PokemonMansion_1F_Text_TedPostBattle, 0x08177397
+	.global PokemonMansion_1F_Text_JohnsonIntro
+	.set PokemonMansion_1F_Text_JohnsonIntro, 0x081773C6
+	.global PokemonMansion_1F_Text_JohnsonDefeat
+	.set PokemonMansion_1F_Text_JohnsonDefeat, 0x081773FD
+	.global PokemonMansion_1F_Text_JohnsonPostBattle
+	.set PokemonMansion_1F_Text_JohnsonPostBattle, 0x08177418
+	.global PokemonMansion_Text_PressSecretSwitch
+	.set PokemonMansion_Text_PressSecretSwitch, 0x08177460
+	.global PokemonMansion_Text_WhoWouldnt
+	.set PokemonMansion_Text_WhoWouldnt, 0x0817747B
+	.global PokemonMansion_Text_NotQuiteYet
+	.set PokemonMansion_Text_NotQuiteYet, 0x08177489
+	.global PokemonMansion_1F_Text_ArnieIntro
+	.set PokemonMansion_1F_Text_ArnieIntro, 0x08177498
+	.global PokemonMansion_1F_Text_ArnieDefeat
+	.set PokemonMansion_1F_Text_ArnieDefeat, 0x081774CB
+	.global PokemonMansion_1F_Text_ArniePostBattle
+	.set PokemonMansion_1F_Text_ArniePostBattle, 0x081774E3
+	.global PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle
+	.set PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle, 0x0817751F
+	.global PokemonMansion_1F_Text_ChristenedDiscoveredMonMew
+	.set PokemonMansion_1F_Text_ChristenedDiscoveredMonMew, 0x08177574
+	.global PokemonMansion_Text_PressSecretSwitchJP
+	.set PokemonMansion_Text_PressSecretSwitchJP, 0x081775B4
+	.global PokemonMansion_Text_LetsTryIt
+	.set PokemonMansion_Text_LetsTryIt, 0x081775CD
+	.global PokemonMansion_Text_GaveUpOnPressingSwitch
+	.set PokemonMansion_Text_GaveUpOnPressingSwitch, 0x081775DC
+	.global PokemonMansion_1F_Text_SimonIntro
+	.set PokemonMansion_1F_Text_SimonIntro, 0x081775E7
+	.global PokemonMansion_1F_Text_SimonDefeat
+	.set PokemonMansion_1F_Text_SimonDefeat, 0x08177602
+	.global PokemonMansion_1F_Text_SimonPostBattle
+	.set PokemonMansion_1F_Text_SimonPostBattle, 0x08177608
+	.global PokemonMansion_1F_Text_BraydonIntro
+	.set PokemonMansion_1F_Text_BraydonIntro, 0x08177628
+	.global PokemonMansion_1F_Text_BraydonDefeat
+	.set PokemonMansion_1F_Text_BraydonDefeat, 0x08177643
+	.global PokemonMansion_1F_Text_BraydonPostBattle
+	.set PokemonMansion_1F_Text_BraydonPostBattle, 0x08177657
+	.global PokemonMansion_1F_Text_MewGaveBirthToMewtwo
+	.set PokemonMansion_1F_Text_MewGaveBirthToMewtwo, 0x08177685
+	.global PokemonMansion_B1F_Text_LewisIntro
+	.set PokemonMansion_B1F_Text_LewisIntro, 0x081776C0
+	.global PokemonMansion_B1F_Text_LewisDefeat
+	.set PokemonMansion_B1F_Text_LewisDefeat, 0x081776D7
+	.global PokemonMansion_B1F_Text_LewisPostBattle
+	.set PokemonMansion_B1F_Text_LewisPostBattle, 0x081776DE
+	.global PokemonMansion_B1F_Text_IvanIntro
+	.set PokemonMansion_B1F_Text_IvanIntro, 0x08177720
+	.global PokemonMansion_B1F_Text_IvanDefeat
+	.set PokemonMansion_B1F_Text_IvanDefeat, 0x08177757
+	.global PokemonMansion_B1F_Text_IvanPostBattle
+	.set PokemonMansion_B1F_Text_IvanPostBattle, 0x0817776A
+	.global PokemonMansion_B1F_Text_MewtwoIsFarTooPowerful
+	.set PokemonMansion_B1F_Text_MewtwoIsFarTooPowerful, 0x08177798
+	.global SafariZone_West_Text_KogaPatrolsSafariEverySoOften
+	.set SafariZone_West_Text_KogaPatrolsSafariEverySoOften, 0x08177C47
+	.global SafariZone_West_Text_RocksMakeMonRunButEasierCatch
+	.set SafariZone_West_Text_RocksMakeMonRunButEasierCatch, 0x08177CEB
+	.global SafariZone_West_Text_BaitMakesMonStickAround
+	.set SafariZone_West_Text_BaitMakesMonStickAround, 0x08177D39
+	.global SafariZone_West_Text_HikedLotsDidntSeeMonIWanted
+	.set SafariZone_West_Text_HikedLotsDidntSeeMonIWanted, 0x08177D8B
+	.global RockTunnel_1F_Text_LennyIntro
+	.set RockTunnel_1F_Text_LennyIntro, 0x08179366
+	.global RockTunnel_1F_Text_LennyDefeat
+	.set RockTunnel_1F_Text_LennyDefeat, 0x08179388
+	.global RockTunnel_1F_Text_LennyPostBattle
+	.set RockTunnel_1F_Text_LennyPostBattle, 0x08179396
+	.global RockTunnel_1F_Text_OliverIntro
+	.set RockTunnel_1F_Text_OliverIntro, 0x081793F1
+	.global RockTunnel_1F_Text_OliverDefeat
+	.set RockTunnel_1F_Text_OliverDefeat, 0x0817940E
+	.global RockTunnel_1F_Text_OliverPostBattle
+	.set RockTunnel_1F_Text_OliverPostBattle, 0x0817943A
+	.global RockTunnel_1F_Text_LucasIntro
+	.set RockTunnel_1F_Text_LucasIntro, 0x0817947B
+	.global RockTunnel_1F_Text_LucasDefeat
+	.set RockTunnel_1F_Text_LucasDefeat, 0x081794AC
+	.global RockTunnel_1F_Text_LucasPostBattle
+	.set RockTunnel_1F_Text_LucasPostBattle, 0x081794B4
+	.global RockTunnel_1F_Text_AshtonIntro
+	.set RockTunnel_1F_Text_AshtonIntro, 0x081794D4
+	.global RockTunnel_1F_Text_AshtonDefeat
+	.set RockTunnel_1F_Text_AshtonDefeat, 0x081794EE
+	.global RockTunnel_1F_Text_AshtonPostBattle
+	.set RockTunnel_1F_Text_AshtonPostBattle, 0x081794F9
+	.global RockTunnel_1F_Text_LeahIntro
+	.set RockTunnel_1F_Text_LeahIntro, 0x0817951C
+	.global RockTunnel_1F_Text_LeahDefeat
+	.set RockTunnel_1F_Text_LeahDefeat, 0x08179547
+	.global RockTunnel_1F_Text_LeahPostBattle
+	.set RockTunnel_1F_Text_LeahPostBattle, 0x08179558
+	.global RockTunnel_1F_Text_DanaIntro
+	.set RockTunnel_1F_Text_DanaIntro, 0x08179577
+	.global RockTunnel_1F_Text_DanaDefeat
+	.set RockTunnel_1F_Text_DanaDefeat, 0x081795A1
+	.global RockTunnel_1F_Text_DanaPostBattle
+	.set RockTunnel_1F_Text_DanaPostBattle, 0x081795B5
+	.global RockTunnel_1F_Text_ArianaIntro
+	.set RockTunnel_1F_Text_ArianaIntro, 0x081795E5
+	.global RockTunnel_1F_Text_ArianaDefeat
+	.set RockTunnel_1F_Text_ArianaDefeat, 0x08179604
+	.global RockTunnel_1F_Text_ArianaPostBattle
+	.set RockTunnel_1F_Text_ArianaPostBattle, 0x08179613
+	.global RockTunnel_1F_Text_RouteSign
+	.set RockTunnel_1F_Text_RouteSign, 0x0817962D
+	.global RockTunnel_B1F_Text_SofiaIntro
+	.set RockTunnel_B1F_Text_SofiaIntro, 0x08179657
+	.global RockTunnel_B1F_Text_SofiaDefeat
+	.set RockTunnel_B1F_Text_SofiaDefeat, 0x081796B9
+	.global RockTunnel_B1F_Text_SofiaPostBattle
+	.set RockTunnel_B1F_Text_SofiaPostBattle, 0x081796CE
+	.global RockTunnel_B1F_Text_DudleyIntro
+	.set RockTunnel_B1F_Text_DudleyIntro, 0x081796E1
+	.global RockTunnel_B1F_Text_DudleyDefeat
+	.set RockTunnel_B1F_Text_DudleyDefeat, 0x08179700
+	.global RockTunnel_B1F_Text_DudleyPostBattle
+	.set RockTunnel_B1F_Text_DudleyPostBattle, 0x08179712
+	.global RockTunnel_B1F_Text_CooperIntro
+	.set RockTunnel_B1F_Text_CooperIntro, 0x0817973A
+	.global RockTunnel_B1F_Text_CooperDefeat
+	.set RockTunnel_B1F_Text_CooperDefeat, 0x0817975F
+	.global RockTunnel_B1F_Text_CooperPostBattle
+	.set RockTunnel_B1F_Text_CooperPostBattle, 0x08179777
+	.global RockTunnel_B1F_Text_SteveIntro
+	.set RockTunnel_B1F_Text_SteveIntro, 0x081797A4
+	.global RockTunnel_B1F_Text_SteveDefeat
+	.set RockTunnel_B1F_Text_SteveDefeat, 0x081797CB
+	.global RockTunnel_B1F_Text_StevePostBattle
+	.set RockTunnel_B1F_Text_StevePostBattle, 0x081797DE
+	.global RockTunnel_B1F_Text_AllenIntro
+	.set RockTunnel_B1F_Text_AllenIntro, 0x08179829
+	.global RockTunnel_B1F_Text_AllenDefeat
+	.set RockTunnel_B1F_Text_AllenDefeat, 0x08179856
+	.global RockTunnel_B1F_Text_AllenPostBattle
+	.set RockTunnel_B1F_Text_AllenPostBattle, 0x0817987A
+	.global RockTunnel_B1F_Text_MarthaIntro
+	.set RockTunnel_B1F_Text_MarthaIntro, 0x081798AD
+	.global RockTunnel_B1F_Text_MarthaDefeat
+	.set RockTunnel_B1F_Text_MarthaDefeat, 0x081798DD
+	.global RockTunnel_B1F_Text_MarthaPostBattle
+	.set RockTunnel_B1F_Text_MarthaPostBattle, 0x081798E9
+	.global RockTunnel_B1F_Text_EricIntro
+	.set RockTunnel_B1F_Text_EricIntro, 0x08179916
+	.global RockTunnel_B1F_Text_EricDefeat
+	.set RockTunnel_B1F_Text_EricDefeat, 0x08179932
+	.global RockTunnel_B1F_Text_EricPostBattle
+	.set RockTunnel_B1F_Text_EricPostBattle, 0x0817993E
+	.global RockTunnel_B1F_Text_WinstonIntro
+	.set RockTunnel_B1F_Text_WinstonIntro, 0x08179968
+	.global RockTunnel_B1F_Text_WinstonDefeat
+	.set RockTunnel_B1F_Text_WinstonDefeat, 0x08179997
+	.global RockTunnel_B1F_Text_WinstonPostBattle
+	.set RockTunnel_B1F_Text_WinstonPostBattle, 0x081799AC
+	.global PokemonTower_4F_Text_PaulaIntro
+	.set PokemonTower_4F_Text_PaulaIntro, 0x0817A004
+	.global PokemonTower_4F_Text_PaulaDefeat
+	.set PokemonTower_4F_Text_PaulaDefeat, 0x0817A017
+	.global PokemonTower_4F_Text_PaulaPostBattle
+	.set PokemonTower_4F_Text_PaulaPostBattle, 0x0817A02B
+	.global PokemonTower_4F_Text_LaurelIntro
+	.set PokemonTower_4F_Text_LaurelIntro, 0x0817A046
+	.global PokemonTower_4F_Text_LaurelDefeat
+	.set PokemonTower_4F_Text_LaurelDefeat, 0x0817A061
+	.global PokemonTower_4F_Text_LaurelPostBattle
+	.set PokemonTower_4F_Text_LaurelPostBattle, 0x0817A067
+	.global PokemonTower_4F_Text_JodyIntro
+	.set PokemonTower_4F_Text_JodyIntro, 0x0817A096
+	.global PokemonTower_4F_Text_JodyDefeat
+	.set PokemonTower_4F_Text_JodyDefeat, 0x0817A0AB
+	.global PokemonTower_4F_Text_JodyPostBattle
+	.set PokemonTower_4F_Text_JodyPostBattle, 0x0817A0BB
+	.global PokemonTower_5F_Text_RestHereInPurifiedSpace
+	.set PokemonTower_5F_Text_RestHereInPurifiedSpace, 0x0817A0E3
+	.global PokemonTower_5F_Text_TammyIntro
+	.set PokemonTower_5F_Text_TammyIntro, 0x0817A11F
+	.global PokemonTower_5F_Text_TammyDefeat
+	.set PokemonTower_5F_Text_TammyDefeat, 0x0817A132
+	.global PokemonTower_5F_Text_TammyPostBattle
+	.set PokemonTower_5F_Text_TammyPostBattle, 0x0817A138
+	.global PokemonTower_5F_Text_RuthIntro
+	.set PokemonTower_5F_Text_RuthIntro, 0x0817A150
+	.global PokemonTower_5F_Text_RuthDefeat
+	.set PokemonTower_5F_Text_RuthDefeat, 0x0817A164
+	.global PokemonTower_5F_Text_RuthPostBattle
+	.set PokemonTower_5F_Text_RuthPostBattle, 0x0817A176
+	.global PokemonTower_5F_Text_KarinaIntro
+	.set PokemonTower_5F_Text_KarinaIntro, 0x0817A187
+	.global PokemonTower_5F_Text_KarinaDefeat
+	.set PokemonTower_5F_Text_KarinaDefeat, 0x0817A190
+	.global PokemonTower_5F_Text_KarinaPostBattle
+	.set PokemonTower_5F_Text_KarinaPostBattle, 0x0817A194
+	.global PokemonTower_5F_Text_JanaeIntro
+	.set PokemonTower_5F_Text_JanaeIntro, 0x0817A1AA
+	.global PokemonTower_5F_Text_JanaeDefeat
+	.set PokemonTower_5F_Text_JanaeDefeat, 0x0817A1B7
+	.global PokemonTower_5F_Text_JanaePostBattle
+	.set PokemonTower_5F_Text_JanaePostBattle, 0x0817A1BD
+	.global PokemonTower_5F_Text_PurifiedZoneMonsFullyHealed
+	.set PokemonTower_5F_Text_PurifiedZoneMonsFullyHealed, 0x0817A1FA
+	.global PokemonTower_6F_Text_AngelicaIntro
+	.set PokemonTower_6F_Text_AngelicaIntro, 0x0817A243
+	.global PokemonTower_6F_Text_AngelicaDefeat
+	.set PokemonTower_6F_Text_AngelicaDefeat, 0x0817A253
+	.global PokemonTower_6F_Text_AngelicaPostBattle
+	.set PokemonTower_6F_Text_AngelicaPostBattle, 0x0817A25A
+	.global PokemonTower_6F_Text_EmiliaIntro
+	.set PokemonTower_6F_Text_EmiliaIntro, 0x0817A272
+	.global PokemonTower_6F_Text_EmiliaDefeat
+	.set PokemonTower_6F_Text_EmiliaDefeat, 0x0817A27F
+	.global PokemonTower_6F_Text_EmiliaPostBattle
+	.set PokemonTower_6F_Text_EmiliaPostBattle, 0x0817A293
+	.global PokemonTower_6F_Text_JenniferIntro
+	.set PokemonTower_6F_Text_JenniferIntro, 0x0817A2C8
+	.global PokemonTower_6F_Text_JenniferDefeat
+	.set PokemonTower_6F_Text_JenniferDefeat, 0x0817A2DC
+	.global PokemonTower_6F_Text_JenniferPostBattle
+	.set PokemonTower_6F_Text_JenniferPostBattle, 0x0817A2E2
+	.global PokemonTower_6F_Text_BeGoneIntruders
+	.set PokemonTower_6F_Text_BeGoneIntruders, 0x0817A2F8
+	.global PokemonTower_6F_Text_GhostWasCubonesMother
+	.set PokemonTower_6F_Text_GhostWasCubonesMother, 0x0817A30C
+	.global PokemonTower_6F_Text_MothersSpiritWasCalmed
+	.set PokemonTower_6F_Text_MothersSpiritWasCalmed, 0x0817A342
+	.global PokemonTower_7F_Text_Grunt1Intro
+	.set PokemonTower_7F_Text_Grunt1Intro, 0x0817A380
+	.global PokemonTower_7F_Text_Grunt1Defeat
+	.set PokemonTower_7F_Text_Grunt1Defeat, 0x0817A3A4
+	.global PokemonTower_7F_Text_Grunt1PostBattle
+	.set PokemonTower_7F_Text_Grunt1PostBattle, 0x0817A3AF
+	.global PokemonTower_7F_Text_Grunt2Intro
+	.set PokemonTower_7F_Text_Grunt2Intro, 0x0817A3CD
+	.global PokemonTower_7F_Text_Grunt2Defeat
+	.set PokemonTower_7F_Text_Grunt2Defeat, 0x0817A466
+	.global PokemonTower_7F_Text_Grunt2PostBattle
+	.set PokemonTower_7F_Text_Grunt2PostBattle, 0x0817A477
+	.global PokemonTower_7F_Text_Grunt3Intro
+	.set PokemonTower_7F_Text_Grunt3Intro, 0x0817A4CF
+	.global PokemonTower_7F_Text_Grunt3Defeat
+	.set PokemonTower_7F_Text_Grunt3Defeat, 0x0817A4EE
+	.global PokemonTower_7F_Text_Grunt3PostBattle
+	.set PokemonTower_7F_Text_Grunt3PostBattle, 0x0817A506
+	.global PokemonTower_7F_Text_MrFujiThankYouFollowMe
+	.set PokemonTower_7F_Text_MrFujiThankYouFollowMe, 0x0817A529
+	.global Text_ExplosionTeach
+	.set Text_ExplosionTeach, 0x0817A642
+	.global Text_ExplosionDeclined
+	.set Text_ExplosionDeclined, 0x0817A6ED
+	.global Text_ExplosionWhichMon
+	.set Text_ExplosionWhichMon, 0x0817A717
+	.global Text_ExplosionTaught
+	.set Text_ExplosionTaught, 0x0817A756
+	.global Text_ExplosionTeachJP
+	.set Text_ExplosionTeachJP, 0x0817A797
+	.global Text_ExplosionDeclinedJP
+	.set Text_ExplosionDeclinedJP, 0x0817A7E5
+	.global Text_ExplosionWhichMonJP
+	.set Text_ExplosionWhichMonJP, 0x0817A7F7
+	.global Text_ExplosionTaughtJP
+	.set Text_ExplosionTaughtJP, 0x0817A811
+	.global MtEmber_Exterior_Text_WellTryDiggingHere
+	.set MtEmber_Exterior_Text_WellTryDiggingHere, 0x0817A82A
+	.global MtEmber_Exterior_Text_YoureInTheWayGetLost
+	.set MtEmber_Exterior_Text_YoureInTheWayGetLost, 0x0817A88C
+	.global MtEmber_Exterior_Text_PunchedThroughAtLast
+	.set MtEmber_Exterior_Text_PunchedThroughAtLast, 0x0817A8B4
+	.global MtEmber_Exterior_Text_WhatsPasswordAgain
+	.set MtEmber_Exterior_Text_WhatsPasswordAgain, 0x0817A8EE
+	.global MtEmber_Exterior_Text_FirstPasswordGoldeen
+	.set MtEmber_Exterior_Text_FirstPasswordGoldeen, 0x0817A970
+	.global MtEmber_Exterior_Text_SnoopsBeenListeningIn
+	.set MtEmber_Exterior_Text_SnoopsBeenListeningIn, 0x0817A9E1
+	.global MtEmber_Exterior_Text_Grunt1Intro
+	.set MtEmber_Exterior_Text_Grunt1Intro, 0x0817AA06
+	.global MtEmber_Exterior_Text_Grunt1Defeat
+	.set MtEmber_Exterior_Text_Grunt1Defeat, 0x0817AA34
+	.global MtEmber_Exterior_Text_Grunt1PostBattle
+	.set MtEmber_Exterior_Text_Grunt1PostBattle, 0x0817AA3F
+	.global MtEmber_Exterior_Text_Grunt2Intro
+	.set MtEmber_Exterior_Text_Grunt2Intro, 0x0817AA56
+	.global MtEmber_Exterior_Text_Grunt2Defeat
+	.set MtEmber_Exterior_Text_Grunt2Defeat, 0x0817AA8A
+	.global MtEmber_Exterior_Text_Grunt2PostBattle
+	.set MtEmber_Exterior_Text_Grunt2PostBattle, 0x0817AA99
+	.global MtEmber_Exterior_Text_WellRegroupDontStepInsideThere
+	.set MtEmber_Exterior_Text_WellRegroupDontStepInsideThere, 0x0817AAD7
+	.global MtEmber_Exterior_Text_LoganIntro
+	.set MtEmber_Exterior_Text_LoganIntro, 0x0817AB73
+	.global MtEmber_Exterior_Text_LoganDefeat
+	.set MtEmber_Exterior_Text_LoganDefeat, 0x0817ABAA
+	.global MtEmber_Exterior_Text_LoganPostBattle
+	.set MtEmber_Exterior_Text_LoganPostBattle, 0x0817ABD8
+	.global MtEmber_Exterior_Text_BethIntro
+	.set MtEmber_Exterior_Text_BethIntro, 0x0817AC55
+	.global MtEmber_Exterior_Text_BethDefeat
+	.set MtEmber_Exterior_Text_BethDefeat, 0x0817AC82
+	.global MtEmber_Exterior_Text_BethPostBattle
+	.set MtEmber_Exterior_Text_BethPostBattle, 0x0817ACA2
+	.global MtEmber_Exterior_Text_JocelynIntro
+	.set MtEmber_Exterior_Text_JocelynIntro, 0x0817AD06
+	.global MtEmber_Exterior_Text_JocelynDefeat
+	.set MtEmber_Exterior_Text_JocelynDefeat, 0x0817AD6B
+	.global MtEmber_Exterior_Text_JocelynPostBattle
+	.set MtEmber_Exterior_Text_JocelynPostBattle, 0x0817AD89
+	.global TrainerTower_Lobby_Text_WelcomeToTrainerTower
+	.set TrainerTower_Lobby_Text_WelcomeToTrainerTower, 0x0817C794
+	.global TrainerTower_Lobby_Text_TrainersUpToFloorNum
+	.set TrainerTower_Lobby_Text_TrainersUpToFloorNum, 0x0817C7D9
+	.global TrainerTower_Lobby_Text_TrainersUpEighthFloor
+	.set TrainerTower_Lobby_Text_TrainersUpEighthFloor, 0x0817C850
+	.global TrainerTower_Lobby_Text_LikeToChallengeTrainers
+	.set TrainerTower_Lobby_Text_LikeToChallengeTrainers, 0x0817C88D
+	.global TrainerTower_Lobby_Text_StartClockGetSetGo
+	.set TrainerTower_Lobby_Text_StartClockGetSetGo, 0x0817C8BF
+	.global TrainerTower_Lobby_Text_PleaseVisitUsAgain
+	.set TrainerTower_Lobby_Text_PleaseVisitUsAgain, 0x0817C91D
+	.global TrainerTower_Lobby_Text_TooBadComeBackTryAgain
+	.set TrainerTower_Lobby_Text_TooBadComeBackTryAgain, 0x0817C937
+	.global TrainerTower_Lobby_Text_GiveItYourBest
+	.set TrainerTower_Lobby_Text_GiveItYourBest, 0x0817C9A2
+	.global TrainerTower_Lobby_Text_MoveCounterHereWhenTrainersSwitch
+	.set TrainerTower_Lobby_Text_MoveCounterHereWhenTrainersSwitch, 0x0817C9C0
+	.global TrainerTower_Roof_Text_ImOwnerBattledPerfectly
+	.set TrainerTower_Roof_Text_ImOwnerBattledPerfectly, 0x0817CA5A
+	.global TrainerTower_Roof_Text_ThisIsForYou
+	.set TrainerTower_Roof_Text_ThisIsForYou, 0x0817CB09
+	.global TrainerTower_Roof_Text_DoneItInRecordTime
+	.set TrainerTower_Roof_Text_DoneItInRecordTime, 0x0817CB1A
+	.global TrainerTower_Roof_Text_TookSweetTimeGettingHere
+	.set TrainerTower_Roof_Text_TookSweetTimeGettingHere, 0x0817CBC0
+	.global TrainerTower_Roof_Text_IdLikeToSeeBetterTime
+	.set TrainerTower_Roof_Text_IdLikeToSeeBetterTime, 0x0817CBF5
+	.global TrainerTower_Text_XMinYZSec
+	.set TrainerTower_Text_XMinYZSec, 0x0817CC56
+	.global TrainerTower_Lobby_Text_HereAreTheResults
+	.set TrainerTower_Lobby_Text_HereAreTheResults, 0x0817CC69
+	.global TrainerTower_Lobby_Text_NeedTwoMonsForDouble
+	.set TrainerTower_Lobby_Text_NeedTwoMonsForDouble, 0x0817CC73
+	.global TrainerTower_Lobby_Text_ExplainTrainerTower
+	.set TrainerTower_Lobby_Text_ExplainTrainerTower, 0x0817CCC9
+	.global TrainerTower_Lobby_Text_ThanksForCompeting
+	.set TrainerTower_Lobby_Text_ThanksForCompeting, 0x0817CE1F
+	.global TrainerTower_Lobby_Text_WonderWhatKindsOfTrainers
+	.set TrainerTower_Lobby_Text_WonderWhatKindsOfTrainers, 0x0817CE38
+	.global TrainerTower_Lobby_Text_StairsTougherThanAnyBattle
+	.set TrainerTower_Lobby_Text_StairsTougherThanAnyBattle, 0x0817CE9F
+	.global PalletTown_Text_OakDontGoOut
+	.set PalletTown_Text_OakDontGoOut, 0x0817D72C
+	.global PalletTown_Text_OakGrassUnsafeNeedMon
+	.set PalletTown_Text_OakGrassUnsafeNeedMon, 0x0817D74A
+	.global PalletTown_Text_RaisingMonsToo
+	.set PalletTown_Text_RaisingMonsToo, 0x0817D7C8
+	.global PalletTown_Text_CanStoreItemsAndMonsInPC
+	.set PalletTown_Text_CanStoreItemsAndMonsInPC, 0x0817D80D
+	.global PalletTown_Text_OakPokemonResearchLab
+	.set PalletTown_Text_OakPokemonResearchLab, 0x0817D866
+	.global PalletTown_Text_PlayersHouse
+	.set PalletTown_Text_PlayersHouse, 0x0817D87F
+	.global PalletTown_Text_RivalsHouse
+	.set PalletTown_Text_RivalsHouse, 0x0817D88A
+	.global PalletTown_Text_TownSign
+	.set PalletTown_Text_TownSign, 0x0817D895
+	.global PalletTown_Text_OakLetMeSeePokedex
+	.set PalletTown_Text_OakLetMeSeePokedex, 0x0817D8BF
+	.global PalletTown_Text_CaughtXPuttingInHonestEffort
+	.set PalletTown_Text_CaughtXPuttingInHonestEffort, 0x0817D925
+	.global PalletTown_Text_CaughtXImpressiveFollowMe
+	.set PalletTown_Text_CaughtXImpressiveFollowMe, 0x0817D9AA
+	.global PalletTown_Text_OakYouEnjoyingTraveling
+	.set PalletTown_Text_OakYouEnjoyingTraveling, 0x0817DA16
+	.global CeruleanCity_Text_RivalIntro
+	.set CeruleanCity_Text_RivalIntro, 0x0817EAD7
+	.global CeruleanCity_Text_RivalDefeat
+	.set CeruleanCity_Text_RivalDefeat, 0x0817EB71
+	.global CeruleanCity_Text_RivalPostBattle
+	.set CeruleanCity_Text_RivalPostBattle, 0x0817EB95
+	.global CeruleanCity_Text_OhRightLittlePresentAsFavor
+	.set CeruleanCity_Text_OhRightLittlePresentAsFavor, 0x0817ECD4
+	.global CeruleanCity_Text_ExplainFameCheckerSmellYa
+	.set CeruleanCity_Text_ExplainFameCheckerSmellYa, 0x0817ED5D
+	.global CeruleanCity_Text_RivalVictory
+	.set CeruleanCity_Text_RivalVictory, 0x0817EDF8
+	.global CeruleanCity_Text_GruntIntro
+	.set CeruleanCity_Text_GruntIntro, 0x0817EE0E
+	.global CeruleanCity_Text_GruntDefeat
+	.set CeruleanCity_Text_GruntDefeat, 0x0817EE70
+	.global CeruleanCity_Text_OkayIllReturnStolenTM
+	.set CeruleanCity_Text_OkayIllReturnStolenTM, 0x0817EE9C
+	.global CeruleanCity_Text_RecoveredTM28FromGrunt
+	.set CeruleanCity_Text_RecoveredTM28FromGrunt, 0x0817EEBF
+	.global CeruleanCity_Text_BetterGetMovingBye
+	.set CeruleanCity_Text_BetterGetMovingBye, 0x0817EEED
+	.global CeruleanCity_Text_MakeRoomForThisCantRun
+	.set CeruleanCity_Text_MakeRoomForThisCantRun, 0x0817EF07
+	.global CeruleanCity_Text_TrainerLifeIsToughIsntIt
+	.set CeruleanCity_Text_TrainerLifeIsToughIsntIt, 0x0817EF3F
+	.global CeruleanCity_Text_YouCanCutDownSmallTrees
+	.set CeruleanCity_Text_YouCanCutDownSmallTrees, 0x0817EF89
+	.global CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree
+	.set CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree, 0x0817F01D
+	.global CeruleanCity_Text_PokemonEncyclopediaAmusing
+	.set CeruleanCity_Text_PokemonEncyclopediaAmusing, 0x0817F0B2
+	.global CeruleanCity_Text_PeopleHereWereRobbed
+	.set CeruleanCity_Text_PeopleHereWereRobbed, 0x0817F0F1
+	.global CeruleanCity_Text_SlowbroUseSonicboom
+	.set CeruleanCity_Text_SlowbroUseSonicboom, 0x0817F183
+	.global CeruleanCity_Text_SlowbroPayAttention
+	.set CeruleanCity_Text_SlowbroPayAttention, 0x0817F1A1
+	.global CeruleanCity_Text_SlowbroPunch
+	.set CeruleanCity_Text_SlowbroPunch, 0x0817F1C2
+	.global CeruleanCity_Text_NoYouBlewItAgain
+	.set CeruleanCity_Text_NoYouBlewItAgain, 0x0817F1D2
+	.global CeruleanCity_Text_SlowbroWithdraw
+	.set CeruleanCity_Text_SlowbroWithdraw, 0x0817F1E9
+	.global CeruleanCity_Text_HardToControlMonsObedience
+	.set CeruleanCity_Text_HardToControlMonsObedience, 0x0817F1FC
+	.global CeruleanCity_Text_SlowbroTookSnooze
+	.set CeruleanCity_Text_SlowbroTookSnooze, 0x0817F270
+	.global CeruleanCity_Text_SlowbroLoafingAround
+	.set CeruleanCity_Text_SlowbroLoafingAround, 0x0817F287
+	.global CeruleanCity_Text_SlowbroTurnedAway
+	.set CeruleanCity_Text_SlowbroTurnedAway, 0x0817F2A2
+	.global CeruleanCity_Text_SlowbroIgnoredOrders
+	.set CeruleanCity_Text_SlowbroIgnoredOrders, 0x0817F2B7
+	.global CeruleanCity_Text_WantBrightRedBicycle
+	.set CeruleanCity_Text_WantBrightRedBicycle, 0x0817F2CF
+	.global CeruleanCity_Text_ThisIsCeruleanCave
+	.set CeruleanCity_Text_ThisIsCeruleanCave, 0x0817F319
+	.global CeruleanCity_Text_CitySign
+	.set CeruleanCity_Text_CitySign, 0x0817F420
+	.global CeruleanCity_Text_TrainerTipsHeldItems
+	.set CeruleanCity_Text_TrainerTipsHeldItems, 0x0817F453
+	.global CeruleanCity_Text_BikeShopSign
+	.set CeruleanCity_Text_BikeShopSign, 0x0817F4C5
+	.global CeruleanCity_Text_GymSign
+	.set CeruleanCity_Text_GymSign, 0x0817F4EF
+	.global CeladonCity_Text_GotMyKoffingInCinnabar
+	.set CeladonCity_Text_GotMyKoffingInCinnabar, 0x0817FEC3
+	.global CeladonCity_Text_GymIsGreatFullOfWomen
+	.set CeladonCity_Text_GymIsGreatFullOfWomen, 0x0817FF1C
+	.global CeladonCity_Text_GameCornerIsBadForCitysImage
+	.set CeladonCity_Text_GameCornerIsBadForCitysImage, 0x0817FF4A
+	.global CeladonCity_Text_BlewItAllAtSlots
+	.set CeladonCity_Text_BlewItAllAtSlots, 0x0817FFC5
+	.global CeladonCity_Text_MyTrustedPalPoliwrath
+	.set CeladonCity_Text_MyTrustedPalPoliwrath, 0x0818001B
+	.global CeladonCity_Text_Poliwrath
+	.set CeladonCity_Text_Poliwrath, 0x08180075
+	.global CeladonCity_Text_GetLostOrIllPunchYou
+	.set CeladonCity_Text_GetLostOrIllPunchYou, 0x0818008C
+	.global CeladonCity_Text_KeepOutOfTeamRocketsWay
+	.set CeladonCity_Text_KeepOutOfTeamRocketsWay, 0x081800C2
+	.global CeladonCity_Text_ExplainXAccuracyDireHit
+	.set CeladonCity_Text_ExplainXAccuracyDireHit, 0x081800E1
+	.global CeladonCity_Text_CitySign
+	.set CeladonCity_Text_CitySign, 0x0818017A
+	.global CeladonCity_Text_GymSign
+	.set CeladonCity_Text_GymSign, 0x081801A2
+	.global CeladonCity_Text_MansionSign
+	.set CeladonCity_Text_MansionSign, 0x081801E5
+	.global CeladonCity_Text_DeptStoreSign
+	.set CeladonCity_Text_DeptStoreSign, 0x081801F5
+	.global CeladonCity_Text_GuardSpecProtectsFromStatus
+	.set CeladonCity_Text_GuardSpecProtectsFromStatus, 0x08180224
+	.global CeladonCity_Text_PrizeExchangeSign
+	.set CeladonCity_Text_PrizeExchangeSign, 0x081802A4
+	.global CeladonCity_Text_GameCornerSign
+	.set CeladonCity_Text_GameCornerSign, 0x081802CF
+	.global CeladonCity_Text_ScaldedTongueOnTea
+	.set CeladonCity_Text_ScaldedTongueOnTea, 0x08180300
+	.global Text_SoftboiledTeach
+	.set Text_SoftboiledTeach, 0x08180388
+	.global Text_SoftboiledDeclined
+	.set Text_SoftboiledDeclined, 0x0818043F
+	.global Text_SoftboiledWhichMon
+	.set Text_SoftboiledWhichMon, 0x08180484
+	.global Text_SoftboiledTaught
+	.set Text_SoftboiledTaught, 0x081804C4
+	.global CeladonCity_Text_SomeoneStoleSilphScope
+	.set CeladonCity_Text_SomeoneStoleSilphScope, 0x081804E1
+	.global FuchsiaCity_Text_DidYouTrySafariGame
+	.set FuchsiaCity_Text_DidYouTrySafariGame, 0x0818056E
+	.global FuchsiaCity_Text_SafariZoneZooInFront
+	.set FuchsiaCity_Text_SafariZoneZooInFront, 0x081805C6
+	.global FuchsiaCity_Text_WheresSara
+	.set FuchsiaCity_Text_WheresSara, 0x0818062C
+	.global FuchsiaCity_Text_ItemBallInThere
+	.set FuchsiaCity_Text_ItemBallInThere, 0x0818065A
+	.global FuchsiaCity_Text_CitySign
+	.set FuchsiaCity_Text_CitySign, 0x081806AB
+	.global FuchsiaCity_Text_SafariZoneSign
+	.set FuchsiaCity_Text_SafariZoneSign, 0x081806D3
+	.global FuchsiaCity_Text_SafariGameSign
+	.set FuchsiaCity_Text_SafariGameSign, 0x081806F0
+	.global FuchsiaCity_Text_WardensHomeSign
+	.set FuchsiaCity_Text_WardensHomeSign, 0x0818070D
+	.global FuchsiaCity_Text_SafariZoneOfficeSign
+	.set FuchsiaCity_Text_SafariZoneOfficeSign, 0x08180727
+	.global FuchsiaCity_Text_GymSign
+	.set FuchsiaCity_Text_GymSign, 0x08180768
+	.global FuchsiaCity_Text_ChanseySign
+	.set FuchsiaCity_Text_ChanseySign, 0x081807A9
+	.global FuchsiaCity_Text_VoltorbSign
+	.set FuchsiaCity_Text_VoltorbSign, 0x081807D9
+	.global FuchsiaCity_Text_KangaskhanSign
+	.set FuchsiaCity_Text_KangaskhanSign, 0x08180806
+	.global FuchsiaCity_Text_SlowpokeSign
+	.set FuchsiaCity_Text_SlowpokeSign, 0x08180859
+	.global FuchsiaCity_Text_LaprasSign
+	.set FuchsiaCity_Text_LaprasSign, 0x08180887
+	.global FuchsiaCity_Text_OmanyteSign
+	.set FuchsiaCity_Text_OmanyteSign, 0x081808AE
+	.global FuchsiaCity_Text_KabutoSign
+	.set FuchsiaCity_Text_KabutoSign, 0x081808FA
+	.global FuchsiaCity_Text_Ellipsis
+	.set FuchsiaCity_Text_Ellipsis, 0x08180945
+	.global Text_SubstituteTeach
+	.set Text_SubstituteTeach, 0x08180948
+	.global Text_SubstituteDeclined
+	.set Text_SubstituteDeclined, 0x08180A32
+	.global Text_SubstituteWhichMon
+	.set Text_SubstituteWhichMon, 0x08180A57
+	.global Text_SubstituteTaught
+	.set Text_SubstituteTaught, 0x08180A80
+	.global FuchsiaCity_Text_MyFatherIsGymLeader
+	.set FuchsiaCity_Text_MyFatherIsGymLeader, 0x08180ABD
+	.global CinnabarIsland_Text_DoorIsLocked
+	.set CinnabarIsland_Text_DoorIsLocked, 0x08180B20
+	.global CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab
+	.set CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab, 0x08180B34
+	.global CinnabarIsland_Text_ScientistsExperimentInMansion
+	.set CinnabarIsland_Text_ScientistsExperimentInMansion, 0x08180BA0
+	.global CinnabarIsland_Text_IslandSign
+	.set CinnabarIsland_Text_IslandSign, 0x08180C0D
+	.global CinnabarIsland_Text_PokemonLab
+	.set CinnabarIsland_Text_PokemonLab, 0x08180C3E
+	.global CinnabarIsland_Text_GymSign
+	.set CinnabarIsland_Text_GymSign, 0x08180C4A
+	.global CinnabarIsland_Text_HeyIfItIsntPlayer
+	.set CinnabarIsland_Text_HeyIfItIsntPlayer, 0x08180C90
+	.global CinnabarIsland_Text_ComeWithMeToOneIsland
+	.set CinnabarIsland_Text_ComeWithMeToOneIsland, 0x08180CAA
+	.global CinnabarIsland_Text_AllRightLetsGo
+	.set CinnabarIsland_Text_AllRightLetsGo, 0x08180DDD
+	.global CinnabarIsland_Text_IllBeWaitingInPokeCenter
+	.set CinnabarIsland_Text_IllBeWaitingInPokeCenter, 0x08180DF8
+	.global CinnabarIsland_Text_MyPalsBoatArrived
+	.set CinnabarIsland_Text_MyPalsBoatArrived, 0x08180EAD
+	.global CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain
+	.set CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain, 0x08180F09
+	.global SaffronCity_Text_WhatDoYouWantGetLost
+	.set SaffronCity_Text_WhatDoYouWantGetLost, 0x08181003
+	.global SaffronCity_Text_BossTakeTownForTeamRocket
+	.set SaffronCity_Text_BossTakeTownForTeamRocket, 0x0818101F
+	.global SaffronCity_Text_DontGetDefiantOrIllHurtYou
+	.set SaffronCity_Text_DontGetDefiantOrIllHurtYou, 0x0818105A
+	.global SaffronCity_Text_SaffronBelongsToTeamRocket
+	.set SaffronCity_Text_SaffronBelongsToTeamRocket, 0x08181087
+	.global SaffronCity_Text_CriminalLifeMakesMeFeelAlive
+	.set SaffronCity_Text_CriminalLifeMakesMeFeelAlive, 0x081810A7
+	.global SaffronCity_Text_WatchWhereYoureWalking
+	.set SaffronCity_Text_WatchWhereYoureWalking, 0x081810D5
+	.global SaffronCity_Text_WeCanExploitMonsAroundWorld
+	.set SaffronCity_Text_WeCanExploitMonsAroundWorld, 0x081810F5
+	.global SaffronCity_Text_YouBeatTeamRocket
+	.set SaffronCity_Text_YouBeatTeamRocket, 0x08181159
+	.global SaffronCity_Text_SafeToGoOutAgain
+	.set SaffronCity_Text_SafeToGoOutAgain, 0x08181189
+	.global SaffronCity_Text_PeopleComingBackToSaffron
+	.set SaffronCity_Text_PeopleComingBackToSaffron, 0x081811BF
+	.global SaffronCity_Text_FlewHereOnPidgeot
+	.set SaffronCity_Text_FlewHereOnPidgeot, 0x08181225
+	.global SaffronCity_Text_Pidgeot
+	.set SaffronCity_Text_Pidgeot, 0x08181286
+	.global SaffronCity_Text_SawRocketBossEscaping
+	.set SaffronCity_Text_SawRocketBossEscaping, 0x08181299
+	.global SaffronCity_Text_ImASecurityGuard
+	.set SaffronCity_Text_ImASecurityGuard, 0x081812CA
+	.global SaffronCity_Text_HesTakingASnooze
+	.set SaffronCity_Text_HesTakingASnooze, 0x08181302
+	.global SaffronCity_Text_CitySign
+	.set SaffronCity_Text_CitySign, 0x08181326
+	.global SaffronCity_Text_FightingDojo
+	.set SaffronCity_Text_FightingDojo, 0x08181354
+	.global SaffronCity_Text_GymSign
+	.set SaffronCity_Text_GymSign, 0x08181362
+	.global SaffronCity_Text_FullHealCuresStatus
+	.set SaffronCity_Text_FullHealCuresStatus, 0x081813AA
+	.global SaffronCity_Text_GreatBallImprovedCatchRate
+	.set SaffronCity_Text_GreatBallImprovedCatchRate, 0x08181452
+	.global SaffronCity_Text_SilphCoSign
+	.set SaffronCity_Text_SilphCoSign, 0x081814B9
+	.global SaffronCity_Text_MrPsychicsHouse
+	.set SaffronCity_Text_MrPsychicsHouse, 0x081814D3
+	.global SaffronCity_Text_SilphsLatestProduct
+	.set SaffronCity_Text_SilphsLatestProduct, 0x081814E7
+	.global SaffronCity_Text_TrainerFanClubSign
+	.set SaffronCity_Text_TrainerFanClubSign, 0x08181519
+	.global SaffronCity_Text_HowCanClubNotRecognizeLance
+	.set SaffronCity_Text_HowCanClubNotRecognizeLance, 0x08181569
+	.global OneIsland_Text_BillLetsGoSeeCelio
+	.set OneIsland_Text_BillLetsGoSeeCelio, 0x0818161B
+	.global Text_WhereDoYouWantToSail
+	.set Text_WhereDoYouWantToSail, 0x08181726
+	.global OneIsland_Text_LuckyToHaveCelioHere
+	.set OneIsland_Text_LuckyToHaveCelioHere, 0x0818174E
+	.global OneIsland_Text_HavePCLinkageWithKanto
+	.set OneIsland_Text_HavePCLinkageWithKanto, 0x08181858
+	.global OneIsland_Text_HavePCLinkageWithHoenn
+	.set OneIsland_Text_HavePCLinkageWithHoenn, 0x08181901
+	.global OneIsland_Text_IslandSign
+	.set OneIsland_Text_IslandSign, 0x081819E1
+	.global OneIsland_Text_PokemonNetCenterSign
+	.set OneIsland_Text_PokemonNetCenterSign, 0x08181A0A
+	.global OneIsland_Text_ReturnToCinnabar
+	.set OneIsland_Text_ReturnToCinnabar, 0x08181A3A
+	.global OneIsland_Text_IsntWarmClimateHereGreat
+	.set OneIsland_Text_IsntWarmClimateHereGreat, 0x08181A4A
+	.global ThreeIsland_Text_IslandSign
+	.set ThreeIsland_Text_IslandSign, 0x08182061
+	.global ThreeIsland_Text_IslandBelongsToUs
+	.set ThreeIsland_Text_IslandBelongsToUs, 0x0818208B
+	.global ThreeIsland_Text_GoBackToKanto
+	.set ThreeIsland_Text_GoBackToKanto, 0x081820C0
+	.global ThreeIsland_Text_BossIsOnHisWay
+	.set ThreeIsland_Text_BossIsOnHisWay, 0x08182125
+	.global ThreeIsland_Text_GetOffIslandNow
+	.set ThreeIsland_Text_GetOffIslandNow, 0x081821A9
+	.global ThreeIsland_Text_WhosGonnaMakeMe
+	.set ThreeIsland_Text_WhosGonnaMakeMe, 0x081821DC
+	.global ThreeIsland_Text_AreYouBossGoBackToKanto
+	.set ThreeIsland_Text_AreYouBossGoBackToKanto, 0x081821F1
+	.global ThreeIsland_Text_JustGotHerePal
+	.set ThreeIsland_Text_JustGotHerePal, 0x0818221F
+	.global ThreeIsland_Text_FollowersRaisingHavoc
+	.set ThreeIsland_Text_FollowersRaisingHavoc, 0x08182275
+	.global ThreeIsland_Text_OughtToBeThankingUs
+	.set ThreeIsland_Text_OughtToBeThankingUs, 0x081822FB
+	.global ThreeIsland_Text_YouCowardsToughInPack
+	.set ThreeIsland_Text_YouCowardsToughInPack, 0x081823C7
+	.global ThreeIsland_Text_WannaMakeSomethingOfYourStaring
+	.set ThreeIsland_Text_WannaMakeSomethingOfYourStaring, 0x081823ED
+	.global ThreeIsland_Text_ThatsSmart
+	.set ThreeIsland_Text_ThatsSmart, 0x08182453
+	.global ThreeIsland_Text_Biker1Intro
+	.set ThreeIsland_Text_Biker1Intro, 0x0818247D
+	.global ThreeIsland_Text_Biker1Defeat
+	.set ThreeIsland_Text_Biker1Defeat, 0x081824B7
+	.global ThreeIsland_Text_Biker1PostBattle
+	.set ThreeIsland_Text_Biker1PostBattle, 0x081824CF
+	.global ThreeIsland_Text_Biker2Intro
+	.set ThreeIsland_Text_Biker2Intro, 0x081824EF
+	.global ThreeIsland_Text_Biker2Defeat
+	.set ThreeIsland_Text_Biker2Defeat, 0x08182521
+	.global ThreeIsland_Text_Biker2PostBattle
+	.set ThreeIsland_Text_Biker2PostBattle, 0x08182536
+	.global ThreeIsland_Text_Biker3Intro
+	.set ThreeIsland_Text_Biker3Intro, 0x08182582
+	.global ThreeIsland_Text_Biker3Defeat
+	.set ThreeIsland_Text_Biker3Defeat, 0x081825D4
+	.global ThreeIsland_Text_Biker3PostBattle
+	.set ThreeIsland_Text_Biker3PostBattle, 0x081825E2
+	.global ThreeIsland_Text_PaxtonIntro
+	.set ThreeIsland_Text_PaxtonIntro, 0x08182623
+	.global ThreeIsland_Text_PaxtonDefeat
+	.set ThreeIsland_Text_PaxtonDefeat, 0x081826B7
+	.global ThreeIsland_Text_PaxtonPostBattle
+	.set ThreeIsland_Text_PaxtonPostBattle, 0x0818271D
+	.global ThreeIsland_Text_ThankYouOhYourMonGotHurt
+	.set ThreeIsland_Text_ThankYouOhYourMonGotHurt, 0x0818275A
+	.global ThreeIsland_Text_GivenFullRestore
+	.set ThreeIsland_Text_GivenFullRestore, 0x081827BE
+	.global ThreeIsland_Text_OhYourBagIsFull
+	.set ThreeIsland_Text_OhYourBagIsFull, 0x081827DB
+	.global ThreeIsland_Text_YouveGotImpressiveMons
+	.set ThreeIsland_Text_YouveGotImpressiveMons, 0x081827F1
+	.global ThreeIsland_Text_LostelleWentOffTowardsBondBridge
+	.set ThreeIsland_Text_LostelleWentOffTowardsBondBridge, 0x08182823
+	.global ThreeIsland_Text_WouldntWantToSeeBikersHereAgain
+	.set ThreeIsland_Text_WouldntWantToSeeBikersHereAgain, 0x081828EB
+	.global ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame
+	.set ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame, 0x0818298A
+	.global ThreeIsland_Text_Doduo
+	.set ThreeIsland_Text_Doduo, 0x081829F4
+	.global Route2_Text_RouteSign
+	.set Route2_Text_RouteSign, 0x0818345E
+	.global Route2_Text_DiglettsCave
+	.set Route2_Text_DiglettsCave, 0x08183482
+	.global Route3_Text_TunnelFromCeruleanTiring
+	.set Route3_Text_TunnelFromCeruleanTiring, 0x08183491
+	.global Route3_Text_ColtonIntro
+	.set Route3_Text_ColtonIntro, 0x081834E6
+	.global Route3_Text_ColtonDefeat
+	.set Route3_Text_ColtonDefeat, 0x08183509
+	.global Route3_Text_ColtonPostBattle
+	.set Route3_Text_ColtonPostBattle, 0x0818351C
+	.global Route3_Text_BenIntro
+	.set Route3_Text_BenIntro, 0x08183560
+	.global Route3_Text_BenDefeat
+	.set Route3_Text_BenDefeat, 0x081835A0
+	.global Route3_Text_BenPostBattle
+	.set Route3_Text_BenPostBattle, 0x081835B4
+	.global Route3_Text_JaniceIntro
+	.set Route3_Text_JaniceIntro, 0x08183616
+	.global Route3_Text_JaniceDefeat
+	.set Route3_Text_JaniceDefeat, 0x0818363F
+	.global Route3_Text_JanicePostBattle
+	.set Route3_Text_JanicePostBattle, 0x0818364C
+	.global Route3_Text_GregIntro
+	.set Route3_Text_GregIntro, 0x08183682
+	.global Route3_Text_GregDefeat
+	.set Route3_Text_GregDefeat, 0x081836B3
+	.global Route3_Text_GregPostBattle
+	.set Route3_Text_GregPostBattle, 0x081836D9
+	.global Route3_Text_SallyIntro
+	.set Route3_Text_SallyIntro, 0x0818371B
+	.global Route3_Text_SallyDefeat
+	.set Route3_Text_SallyDefeat, 0x08183746
+	.global Route3_Text_SallyPostBattle
+	.set Route3_Text_SallyPostBattle, 0x0818374F
+	.global Route3_Text_CalvinIntro
+	.set Route3_Text_CalvinIntro, 0x08183786
+	.global Route3_Text_CalvinDefeat
+	.set Route3_Text_CalvinDefeat, 0x081837BD
+	.global Route3_Text_CalvinPostBattle
+	.set Route3_Text_CalvinPostBattle, 0x081837CF
+	.global Route3_Text_JamesIntro
+	.set Route3_Text_JamesIntro, 0x08183807
+	.global Route3_Text_JamesDefeat
+	.set Route3_Text_JamesDefeat, 0x08183837
+	.global Route3_Text_JamesPostBattle
+	.set Route3_Text_JamesPostBattle, 0x08183849
+	.global Route3_Text_RobinIntro
+	.set Route3_Text_RobinIntro, 0x0818387A
+	.global Route3_Text_RobinDefeat
+	.set Route3_Text_RobinDefeat, 0x08183891
+	.global Route3_Text_RobinPostBattle
+	.set Route3_Text_RobinPostBattle, 0x0818389C
+	.global Route3_Text_RouteSign
+	.set Route3_Text_RouteSign, 0x081838C0
+	.global Route5_Text_UndergroundPathSign
+	.set Route5_Text_UndergroundPathSign, 0x08183DD4
+	.global Route6_Text_RickyIntro
+	.set Route6_Text_RickyIntro, 0x08183E04
+	.global Route6_Text_RickyDefeat
+	.set Route6_Text_RickyDefeat, 0x08183E2A
+	.global Route6_Text_RickyPostBattle
+	.set Route6_Text_RickyPostBattle, 0x08183E3C
+	.global Route6_Text_NancyIntro
+	.set Route6_Text_NancyIntro, 0x08183E4E
+	.global Route6_Text_NancyDefeat
+	.set Route6_Text_NancyDefeat, 0x08183E79
+	.global Route6_Text_NancyPostBattle
+	.set Route6_Text_NancyPostBattle, 0x08183E8D
+	.global Route6_Text_KeigoIntro
+	.set Route6_Text_KeigoIntro, 0x08183E9F
+	.global Route6_Text_KeigoDefeat
+	.set Route6_Text_KeigoDefeat, 0x08183EC0
+	.global Route6_Text_KeigoPostBattle
+	.set Route6_Text_KeigoPostBattle, 0x08183ED4
+	.global Route6_Text_JeffIntro
+	.set Route6_Text_JeffIntro, 0x08183F07
+	.global Route6_Text_JeffDefeat
+	.set Route6_Text_JeffDefeat, 0x08183F24
+	.global Route6_Text_JeffPostBattle
+	.set Route6_Text_JeffPostBattle, 0x08183F51
+	.global Route6_Text_IsabelleIntro
+	.set Route6_Text_IsabelleIntro, 0x08183F90
+	.global Route6_Text_IsabelleDefeat
+	.set Route6_Text_IsabelleDefeat, 0x08183FAB
+	.global Route6_Text_IsabellePostBattle
+	.set Route6_Text_IsabellePostBattle, 0x08183FC4
+	.global Route6_Text_ElijahIntro
+	.set Route6_Text_ElijahIntro, 0x08183FF0
+	.global Route6_Text_ElijahDefeat
+	.set Route6_Text_ElijahDefeat, 0x0818401A
+	.global Route6_Text_ElijahPostBattle
+	.set Route6_Text_ElijahPostBattle, 0x0818402B
+	.global Route6_Text_UndergroundPathSign
+	.set Route6_Text_UndergroundPathSign, 0x08184067
+	.global Route7_Text_UndergroundPathSign
+	.set Route7_Text_UndergroundPathSign, 0x08184097
+	.global Route8_Text_AidanIntro
+	.set Route8_Text_AidanIntro, 0x081840C5
+	.global Route8_Text_AidanDefeat
+	.set Route8_Text_AidanDefeat, 0x08184100
+	.global Route8_Text_AidanPostBattle
+	.set Route8_Text_AidanPostBattle, 0x0818410E
+	.global Route8_Text_StanIntro
+	.set Route8_Text_StanIntro, 0x0818412F
+	.global Route8_Text_StanDefeat
+	.set Route8_Text_StanDefeat, 0x0818414D
+	.global Route8_Text_StanPostBattle
+	.set Route8_Text_StanPostBattle, 0x08184162
+	.global Route8_Text_GlennIntro
+	.set Route8_Text_GlennIntro, 0x0818417C
+	.global Route8_Text_GlennDefeat
+	.set Route8_Text_GlennDefeat, 0x081841B6
+	.global Route8_Text_GlennPostBattle
+	.set Route8_Text_GlennPostBattle, 0x081841C8
+	.global Route8_Text_PaigeIntro
+	.set Route8_Text_PaigeIntro, 0x081841ED
+	.global Route8_Text_PaigeDefeat
+	.set Route8_Text_PaigeDefeat, 0x08184210
+	.global Route8_Text_PaigePostBattle
+	.set Route8_Text_PaigePostBattle, 0x0818421B
+	.global Route8_Text_LeslieIntro
+	.set Route8_Text_LeslieIntro, 0x08184257
+	.global Route8_Text_LeslieDefeat
+	.set Route8_Text_LeslieDefeat, 0x0818427A
+	.global Route8_Text_LesliePostBattle
+	.set Route8_Text_LesliePostBattle, 0x081842B3
+	.global Route8_Text_AndreaIntro
+	.set Route8_Text_AndreaIntro, 0x08184321
+	.global Route8_Text_AndreaDefeat
+	.set Route8_Text_AndreaDefeat, 0x08184346
+	.global Route8_Text_AndreaPostBattle
+	.set Route8_Text_AndreaPostBattle, 0x08184350
+	.global Route8_Text_MeganIntro
+	.set Route8_Text_MeganIntro, 0x0818437A
+	.global Route8_Text_MeganDefeat
+	.set Route8_Text_MeganDefeat, 0x081843A6
+	.global Route8_Text_MeganPostBattle
+	.set Route8_Text_MeganPostBattle, 0x081843D2
+	.global Route8_Text_RichIntro
+	.set Route8_Text_RichIntro, 0x08184432
+	.global Route8_Text_RichDefeat
+	.set Route8_Text_RichDefeat, 0x0818444F
+	.global Route8_Text_RichPostBattle
+	.set Route8_Text_RichPostBattle, 0x08184466
+	.global Route8_Text_JuliaIntro
+	.set Route8_Text_JuliaIntro, 0x081844AC
+	.global Route8_Text_JuliaDefeat
+	.set Route8_Text_JuliaDefeat, 0x081844D6
+	.global Route8_Text_JuliaPostBattle
+	.set Route8_Text_JuliaPostBattle, 0x081844FD
+	.global Route8_Text_UndergroundPathSign
+	.set Route8_Text_UndergroundPathSign, 0x08184576
+	.global Route8_Text_EliIntro
+	.set Route8_Text_EliIntro, 0x081845A4
+	.global Route8_Text_EliDefeat
+	.set Route8_Text_EliDefeat, 0x081845D0
+	.global Route8_Text_EliPostBattle
+	.set Route8_Text_EliPostBattle, 0x081845F2
+	.global Route8_Text_EliNotEnoughMons
+	.set Route8_Text_EliNotEnoughMons, 0x08184616
+	.global Route8_Text_AnneIntro
+	.set Route8_Text_AnneIntro, 0x0818464A
+	.global Route8_Text_AnneDefeat
+	.set Route8_Text_AnneDefeat, 0x08184675
+	.global Route8_Text_AnnePostBattle
+	.set Route8_Text_AnnePostBattle, 0x0818468B
+	.global Route8_Text_AnneNotEnoughMons
+	.set Route8_Text_AnneNotEnoughMons, 0x081846AF
+	.global Route8_Text_RicardoIntro
+	.set Route8_Text_RicardoIntro, 0x081846E2
+	.global Route8_Text_RicardoDefeat
+	.set Route8_Text_RicardoDefeat, 0x081846FC
+	.global Route8_Text_RicardoPostBattle
+	.set Route8_Text_RicardoPostBattle, 0x08184719
+	.global Route8_Text_JarenIntro
+	.set Route8_Text_JarenIntro, 0x08184742
+	.global Route8_Text_JarenDefeat
+	.set Route8_Text_JarenDefeat, 0x08184767
+	.global Route8_Text_JarenPostBattle
+	.set Route8_Text_JarenPostBattle, 0x0818477A
+	.global Route9_Text_AliciaIntro
+	.set Route9_Text_AliciaIntro, 0x081847B7
+	.global Route9_Text_AliciaDefeat
+	.set Route9_Text_AliciaDefeat, 0x081847DF
+	.global Route9_Text_AliciaPostBattle
+	.set Route9_Text_AliciaPostBattle, 0x081847F0
+	.global Route9_Text_ChrisIntro
+	.set Route9_Text_ChrisIntro, 0x08184844
+	.global Route9_Text_ChrisDefeat
+	.set Route9_Text_ChrisDefeat, 0x0818487E
+	.global Route9_Text_ChrisPostBattle
+	.set Route9_Text_ChrisPostBattle, 0x08184890
+	.global Route9_Text_DrewIntro
+	.set Route9_Text_DrewIntro, 0x0818489E
+	.global Route9_Text_DrewDefeat
+	.set Route9_Text_DrewDefeat, 0x081848CC
+	.global Route9_Text_DrewPostBattle
+	.set Route9_Text_DrewPostBattle, 0x081848DE
+	.global Route9_Text_CaitlinIntro
+	.set Route9_Text_CaitlinIntro, 0x081848FF
+	.global Route9_Text_CaitlinDefeat
+	.set Route9_Text_CaitlinDefeat, 0x0818491C
+	.global Route9_Text_CaitlinPostBattle
+	.set Route9_Text_CaitlinPostBattle, 0x08184931
+	.global Route9_Text_JeremyIntro
+	.set Route9_Text_JeremyIntro, 0x0818495E
+	.global Route9_Text_JeremyDefeat
+	.set Route9_Text_JeremyDefeat, 0x0818497F
+	.global Route9_Text_JeremyPostBattle
+	.set Route9_Text_JeremyPostBattle, 0x081849B0
+	.global Route9_Text_BriceIntro
+	.set Route9_Text_BriceIntro, 0x081849DF
+	.global Route9_Text_BriceDefeat
+	.set Route9_Text_BriceDefeat, 0x08184A04
+	.global Route9_Text_BricePostBattle
+	.set Route9_Text_BricePostBattle, 0x08184A11
+	.global Route9_Text_BrentIntro
+	.set Route9_Text_BrentIntro, 0x08184A2F
+	.global Route9_Text_BrentDefeat
+	.set Route9_Text_BrentDefeat, 0x08184A6A
+	.global Route9_Text_BrentPostBattle
+	.set Route9_Text_BrentPostBattle, 0x08184A8C
+	.global Route9_Text_AlanIntro
+	.set Route9_Text_AlanIntro, 0x08184ABE
+	.global Route9_Text_AlanDefeat
+	.set Route9_Text_AlanDefeat, 0x08184AD5
+	.global Route9_Text_AlanPostBattle
+	.set Route9_Text_AlanPostBattle, 0x08184AF1
+	.global Route9_Text_ConnerIntro
+	.set Route9_Text_ConnerIntro, 0x08184B18
+	.global Route9_Text_ConnerDefeat
+	.set Route9_Text_ConnerDefeat, 0x08184B32
+	.global Route9_Text_ConnerPostBattle
+	.set Route9_Text_ConnerPostBattle, 0x08184B3B
+	.global Route9_Text_RouteSign
+	.set Route9_Text_RouteSign, 0x08184B66
+	.global Route11_Text_HugoIntro
+	.set Route11_Text_HugoIntro, 0x08184F01
+	.global Route11_Text_HugoDefeat
+	.set Route11_Text_HugoDefeat, 0x08184F15
+	.global Route11_Text_HugoPostBattle
+	.set Route11_Text_HugoPostBattle, 0x08184F2E
+	.global Route11_Text_JasperIntro
+	.set Route11_Text_JasperIntro, 0x08184F5D
+	.global Route11_Text_JasperDefeat
+	.set Route11_Text_JasperDefeat, 0x08184F7E
+	.global Route11_Text_JasperPostBattle
+	.set Route11_Text_JasperPostBattle, 0x08184F8E
+	.global Route11_Text_EddieIntro
+	.set Route11_Text_EddieIntro, 0x08184FBD
+	.global Route11_Text_EddieDefeat
+	.set Route11_Text_EddieDefeat, 0x08184FD8
+	.global Route11_Text_EddiePostBattle
+	.set Route11_Text_EddiePostBattle, 0x08184FEF
+	.global Route11_Text_BraxtonIntro
+	.set Route11_Text_BraxtonIntro, 0x08185011
+	.global Route11_Text_BraxtonDefeat
+	.set Route11_Text_BraxtonDefeat, 0x08185037
+	.global Route11_Text_BraxtonPostBattle
+	.set Route11_Text_BraxtonPostBattle, 0x0818504A
+	.global Route11_Text_DillonIntro
+	.set Route11_Text_DillonIntro, 0x0818506A
+	.global Route11_Text_DillonDefeat
+	.set Route11_Text_DillonDefeat, 0x0818509B
+	.global Route11_Text_DillonPostBattle
+	.set Route11_Text_DillonPostBattle, 0x081850CF
+	.global Route11_Text_DirkIntro
+	.set Route11_Text_DirkIntro, 0x081850E9
+	.global Route11_Text_DirkDefeat
+	.set Route11_Text_DirkDefeat, 0x08185105
+	.global Route11_Text_DirkPostBattle
+	.set Route11_Text_DirkPostBattle, 0x08185114
+	.global Route11_Text_DarianIntro
+	.set Route11_Text_DarianIntro, 0x08185135
+	.global Route11_Text_DarianDefeat
+	.set Route11_Text_DarianDefeat, 0x0818514E
+	.global Route11_Text_DarianPostBattle
+	.set Route11_Text_DarianPostBattle, 0x08185161
+	.global Route11_Text_YasuIntro
+	.set Route11_Text_YasuIntro, 0x0818517B
+	.global Route11_Text_YasuDefeat
+	.set Route11_Text_YasuDefeat, 0x081851AC
+	.global Route11_Text_YasuPostBattle
+	.set Route11_Text_YasuPostBattle, 0x081851D2
+	.global Route11_Text_BernieIntro
+	.set Route11_Text_BernieIntro, 0x08185236
+	.global Route11_Text_BernieDefeat
+	.set Route11_Text_BernieDefeat, 0x08185250
+	.global Route11_Text_BerniePostBattle
+	.set Route11_Text_BerniePostBattle, 0x08185266
+	.global Route11_Text_DaveIntro
+	.set Route11_Text_DaveIntro, 0x08185285
+	.global Route11_Text_DaveDefeat
+	.set Route11_Text_DaveDefeat, 0x081852C1
+	.global Route11_Text_DavePostBattle
+	.set Route11_Text_DavePostBattle, 0x081852E3
+	.global Route11_Text_DiglettsCave
+	.set Route11_Text_DiglettsCave, 0x08185308
+	.global Route12_Text_MonSprawledOutInSlumber
+	.set Route12_Text_MonSprawledOutInSlumber, 0x08185317
+	.global Text_SnorlaxWokeUp
+	.set Text_SnorlaxWokeUp, 0x08185354
+	.global Text_SnorlaxReturnedToMountains
+	.set Text_SnorlaxReturnedToMountains, 0x08185383
+	.global Text_WantToUsePokeFlute
+	.set Text_WantToUsePokeFlute, 0x081853CC
+	.global Text_PlayedPokeFlute
+	.set Text_PlayedPokeFlute, 0x081853E8
+	.global Route12_Text_NedIntro
+	.set Route12_Text_NedIntro, 0x08185402
+	.global Route12_Text_NedDefeat
+	.set Route12_Text_NedDefeat, 0x0818541B
+	.global Route12_Text_NedPostBattle
+	.set Route12_Text_NedPostBattle, 0x08185432
+	.global Route12_Text_ChipIntro
+	.set Route12_Text_ChipIntro, 0x0818544E
+	.global Route12_Text_ChipDefeat
+	.set Route12_Text_ChipDefeat, 0x08185475
+	.global Route12_Text_ChipPostBattle
+	.set Route12_Text_ChipPostBattle, 0x08185488
+	.global Route12_Text_JustinIntro
+	.set Route12_Text_JustinIntro, 0x081854B9
+	.global Route12_Text_JustinDefeat
+	.set Route12_Text_JustinDefeat, 0x081854ED
+	.global Route12_Text_JustinPostBattle
+	.set Route12_Text_JustinPostBattle, 0x081854F2
+	.global Route12_Text_LucaIntro
+	.set Route12_Text_LucaIntro, 0x08185547
+	.global Route12_Text_LucaDefeat
+	.set Route12_Text_LucaDefeat, 0x0818559B
+	.global Route12_Text_LucaPostBattle
+	.set Route12_Text_LucaPostBattle, 0x081855A6
+	.global Route12_Text_HankIntro
+	.set Route12_Text_HankIntro, 0x081855E1
+	.global Route12_Text_HankDefeat
+	.set Route12_Text_HankDefeat, 0x08185606
+	.global Route12_Text_HankPostBattle
+	.set Route12_Text_HankPostBattle, 0x08185616
+	.global Route12_Text_ElliotIntro
+	.set Route12_Text_ElliotIntro, 0x08185682
+	.global Route12_Text_ElliotDefeat
+	.set Route12_Text_ElliotDefeat, 0x081856D0
+	.global Route12_Text_ElliotPostBattle
+	.set Route12_Text_ElliotPostBattle, 0x081856DF
+	.global Route12_Text_AndrewIntro
+	.set Route12_Text_AndrewIntro, 0x0818570E
+	.global Route12_Text_AndrewDefeat
+	.set Route12_Text_AndrewDefeat, 0x08185744
+	.global Route12_Text_AndrewPostBattle
+	.set Route12_Text_AndrewPostBattle, 0x0818574D
+	.global Route12_Text_RouteSign
+	.set Route12_Text_RouteSign, 0x08185797
+	.global Route12_Text_SportfishingArea
+	.set Route12_Text_SportfishingArea, 0x081857B3
+	.global Route12_Text_JesIntro
+	.set Route12_Text_JesIntro, 0x081857C5
+	.global Route12_Text_JesDefeat
+	.set Route12_Text_JesDefeat, 0x081857F1
+	.global Route12_Text_JesPostBattle
+	.set Route12_Text_JesPostBattle, 0x0818581F
+	.global Route12_Text_JesNotEnoughMons
+	.set Route12_Text_JesNotEnoughMons, 0x08185842
+	.global Route12_Text_GiaIntro
+	.set Route12_Text_GiaIntro, 0x081858A6
+	.global Route12_Text_GiaDefeat
+	.set Route12_Text_GiaDefeat, 0x081858D0
+	.global Route12_Text_GiaPostBattle
+	.set Route12_Text_GiaPostBattle, 0x081858E2
+	.global Route12_Text_GiaNotEnoughMons
+	.set Route12_Text_GiaNotEnoughMons, 0x08185908
+	.global Route13_Text_SebastianIntro
+	.set Route13_Text_SebastianIntro, 0x08185955
+	.global Route13_Text_SebastianDefeat
+	.set Route13_Text_SebastianDefeat, 0x0818597E
+	.global Route13_Text_SebastianPostBattle
+	.set Route13_Text_SebastianPostBattle, 0x081859A2
+	.global Route13_Text_SusieIntro
+	.set Route13_Text_SusieIntro, 0x081859CF
+	.global Route13_Text_SusieDefeat
+	.set Route13_Text_SusieDefeat, 0x081859EC
+	.global Route13_Text_SusiePostBattle
+	.set Route13_Text_SusiePostBattle, 0x081859F9
+	.global Route13_Text_ValerieIntro
+	.set Route13_Text_ValerieIntro, 0x08185A37
+	.global Route13_Text_ValerieDefeat
+	.set Route13_Text_ValerieDefeat, 0x08185A56
+	.global Route13_Text_ValeriePostBattle
+	.set Route13_Text_ValeriePostBattle, 0x08185A62
+	.global Route13_Text_GwenIntro
+	.set Route13_Text_GwenIntro, 0x08185A91
+	.global Route13_Text_GwenDefeat
+	.set Route13_Text_GwenDefeat, 0x08185AC1
+	.global Route13_Text_GwenPostBattle
+	.set Route13_Text_GwenPostBattle, 0x08185ADE
+	.global Route13_Text_AlmaIntro
+	.set Route13_Text_AlmaIntro, 0x08185B12
+	.global Route13_Text_AlmaDefeat
+	.set Route13_Text_AlmaDefeat, 0x08185B48
+	.global Route13_Text_AlmaPostBattle
+	.set Route13_Text_AlmaPostBattle, 0x08185B67
+	.global Route13_Text_PerryIntro
+	.set Route13_Text_PerryIntro, 0x08185B8F
+	.global Route13_Text_PerryDefeat
+	.set Route13_Text_PerryDefeat, 0x08185BCA
+	.global Route13_Text_PerryPostBattle
+	.set Route13_Text_PerryPostBattle, 0x08185BDB
+	.global Route13_Text_LolaIntro
+	.set Route13_Text_LolaIntro, 0x08185BFC
+	.global Route13_Text_LolaDefeat
+	.set Route13_Text_LolaDefeat, 0x08185C1F
+	.global Route13_Text_LolaPostBattle
+	.set Route13_Text_LolaPostBattle, 0x08185C35
+	.global Route13_Text_SheilaIntro
+	.set Route13_Text_SheilaIntro, 0x08185C69
+	.global Route13_Text_SheilaDefeat
+	.set Route13_Text_SheilaDefeat, 0x08185C95
+	.global Route13_Text_SheilaPostBattle
+	.set Route13_Text_SheilaPostBattle, 0x08185CA8
+	.global Route13_Text_JaredIntro
+	.set Route13_Text_JaredIntro, 0x08185D05
+	.global Route13_Text_JaredDefeat
+	.set Route13_Text_JaredDefeat, 0x08185D1D
+	.global Route13_Text_JaredPostBattle
+	.set Route13_Text_JaredPostBattle, 0x08185D33
+	.global Route13_Text_RobertIntro
+	.set Route13_Text_RobertIntro, 0x08185D3D
+	.global Route13_Text_RobertDefeat
+	.set Route13_Text_RobertDefeat, 0x08185D7B
+	.global Route13_Text_RobertPostBattle
+	.set Route13_Text_RobertPostBattle, 0x08185D89
+	.global Route13_Text_LookToLeftOfThatPost
+	.set Route13_Text_LookToLeftOfThatPost, 0x08185DB7
+	.global Route13_Text_SelectToSwitchItems
+	.set Route13_Text_SelectToSwitchItems, 0x08185DEF
+	.global Route13_Text_RouteSign
+	.set Route13_Text_RouteSign, 0x08185E2C
+	.global Route14_Text_CarterIntro
+	.set Route14_Text_CarterIntro, 0x08185E4D
+	.global Route14_Text_CarterDefeat
+	.set Route14_Text_CarterDefeat, 0x08185E81
+	.global Route14_Text_CarterPostBattle
+	.set Route14_Text_CarterPostBattle, 0x08185E9C
+	.global Route14_Text_MitchIntro
+	.set Route14_Text_MitchIntro, 0x08185EDF
+	.global Route14_Text_MitchDefeat
+	.set Route14_Text_MitchDefeat, 0x08185F0B
+	.global Route14_Text_MitchPostBattle
+	.set Route14_Text_MitchPostBattle, 0x08185F1A
+	.global Route14_Text_BeckIntro
+	.set Route14_Text_BeckIntro, 0x08185F46
+	.global Route14_Text_BeckDefeat
+	.set Route14_Text_BeckDefeat, 0x08185FAE
+	.global Route14_Text_BeckPostBattle
+	.set Route14_Text_BeckPostBattle, 0x08185FBB
+	.global Route14_Text_MarlonIntro
+	.set Route14_Text_MarlonIntro, 0x08186021
+	.global Route14_Text_MarlonDefeat
+	.set Route14_Text_MarlonDefeat, 0x0818607C
+	.global Route14_Text_MarlonPostBattle
+	.set Route14_Text_MarlonPostBattle, 0x08186091
+	.global Route14_Text_DonaldIntro
+	.set Route14_Text_DonaldIntro, 0x081860D9
+	.global Route14_Text_DonaldDefeat
+	.set Route14_Text_DonaldDefeat, 0x0818610A
+	.global Route14_Text_DonaldPostBattle
+	.set Route14_Text_DonaldPostBattle, 0x0818611D
+	.global Route14_Text_BennyIntro
+	.set Route14_Text_BennyIntro, 0x0818618E
+	.global Route14_Text_BennyDefeat
+	.set Route14_Text_BennyDefeat, 0x081861B3
+	.global Route14_Text_BennyPostBattle
+	.set Route14_Text_BennyPostBattle, 0x081861BE
+	.global Route14_Text_LukasIntro
+	.set Route14_Text_LukasIntro, 0x081861F7
+	.global Route14_Text_LukasDefeat
+	.set Route14_Text_LukasDefeat, 0x08186223
+	.global Route14_Text_LukasPostBattle
+	.set Route14_Text_LukasPostBattle, 0x08186239
+	.global Route14_Text_IsaacIntro
+	.set Route14_Text_IsaacIntro, 0x08186263
+	.global Route14_Text_IsaacDefeat
+	.set Route14_Text_IsaacDefeat, 0x08186291
+	.global Route14_Text_IsaacPostBattle
+	.set Route14_Text_IsaacPostBattle, 0x0818629D
+	.global Route14_Text_GeraldIntro
+	.set Route14_Text_GeraldIntro, 0x081862BD
+	.global Route14_Text_GeraldDefeat
+	.set Route14_Text_GeraldDefeat, 0x081862EF
+	.global Route14_Text_GeraldPostBattle
+	.set Route14_Text_GeraldPostBattle, 0x081862F8
+	.global Route14_Text_MalikIntro
+	.set Route14_Text_MalikIntro, 0x08186344
+	.global Route14_Text_MalikDefeat
+	.set Route14_Text_MalikDefeat, 0x08186362
+	.global Route14_Text_MalikPostBattle
+	.set Route14_Text_MalikPostBattle, 0x0818636E
+	.global Route14_Text_RouteSign
+	.set Route14_Text_RouteSign, 0x08186399
+	.global Route14_Text_KiriIntro
+	.set Route14_Text_KiriIntro, 0x081863B7
+	.global Route14_Text_KiriDefeat
+	.set Route14_Text_KiriDefeat, 0x081863EA
+	.global Route14_Text_KiriPostBattle
+	.set Route14_Text_KiriPostBattle, 0x0818640D
+	.global Route14_Text_KiriNotEnoughMons
+	.set Route14_Text_KiriNotEnoughMons, 0x0818642E
+	.global Route14_Text_JanIntro
+	.set Route14_Text_JanIntro, 0x0818645B
+	.global Route14_Text_JanDefeat
+	.set Route14_Text_JanDefeat, 0x08186487
+	.global Route14_Text_JanPostBattle
+	.set Route14_Text_JanPostBattle, 0x0818649C
+	.global Route14_Text_JanNotEnoughMons
+	.set Route14_Text_JanNotEnoughMons, 0x081864D3
+	.global Route15_Text_KindraIntro
+	.set Route15_Text_KindraIntro, 0x0818650B
+	.global Route15_Text_KindraDefeat
+	.set Route15_Text_KindraDefeat, 0x08186549
+	.global Route15_Text_KindraPostBattle
+	.set Route15_Text_KindraPostBattle, 0x0818655A
+	.global Route15_Text_BeckyIntro
+	.set Route15_Text_BeckyIntro, 0x081865D3
+	.global Route15_Text_BeckyDefeat
+	.set Route15_Text_BeckyDefeat, 0x08186612
+	.global Route15_Text_BeckyPostBattle
+	.set Route15_Text_BeckyPostBattle, 0x0818661D
+	.global Route15_Text_EdwinIntro
+	.set Route15_Text_EdwinIntro, 0x0818664F
+	.global Route15_Text_EdwinDefeat
+	.set Route15_Text_EdwinDefeat, 0x0818667A
+	.global Route15_Text_EdwinPostBattle
+	.set Route15_Text_EdwinPostBattle, 0x0818668D
+	.global Route15_Text_ChesterIntro
+	.set Route15_Text_ChesterIntro, 0x081866D1
+	.global Route15_Text_ChesterDefeat
+	.set Route15_Text_ChesterDefeat, 0x08186707
+	.global Route15_Text_ChesterPostBattle
+	.set Route15_Text_ChesterPostBattle, 0x0818671A
+	.global Route15_Text_GraceIntro
+	.set Route15_Text_GraceIntro, 0x0818678B
+	.global Route15_Text_GraceDefeat
+	.set Route15_Text_GraceDefeat, 0x081867C1
+	.global Route15_Text_GracePostBattle
+	.set Route15_Text_GracePostBattle, 0x081867DA
+	.global Route15_Text_OliviaIntro
+	.set Route15_Text_OliviaIntro, 0x0818680C
+	.global Route15_Text_OliviaDefeat
+	.set Route15_Text_OliviaDefeat, 0x08186841
+	.global Route15_Text_OliviaPostBattle
+	.set Route15_Text_OliviaPostBattle, 0x0818686F
+	.global Route15_Text_ErnestIntro
+	.set Route15_Text_ErnestIntro, 0x081868B6
+	.global Route15_Text_ErnestDefeat
+	.set Route15_Text_ErnestDefeat, 0x081868E8
+	.global Route15_Text_ErnestPostBattle
+	.set Route15_Text_ErnestPostBattle, 0x081868F1
+	.global Route15_Text_AlexIntro
+	.set Route15_Text_AlexIntro, 0x08186936
+	.global Route15_Text_AlexDefeat
+	.set Route15_Text_AlexDefeat, 0x08186968
+	.global Route15_Text_AlexPostBattle
+	.set Route15_Text_AlexPostBattle, 0x0818697C
+	.global Route15_Text_CeliaIntro
+	.set Route15_Text_CeliaIntro, 0x081869BA
+	.global Route15_Text_CeliaDefeat
+	.set Route15_Text_CeliaDefeat, 0x081869E6
+	.global Route15_Text_CeliaPostBattle
+	.set Route15_Text_CeliaPostBattle, 0x081869F4
+	.global Route15_Text_YazminIntro
+	.set Route15_Text_YazminIntro, 0x08186A22
+	.global Route15_Text_YazminDefeat
+	.set Route15_Text_YazminDefeat, 0x08186A40
+	.global Route15_Text_YazminPostBattle
+	.set Route15_Text_YazminPostBattle, 0x08186A55
+	.global Route15_Text_RouteSign
+	.set Route15_Text_RouteSign, 0x08186A77
+	.global Route15_Text_MyaIntro
+	.set Route15_Text_MyaIntro, 0x08186A95
+	.global Route15_Text_MyaDefeat
+	.set Route15_Text_MyaDefeat, 0x08186ACB
+	.global Route15_Text_MyaPostBattle
+	.set Route15_Text_MyaPostBattle, 0x08186B0A
+	.global Route15_Text_MyaNotEnoughMons
+	.set Route15_Text_MyaNotEnoughMons, 0x08186B46
+	.global Route15_Text_RonIntro
+	.set Route15_Text_RonIntro, 0x08186B89
+	.global Route15_Text_RonDefeat
+	.set Route15_Text_RonDefeat, 0x08186BB1
+	.global Route15_Text_RonPostBattle
+	.set Route15_Text_RonPostBattle, 0x08186BD2
+	.global Route15_Text_RonNotEnoughMons
+	.set Route15_Text_RonNotEnoughMons, 0x08186BFE
+	.global Route16_Text_LaoIntro
+	.set Route16_Text_LaoIntro, 0x08186C4D
+	.global Route16_Text_LaoDefeat
+	.set Route16_Text_LaoDefeat, 0x08186C5F
+	.global Route16_Text_LaoPostBattle
+	.set Route16_Text_LaoPostBattle, 0x08186C75
+	.global Route16_Text_KojiIntro
+	.set Route16_Text_KojiIntro, 0x08186CA2
+	.global Route16_Text_KojiDefeat
+	.set Route16_Text_KojiDefeat, 0x08186CBB
+	.global Route16_Text_KojiPostBattle
+	.set Route16_Text_KojiPostBattle, 0x08186CC5
+	.global Route16_Text_LukeIntro
+	.set Route16_Text_LukeIntro, 0x08186CE5
+	.global Route16_Text_LukeDefeat
+	.set Route16_Text_LukeDefeat, 0x08186D06
+	.global Route16_Text_LukePostBattle
+	.set Route16_Text_LukePostBattle, 0x08186D16
+	.global Route16_Text_HideoIntro
+	.set Route16_Text_HideoIntro, 0x08186D39
+	.global Route16_Text_HideoDefeat
+	.set Route16_Text_HideoDefeat, 0x08186D52
+	.global Route16_Text_HideoPostBattle
+	.set Route16_Text_HideoPostBattle, 0x08186D5A
+	.global Route16_Text_CamronIntro
+	.set Route16_Text_CamronIntro, 0x08186DD9
+	.global Route16_Text_CamronDefeat
+	.set Route16_Text_CamronDefeat, 0x08186E0D
+	.global Route16_Text_CamronPostBattle
+	.set Route16_Text_CamronPostBattle, 0x08186E1C
+	.global Route16_Text_RubenIntro
+	.set Route16_Text_RubenIntro, 0x08186E86
+	.global Route16_Text_RubenDefeat
+	.set Route16_Text_RubenDefeat, 0x08186EB4
+	.global Route16_Text_RubenPostBattle
+	.set Route16_Text_RubenPostBattle, 0x08186EC7
+	.global Route16_Text_MonSprawledOutInSlumber
+	.set Route16_Text_MonSprawledOutInSlumber, 0x08186F3D
+	.global Route16_Text_CyclingRoadSign
+	.set Route16_Text_CyclingRoadSign, 0x08186F7A
+	.global Route16_Text_RouteSign
+	.set Route16_Text_RouteSign, 0x08186F98
+	.global Route16_Text_JedIntro
+	.set Route16_Text_JedIntro, 0x08186FBD
+	.global Route16_Text_JedDefeat
+	.set Route16_Text_JedDefeat, 0x08186FFA
+	.global Route16_Text_JedPostBattle
+	.set Route16_Text_JedPostBattle, 0x08187027
+	.global Route16_Text_JedNotEnoughMons
+	.set Route16_Text_JedNotEnoughMons, 0x08187057
+	.global Route16_Text_LeaIntro
+	.set Route16_Text_LeaIntro, 0x08187097
+	.global Route16_Text_LeaDefeat
+	.set Route16_Text_LeaDefeat, 0x081870CC
+	.global Route16_Text_LeaPostBattle
+	.set Route16_Text_LeaPostBattle, 0x081870F9
+	.global Route16_Text_LeaNotEnoughMons
+	.set Route16_Text_LeaNotEnoughMons, 0x08187120
+	.global Route17_Text_RaulIntro
+	.set Route17_Text_RaulIntro, 0x0818717E
+	.global Route17_Text_RaulDefeat
+	.set Route17_Text_RaulDefeat, 0x081871AE
+	.global Route17_Text_RaulPostBattle
+	.set Route17_Text_RaulPostBattle, 0x081871BA
+	.global Route17_Text_IsaiahIntro
+	.set Route17_Text_IsaiahIntro, 0x08187228
+	.global Route17_Text_IsaiahDefeat
+	.set Route17_Text_IsaiahDefeat, 0x08187254
+	.global Route17_Text_IsaiahPostBattle
+	.set Route17_Text_IsaiahPostBattle, 0x0818725A
+	.global Route17_Text_VirgilIntro
+	.set Route17_Text_VirgilIntro, 0x0818727D
+	.global Route17_Text_VirgilDefeat
+	.set Route17_Text_VirgilDefeat, 0x08187295
+	.global Route17_Text_VirgilPostBattle
+	.set Route17_Text_VirgilPostBattle, 0x081872A5
+	.global Route17_Text_BillyIntro
+	.set Route17_Text_BillyIntro, 0x081872BD
+	.global Route17_Text_BillyDefeat
+	.set Route17_Text_BillyDefeat, 0x081872E3
+	.global Route17_Text_BillyPostBattle
+	.set Route17_Text_BillyPostBattle, 0x081872EB
+	.global Route17_Text_NikolasIntro
+	.set Route17_Text_NikolasIntro, 0x0818730A
+	.global Route17_Text_NikolasDefeat
+	.set Route17_Text_NikolasDefeat, 0x08187325
+	.global Route17_Text_NikolasPostBattle
+	.set Route17_Text_NikolasPostBattle, 0x08187333
+	.global Route17_Text_ZeekIntro
+	.set Route17_Text_ZeekIntro, 0x08187362
+	.global Route17_Text_ZeekDefeat
+	.set Route17_Text_ZeekDefeat, 0x08187395
+	.global Route17_Text_ZeekPostBattle
+	.set Route17_Text_ZeekPostBattle, 0x0818739F
+	.global Route17_Text_JamalIntro
+	.set Route17_Text_JamalIntro, 0x081873D1
+	.global Route17_Text_JamalDefeat
+	.set Route17_Text_JamalDefeat, 0x081873EB
+	.global Route17_Text_JamalPostBattle
+	.set Route17_Text_JamalPostBattle, 0x081873FF
+	.global Route17_Text_CoreyIntro
+	.set Route17_Text_CoreyIntro, 0x0818741D
+	.global Route17_Text_CoreyDefeat
+	.set Route17_Text_CoreyDefeat, 0x08187429
+	.global Route17_Text_CoreyPostBattle
+	.set Route17_Text_CoreyPostBattle, 0x08187432
+	.global Route17_Text_JaxonIntro
+	.set Route17_Text_JaxonIntro, 0x08187456
+	.global Route17_Text_JaxonDefeat
+	.set Route17_Text_JaxonDefeat, 0x08187472
+	.global Route17_Text_JaxonPostBattle
+	.set Route17_Text_JaxonPostBattle, 0x08187479
+	.global Route17_Text_WilliamIntro
+	.set Route17_Text_WilliamIntro, 0x0818749B
+	.global Route17_Text_WilliamDefeat
+	.set Route17_Text_WilliamDefeat, 0x081874B6
+	.global Route17_Text_WilliamPostBattle
+	.set Route17_Text_WilliamPostBattle, 0x081874C9
+	.global Route17_Text_WatchOutForDiscardedItems
+	.set Route17_Text_WatchOutForDiscardedItems, 0x081874E4
+	.global Route17_Text_SameSpeciesGrowDifferentRates
+	.set Route17_Text_SameSpeciesGrowDifferentRates, 0x08187512
+	.global Route17_Text_PressBToStayInPlace
+	.set Route17_Text_PressBToStayInPlace, 0x0818757B
+	.global Route17_Text_RouteSign
+	.set Route17_Text_RouteSign, 0x081875BE
+	.global Route17_Text_DontThrowGameThrowBalls
+	.set Route17_Text_DontThrowGameThrowBalls, 0x081875E3
+	.global Route17_Text_CyclingRoadSign
+	.set Route17_Text_CyclingRoadSign, 0x08187622
+	.global Route18_Text_WiltonIntro
+	.set Route18_Text_WiltonIntro, 0x08187640
+	.global Route18_Text_WiltonDefeat
+	.set Route18_Text_WiltonDefeat, 0x08187672
+	.global Route18_Text_WiltonPostBattle
+	.set Route18_Text_WiltonPostBattle, 0x08187677
+	.global Route18_Text_RamiroIntro
+	.set Route18_Text_RamiroIntro, 0x0818768C
+	.global Route18_Text_RamiroDefeat
+	.set Route18_Text_RamiroDefeat, 0x081876B3
+	.global Route18_Text_RamiroPostBattle
+	.set Route18_Text_RamiroPostBattle, 0x081876C5
+	.global Route18_Text_JacobIntro
+	.set Route18_Text_JacobIntro, 0x08187704
+	.global Route18_Text_JacobDefeat
+	.set Route18_Text_JacobDefeat, 0x08187726
+	.global Route18_Text_JacobPostBattle
+	.set Route18_Text_JacobPostBattle, 0x0818772C
+	.global Route18_Text_RouteSign
+	.set Route18_Text_RouteSign, 0x08187757
+	.global Route18_Text_CyclingRoadSign
+	.set Route18_Text_CyclingRoadSign, 0x0818777C
+	.global Route19_Text_RichardIntro
+	.set Route19_Text_RichardIntro, 0x081877A3
+	.global Route19_Text_RichardDefeat
+	.set Route19_Text_RichardDefeat, 0x081877DF
+	.global Route19_Text_RichardPostBattle
+	.set Route19_Text_RichardPostBattle, 0x081877EE
+	.global Route19_Text_ReeceIntro
+	.set Route19_Text_ReeceIntro, 0x08187811
+	.global Route19_Text_ReeceDefeat
+	.set Route19_Text_ReeceDefeat, 0x0818783E
+	.global Route19_Text_ReecePostBattle
+	.set Route19_Text_ReecePostBattle, 0x08187852
+	.global Route19_Text_MatthewIntro
+	.set Route19_Text_MatthewIntro, 0x08187884
+	.global Route19_Text_MatthewDefeat
+	.set Route19_Text_MatthewDefeat, 0x081878A5
+	.global Route19_Text_MatthewPostBattle
+	.set Route19_Text_MatthewPostBattle, 0x081878B1
+	.global Route19_Text_DouglasIntro
+	.set Route19_Text_DouglasIntro, 0x081878DD
+	.global Route19_Text_DouglasDefeat
+	.set Route19_Text_DouglasDefeat, 0x081878F8
+	.global Route19_Text_DouglasPostBattle
+	.set Route19_Text_DouglasPostBattle, 0x081878FE
+	.global Route19_Text_DavidIntro
+	.set Route19_Text_DavidIntro, 0x08187925
+	.global Route19_Text_DavidDefeat
+	.set Route19_Text_DavidDefeat, 0x08187955
+	.global Route19_Text_DavidPostBattle
+	.set Route19_Text_DavidPostBattle, 0x0818795B
+	.global Route19_Text_TonyIntro
+	.set Route19_Text_TonyIntro, 0x08187985
+	.global Route19_Text_TonyDefeat
+	.set Route19_Text_TonyDefeat, 0x081879C3
+	.global Route19_Text_TonyPostBattle
+	.set Route19_Text_TonyPostBattle, 0x081879D3
+	.global Route19_Text_AnyaIntro
+	.set Route19_Text_AnyaIntro, 0x08187A11
+	.global Route19_Text_AnyaDefeat
+	.set Route19_Text_AnyaDefeat, 0x08187A44
+	.global Route19_Text_AnyaPostBattle
+	.set Route19_Text_AnyaPostBattle, 0x08187A50
+	.global Route19_Text_AliceIntro
+	.set Route19_Text_AliceIntro, 0x08187A9E
+	.global Route19_Text_AliceDefeat
+	.set Route19_Text_AliceDefeat, 0x08187AC1
+	.global Route19_Text_AlicePostBattle
+	.set Route19_Text_AlicePostBattle, 0x08187ACA
+	.global Route19_Text_AxleIntro
+	.set Route19_Text_AxleIntro, 0x08187AFA
+	.global Route19_Text_AxleDefeat
+	.set Route19_Text_AxleDefeat, 0x08187B25
+	.global Route19_Text_AxlePostBattle
+	.set Route19_Text_AxlePostBattle, 0x08187B35
+	.global Route19_Text_ConnieIntro
+	.set Route19_Text_ConnieIntro, 0x08187B5D
+	.global Route19_Text_ConnieDefeat
+	.set Route19_Text_ConnieDefeat, 0x08187B85
+	.global Route19_Text_ConniePostBattle
+	.set Route19_Text_ConniePostBattle, 0x08187B94
+	.global Route19_Text_RouteSign
+	.set Route19_Text_RouteSign, 0x08187C06
+	.global Route19_Text_LiaIntro
+	.set Route19_Text_LiaIntro, 0x08187C32
+	.global Route19_Text_LiaDefeat
+	.set Route19_Text_LiaDefeat, 0x08187C6F
+	.global Route19_Text_LiaPostBattle
+	.set Route19_Text_LiaPostBattle, 0x08187C9E
+	.global Route19_Text_LiaNotEnoughMons
+	.set Route19_Text_LiaNotEnoughMons, 0x08187CF2
+	.global Route19_Text_LucIntro
+	.set Route19_Text_LucIntro, 0x08187D45
+	.global Route19_Text_LucDefeat
+	.set Route19_Text_LucDefeat, 0x08187D7E
+	.global Route19_Text_LucPostBattle
+	.set Route19_Text_LucPostBattle, 0x08187DAD
+	.global Route19_Text_LucNotEnoughMons
+	.set Route19_Text_LucNotEnoughMons, 0x08187DE8
+	.global Route21_North_Text_RonaldIntro
+	.set Route21_North_Text_RonaldIntro, 0x0818835A
+	.global Route21_North_Text_RonaldDefeat
+	.set Route21_North_Text_RonaldDefeat, 0x08188383
+	.global Route21_North_Text_RonaldPostBattle
+	.set Route21_North_Text_RonaldPostBattle, 0x08188389
+	.global Route21_North_Text_WadeIntro
+	.set Route21_North_Text_WadeIntro, 0x081883C6
+	.global Route21_North_Text_WadeDefeat
+	.set Route21_North_Text_WadeDefeat, 0x081883E9
+	.global Route21_North_Text_WadePostBattle
+	.set Route21_North_Text_WadePostBattle, 0x0818841D
+	.global Route21_North_Text_SpencerIntro
+	.set Route21_North_Text_SpencerIntro, 0x0818843C
+	.global Route21_North_Text_SpencerDefeat
+	.set Route21_North_Text_SpencerDefeat, 0x0818845F
+	.global Route21_North_Text_SpencerPostBattle
+	.set Route21_North_Text_SpencerPostBattle, 0x08188465
+	.global Route21_North_Text_CueBallIntro
+	.set Route21_North_Text_CueBallIntro, 0x0818849E
+	.global Route21_North_Text_CueBallDefeat
+	.set Route21_North_Text_CueBallDefeat, 0x081884B3
+	.global Route21_North_Text_CueBallPostBattle
+	.set Route21_North_Text_CueBallPostBattle, 0x081884B8
+	.global Route21_South_Text_JackIntro
+	.set Route21_South_Text_JackIntro, 0x081884D4
+	.global Route21_South_Text_JackDefeat
+	.set Route21_South_Text_JackDefeat, 0x081884F0
+	.global Route21_South_Text_JackPostBattle
+	.set Route21_South_Text_JackPostBattle, 0x081884FF
+	.global Route21_South_Text_JeromeIntro
+	.set Route21_South_Text_JeromeIntro, 0x0818851F
+	.global Route21_South_Text_JeromeDefeat
+	.set Route21_South_Text_JeromeDefeat, 0x08188543
+	.global Route21_South_Text_JeromePostBattle
+	.set Route21_South_Text_JeromePostBattle, 0x08188555
+	.global Route21_South_Text_RolandIntro
+	.set Route21_South_Text_RolandIntro, 0x08188592
+	.global Route21_South_Text_RolandDefeat
+	.set Route21_South_Text_RolandDefeat, 0x081885B2
+	.global Route21_South_Text_RolandPostBattle
+	.set Route21_South_Text_RolandPostBattle, 0x081885BF
+	.global Route21_South_Text_ClaudeIntro
+	.set Route21_South_Text_ClaudeIntro, 0x081885D8
+	.global Route21_South_Text_ClaudeDefeat
+	.set Route21_South_Text_ClaudeDefeat, 0x081885F8
+	.global Route21_South_Text_ClaudePostBattle
+	.set Route21_South_Text_ClaudePostBattle, 0x08188632
+	.global Route21_South_Text_NolanIntro
+	.set Route21_South_Text_NolanIntro, 0x0818868C
+	.global Route21_South_Text_NolanDefeat
+	.set Route21_South_Text_NolanDefeat, 0x081886AE
+	.global Route21_South_Text_NolanPostBattle
+	.set Route21_South_Text_NolanPostBattle, 0x081886C5
+	.global Route21_North_Text_LilIntro
+	.set Route21_North_Text_LilIntro, 0x081886E2
+	.global Route21_North_Text_LilDefeat
+	.set Route21_North_Text_LilDefeat, 0x08188712
+	.global Route21_North_Text_LilPostBattle
+	.set Route21_North_Text_LilPostBattle, 0x08188734
+	.global Route21_North_Text_LilNotEnoughMons
+	.set Route21_North_Text_LilNotEnoughMons, 0x0818875E
+	.global Route21_North_Text_IanIntro
+	.set Route21_North_Text_IanIntro, 0x081887B4
+	.global Route21_North_Text_IanDefeat
+	.set Route21_North_Text_IanDefeat, 0x081887F1
+	.global Route21_North_Text_IanPostBattle
+	.set Route21_North_Text_IanPostBattle, 0x08188812
+	.global Route21_North_Text_IanNotEnoughMons
+	.set Route21_North_Text_IanNotEnoughMons, 0x08188850
+	.global Route24_Text_JustEarnedFabulousPrize
+	.set Route24_Text_JustEarnedFabulousPrize, 0x08188C3C
+	.global Route24_Text_ReceivedNuggetFromMysteryTrainer
+	.set Route24_Text_ReceivedNuggetFromMysteryTrainer, 0x08188C93
+	.global Route24_Text_YouDontHaveAnyRoom
+	.set Route24_Text_YouDontHaveAnyRoom, 0x08188CC2
+	.global Route24_Text_JoinTeamRocket
+	.set Route24_Text_JoinTeamRocket, 0x08188CDB
+	.global Route24_Text_RocketDefeat
+	.set Route24_Text_RocketDefeat, 0x08188DDC
+	.global Route24_Text_YoudBecomeTopRocketLeader
+	.set Route24_Text_YoudBecomeTopRocketLeader, 0x08188DF1
+	.global Route24_Text_ShaneIntro
+	.set Route24_Text_ShaneIntro, 0x08188E74
+	.global Route24_Text_ShaneDefeat
+	.set Route24_Text_ShaneDefeat, 0x08188E94
+	.global Route24_Text_ShanePostBattle
+	.set Route24_Text_ShanePostBattle, 0x08188EA3
+	.global Route24_Text_EthanIntro
+	.set Route24_Text_EthanIntro, 0x08188ED9
+	.global Route24_Text_EthanDefeat
+	.set Route24_Text_EthanDefeat, 0x08188EFA
+	.global Route24_Text_EthanPostBattle
+	.set Route24_Text_EthanPostBattle, 0x08188F0A
+	.global Route24_Text_ReliIntro
+	.set Route24_Text_ReliIntro, 0x08188F2C
+	.global Route24_Text_ReliDefeat
+	.set Route24_Text_ReliDefeat, 0x08188F46
+	.global Route24_Text_ReliPostBattle
+	.set Route24_Text_ReliPostBattle, 0x08188F53
+	.global Route24_Text_TimmyIntro
+	.set Route24_Text_TimmyIntro, 0x08188F76
+	.global Route24_Text_TimmyDefeat
+	.set Route24_Text_TimmyDefeat, 0x08188F95
+	.global Route24_Text_TimmyPostBattle
+	.set Route24_Text_TimmyPostBattle, 0x08188FA7
+	.global Route24_Text_AliIntro
+	.set Route24_Text_AliIntro, 0x08188FC9
+	.global Route24_Text_AliDefeat
+	.set Route24_Text_AliDefeat, 0x08188FE7
+	.global Route24_Text_AliPostBattle
+	.set Route24_Text_AliPostBattle, 0x08188FF9
+	.global Route24_Text_CaleIntro
+	.set Route24_Text_CaleIntro, 0x0818901B
+	.global Route24_Text_CaleDefeat
+	.set Route24_Text_CaleDefeat, 0x0818908C
+	.global Route24_Text_CalePostBattle
+	.set Route24_Text_CalePostBattle, 0x0818909E
+	.global Route25_Text_JoeyIntro
+	.set Route25_Text_JoeyIntro, 0x081890C0
+	.global Route25_Text_JoeyDefeat
+	.set Route25_Text_JoeyDefeat, 0x081890E6
+	.global Route25_Text_JoeyPostBattle
+	.set Route25_Text_JoeyPostBattle, 0x081890F5
+	.global Route25_Text_DanIntro
+	.set Route25_Text_DanIntro, 0x08189165
+	.global Route25_Text_DanDefeat
+	.set Route25_Text_DanDefeat, 0x081891A6
+	.global Route25_Text_DanPostBattle
+	.set Route25_Text_DanPostBattle, 0x081891B3
+	.global Route25_Text_FlintIntro
+	.set Route25_Text_FlintIntro, 0x081891EB
+	.global Route25_Text_FlintDefeat
+	.set Route25_Text_FlintDefeat, 0x08189212
+	.global Route25_Text_FlintPostBattle
+	.set Route25_Text_FlintPostBattle, 0x0818921D
+	.global Route25_Text_KelseyIntro
+	.set Route25_Text_KelseyIntro, 0x08189247
+	.global Route25_Text_KelseyDefeat
+	.set Route25_Text_KelseyDefeat, 0x08189261
+	.global Route25_Text_KelseyPostBattle
+	.set Route25_Text_KelseyPostBattle, 0x08189281
+	.global Route25_Text_ChadIntro
+	.set Route25_Text_ChadIntro, 0x081892A9
+	.global Route25_Text_ChadDefeat
+	.set Route25_Text_ChadDefeat, 0x081892D9
+	.global Route25_Text_ChadPostBattle
+	.set Route25_Text_ChadPostBattle, 0x081892EF
+	.global Route25_Text_HaleyIntro
+	.set Route25_Text_HaleyIntro, 0x08189333
+	.global Route25_Text_HaleyDefeat
+	.set Route25_Text_HaleyDefeat, 0x08189364
+	.global Route25_Text_HaleyPostBattle
+	.set Route25_Text_HaleyPostBattle, 0x08189378
+	.global Route25_Text_FranklinIntro
+	.set Route25_Text_FranklinIntro, 0x081893A7
+	.global Route25_Text_FranklinDefeat
+	.set Route25_Text_FranklinDefeat, 0x081893EA
+	.global Route25_Text_FranklinPostBattle
+	.set Route25_Text_FranklinPostBattle, 0x081893FB
+	.global Route25_Text_NobIntro
+	.set Route25_Text_NobIntro, 0x08189423
+	.global Route25_Text_NobDefeat
+	.set Route25_Text_NobDefeat, 0x08189459
+	.global Route25_Text_NobPostBattle
+	.set Route25_Text_NobPostBattle, 0x0818947E
+	.global Route25_Text_WayneIntro
+	.set Route25_Text_WayneIntro, 0x081894DE
+	.global Route25_Text_WayneDefeat
+	.set Route25_Text_WayneDefeat, 0x0818950A
+	.global Route25_Text_WaynePostBattle
+	.set Route25_Text_WaynePostBattle, 0x0818951C
+	.global Route25_Text_SeaCottageSign
+	.set Route25_Text_SeaCottageSign, 0x0818954C
+	.global Route25_Text_MistyHighHopesAboutThisPlace
+	.set Route25_Text_MistyHighHopesAboutThisPlace, 0x08189569
+	.global Route25_Text_AreYouHereAlone
+	.set Route25_Text_AreYouHereAlone, 0x081895C2
+	.global OneIsland_KindleRoad_Text_MariaIntro
+	.set OneIsland_KindleRoad_Text_MariaIntro, 0x0818961F
+	.global OneIsland_KindleRoad_Text_MariaDefeat
+	.set OneIsland_KindleRoad_Text_MariaDefeat, 0x0818964D
+	.global OneIsland_KindleRoad_Text_MariaPostBattle
+	.set OneIsland_KindleRoad_Text_MariaPostBattle, 0x08189657
+	.global OneIsland_KindleRoad_Text_AbigailIntro
+	.set OneIsland_KindleRoad_Text_AbigailIntro, 0x0818968C
+	.global OneIsland_KindleRoad_Text_AbigailDefeat
+	.set OneIsland_KindleRoad_Text_AbigailDefeat, 0x081896AC
+	.global OneIsland_KindleRoad_Text_AbigailPostBattle
+	.set OneIsland_KindleRoad_Text_AbigailPostBattle, 0x081896C1
+	.global OneIsland_KindleRoad_Text_FinnIntro
+	.set OneIsland_KindleRoad_Text_FinnIntro, 0x081896F9
+	.global OneIsland_KindleRoad_Text_FinnDefeat
+	.set OneIsland_KindleRoad_Text_FinnDefeat, 0x08189728
+	.global OneIsland_KindleRoad_Text_FinnPostBattle
+	.set OneIsland_KindleRoad_Text_FinnPostBattle, 0x08189740
+	.global OneIsland_KindleRoad_Text_GarrettIntro
+	.set OneIsland_KindleRoad_Text_GarrettIntro, 0x08189767
+	.global OneIsland_KindleRoad_Text_GarrettDefeat
+	.set OneIsland_KindleRoad_Text_GarrettDefeat, 0x081897A4
+	.global OneIsland_KindleRoad_Text_GarrettPostBattle
+	.set OneIsland_KindleRoad_Text_GarrettPostBattle, 0x081897C5
+	.global OneIsland_KindleRoad_Text_TommyIntro
+	.set OneIsland_KindleRoad_Text_TommyIntro, 0x081897FF
+	.global OneIsland_KindleRoad_Text_TommyDefeat
+	.set OneIsland_KindleRoad_Text_TommyDefeat, 0x08189833
+	.global OneIsland_KindleRoad_Text_TommyPostBattle
+	.set OneIsland_KindleRoad_Text_TommyPostBattle, 0x0818984B
+	.global OneIsland_KindleRoad_Text_SharonIntro
+	.set OneIsland_KindleRoad_Text_SharonIntro, 0x08189883
+	.global OneIsland_KindleRoad_Text_SharonDefeat
+	.set OneIsland_KindleRoad_Text_SharonDefeat, 0x081898AB
+	.global OneIsland_KindleRoad_Text_SharonPostBattle
+	.set OneIsland_KindleRoad_Text_SharonPostBattle, 0x081898C4
+	.global OneIsland_KindleRoad_Text_TanyaIntro
+	.set OneIsland_KindleRoad_Text_TanyaIntro, 0x081898F0
+	.global OneIsland_KindleRoad_Text_TanyaDefeat
+	.set OneIsland_KindleRoad_Text_TanyaDefeat, 0x0818991B
+	.global OneIsland_KindleRoad_Text_TanyaPostBattle
+	.set OneIsland_KindleRoad_Text_TanyaPostBattle, 0x0818992C
+	.global OneIsland_KindleRoad_Text_SheaIntro
+	.set OneIsland_KindleRoad_Text_SheaIntro, 0x08189950
+	.global OneIsland_KindleRoad_Text_SheaDefeat
+	.set OneIsland_KindleRoad_Text_SheaDefeat, 0x0818998C
+	.global OneIsland_KindleRoad_Text_SheaPostBattle
+	.set OneIsland_KindleRoad_Text_SheaPostBattle, 0x08189998
+	.global OneIsland_KindleRoad_Text_HughIntro
+	.set OneIsland_KindleRoad_Text_HughIntro, 0x081899CE
+	.global OneIsland_KindleRoad_Text_HughDefeat
+	.set OneIsland_KindleRoad_Text_HughDefeat, 0x08189A0A
+	.global OneIsland_KindleRoad_Text_HughPostBattle
+	.set OneIsland_KindleRoad_Text_HughPostBattle, 0x08189A13
+	.global OneIsland_KindleRoad_Text_BryceIntro
+	.set OneIsland_KindleRoad_Text_BryceIntro, 0x08189A53
+	.global OneIsland_KindleRoad_Text_BryceDefeat
+	.set OneIsland_KindleRoad_Text_BryceDefeat, 0x08189A92
+	.global OneIsland_KindleRoad_Text_BrycePostBattle
+	.set OneIsland_KindleRoad_Text_BrycePostBattle, 0x08189A9F
+	.global OneIsland_KindleRoad_Text_ClaireIntro
+	.set OneIsland_KindleRoad_Text_ClaireIntro, 0x08189ACB
+	.global OneIsland_KindleRoad_Text_ClaireDefeat
+	.set OneIsland_KindleRoad_Text_ClaireDefeat, 0x08189B0B
+	.global OneIsland_KindleRoad_Text_ClairePostBattle
+	.set OneIsland_KindleRoad_Text_ClairePostBattle, 0x08189B24
+	.global OneIsland_KindleRoad_Text_KiaIntro
+	.set OneIsland_KindleRoad_Text_KiaIntro, 0x08189B4D
+	.global OneIsland_KindleRoad_Text_KiaDefeat
+	.set OneIsland_KindleRoad_Text_KiaDefeat, 0x08189B84
+	.global OneIsland_KindleRoad_Text_KiaPostBattle
+	.set OneIsland_KindleRoad_Text_KiaPostBattle, 0x08189BA3
+	.global OneIsland_KindleRoad_Text_KiaNotEnoughMons
+	.set OneIsland_KindleRoad_Text_KiaNotEnoughMons, 0x08189BDE
+	.global OneIsland_KindleRoad_Text_MikIntro
+	.set OneIsland_KindleRoad_Text_MikIntro, 0x08189C33
+	.global OneIsland_KindleRoad_Text_MikDefeat
+	.set OneIsland_KindleRoad_Text_MikDefeat, 0x08189C62
+	.global OneIsland_KindleRoad_Text_MikPostBattle
+	.set OneIsland_KindleRoad_Text_MikPostBattle, 0x08189C7E
+	.global OneIsland_KindleRoad_Text_MikNotEnoughMons
+	.set OneIsland_KindleRoad_Text_MikNotEnoughMons, 0x08189CAB
+	.global OneIsland_KindleRoad_Text_RouteSign
+	.set OneIsland_KindleRoad_Text_RouteSign, 0x08189D02
+	.global OneIsland_KindleRoad_Text_EmberSpaSign
+	.set OneIsland_KindleRoad_Text_EmberSpaSign, 0x08189D32
+	.global ThreeIsland_BondBridge_Text_NikkiIntro
+	.set ThreeIsland_BondBridge_Text_NikkiIntro, 0x08189E42
+	.global ThreeIsland_BondBridge_Text_NikkiDefeat
+	.set ThreeIsland_BondBridge_Text_NikkiDefeat, 0x08189E72
+	.global ThreeIsland_BondBridge_Text_NikkiPostBattle
+	.set ThreeIsland_BondBridge_Text_NikkiPostBattle, 0x08189E9E
+	.global ThreeIsland_BondBridge_Text_VioletIntro
+	.set ThreeIsland_BondBridge_Text_VioletIntro, 0x08189ED4
+	.global ThreeIsland_BondBridge_Text_VioletDefeat
+	.set ThreeIsland_BondBridge_Text_VioletDefeat, 0x08189EFA
+	.global ThreeIsland_BondBridge_Text_VioletPostBattle
+	.set ThreeIsland_BondBridge_Text_VioletPostBattle, 0x08189F21
+	.global ThreeIsland_BondBridge_Text_AmiraIntro
+	.set ThreeIsland_BondBridge_Text_AmiraIntro, 0x08189F63
+	.global ThreeIsland_BondBridge_Text_AmiraDefeat
+	.set ThreeIsland_BondBridge_Text_AmiraDefeat, 0x08189F9A
+	.global ThreeIsland_BondBridge_Text_AmiraPostBattle
+	.set ThreeIsland_BondBridge_Text_AmiraPostBattle, 0x08189FA8
+	.global ThreeIsland_BondBridge_Text_AlexisIntro
+	.set ThreeIsland_BondBridge_Text_AlexisIntro, 0x08189FDB
+	.global ThreeIsland_BondBridge_Text_AlexisDefeat
+	.set ThreeIsland_BondBridge_Text_AlexisDefeat, 0x08189FEE
+	.global ThreeIsland_BondBridge_Text_AlexisPostBattle
+	.set ThreeIsland_BondBridge_Text_AlexisPostBattle, 0x0818A000
+	.global ThreeIsland_BondBridge_Text_TishaIntro
+	.set ThreeIsland_BondBridge_Text_TishaIntro, 0x0818A01F
+	.global ThreeIsland_BondBridge_Text_TishaDefeat
+	.set ThreeIsland_BondBridge_Text_TishaDefeat, 0x0818A053
+	.global ThreeIsland_BondBridge_Text_TishaPostBattle
+	.set ThreeIsland_BondBridge_Text_TishaPostBattle, 0x0818A082
+	.global ThreeIsland_BondBridge_Text_JoyIntro
+	.set ThreeIsland_BondBridge_Text_JoyIntro, 0x0818A0C4
+	.global ThreeIsland_BondBridge_Text_JoyDefeat
+	.set ThreeIsland_BondBridge_Text_JoyDefeat, 0x0818A0F7
+	.global ThreeIsland_BondBridge_Text_JoyPostBattle
+	.set ThreeIsland_BondBridge_Text_JoyPostBattle, 0x0818A106
+	.global ThreeIsland_BondBridge_Text_JoyNotEnoughMons
+	.set ThreeIsland_BondBridge_Text_JoyNotEnoughMons, 0x0818A138
+	.global ThreeIsland_BondBridge_Text_MegIntro
+	.set ThreeIsland_BondBridge_Text_MegIntro, 0x0818A179
+	.global ThreeIsland_BondBridge_Text_MegDefeat
+	.set ThreeIsland_BondBridge_Text_MegDefeat, 0x0818A1A3
+	.global ThreeIsland_BondBridge_Text_MegPostBattle
+	.set ThreeIsland_BondBridge_Text_MegPostBattle, 0x0818A1B2
+	.global ThreeIsland_BondBridge_Text_MegNotEnoughMons
+	.set ThreeIsland_BondBridge_Text_MegNotEnoughMons, 0x0818A1CD
+	.global ThreeIsland_BondBridge_Text_BerryForestAhead
+	.set ThreeIsland_BondBridge_Text_BerryForestAhead, 0x0818A210
+	.global ThreeIsland_BondBridge_Text_BondBridgeSign
+	.set ThreeIsland_BondBridge_Text_BondBridgeSign, 0x0818A223
+	.global FiveIsland_ResortGorgeous_Text_DaisyIntro
+	.set FiveIsland_ResortGorgeous_Text_DaisyIntro, 0x0818A3E2
+	.global FiveIsland_ResortGorgeous_Text_DaisyDefeat
+	.set FiveIsland_ResortGorgeous_Text_DaisyDefeat, 0x0818A40E
+	.global FiveIsland_ResortGorgeous_Text_DaisyPostBattle
+	.set FiveIsland_ResortGorgeous_Text_DaisyPostBattle, 0x0818A430
+	.global FiveIsland_ResortGorgeous_Text_CelinaIntro
+	.set FiveIsland_ResortGorgeous_Text_CelinaIntro, 0x0818A461
+	.global FiveIsland_ResortGorgeous_Text_CelinaDefeat
+	.set FiveIsland_ResortGorgeous_Text_CelinaDefeat, 0x0818A49E
+	.global FiveIsland_ResortGorgeous_Text_CelinaPostBattle
+	.set FiveIsland_ResortGorgeous_Text_CelinaPostBattle, 0x0818A4C6
+	.global FiveIsland_ResortGorgeous_Text_RaynaIntro
+	.set FiveIsland_ResortGorgeous_Text_RaynaIntro, 0x0818A50E
+	.global FiveIsland_ResortGorgeous_Text_RaynaDefeat
+	.set FiveIsland_ResortGorgeous_Text_RaynaDefeat, 0x0818A535
+	.global FiveIsland_ResortGorgeous_Text_RaynaPostBattle
+	.set FiveIsland_ResortGorgeous_Text_RaynaPostBattle, 0x0818A555
+	.global FiveIsland_ResortGorgeous_Text_JackiIntro
+	.set FiveIsland_ResortGorgeous_Text_JackiIntro, 0x0818A5B9
+	.global FiveIsland_ResortGorgeous_Text_JackiDefeat
+	.set FiveIsland_ResortGorgeous_Text_JackiDefeat, 0x0818A5EE
+	.global FiveIsland_ResortGorgeous_Text_JackiPostBattle
+	.set FiveIsland_ResortGorgeous_Text_JackiPostBattle, 0x0818A601
+	.global FiveIsland_ResortGorgeous_Text_GillianIntro
+	.set FiveIsland_ResortGorgeous_Text_GillianIntro, 0x0818A645
+	.global FiveIsland_ResortGorgeous_Text_GillianDefeat
+	.set FiveIsland_ResortGorgeous_Text_GillianDefeat, 0x0818A67F
+	.global FiveIsland_ResortGorgeous_Text_GillianPostBattle
+	.set FiveIsland_ResortGorgeous_Text_GillianPostBattle, 0x0818A699
+	.global FiveIsland_ResortGorgeous_Text_DestinIntro
+	.set FiveIsland_ResortGorgeous_Text_DestinIntro, 0x0818A6DA
+	.global FiveIsland_ResortGorgeous_Text_DestinDefeat
+	.set FiveIsland_ResortGorgeous_Text_DestinDefeat, 0x0818A6FE
+	.global FiveIsland_ResortGorgeous_Text_DestinPostBattle
+	.set FiveIsland_ResortGorgeous_Text_DestinPostBattle, 0x0818A715
+	.global FiveIsland_ResortGorgeous_Text_TobyIntro
+	.set FiveIsland_ResortGorgeous_Text_TobyIntro, 0x0818A74A
+	.global FiveIsland_ResortGorgeous_Text_TobyDefeat
+	.set FiveIsland_ResortGorgeous_Text_TobyDefeat, 0x0818A786
+	.global FiveIsland_ResortGorgeous_Text_TobyPostBattle
+	.set FiveIsland_ResortGorgeous_Text_TobyPostBattle, 0x0818A7AC
+	.global FiveIsland_ResortGorgeous_Text_SelphyThanksYouMayGoNow
+	.set FiveIsland_ResortGorgeous_Text_SelphyThanksYouMayGoNow, 0x0818A7DB
+	.global FiveIsland_ResortGorgeous_Text_SelphysHouse
+	.set FiveIsland_ResortGorgeous_Text_SelphysHouse, 0x0818A7FE
+	.global FiveIsland_MemorialPillar_Text_MiloIntro
+	.set FiveIsland_MemorialPillar_Text_MiloIntro, 0x0818AE50
+	.global FiveIsland_MemorialPillar_Text_MiloDefeat
+	.set FiveIsland_MemorialPillar_Text_MiloDefeat, 0x0818AEA8
+	.global FiveIsland_MemorialPillar_Text_MiloPostBattle
+	.set FiveIsland_MemorialPillar_Text_MiloPostBattle, 0x0818AEB6
+	.global FiveIsland_MemorialPillar_Text_ChazIntro
+	.set FiveIsland_MemorialPillar_Text_ChazIntro, 0x0818AEDC
+	.global FiveIsland_MemorialPillar_Text_ChazDefeat
+	.set FiveIsland_MemorialPillar_Text_ChazDefeat, 0x0818AF39
+	.global FiveIsland_MemorialPillar_Text_ChazPostBattle
+	.set FiveIsland_MemorialPillar_Text_ChazPostBattle, 0x0818AF45
+	.global FiveIsland_MemorialPillar_Text_HaroldIntro
+	.set FiveIsland_MemorialPillar_Text_HaroldIntro, 0x0818AF72
+	.global FiveIsland_MemorialPillar_Text_HaroldDefeat
+	.set FiveIsland_MemorialPillar_Text_HaroldDefeat, 0x0818AFCC
+	.global FiveIsland_MemorialPillar_Text_HaroldPostBattle
+	.set FiveIsland_MemorialPillar_Text_HaroldPostBattle, 0x0818AFF2
+	.global FiveIsland_MemorialPillar_Text_ScrubScrub
+	.set FiveIsland_MemorialPillar_Text_ScrubScrub, 0x0818B02E
+	.global FiveIsland_MemorialPillar_Text_YourMonsLookHealthy
+	.set FiveIsland_MemorialPillar_Text_YourMonsLookHealthy, 0x0818B03C
+	.global FiveIsland_MemorialPillar_Text_ThisIsWhereIBuriedMyOnix
+	.set FiveIsland_MemorialPillar_Text_ThisIsWhereIBuriedMyOnix, 0x0818B05E
+	.global FiveIsland_MemorialPillar_Text_HereLiesTectonixLemonadeOffering
+	.set FiveIsland_MemorialPillar_Text_HereLiesTectonixLemonadeOffering, 0x0818B095
+	.global FiveIsland_MemorialPillar_Text_LeaveAnotherLemonadeOffering
+	.set FiveIsland_MemorialPillar_Text_LeaveAnotherLemonadeOffering, 0x0818B105
+	.global FiveIsland_MemorialPillar_Text_PlacedCanOfLemonade
+	.set FiveIsland_MemorialPillar_Text_PlacedCanOfLemonade, 0x0818B13E
+	.global FiveIsland_MemorialPillar_Text_ThankYouPleaseTakeThis
+	.set FiveIsland_MemorialPillar_Text_ThankYouPleaseTakeThis, 0x0818B171
+	.global FiveIsland_MemorialPillar_Text_BeGoodToYourMonsToo
+	.set FiveIsland_MemorialPillar_Text_BeGoodToYourMonsToo, 0x0818B219
+	.global FiveIsland_MemorialPillar_Text_DontHaveRoomForIt
+	.set FiveIsland_MemorialPillar_Text_DontHaveRoomForIt, 0x0818B23E
+	.global FiveIsland_MemorialPillar_Text_StillHaveThingAsMyThanks
+	.set FiveIsland_MemorialPillar_Text_StillHaveThingAsMyThanks, 0x0818B282
+	.global FiveIsland_MemorialPillar_Text_ScrubScrubTectonix
+	.set FiveIsland_MemorialPillar_Text_ScrubScrubTectonix, 0x0818B2DA
+	.global FiveIsland_MemorialPillar_Text_HereLiesTectonix
+	.set FiveIsland_MemorialPillar_Text_HereLiesTectonix, 0x0818B2F8
+	.global SixIsland_OutcastIsland_Text_RocketIntro
+	.set SixIsland_OutcastIsland_Text_RocketIntro, 0x0818B35A
+	.global SixIsland_OutcastIsland_Text_RocketDefeat
+	.set SixIsland_OutcastIsland_Text_RocketDefeat, 0x0818B3C2
+	.global SixIsland_OutcastIsland_Text_RocketPostBattle
+	.set SixIsland_OutcastIsland_Text_RocketPostBattle, 0x0818B3C8
+	.global SixIsland_OutcastIsland_Text_TylorIntro
+	.set SixIsland_OutcastIsland_Text_TylorIntro, 0x0818B400
+	.global SixIsland_OutcastIsland_Text_TylorDefeat
+	.set SixIsland_OutcastIsland_Text_TylorDefeat, 0x0818B43B
+	.global SixIsland_OutcastIsland_Text_TylorPostBattle
+	.set SixIsland_OutcastIsland_Text_TylorPostBattle, 0x0818B451
+	.global SixIsland_OutcastIsland_Text_MymoIntro
+	.set SixIsland_OutcastIsland_Text_MymoIntro, 0x0818B48F
+	.global SixIsland_OutcastIsland_Text_MymoDefeat
+	.set SixIsland_OutcastIsland_Text_MymoDefeat, 0x0818B4C5
+	.global SixIsland_OutcastIsland_Text_MymoPostBattle
+	.set SixIsland_OutcastIsland_Text_MymoPostBattle, 0x0818B4D1
+	.global SixIsland_OutcastIsland_Text_NicoleIntro
+	.set SixIsland_OutcastIsland_Text_NicoleIntro, 0x0818B4FA
+	.global SixIsland_OutcastIsland_Text_NicoleDefeat
+	.set SixIsland_OutcastIsland_Text_NicoleDefeat, 0x0818B539
+	.global SixIsland_OutcastIsland_Text_NicolePostBattle
+	.set SixIsland_OutcastIsland_Text_NicolePostBattle, 0x0818B573
+	.global SixIsland_OutcastIsland_Text_AvaIntro
+	.set SixIsland_OutcastIsland_Text_AvaIntro, 0x0818B5C8
+	.global SixIsland_OutcastIsland_Text_AvaDefeat
+	.set SixIsland_OutcastIsland_Text_AvaDefeat, 0x0818B5F4
+	.global SixIsland_OutcastIsland_Text_AvaPostBattle
+	.set SixIsland_OutcastIsland_Text_AvaPostBattle, 0x0818B62E
+	.global SixIsland_OutcastIsland_Text_AvaNotEnoughMons
+	.set SixIsland_OutcastIsland_Text_AvaNotEnoughMons, 0x0818B660
+	.global SixIsland_OutcastIsland_Text_GebIntro
+	.set SixIsland_OutcastIsland_Text_GebIntro, 0x0818B6C1
+	.global SixIsland_OutcastIsland_Text_GebDefeat
+	.set SixIsland_OutcastIsland_Text_GebDefeat, 0x0818B6EF
+	.global SixIsland_OutcastIsland_Text_GebPostBattle
+	.set SixIsland_OutcastIsland_Text_GebPostBattle, 0x0818B720
+	.global SixIsland_OutcastIsland_Text_GebNotEnoughMons
+	.set SixIsland_OutcastIsland_Text_GebNotEnoughMons, 0x0818B762
+	.global SixIsland_WaterPath_Text_RoseIntro
+	.set SixIsland_WaterPath_Text_RoseIntro, 0x0818B896
+	.global SixIsland_WaterPath_Text_RoseDefeat
+	.set SixIsland_WaterPath_Text_RoseDefeat, 0x0818B8C8
+	.global SixIsland_WaterPath_Text_RosePostBattle
+	.set SixIsland_WaterPath_Text_RosePostBattle, 0x0818B8F7
+	.global SixIsland_WaterPath_Text_EdwardIntro
+	.set SixIsland_WaterPath_Text_EdwardIntro, 0x0818B959
+	.global SixIsland_WaterPath_Text_EdwardDefeat
+	.set SixIsland_WaterPath_Text_EdwardDefeat, 0x0818B988
+	.global SixIsland_WaterPath_Text_EdwardPostBattle
+	.set SixIsland_WaterPath_Text_EdwardPostBattle, 0x0818B9A5
+	.global SixIsland_WaterPath_Text_SamirIntro
+	.set SixIsland_WaterPath_Text_SamirIntro, 0x0818B9EC
+	.global SixIsland_WaterPath_Text_SamirDefeat
+	.set SixIsland_WaterPath_Text_SamirDefeat, 0x0818BA47
+	.global SixIsland_WaterPath_Text_SamirPostBattle
+	.set SixIsland_WaterPath_Text_SamirPostBattle, 0x0818BA57
+	.global SixIsland_WaterPath_Text_DeniseIntro
+	.set SixIsland_WaterPath_Text_DeniseIntro, 0x0818BA86
+	.global SixIsland_WaterPath_Text_DeniseDefeat
+	.set SixIsland_WaterPath_Text_DeniseDefeat, 0x0818BAC0
+	.global SixIsland_WaterPath_Text_DenisePostBattle
+	.set SixIsland_WaterPath_Text_DenisePostBattle, 0x0818BAE0
+	.global SixIsland_WaterPath_Text_EarlIntro
+	.set SixIsland_WaterPath_Text_EarlIntro, 0x0818BB2D
+	.global SixIsland_WaterPath_Text_EarlDefeat
+	.set SixIsland_WaterPath_Text_EarlDefeat, 0x0818BB62
+	.global SixIsland_WaterPath_Text_EarlPostBattle
+	.set SixIsland_WaterPath_Text_EarlPostBattle, 0x0818BB8B
+	.global SixIsland_WaterPath_Text_MiuIntro
+	.set SixIsland_WaterPath_Text_MiuIntro, 0x0818BBBA
+	.global SixIsland_WaterPath_Text_MiuDefeat
+	.set SixIsland_WaterPath_Text_MiuDefeat, 0x0818BBE2
+	.global SixIsland_WaterPath_Text_MiuPostBattle
+	.set SixIsland_WaterPath_Text_MiuPostBattle, 0x0818BBF6
+	.global SixIsland_WaterPath_Text_MiuNotEnoughMons
+	.set SixIsland_WaterPath_Text_MiuNotEnoughMons, 0x0818BC24
+	.global SixIsland_WaterPath_Text_MiaIntro
+	.set SixIsland_WaterPath_Text_MiaIntro, 0x0818BC5A
+	.global SixIsland_WaterPath_Text_MiaDefeat
+	.set SixIsland_WaterPath_Text_MiaDefeat, 0x0818BC84
+	.global SixIsland_WaterPath_Text_MiaPostBattle
+	.set SixIsland_WaterPath_Text_MiaPostBattle, 0x0818BCAE
+	.global SixIsland_WaterPath_Text_MiaNotEnoughMons
+	.set SixIsland_WaterPath_Text_MiaNotEnoughMons, 0x0818BCCF
+	.global SixIsland_WaterPath_Text_WantedUltimateHorn
+	.set SixIsland_WaterPath_Text_WantedUltimateHorn, 0x0818BD0C
+	.global SixIsland_WaterPath_Text_RouteSign
+	.set SixIsland_WaterPath_Text_RouteSign, 0x0818BD27
+	.global SixIsland_RuinValley_Text_CantFigureOutHowToGetInside
+	.set SixIsland_RuinValley_Text_CantFigureOutHowToGetInside, 0x0818BD47
+	.global SixIsland_RuinValley_Text_IFoundThisPlace
+	.set SixIsland_RuinValley_Text_IFoundThisPlace, 0x0818BD7A
+	.global SixIsland_RuinValley_Text_CheckDoorMoreThoroughly
+	.set SixIsland_RuinValley_Text_CheckDoorMoreThoroughly, 0x0818BDC0
+	.global SixIsland_RuinValley_Text_LeftDoorAlone
+	.set SixIsland_RuinValley_Text_LeftDoorAlone, 0x0818BDF9
+	.global SixIsland_RuinValley_Text_SeveralDotsOnTheDoor
+	.set SixIsland_RuinValley_Text_SeveralDotsOnTheDoor, 0x0818BE11
+	.global SixIsland_RuinValley_Text_DoorIsOpen
+	.set SixIsland_RuinValley_Text_DoorIsOpen, 0x0818BE4B
+	.global SixIsland_RuinValley_Text_StanlyIntro
+	.set SixIsland_RuinValley_Text_StanlyIntro, 0x0818BE5D
+	.global SixIsland_RuinValley_Text_StanlyDefeat
+	.set SixIsland_RuinValley_Text_StanlyDefeat, 0x0818BE9B
+	.global SixIsland_RuinValley_Text_StanlyPostBattle
+	.set SixIsland_RuinValley_Text_StanlyPostBattle, 0x0818BEA0
+	.global SixIsland_RuinValley_Text_FosterIntro
+	.set SixIsland_RuinValley_Text_FosterIntro, 0x0818BF05
+	.global SixIsland_RuinValley_Text_FosterDefeat
+	.set SixIsland_RuinValley_Text_FosterDefeat, 0x0818BF33
+	.global SixIsland_RuinValley_Text_FosterPostBattle
+	.set SixIsland_RuinValley_Text_FosterPostBattle, 0x0818BF6C
+	.global SixIsland_RuinValley_Text_LarryIntro
+	.set SixIsland_RuinValley_Text_LarryIntro, 0x0818BFC5
+	.global SixIsland_RuinValley_Text_LarryDefeat
+	.set SixIsland_RuinValley_Text_LarryDefeat, 0x0818C03B
+	.global SixIsland_RuinValley_Text_LarryPostBattle
+	.set SixIsland_RuinValley_Text_LarryPostBattle, 0x0818C04C
+	.global SixIsland_RuinValley_Text_DarylIntro
+	.set SixIsland_RuinValley_Text_DarylIntro, 0x0818C09C
+	.global SixIsland_RuinValley_Text_DarylDefeat
+	.set SixIsland_RuinValley_Text_DarylDefeat, 0x0818C0BB
+	.global SixIsland_RuinValley_Text_DarylPostBattle
+	.set SixIsland_RuinValley_Text_DarylPostBattle, 0x0818C0EA
+	.global SixIsland_RuinValley_Text_HectorIntro
+	.set SixIsland_RuinValley_Text_HectorIntro, 0x0818C10A
+	.global SixIsland_RuinValley_Text_HectorDefeat
+	.set SixIsland_RuinValley_Text_HectorDefeat, 0x0818C140
+	.global SixIsland_RuinValley_Text_HectorPostBattle
+	.set SixIsland_RuinValley_Text_HectorPostBattle, 0x0818C17A
+	.global SevenIsland_TrainerTower_Text_DarioIntro
+	.set SevenIsland_TrainerTower_Text_DarioIntro, 0x0818C1ED
+	.global SevenIsland_TrainerTower_Text_DarioDefeat
+	.set SevenIsland_TrainerTower_Text_DarioDefeat, 0x0818C205
+	.global SevenIsland_TrainerTower_Text_DarioPostBattle
+	.set SevenIsland_TrainerTower_Text_DarioPostBattle, 0x0818C20E
+	.global SevenIsland_TrainerTower_Text_RodetteIntro
+	.set SevenIsland_TrainerTower_Text_RodetteIntro, 0x0818C283
+	.global SevenIsland_TrainerTower_Text_RodetteDefeat
+	.set SevenIsland_TrainerTower_Text_RodetteDefeat, 0x0818C2BC
+	.global SevenIsland_TrainerTower_Text_RodettePostBattle
+	.set SevenIsland_TrainerTower_Text_RodettePostBattle, 0x0818C2D5
+	.global SevenIsland_TrainerTower_Text_TrainerTowerSign
+	.set SevenIsland_TrainerTower_Text_TrainerTowerSign, 0x0818C338
+	.global SevenIsland_TrainerTower_Text_TrainerTowerAhead
+	.set SevenIsland_TrainerTower_Text_TrainerTowerAhead, 0x0818C370
+	.global SevenIsland_TrainerTower_Text_LooksLikeTrainerTowerIsClosed
+	.set SevenIsland_TrainerTower_Text_LooksLikeTrainerTowerIsClosed, 0x0818C384
+	.global SevenIsland_TrainerTower_Text_TrainerTowerIsOpenLetsGoIn
+	.set SevenIsland_TrainerTower_Text_TrainerTowerIsOpenLetsGoIn, 0x0818C39E
+	.global SevenIsland_SevaultCanyon_Entrance_Text_MiahIntro
+	.set SevenIsland_SevaultCanyon_Entrance_Text_MiahIntro, 0x0818C3BC
+	.global SevenIsland_SevaultCanyon_Entrance_Text_MiahDefeat
+	.set SevenIsland_SevaultCanyon_Entrance_Text_MiahDefeat, 0x0818C3E7
+	.global SevenIsland_SevaultCanyon_Entrance_Text_MiahPostBattle
+	.set SevenIsland_SevaultCanyon_Entrance_Text_MiahPostBattle, 0x0818C3FF
+	.global SevenIsland_SevaultCanyon_Entrance_Text_MasonIntro
+	.set SevenIsland_SevaultCanyon_Entrance_Text_MasonIntro, 0x0818C44B
+	.global SevenIsland_SevaultCanyon_Entrance_Text_MasonDefeat
+	.set SevenIsland_SevaultCanyon_Entrance_Text_MasonDefeat, 0x0818C473
+	.global SevenIsland_SevaultCanyon_Entrance_Text_MasonPostBattle
+	.set SevenIsland_SevaultCanyon_Entrance_Text_MasonPostBattle, 0x0818C4BA
+	.global SevenIsland_SevaultCanyon_Entrance_Text_NicolasIntro
+	.set SevenIsland_SevaultCanyon_Entrance_Text_NicolasIntro, 0x0818C500
+	.global SevenIsland_SevaultCanyon_Entrance_Text_NicolasDefeat
+	.set SevenIsland_SevaultCanyon_Entrance_Text_NicolasDefeat, 0x0818C543
+	.global SevenIsland_SevaultCanyon_Entrance_Text_NicolasPostBattle
+	.set SevenIsland_SevaultCanyon_Entrance_Text_NicolasPostBattle, 0x0818C54B
+	.global SevenIsland_SevaultCanyon_Entrance_Text_MadelineIntro
+	.set SevenIsland_SevaultCanyon_Entrance_Text_MadelineIntro, 0x0818C5AA
+	.global SevenIsland_SevaultCanyon_Entrance_Text_MadelineDefeat
+	.set SevenIsland_SevaultCanyon_Entrance_Text_MadelineDefeat, 0x0818C5CD
+	.global SevenIsland_SevaultCanyon_Entrance_Text_MadelinePostBattle
+	.set SevenIsland_SevaultCanyon_Entrance_Text_MadelinePostBattle, 0x0818C5F5
+	.global SevenIsland_SevaultCanyon_Entrance_Text_EveIntro
+	.set SevenIsland_SevaultCanyon_Entrance_Text_EveIntro, 0x0818C632
+	.global SevenIsland_SevaultCanyon_Entrance_Text_EveDefeat
+	.set SevenIsland_SevaultCanyon_Entrance_Text_EveDefeat, 0x0818C662
+	.global SevenIsland_SevaultCanyon_Entrance_Text_EvePostBattle
+	.set SevenIsland_SevaultCanyon_Entrance_Text_EvePostBattle, 0x0818C683
+	.global SevenIsland_SevaultCanyon_Entrance_Text_EveNotEnoughMons
+	.set SevenIsland_SevaultCanyon_Entrance_Text_EveNotEnoughMons, 0x0818C6AB
+	.global SevenIsland_SevaultCanyon_Entrance_Text_JonIntro
+	.set SevenIsland_SevaultCanyon_Entrance_Text_JonIntro, 0x0818C700
+	.global SevenIsland_SevaultCanyon_Entrance_Text_JonDefeat
+	.set SevenIsland_SevaultCanyon_Entrance_Text_JonDefeat, 0x0818C73B
+	.global SevenIsland_SevaultCanyon_Entrance_Text_JonPostBattle
+	.set SevenIsland_SevaultCanyon_Entrance_Text_JonPostBattle, 0x0818C773
+	.global SevenIsland_SevaultCanyon_Entrance_Text_JonNotEnoughMons
+	.set SevenIsland_SevaultCanyon_Entrance_Text_JonNotEnoughMons, 0x0818C7BD
+	.global SevenIsland_SevaultCanyon_Entrance_Text_RouteSign
+	.set SevenIsland_SevaultCanyon_Entrance_Text_RouteSign, 0x0818C82D
+	.global SevenIsland_SevaultCanyon_Text_CyndyIntro
+	.set SevenIsland_SevaultCanyon_Text_CyndyIntro, 0x0818C887
+	.global SevenIsland_SevaultCanyon_Text_CyndyDefeat
+	.set SevenIsland_SevaultCanyon_Text_CyndyDefeat, 0x0818C8A6
+	.global SevenIsland_SevaultCanyon_Text_CyndyPostBattle
+	.set SevenIsland_SevaultCanyon_Text_CyndyPostBattle, 0x0818C8C2
+	.global SevenIsland_SevaultCanyon_Text_EvanIntro
+	.set SevenIsland_SevaultCanyon_Text_EvanIntro, 0x0818C8FD
+	.global SevenIsland_SevaultCanyon_Text_EvanDefeat
+	.set SevenIsland_SevaultCanyon_Text_EvanDefeat, 0x0818C980
+	.global SevenIsland_SevaultCanyon_Text_EvanPostBattle
+	.set SevenIsland_SevaultCanyon_Text_EvanPostBattle, 0x0818C999
+	.global SevenIsland_SevaultCanyon_Text_JacksonIntro
+	.set SevenIsland_SevaultCanyon_Text_JacksonIntro, 0x0818CA2F
+	.global SevenIsland_SevaultCanyon_Text_JacksonDefeat
+	.set SevenIsland_SevaultCanyon_Text_JacksonDefeat, 0x0818CA6F
+	.global SevenIsland_SevaultCanyon_Text_JacksonPostBattle
+	.set SevenIsland_SevaultCanyon_Text_JacksonPostBattle, 0x0818CA9C
+	.global SevenIsland_SevaultCanyon_Text_KatelynIntro
+	.set SevenIsland_SevaultCanyon_Text_KatelynIntro, 0x0818CB16
+	.global SevenIsland_SevaultCanyon_Text_KatelynDefeat
+	.set SevenIsland_SevaultCanyon_Text_KatelynDefeat, 0x0818CB3E
+	.global SevenIsland_SevaultCanyon_Text_KatelynPostBattle
+	.set SevenIsland_SevaultCanyon_Text_KatelynPostBattle, 0x0818CB6C
+	.global SevenIsland_SevaultCanyon_Text_LeroyIntro
+	.set SevenIsland_SevaultCanyon_Text_LeroyIntro, 0x0818CBB4
+	.global SevenIsland_SevaultCanyon_Text_LeroyDefeat
+	.set SevenIsland_SevaultCanyon_Text_LeroyDefeat, 0x0818CBE0
+	.global SevenIsland_SevaultCanyon_Text_LeroyPostBattle
+	.set SevenIsland_SevaultCanyon_Text_LeroyPostBattle, 0x0818CC09
+	.global SevenIsland_SevaultCanyon_Text_MichelleIntro
+	.set SevenIsland_SevaultCanyon_Text_MichelleIntro, 0x0818CC4F
+	.global SevenIsland_SevaultCanyon_Text_MichelleDefeat
+	.set SevenIsland_SevaultCanyon_Text_MichelleDefeat, 0x0818CCAE
+	.global SevenIsland_SevaultCanyon_Text_MichellePostBattle
+	.set SevenIsland_SevaultCanyon_Text_MichellePostBattle, 0x0818CCEA
+	.global SevenIsland_SevaultCanyon_Text_LexIntro
+	.set SevenIsland_SevaultCanyon_Text_LexIntro, 0x0818CD49
+	.global SevenIsland_SevaultCanyon_Text_LexDefeat
+	.set SevenIsland_SevaultCanyon_Text_LexDefeat, 0x0818CD75
+	.global SevenIsland_SevaultCanyon_Text_LexPostBattle
+	.set SevenIsland_SevaultCanyon_Text_LexPostBattle, 0x0818CD9C
+	.global SevenIsland_SevaultCanyon_Text_LexNotEnoughMons
+	.set SevenIsland_SevaultCanyon_Text_LexNotEnoughMons, 0x0818CDE2
+	.global SevenIsland_SevaultCanyon_Text_NyaIntro
+	.set SevenIsland_SevaultCanyon_Text_NyaIntro, 0x0818CE20
+	.global SevenIsland_SevaultCanyon_Text_NyaDefeat
+	.set SevenIsland_SevaultCanyon_Text_NyaDefeat, 0x0818CE5A
+	.global SevenIsland_SevaultCanyon_Text_NyaPostBattle
+	.set SevenIsland_SevaultCanyon_Text_NyaPostBattle, 0x0818CE78
+	.global SevenIsland_SevaultCanyon_Text_NyaNotEnoughMons
+	.set SevenIsland_SevaultCanyon_Text_NyaNotEnoughMons, 0x0818CEF4
+	.global SevenIsland_SevaultCanyon_Text_RouteSign
+	.set SevenIsland_SevaultCanyon_Text_RouteSign, 0x0818CF2B
+	.global SevenIsland_SevaultCanyon_Text_BrunoTrainedWithBrawly
+	.set SevenIsland_SevaultCanyon_Text_BrunoTrainedWithBrawly, 0x0818CF4D
+	.global SevenIsland_TanobyRuins_Text_BrandonIntro
+	.set SevenIsland_TanobyRuins_Text_BrandonIntro, 0x0818CFFB
+	.global SevenIsland_TanobyRuins_Text_BrandonDefeat
+	.set SevenIsland_TanobyRuins_Text_BrandonDefeat, 0x0818D02A
+	.global SevenIsland_TanobyRuins_Text_BrandonPostBattle
+	.set SevenIsland_TanobyRuins_Text_BrandonPostBattle, 0x0818D061
+	.global SevenIsland_TanobyRuins_Text_BenjaminIntro
+	.set SevenIsland_TanobyRuins_Text_BenjaminIntro, 0x0818D0D9
+	.global SevenIsland_TanobyRuins_Text_BenjaminDefeat
+	.set SevenIsland_TanobyRuins_Text_BenjaminDefeat, 0x0818D108
+	.global SevenIsland_TanobyRuins_Text_BenjaminPostBattle
+	.set SevenIsland_TanobyRuins_Text_BenjaminPostBattle, 0x0818D125
+	.global SevenIsland_TanobyRuins_Text_EdnaIntro
+	.set SevenIsland_TanobyRuins_Text_EdnaIntro, 0x0818D18F
+	.global SevenIsland_TanobyRuins_Text_EdnaDefeat
+	.set SevenIsland_TanobyRuins_Text_EdnaDefeat, 0x0818D1B5
+	.global SevenIsland_TanobyRuins_Text_EdnaPostBattle
+	.set SevenIsland_TanobyRuins_Text_EdnaPostBattle, 0x0818D1E3
+	.global SevenIsland_TanobyRuins_Text_CliffordIntro
+	.set SevenIsland_TanobyRuins_Text_CliffordIntro, 0x0818D22F
+	.global SevenIsland_TanobyRuins_Text_CliffordDefeat
+	.set SevenIsland_TanobyRuins_Text_CliffordDefeat, 0x0818D26D
+	.global SevenIsland_TanobyRuins_Text_CliffordPostBattle
+	.set SevenIsland_TanobyRuins_Text_CliffordPostBattle, 0x0818D284
+	.global PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou
+	.set PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou, 0x0818D2F0
+	.global PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou
+	.set PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou, 0x0818D360
+	.global PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest
+	.set PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest, 0x0818D3D1
+	.global PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare
+	.set PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare, 0x0818D3F8
+	.global PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad
+	.set PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad, 0x0818D43E
+	.global PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad
+	.set PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad, 0x0818D492
+	.global PalletTown_PlayersHouse_1F_Text_OopsWrongSide
+	.set PalletTown_PlayersHouse_1F_Text_OopsWrongSide, 0x0818D4F9
+	.global ViridianCity_Gym_Text_GiovanniIntro
+	.set ViridianCity_Gym_Text_GiovanniIntro, 0x0818F352
+	.global ViridianCity_Gym_Text_GiovanniDefeat
+	.set ViridianCity_Gym_Text_GiovanniDefeat, 0x0818F43F
+	.global ViridianCity_Gym_Text_GiovanniPostBattle
+	.set ViridianCity_Gym_Text_GiovanniPostBattle, 0x0818F4A2
+	.global ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis
+	.set ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis, 0x0818F586
+	.global ViridianCity_Gym_Text_ReceivedTM26FromGiovanni
+	.set ViridianCity_Gym_Text_ReceivedTM26FromGiovanni, 0x0818F675
+	.global ViridianCity_Gym_Text_ExplainTM26
+	.set ViridianCity_Gym_Text_ExplainTM26, 0x0818F695
+	.global ViridianCity_Gym_Text_YouDoNotHaveSpace
+	.set ViridianCity_Gym_Text_YouDoNotHaveSpace, 0x0818F71B
+	.global ViridianCity_Gym_Text_YujiIntro
+	.set ViridianCity_Gym_Text_YujiIntro, 0x0818F73B
+	.global ViridianCity_Gym_Text_YujiDefeat
+	.set ViridianCity_Gym_Text_YujiDefeat, 0x0818F769
+	.global ViridianCity_Gym_Text_YujiPostBattle
+	.set ViridianCity_Gym_Text_YujiPostBattle, 0x0818F77B
+	.global ViridianCity_Gym_Text_AtsushiIntro
+	.set ViridianCity_Gym_Text_AtsushiIntro, 0x0818F7AD
+	.global ViridianCity_Gym_Text_AtsushiDefeat
+	.set ViridianCity_Gym_Text_AtsushiDefeat, 0x0818F7D6
+	.global ViridianCity_Gym_Text_AtsushiPostBattle
+	.set ViridianCity_Gym_Text_AtsushiPostBattle, 0x0818F7DD
+	.global ViridianCity_Gym_Text_JasonIntro
+	.set ViridianCity_Gym_Text_JasonIntro, 0x0818F7F3
+	.global ViridianCity_Gym_Text_JasonDefeat
+	.set ViridianCity_Gym_Text_JasonDefeat, 0x0818F824
+	.global ViridianCity_Gym_Text_JasonPostBattle
+	.set ViridianCity_Gym_Text_JasonPostBattle, 0x0818F840
+	.global ViridianCity_Gym_Text_KiyoIntro
+	.set ViridianCity_Gym_Text_KiyoIntro, 0x0818F86C
+	.global ViridianCity_Gym_Text_KiyoDefeat
+	.set ViridianCity_Gym_Text_KiyoDefeat, 0x0818F899
+	.global ViridianCity_Gym_Text_KiyoPostBattle
+	.set ViridianCity_Gym_Text_KiyoPostBattle, 0x0818F8A0
+	.global ViridianCity_Gym_Text_WarrenIntro
+	.set ViridianCity_Gym_Text_WarrenIntro, 0x0818F8CB
+	.global ViridianCity_Gym_Text_WarrenDefeat
+	.set ViridianCity_Gym_Text_WarrenDefeat, 0x0818F8EE
+	.global ViridianCity_Gym_Text_WarrenPostBattle
+	.set ViridianCity_Gym_Text_WarrenPostBattle, 0x0818F8FE
+	.global ViridianCity_Gym_Text_TakashiIntro
+	.set ViridianCity_Gym_Text_TakashiIntro, 0x0818F92C
+	.global ViridianCity_Gym_Text_TakashiDefeat
+	.set ViridianCity_Gym_Text_TakashiDefeat, 0x0818F95A
+	.global ViridianCity_Gym_Text_TakashiPostBattle
+	.set ViridianCity_Gym_Text_TakashiPostBattle, 0x0818F960
+	.global ViridianCity_Gym_Text_ColeIntro
+	.set ViridianCity_Gym_Text_ColeIntro, 0x0818F98A
+	.global ViridianCity_Gym_Text_ColeDefeat
+	.set ViridianCity_Gym_Text_ColeDefeat, 0x0818F9BB
+	.global ViridianCity_Gym_Text_ColePostBattle
+	.set ViridianCity_Gym_Text_ColePostBattle, 0x0818F9CC
+	.global ViridianCity_Gym_Text_SamuelIntro
+	.set ViridianCity_Gym_Text_SamuelIntro, 0x0818F9E7
+	.global ViridianCity_Gym_Text_SamuelDefeat
+	.set ViridianCity_Gym_Text_SamuelDefeat, 0x0818FA2D
+	.global ViridianCity_Gym_Text_SamuelPostBattle
+	.set ViridianCity_Gym_Text_SamuelPostBattle, 0x0818FA3B
+	.global ViridianCity_Gym_Text_GymGuyAdvice
+	.set ViridianCity_Gym_Text_GymGuyAdvice, 0x0818FA81
+	.global ViridianCity_Gym_Text_GymGuyPostVictory
+	.set ViridianCity_Gym_Text_GymGuyPostVictory, 0x0818FB56
+	.global ViridianCity_Gym_Text_GymStatue
+	.set ViridianCity_Gym_Text_GymStatue, 0x0818FB8D
+	.global ViridianCity_Gym_Text_GymStatuePlayerWon
+	.set ViridianCity_Gym_Text_GymStatuePlayerWon, 0x0818FBC1
+	.global PewterCity_Museum_1F_Text_Its50YForChildsTicket
+	.set PewterCity_Museum_1F_Text_Its50YForChildsTicket, 0x081904B5
+	.global PewterCity_Museum_1F_Text_ComeAgain
+	.set PewterCity_Museum_1F_Text_ComeAgain, 0x081904F9
+	.global PewterCity_Museum_1F_Text_Right50YThankYou
+	.set PewterCity_Museum_1F_Text_Right50YThankYou, 0x08190505
+	.global PewterCity_Museum_1F_Text_DontHaveEnoughMoney
+	.set PewterCity_Museum_1F_Text_DontHaveEnoughMoney, 0x0819051C
+	.global PewterCity_Museum_1F_Text_PleaseEnjoyYourself
+	.set PewterCity_Museum_1F_Text_PleaseEnjoyYourself, 0x08190539
+	.global PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs
+	.set PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs, 0x08190550
+	.global PewterCity_Museum_1F_Text_AmberContainsGeneticMatter
+	.set PewterCity_Museum_1F_Text_AmberContainsGeneticMatter, 0x081905B1
+	.global PewterCity_Museum_1F_Text_AmberIsFossilizedSap
+	.set PewterCity_Museum_1F_Text_AmberIsFossilizedSap, 0x08190627
+	.global PewterCity_Museum_1F_Text_PleaseGoAround
+	.set PewterCity_Museum_1F_Text_PleaseGoAround, 0x081906A6
+	.global PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife
+	.set PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife, 0x081906B4
+	.global PewterCity_Museum_1F_Text_WantYouToGetAmberExamined
+	.set PewterCity_Museum_1F_Text_WantYouToGetAmberExamined, 0x08190717
+	.global PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan
+	.set PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan, 0x08190866
+	.global PewterCity_Museum_1F_Text_GetOldAmberChecked
+	.set PewterCity_Museum_1F_Text_GetOldAmberChecked, 0x0819088E
+	.global PewterCity_Museum_1F_Text_DontHaveSpaceForThis
+	.set PewterCity_Museum_1F_Text_DontHaveSpaceForThis, 0x081908AE
+	.global PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit
+	.set PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit, 0x081908CD
+	.global PewterCity_Museum_1F_Text_BeautifulPieceOfAmber
+	.set PewterCity_Museum_1F_Text_BeautifulPieceOfAmber, 0x0819090A
+	.global PewterCity_Museum_1F_Text_AerodactylFossil
+	.set PewterCity_Museum_1F_Text_AerodactylFossil, 0x08190945
+	.global PewterCity_Museum_1F_Text_KabutopsFossil
+	.set PewterCity_Museum_1F_Text_KabutopsFossil, 0x08190975
+	.global PewterCity_Gym_Text_BrockIntro
+	.set PewterCity_Gym_Text_BrockIntro, 0x08190CD4
+	.global PewterCity_Gym_Text_BrockDefeat
+	.set PewterCity_Gym_Text_BrockDefeat, 0x08190E4F
+	.global PewterCity_Gym_Text_TakeThisWithYou
+	.set PewterCity_Gym_Text_TakeThisWithYou, 0x08190FC1
+	.global PewterCity_Gym_Text_ReceivedTM39FromBrock
+	.set PewterCity_Gym_Text_ReceivedTM39FromBrock, 0x08190FDB
+	.global PewterCity_Gym_Text_ExplainTM39
+	.set PewterCity_Gym_Text_ExplainTM39, 0x08190FF8
+	.global PewterCity_Gym_Text_BrockPostBattle
+	.set PewterCity_Gym_Text_BrockPostBattle, 0x0819110F
+	.global PewterCity_Gym_Text_DontHaveRoomForThis
+	.set PewterCity_Gym_Text_DontHaveRoomForThis, 0x081911CE
+	.global PewterCity_Gym_Text_LiamIntro
+	.set PewterCity_Gym_Text_LiamIntro, 0x081911EC
+	.global PewterCity_Gym_Text_LiamDefeat
+	.set PewterCity_Gym_Text_LiamDefeat, 0x08191237
+	.global PewterCity_Gym_Text_LiamPostBattle
+	.set PewterCity_Gym_Text_LiamPostBattle, 0x0819126B
+	.global PewterCity_Gym_Text_LetMeTakeYouToTheTop
+	.set PewterCity_Gym_Text_LetMeTakeYouToTheTop, 0x08191298
+	.global PewterCity_Gym_Text_LetsGetHappening
+	.set PewterCity_Gym_Text_LetsGetHappening, 0x0819133C
+	.global PewterCity_Gym_Text_TryDifferentPartyOrders
+	.set PewterCity_Gym_Text_TryDifferentPartyOrders, 0x0819135C
+	.global PewterCity_Gym_Text_ItsFreeLetsGetHappening
+	.set PewterCity_Gym_Text_ItsFreeLetsGetHappening, 0x08191412
+	.global PewterCity_Gym_Text_YoureChampMaterial
+	.set PewterCity_Gym_Text_YoureChampMaterial, 0x0819143C
+	.global PewterCity_Gym_Text_GymStatue
+	.set PewterCity_Gym_Text_GymStatue, 0x0819146E
+	.global PewterCity_Gym_Text_GymStatuePlayerWon
+	.set PewterCity_Gym_Text_GymStatuePlayerWon, 0x081914A4
+	.global CeruleanCity_PokemonCenter_1F_Text_BillDoesWhateverForRareMons
+	.set CeruleanCity_PokemonCenter_1F_Text_BillDoesWhateverForRareMons, 0x08191FFB
+	.global CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac
+	.set CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac, 0x08192079
+	.global CeruleanCity_PokemonCenter_1F_Text_BillCollectsRareMons
+	.set CeruleanCity_PokemonCenter_1F_Text_BillCollectsRareMons, 0x08192116
+	.global CeruleanCity_PokemonCenter_1F_Text_TryTradingUpstairs
+	.set CeruleanCity_PokemonCenter_1F_Text_TryTradingUpstairs, 0x0819214C
+	.global CeruleanCity_Gym_Text_MistyIntro
+	.set CeruleanCity_Gym_Text_MistyIntro, 0x081921EF
+	.global CeruleanCity_Gym_Text_ExplainTM03
+	.set CeruleanCity_Gym_Text_ExplainTM03, 0x081922BF
+	.global CeruleanCity_Gym_Text_ExplainCascadeBadge
+	.set CeruleanCity_Gym_Text_ExplainCascadeBadge, 0x081922F7
+	.global CeruleanCity_Gym_Text_ReceivedTM03FromMisty
+	.set CeruleanCity_Gym_Text_ReceivedTM03FromMisty, 0x081923F1
+	.global CeruleanCity_Gym_Text_BetterMakeRoomForThis
+	.set CeruleanCity_Gym_Text_BetterMakeRoomForThis, 0x0819240E
+	.global CeruleanCity_Gym_Text_MistyDefeat
+	.set CeruleanCity_Gym_Text_MistyDefeat, 0x0819242D
+	.global CeruleanCity_Gym_Text_DianaIntro
+	.set CeruleanCity_Gym_Text_DianaIntro, 0x08192481
+	.global CeruleanCity_Gym_Text_DianaDefeat
+	.set CeruleanCity_Gym_Text_DianaDefeat, 0x081924D0
+	.global CeruleanCity_Gym_Text_DianaPostBattle
+	.set CeruleanCity_Gym_Text_DianaPostBattle, 0x081924E4
+	.global CeruleanCity_Gym_Text_LuisIntro
+	.set CeruleanCity_Gym_Text_LuisIntro, 0x08192524
+	.global CeruleanCity_Gym_Text_LuisDefeat
+	.set CeruleanCity_Gym_Text_LuisDefeat, 0x08192547
+	.global CeruleanCity_Gym_Text_LuisPostBattle
+	.set CeruleanCity_Gym_Text_LuisPostBattle, 0x08192556
+	.global CeruleanCity_Gym_Text_GymGuyAdvice
+	.set CeruleanCity_Gym_Text_GymGuyAdvice, 0x081925AC
+	.global CeruleanCity_Gym_Text_WeMakePrettyGoodTeam
+	.set CeruleanCity_Gym_Text_WeMakePrettyGoodTeam, 0x08192688
+	.global CeruleanCity_Gym_Text_GymStatue
+	.set CeruleanCity_Gym_Text_GymStatue, 0x081926E1
+	.global CeruleanCity_Gym_Text_GymStatuePlayerWon
+	.set CeruleanCity_Gym_Text_GymStatuePlayerWon, 0x08192719
+	.global LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere
+	.set LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere, 0x0819358E
+	.global LavenderTown_VolunteerPokemonHouse_Text_WhereDidMrFujiGo
+	.set LavenderTown_VolunteerPokemonHouse_Text_WhereDidMrFujiGo, 0x081935ED
+	.global LavenderTown_VolunteerPokemonHouse_Text_MrFujiWasPrayingForCubonesMother
+	.set LavenderTown_VolunteerPokemonHouse_Text_MrFujiWasPrayingForCubonesMother, 0x0819361D
+	.global LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons
+	.set LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons, 0x08193652
+	.global LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug
+	.set LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug, 0x081936B4
+	.global LavenderTown_VolunteerPokemonHouse_Text_Nidorino
+	.set LavenderTown_VolunteerPokemonHouse_Text_Nidorino, 0x081936DE
+	.global LavenderTown_VolunteerPokemonHouse_Text_Psyduck
+	.set LavenderTown_VolunteerPokemonHouse_Text_Psyduck, 0x081936EE
+	.global LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis
+	.set LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis, 0x081936FF
+	.global LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji
+	.set LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji, 0x081937BD
+	.global LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute
+	.set LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute, 0x081937E5
+	.global LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis
+	.set LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis, 0x0819385B
+	.global LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou
+	.set LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou, 0x08193878
+	.global LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped
+	.set LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped, 0x081938A0
+	.global LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf
+	.set LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf, 0x0819392B
+	.global LavenderTown_House2_Text_WantMeToRateNicknames
+	.set LavenderTown_House2_Text_WantMeToRateNicknames, 0x08193A4B
+	.global LavenderTown_House2_Text_CritiqueWhichMonsNickname
+	.set LavenderTown_House2_Text_CritiqueWhichMonsNickname, 0x08193AA6
+	.global LavenderTown_House2_Text_GiveItANicerName
+	.set LavenderTown_House2_Text_GiveItANicerName, 0x08193AD2
+	.global LavenderTown_House2_Text_WhatShallNewNicknameBe
+	.set LavenderTown_House2_Text_WhatShallNewNicknameBe, 0x08193B36
+	.global LavenderTown_House2_Text_FromNowOnShallBeKnownAsName
+	.set LavenderTown_House2_Text_FromNowOnShallBeKnownAsName, 0x08193B66
+	.global LavenderTown_House2_Text_ISeeComeVisitAgain
+	.set LavenderTown_House2_Text_ISeeComeVisitAgain, 0x08193BD4
+	.global LavenderTown_House2_Text_FromNowOnShallBeKnownAsSameName
+	.set LavenderTown_House2_Text_FromNowOnShallBeKnownAsSameName, 0x08193BF0
+	.global LavenderTown_House2_Text_TrulyImpeccableName
+	.set LavenderTown_House2_Text_TrulyImpeccableName, 0x08193C82
+	.global LavenderTown_House2_Text_ThatIsMerelyAnEgg
+	.set LavenderTown_House2_Text_ThatIsMerelyAnEgg, 0x08193CC4
+	.global VermilionCity_PokemonFanClub_Text_AdmirePikachusTail
+	.set VermilionCity_PokemonFanClub_Text_AdmirePikachusTail, 0x0819446F
+	.global VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute
+	.set VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute, 0x0819449C
+	.global VermilionCity_PokemonFanClub_Text_AdoreMySeel
+	.set VermilionCity_PokemonFanClub_Text_AdoreMySeel, 0x081944CC
+	.global VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive
+	.set VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive, 0x08194518
+	.global VermilionCity_PokemonFanClub_Text_Pikachu
+	.set VermilionCity_PokemonFanClub_Text_Pikachu, 0x0819455A
+	.global VermilionCity_PokemonFanClub_Text_Seel
+	.set VermilionCity_PokemonFanClub_Text_Seel, 0x08194571
+	.global VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons
+	.set VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons, 0x0819457E
+	.global VermilionCity_PokemonFanClub_Text_ChairmansStory
+	.set VermilionCity_PokemonFanClub_Text_ChairmansStory, 0x08194628
+	.global VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman
+	.set VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman, 0x0819474E
+	.global VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher
+	.set VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher, 0x0819477C
+	.global VermilionCity_PokemonFanClub_Text_ComeBackToHearStory
+	.set VermilionCity_PokemonFanClub_Text_ComeBackToHearStory, 0x08194860
+	.global VermilionCity_PokemonFanClub_Text_DidntComeToSeeAboutMonsAgain
+	.set VermilionCity_PokemonFanClub_Text_DidntComeToSeeAboutMonsAgain, 0x0819488E
+	.global VermilionCity_PokemonFanClub_Text_MakeRoomForThis
+	.set VermilionCity_PokemonFanClub_Text_MakeRoomForThis, 0x081948D2
+	.global VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon
+	.set VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon, 0x081948E6
+	.global VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers
+	.set VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers, 0x08194910
+	.global VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack
+	.set VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack, 0x0819493D
+	.global VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons
+	.set VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons, 0x08194960
+	.global VermilionCity_House2_Text_DoYouHaveMonWantToTradeForMyMon
+	.set VermilionCity_House2_Text_DoYouHaveMonWantToTradeForMyMon, 0x081949CB
+	.global VermilionCity_House2_Text_ThatsTooBad
+	.set VermilionCity_House2_Text_ThatsTooBad, 0x081949FD
+	.global VermilionCity_House2_Text_ThisIsNoMon
+	.set VermilionCity_House2_Text_ThisIsNoMon, 0x08194A0D
+	.global VermilionCity_House2_Text_ThankYou
+	.set VermilionCity_House2_Text_ThankYou, 0x08194A44
+	.global VermilionCity_House2_Text_HowIsMyOldMon
+	.set VermilionCity_House2_Text_HowIsMyOldMon, 0x08194A4F
+	.global VermilionCity_Gym_Text_LtSurgeIntro
+	.set VermilionCity_Gym_Text_LtSurgeIntro, 0x08194BA4
+	.global VermilionCity_Gym_Text_LtSurgePostBattle
+	.set VermilionCity_Gym_Text_LtSurgePostBattle, 0x08194C8E
+	.global VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis
+	.set VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis, 0x08194CFA
+	.global VermilionCity_Gym_Text_ReceivedTM34FromLtSurge
+	.set VermilionCity_Gym_Text_ReceivedTM34FromLtSurge, 0x08194D87
+	.global VermilionCity_Gym_Text_ExplainTM34
+	.set VermilionCity_Gym_Text_ExplainTM34, 0x08194DA8
+	.global VermilionCity_Gym_Text_MakeRoomInYourBag
+	.set VermilionCity_Gym_Text_MakeRoomInYourBag, 0x08194DE3
+	.global VermilionCity_Gym_Text_LtSurgeDefeat
+	.set VermilionCity_Gym_Text_LtSurgeDefeat, 0x08194E03
+	.global VermilionCity_Gym_Text_TuckerIntro
+	.set VermilionCity_Gym_Text_TuckerIntro, 0x08194E57
+	.global VermilionCity_Gym_Text_TuckerDefeat
+	.set VermilionCity_Gym_Text_TuckerDefeat, 0x08194EA5
+	.global VermilionCity_Gym_Text_TuckerPostBattle
+	.set VermilionCity_Gym_Text_TuckerPostBattle, 0x08194EBD
+	.global VermilionCity_Gym_Text_BailyIntro
+	.set VermilionCity_Gym_Text_BailyIntro, 0x08194F1F
+	.global VermilionCity_Gym_Text_BailyDefeat
+	.set VermilionCity_Gym_Text_BailyDefeat, 0x08194F6F
+	.global VermilionCity_Gym_Text_BailyPostBattle
+	.set VermilionCity_Gym_Text_BailyPostBattle, 0x08194F76
+	.global VermilionCity_Gym_Text_DwayneIntro
+	.set VermilionCity_Gym_Text_DwayneIntro, 0x08194FBD
+	.global VermilionCity_Gym_Text_DwayneDefeat
+	.set VermilionCity_Gym_Text_DwayneDefeat, 0x08194FF1
+	.global VermilionCity_Gym_Text_DwaynePostBattle
+	.set VermilionCity_Gym_Text_DwaynePostBattle, 0x08195004
+	.global VermilionCity_Gym_Text_GymGuyAdvice
+	.set VermilionCity_Gym_Text_GymGuyAdvice, 0x081950B4
+	.global VermilionCity_Gym_Text_GymGuyPostVictory
+	.set VermilionCity_Gym_Text_GymGuyPostVictory, 0x081951EC
+	.global VermilionCity_Gym_Text_GymStatue
+	.set VermilionCity_Gym_Text_GymStatue, 0x0819520B
+	.global VermilionCity_Gym_Text_GymStatuePlayerWon
+	.set VermilionCity_Gym_Text_GymStatuePlayerWon, 0x08195248
+	.global VermilionCity_Gym_Text_NopeOnlyTrashHere
+	.set VermilionCity_Gym_Text_NopeOnlyTrashHere, 0x08195289
+	.global VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened
+	.set VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened, 0x081952A8
+	.global VermilionCity_Gym_Text_AnotherSwitchInTrash
+	.set VermilionCity_Gym_Text_AnotherSwitchInTrash, 0x081952FB
+	.global VermilionCity_Gym_Text_SecondLockOpened
+	.set VermilionCity_Gym_Text_SecondLockOpened, 0x08195330
+	.global VermilionCity_Gym_Text_OnlyTrashLocksWereReset
+	.set VermilionCity_Gym_Text_OnlyTrashLocksWereReset, 0x0819536C
+	.global VermilionCity_House3_Text_PidgeyFlyLetterToSaffron
+	.set VermilionCity_House3_Text_PidgeyFlyLetterToSaffron, 0x081953AF
+	.global VermilionCity_House3_Text_Pidgey
+	.set VermilionCity_House3_Text_Pidgey, 0x081953EE
+	.global VermilionCity_House3_Text_DearPippiLetter
+	.set VermilionCity_House3_Text_DearPippiLetter, 0x08195400
+	.global VermilionCity_House3_Text_SendMyPidgeyToUnionRoom
+	.set VermilionCity_House3_Text_SendMyPidgeyToUnionRoom, 0x08195471
+	.global CeladonCity_DepartmentStore_2F_Text_SuperRepelMorePowerfulRepel
+	.set CeladonCity_DepartmentStore_2F_Text_SuperRepelMorePowerfulRepel, 0x081955C7
+	.global CeladonCity_DepartmentStore_2F_Text_BuyReviveForLongOutings
+	.set CeladonCity_DepartmentStore_2F_Text_BuyReviveForLongOutings, 0x0819560F
+	.global CeladonCity_DepartmentStore_2F_Text_FloorSign
+	.set CeladonCity_DepartmentStore_2F_Text_FloorSign, 0x08195638
+	.global CeladonCity_DepartmentStore_2F_Text_LanceComesToBuyCapes
+	.set CeladonCity_DepartmentStore_2F_Text_LanceComesToBuyCapes, 0x0819566B
+	.global CeladonCity_DepartmentStore_3F_Text_OTStandsForOriginalTrainer
+	.set CeladonCity_DepartmentStore_3F_Text_OTStandsForOriginalTrainer, 0x081956E9
+	.global CeladonCity_DepartmentStore_3F_Text_BuddyTradingKangaskhanForHaunter
+	.set CeladonCity_DepartmentStore_3F_Text_BuddyTradingKangaskhanForHaunter, 0x08195769
+	.global CeladonCity_DepartmentStore_3F_Text_HaunterEvolvedOnTrade
+	.set CeladonCity_DepartmentStore_3F_Text_HaunterEvolvedOnTrade, 0x081957B0
+	.global CeladonCity_DepartmentStore_3F_Text_CanIdentifyTradeMonsByID
+	.set CeladonCity_DepartmentStore_3F_Text_CanIdentifyTradeMonsByID, 0x08195823
+	.global CeladonCity_DepartmentStore_3F_Text_ItsSuperNES
+	.set CeladonCity_DepartmentStore_3F_Text_ItsSuperNES, 0x08195863
+	.global CeladonCity_DepartmentStore_3F_Text_AnRPG
+	.set CeladonCity_DepartmentStore_3F_Text_AnRPG, 0x08195875
+	.global CeladonCity_DepartmentStore_3F_Text_SportsGame
+	.set CeladonCity_DepartmentStore_3F_Text_SportsGame, 0x08195897
+	.global CeladonCity_DepartmentStore_3F_Text_PuzzleGame
+	.set CeladonCity_DepartmentStore_3F_Text_PuzzleGame, 0x081958B8
+	.global CeladonCity_DepartmentStore_3F_Text_FightingGame
+	.set CeladonCity_DepartmentStore_3F_Text_FightingGame, 0x081958D8
+	.global CeladonCity_DepartmentStore_3F_Text_TVGameShop
+	.set CeladonCity_DepartmentStore_3F_Text_TVGameShop, 0x081958F6
+	.global CeladonCity_DepartmentStore_3F_Text_RedGreenBothArePokemon
+	.set CeladonCity_DepartmentStore_3F_Text_RedGreenBothArePokemon, 0x08195907
+	.global Text_CounterTeach
+	.set Text_CounterTeach, 0x08195928
+	.global Text_CounterDeclined
+	.set Text_CounterDeclined, 0x081959CC
+	.global Text_CounterWhichMon
+	.set Text_CounterWhichMon, 0x08195A08
+	.global Text_CounterTaught
+	.set Text_CounterTaught, 0x08195A31
+	.global CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers
+	.set CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers, 0x08195BBA
+	.global CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers
+	.set CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers, 0x08195CA0
+	.global CeladonCity_DepartmentStore_5F_Text_Drugstore
+	.set CeladonCity_DepartmentStore_5F_Text_Drugstore, 0x08195D14
+	.global CeladonCity_DepartmentStore_Roof_Text_ImThirstyGiveHerDrink
+	.set CeladonCity_DepartmentStore_Roof_Text_ImThirstyGiveHerDrink, 0x08195D22
+	.global CeladonCity_DepartmentStore_Roof_Text_GiveWhichDrink
+	.set CeladonCity_DepartmentStore_Roof_Text_GiveWhichDrink, 0x08195D5F
+	.global CeladonCity_DepartmentStore_Roof_Text_YayFreshWaterHaveThis
+	.set CeladonCity_DepartmentStore_Roof_Text_YayFreshWaterHaveThis, 0x08195D75
+	.global Text_ReceivedItemFromLittleGirl
+	.set Text_ReceivedItemFromLittleGirl, 0x08195DAD
+	.global CeladonCity_DepartmentStore_Roof_Text_ExplainTM16
+	.set CeladonCity_DepartmentStore_Roof_Text_ExplainTM16, 0x08195DD4
+	.global CeladonCity_DepartmentStore_Roof_Text_YaySodaPopHaveThis
+	.set CeladonCity_DepartmentStore_Roof_Text_YaySodaPopHaveThis, 0x08195E33
+	.global CeladonCity_DepartmentStore_Roof_Text_ExplainTM20
+	.set CeladonCity_DepartmentStore_Roof_Text_ExplainTM20, 0x08195E68
+	.global CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis
+	.set CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis, 0x08195EBF
+	.global CeladonCity_DepartmentStore_Roof_Text_ExplainTM33
+	.set CeladonCity_DepartmentStore_Roof_Text_ExplainTM33, 0x08195EF4
+	.global CeladonCity_DepartmentStore_Roof_Text_DontHaveSpaceForThis
+	.set CeladonCity_DepartmentStore_Roof_Text_DontHaveSpaceForThis, 0x08195F4F
+	.global CeladonCity_DepartmentStore_Roof_Text_ImNotThirstyAfterAll
+	.set CeladonCity_DepartmentStore_Roof_Text_ImNotThirstyAfterAll, 0x08195F6E
+	.global CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature
+	.set CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature, 0x08195F98
+	.global CeladonCity_DepartmentStore_Roof_Text_ImThirstyIWantDrink
+	.set CeladonCity_DepartmentStore_Roof_Text_ImThirstyIWantDrink, 0x08195FEF
+	.global CeladonCity_DepartmentStore_Roof_Text_FloorSign
+	.set CeladonCity_DepartmentStore_Roof_Text_FloorSign, 0x08196017
+	.global CeladonCity_DepartmentStore_Roof_Text_VendingMachineWhatDoesItHave
+	.set CeladonCity_DepartmentStore_Roof_Text_VendingMachineWhatDoesItHave, 0x08196038
+	.global CeladonCity_DepartmentStore_Roof_Text_NotEnoughMoney
+	.set CeladonCity_DepartmentStore_Roof_Text_NotEnoughMoney, 0x0819605E
+	.global CeladonCity_DepartmentStore_Roof_Text_DrinkCanPoppedOut
+	.set CeladonCity_DepartmentStore_Roof_Text_DrinkCanPoppedOut, 0x08196076
+	.global CeladonCity_DepartmentStore_Roof_Text_NoMoreRoomForStuff
+	.set CeladonCity_DepartmentStore_Roof_Text_NoMoreRoomForStuff, 0x0819608E
+	.global CeladonCity_DepartmentStore_Roof_Text_NotThirsty
+	.set CeladonCity_DepartmentStore_Roof_Text_NotThirsty, 0x081960AE
+	.global CeladonCity_GameCorner_Text_CanExchangeCoinsNextDoor
+	.set CeladonCity_GameCorner_Text_CanExchangeCoinsNextDoor, 0x08196940
+	.global CeladonCity_GameCorner_Text_WelcomeBuySomeCoins
+	.set CeladonCity_GameCorner_Text_WelcomeBuySomeCoins, 0x08196984
+	.global CeladonCity_GameCorner_Text_ComePlaySometime
+	.set CeladonCity_GameCorner_Text_ComePlaySometime, 0x081969DC
+	.global CeladonCity_GameCorner_Text_SorryDontHaveCoinCase
+	.set CeladonCity_GameCorner_Text_SorryDontHaveCoinCase, 0x081969FB
+	.global CeladonCity_GameCorner_Text_CoinCaseIsFull
+	.set CeladonCity_GameCorner_Text_CoinCaseIsFull, 0x08196A26
+	.global CeladonCity_GameCorner_Text_CantAffordCoins
+	.set CeladonCity_GameCorner_Text_CantAffordCoins, 0x08196A46
+	.global CeladonCity_GameCorner_Text_HereAreYourCoins
+	.set CeladonCity_GameCorner_Text_HereAreYourCoins, 0x08196A62
+	.global CeladonCity_GameCorner_Text_RumoredTeamRocketRunsThisPlace
+	.set CeladonCity_GameCorner_Text_RumoredTeamRocketRunsThisPlace, 0x08196A82
+	.global CeladonCity_GameCorner_Text_ThinkMachinesHaveDifferentOdds
+	.set CeladonCity_GameCorner_Text_ThinkMachinesHaveDifferentOdds, 0x08196AC7
+	.global CeladonCity_GameCorner_Text_DoYouWantToPlay
+	.set CeladonCity_GameCorner_Text_DoYouWantToPlay, 0x08196AF3
+	.global CeladonCity_GameCorner_Text_Received10CoinsFromMan
+	.set CeladonCity_GameCorner_Text_Received10CoinsFromMan, 0x08196B0D
+	.global CeladonCity_GameCorner_Text_DontNeedMyCoins
+	.set CeladonCity_GameCorner_Text_DontNeedMyCoins, 0x08196B30
+	.global CeladonCity_GameCorner_Text_WinsComeAndGo
+	.set CeladonCity_GameCorner_Text_WinsComeAndGo, 0x08196B49
+	.global CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck
+	.set CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck, 0x08196B7B
+	.global CeladonCity_GameCorner_Text_GymGuyAdvice
+	.set CeladonCity_GameCorner_Text_GymGuyAdvice, 0x08196BAD
+	.global CeladonCity_GameCorner_Text_RareMonsForCoins
+	.set CeladonCity_GameCorner_Text_RareMonsForCoins, 0x08196CA1
+	.global CeladonCity_GameCorner_Text_SoEasyToGetHooked
+	.set CeladonCity_GameCorner_Text_SoEasyToGetHooked, 0x08196CFE
+	.global CeladonCity_GameCorner_Text_WantSomeCoins
+	.set CeladonCity_GameCorner_Text_WantSomeCoins, 0x08196D2B
+	.global CeladonCity_GameCorner_Text_Received20CoinsFromNiceGuy
+	.set CeladonCity_GameCorner_Text_Received20CoinsFromNiceGuy, 0x08196D47
+	.global CeladonCity_GameCorner_Text_YouHaveLotsOfCoins
+	.set CeladonCity_GameCorner_Text_YouHaveLotsOfCoins, 0x08196D6F
+	.global CeladonCity_GameCorner_Text_NeedMoreCoinsForMonIWant
+	.set CeladonCity_GameCorner_Text_NeedMoreCoinsForMonIWant, 0x08196D87
+	.global CeladonCity_GameCorner_Text_HereAreSomeCoinsShoo
+	.set CeladonCity_GameCorner_Text_HereAreSomeCoinsShoo, 0x08196DB7
+	.global CeladonCity_GameCorner_Text_Received20CoinsFromMan
+	.set CeladonCity_GameCorner_Text_Received20CoinsFromMan, 0x08196DF8
+	.global CeladonCity_GameCorner_Text_YouveGotPlentyCoins
+	.set CeladonCity_GameCorner_Text_YouveGotPlentyCoins, 0x08196E1B
+	.global CeladonCity_GameCorner_Text_WatchReelsClosely
+	.set CeladonCity_GameCorner_Text_WatchReelsClosely, 0x08196E40
+	.global CeladonCity_GameCorner_Text_GruntIntro
+	.set CeladonCity_GameCorner_Text_GruntIntro, 0x08196E69
+	.global CeladonCity_GameCorner_Text_GruntDefeat
+	.set CeladonCity_GameCorner_Text_GruntDefeat, 0x08196E95
+	.global CeladonCity_GameCorner_Text_GruntPostBattle
+	.set CeladonCity_GameCorner_Text_GruntPostBattle, 0x08196E9B
+	.global CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt
+	.set CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt, 0x08196EDC
+	.global CeladonCity_GameCorner_Text_CoinCaseIsRequired
+	.set CeladonCity_GameCorner_Text_CoinCaseIsRequired, 0x08196F0D
+	.global CeladonCity_GameCorner_Text_DontHaveCoinCase
+	.set CeladonCity_GameCorner_Text_DontHaveCoinCase, 0x08196F26
+	.global CeladonCity_GameCorner_Text_SlotMachineWantToPlay
+	.set CeladonCity_GameCorner_Text_SlotMachineWantToPlay, 0x08196F46
+	.global CeladonCity_GameCorner_Text_OutOfOrder
+	.set CeladonCity_GameCorner_Text_OutOfOrder, 0x08196F64
+	.global CeladonCity_GameCorner_Text_OutToLunch
+	.set CeladonCity_GameCorner_Text_OutToLunch, 0x08196F81
+	.global CeladonCity_GameCorner_Text_SomeonesKeys
+	.set CeladonCity_GameCorner_Text_SomeonesKeys, 0x08196FA0
+	.global CeladonCity_GameCorner_PrizeRoom_Text_FancyThatPorygon
+	.set CeladonCity_GameCorner_PrizeRoom_Text_FancyThatPorygon, 0x08196FC1
+	.global CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday
+	.set CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday, 0x08196FFF
+	.global CeladonCity_GameCorner_PrizeRoom_Text_CoinCaseRequired
+	.set CeladonCity_GameCorner_PrizeRoom_Text_CoinCaseRequired, 0x0819703E
+	.global CeladonCity_GameCorner_PrizeRoom_Text_WeExchangeCoinsForPrizes
+	.set CeladonCity_GameCorner_PrizeRoom_Text_WeExchangeCoinsForPrizes, 0x08197057
+	.global CeladonCity_GameCorner_PrizeRoom_Text_WhichPrize
+	.set CeladonCity_GameCorner_PrizeRoom_Text_WhichPrize, 0x0819707A
+	.global CeladonCity_GameCorner_PrizeRoom_Text_HereYouGo
+	.set CeladonCity_GameCorner_PrizeRoom_Text_HereYouGo, 0x08197096
+	.global CeladonCity_GameCorner_PrizeRoom_Text_YouWantPrize
+	.set CeladonCity_GameCorner_PrizeRoom_Text_YouWantPrize, 0x0819709D
+	.global CeladonCity_GameCorner_PrizeRoom_Text_YouWantTM
+	.set CeladonCity_GameCorner_PrizeRoom_Text_YouWantTM, 0x081970B2
+	.global CeladonCity_GameCorner_PrizeRoom_Text_NeedMoreCoins
+	.set CeladonCity_GameCorner_PrizeRoom_Text_NeedMoreCoins, 0x081970D5
+	.global CeladonCity_GameCorner_PrizeRoom_Text_OopsNotEnoughRoom
+	.set CeladonCity_GameCorner_PrizeRoom_Text_OopsNotEnoughRoom, 0x081970FE
+	.global CeladonCity_GameCorner_PrizeRoom_Text_OhFineThen
+	.set CeladonCity_GameCorner_PrizeRoom_Text_OhFineThen, 0x0819710E
+	.global CeladonCity_Gym_Text_ErikaIntro
+	.set CeladonCity_Gym_Text_ErikaIntro, 0x08197114
+	.global CeladonCity_Gym_Text_ErikaDefeat
+	.set CeladonCity_Gym_Text_ErikaDefeat, 0x08197260
+	.global CeladonCity_Gym_Text_ErikaPostBattle
+	.set CeladonCity_Gym_Text_ErikaPostBattle, 0x081972B8
+	.global CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis
+	.set CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis, 0x08197327
+	.global CeladonCity_Gym_Text_ReceivedTM19FromErika
+	.set CeladonCity_Gym_Text_ReceivedTM19FromErika, 0x081973BA
+	.global CeladonCity_Gym_Text_ExplainTM19
+	.set CeladonCity_Gym_Text_ExplainTM19, 0x081973D7
+	.global CeladonCity_Gym_Text_ShouldMakeRoomForThis
+	.set CeladonCity_Gym_Text_ShouldMakeRoomForThis, 0x0819745D
+	.global CeladonCity_Gym_Text_KayIntro
+	.set CeladonCity_Gym_Text_KayIntro, 0x0819747C
+	.global CeladonCity_Gym_Text_KayDefeat
+	.set CeladonCity_Gym_Text_KayDefeat, 0x081974C4
+	.global CeladonCity_Gym_Text_KayPostBattle
+	.set CeladonCity_Gym_Text_KayPostBattle, 0x081974D6
+	.global CeladonCity_Gym_Text_BridgetIntro
+	.set CeladonCity_Gym_Text_BridgetIntro, 0x081974FA
+	.global CeladonCity_Gym_Text_BridgetDefeat
+	.set CeladonCity_Gym_Text_BridgetDefeat, 0x0819751C
+	.global CeladonCity_Gym_Text_BridgetPostBattle
+	.set CeladonCity_Gym_Text_BridgetPostBattle, 0x08197527
+	.global CeladonCity_Gym_Text_TinaIntro
+	.set CeladonCity_Gym_Text_TinaIntro, 0x08197595
+	.global CeladonCity_Gym_Text_TinaDefeat
+	.set CeladonCity_Gym_Text_TinaDefeat, 0x081975BB
+	.global CeladonCity_Gym_Text_TinaPostBattle
+	.set CeladonCity_Gym_Text_TinaPostBattle, 0x081975D1
+	.global CeladonCity_Gym_Text_TamiaIntro
+	.set CeladonCity_Gym_Text_TamiaIntro, 0x0819760B
+	.global CeladonCity_Gym_Text_TamiaDefeat
+	.set CeladonCity_Gym_Text_TamiaDefeat, 0x08197660
+	.global CeladonCity_Gym_Text_TamiaPostBattle
+	.set CeladonCity_Gym_Text_TamiaPostBattle, 0x08197664
+	.global CeladonCity_Gym_Text_LisaIntro
+	.set CeladonCity_Gym_Text_LisaIntro, 0x081976C5
+	.global CeladonCity_Gym_Text_LisaDefeat
+	.set CeladonCity_Gym_Text_LisaDefeat, 0x081976FF
+	.global CeladonCity_Gym_Text_LisaPostBattle
+	.set CeladonCity_Gym_Text_LisaPostBattle, 0x08197708
+	.global CeladonCity_Gym_Text_LoriIntro
+	.set CeladonCity_Gym_Text_LoriIntro, 0x08197747
+	.global CeladonCity_Gym_Text_LoriDefeat
+	.set CeladonCity_Gym_Text_LoriDefeat, 0x0819777A
+	.global CeladonCity_Gym_Text_LoriPostBattle
+	.set CeladonCity_Gym_Text_LoriPostBattle, 0x08197788
+	.global CeladonCity_Gym_Text_MaryIntro
+	.set CeladonCity_Gym_Text_MaryIntro, 0x081977E5
+	.global CeladonCity_Gym_Text_MaryDefeat
+	.set CeladonCity_Gym_Text_MaryDefeat, 0x08197832
+	.global CeladonCity_Gym_Text_MaryPostBattle
+	.set CeladonCity_Gym_Text_MaryPostBattle, 0x0819783E
+	.global CeladonCity_Gym_Text_GymStatue
+	.set CeladonCity_Gym_Text_GymStatue, 0x08197874
+	.global CeladonCity_Gym_Text_GymStatuePlayerWon
+	.set CeladonCity_Gym_Text_GymStatuePlayerWon, 0x081978AB
+	.global CeladonCity_Restaurant_Text_TakingBreakRightNow
+	.set CeladonCity_Restaurant_Text_TakingBreakRightNow, 0x081978E6
+	.global CeladonCity_Restaurant_Text_OftenGoToDrugstore
+	.set CeladonCity_Restaurant_Text_OftenGoToDrugstore, 0x08197915
+	.global CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner
+	.set CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner, 0x08197952
+	.global CeladonCity_Restaurant_Text_ManLostItAllAtSlots
+	.set CeladonCity_Restaurant_Text_ManLostItAllAtSlots, 0x0819798A
+	.global CeladonCity_Restaurant_Text_TakeThisImBusted
+	.set CeladonCity_Restaurant_Text_TakeThisImBusted, 0x081979C1
+	.global CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan
+	.set CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan, 0x08197A38
+	.global CeladonCity_Restaurant_Text_MakeRoomForThis
+	.set CeladonCity_Restaurant_Text_MakeRoomForThis, 0x08197A5E
+	.global CeladonCity_Restaurant_Text_ThoughtIdWinItBack
+	.set CeladonCity_Restaurant_Text_ThoughtIdWinItBack, 0x08197A72
+	.global CeladonCity_House1_Text_SlotsReelInTheDough
+	.set CeladonCity_House1_Text_SlotsReelInTheDough, 0x08197A9F
+	.global CeladonCity_House1_Text_ShippedMonsAsSlotPrizes
+	.set CeladonCity_House1_Text_ShippedMonsAsSlotPrizes, 0x08197AD3
+	.global CeladonCity_House1_Text_DontTouchGameCornerPoster
+	.set CeladonCity_House1_Text_DontTouchGameCornerPoster, 0x08197B20
+	.global Text_ItsABuddhistAltar
+	.set Text_ItsABuddhistAltar, 0x08197B6F
+	.global FuchsiaCity_SafariZone_Entrance_Text_WelcomeToSafariZone
+	.set FuchsiaCity_SafariZone_Entrance_Text_WelcomeToSafariZone, 0x08197C6B
+	.global FuchsiaCity_SafariZone_Entrance_Text_PlaySafariGameFor500
+	.set FuchsiaCity_SafariZone_Entrance_Text_PlaySafariGameFor500, 0x08197C87
+	.global FuchsiaCity_SafariZone_Entrance_Text_ThatllBe500WeOnlyUseSpecialBalls
+	.set FuchsiaCity_SafariZone_Entrance_Text_ThatllBe500WeOnlyUseSpecialBalls, 0x08197D07
+	.global FuchsiaCity_SafariZone_Entrance_Text_PlayerReceived30SafariBalls
+	.set FuchsiaCity_SafariZone_Entrance_Text_PlayerReceived30SafariBalls, 0x08197D50
+	.global FuchsiaCity_SafariZone_Entrance_Text_CallYouOnPAWhenYouRunOut
+	.set FuchsiaCity_SafariZone_Entrance_Text_CallYouOnPAWhenYouRunOut, 0x08197D80
+	.global FuchsiaCity_SafariZone_Entrance_Text_OkayPleaseComeAgain
+	.set FuchsiaCity_SafariZone_Entrance_Text_OkayPleaseComeAgain, 0x08197DE9
+	.global FuchsiaCity_SafariZone_Entrance_Text_OopsNotEnoughMoney
+	.set FuchsiaCity_SafariZone_Entrance_Text_OopsNotEnoughMoney, 0x08197E02
+	.global FuchsiaCity_SafariZone_Entrance_Text_GoingToLeaveSafariZoneEarly
+	.set FuchsiaCity_SafariZone_Entrance_Text_GoingToLeaveSafariZoneEarly, 0x08197E1A
+	.global FuchsiaCity_SafariZone_Entrance_Text_PleaseReturnSafariBalls
+	.set FuchsiaCity_SafariZone_Entrance_Text_PleaseReturnSafariBalls, 0x08197E48
+	.global FuchsiaCity_SafariZone_Entrance_Text_GoodLuck
+	.set FuchsiaCity_SafariZone_Entrance_Text_GoodLuck, 0x08197E7A
+	.global FuchsiaCity_SafariZone_Entrance_Text_CatchFairShareComeAgain
+	.set FuchsiaCity_SafariZone_Entrance_Text_CatchFairShareComeAgain, 0x08197E85
+	.global FuchsiaCity_SafariZone_Entrance_Text_FirstTimeAtSafariZone
+	.set FuchsiaCity_SafariZone_Entrance_Text_FirstTimeAtSafariZone, 0x08197EB0
+	.global FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone
+	.set FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone, 0x08197EE3
+	.global FuchsiaCity_SafariZone_Entrance_Text_SorryYoureARegularHere
+	.set FuchsiaCity_SafariZone_Entrance_Text_SorryYoureARegularHere, 0x0819809E
+	.global FuchsiaCity_Gym_Text_KogaIntro
+	.set FuchsiaCity_Gym_Text_KogaIntro, 0x0819832E
+	.global FuchsiaCity_Gym_Text_KogaDefeat
+	.set FuchsiaCity_Gym_Text_KogaDefeat, 0x08198444
+	.global FuchsiaCity_Gym_Text_KogaPostBattle
+	.set FuchsiaCity_Gym_Text_KogaPostBattle, 0x08198481
+	.global FuchsiaCity_Gym_Text_KogaExplainSoulBadge
+	.set FuchsiaCity_Gym_Text_KogaExplainSoulBadge, 0x0819850E
+	.global FuchsiaCity_Gym_Text_ReceivedTM06FromKoga
+	.set FuchsiaCity_Gym_Text_ReceivedTM06FromKoga, 0x0819858F
+	.global FuchsiaCity_Gym_Text_KogaExplainTM06
+	.set FuchsiaCity_Gym_Text_KogaExplainTM06, 0x081985AB
+	.global FuchsiaCity_Gym_Text_MakeSpaceForThis
+	.set FuchsiaCity_Gym_Text_MakeSpaceForThis, 0x0819860D
+	.global FuchsiaCity_Gym_Text_KaydenIntro
+	.set FuchsiaCity_Gym_Text_KaydenIntro, 0x08198629
+	.global FuchsiaCity_Gym_Text_KaydenDefeat
+	.set FuchsiaCity_Gym_Text_KaydenDefeat, 0x081986B4
+	.global FuchsiaCity_Gym_Text_KaydenPostBattle
+	.set FuchsiaCity_Gym_Text_KaydenPostBattle, 0x081986C9
+	.global FuchsiaCity_Gym_Text_KirkIntro
+	.set FuchsiaCity_Gym_Text_KirkIntro, 0x0819871E
+	.global FuchsiaCity_Gym_Text_KirkDefeat
+	.set FuchsiaCity_Gym_Text_KirkDefeat, 0x08198779
+	.global FuchsiaCity_Gym_Text_KirkPostBattle
+	.set FuchsiaCity_Gym_Text_KirkPostBattle, 0x08198787
+	.global FuchsiaCity_Gym_Text_NateIntro
+	.set FuchsiaCity_Gym_Text_NateIntro, 0x081987E8
+	.global FuchsiaCity_Gym_Text_NateDefeat
+	.set FuchsiaCity_Gym_Text_NateDefeat, 0x08198812
+	.global FuchsiaCity_Gym_Text_NatePostBattle
+	.set FuchsiaCity_Gym_Text_NatePostBattle, 0x08198825
+	.global FuchsiaCity_Gym_Text_PhilIntro
+	.set FuchsiaCity_Gym_Text_PhilIntro, 0x08198866
+	.global FuchsiaCity_Gym_Text_PhilDefeat
+	.set FuchsiaCity_Gym_Text_PhilDefeat, 0x081988B6
+	.global FuchsiaCity_Gym_Text_PhilPostBattle
+	.set FuchsiaCity_Gym_Text_PhilPostBattle, 0x081988CB
+	.global FuchsiaCity_Gym_Text_EdgarIntro
+	.set FuchsiaCity_Gym_Text_EdgarIntro, 0x0819891F
+	.global FuchsiaCity_Gym_Text_EdgarDefeat
+	.set FuchsiaCity_Gym_Text_EdgarDefeat, 0x0819897F
+	.global FuchsiaCity_Gym_Text_EdgarPostBattle
+	.set FuchsiaCity_Gym_Text_EdgarPostBattle, 0x08198985
+	.global FuchsiaCity_Gym_Text_ShawnIntro
+	.set FuchsiaCity_Gym_Text_ShawnIntro, 0x081989A1
+	.global FuchsiaCity_Gym_Text_ShawnDefeat
+	.set FuchsiaCity_Gym_Text_ShawnDefeat, 0x081989EA
+	.global FuchsiaCity_Gym_Text_ShawnPostBattle
+	.set FuchsiaCity_Gym_Text_ShawnPostBattle, 0x08198A10
+	.global FuchsiaCity_Gym_Text_GymGuyAdvice
+	.set FuchsiaCity_Gym_Text_GymGuyAdvice, 0x08198A5E
+	.global FuchsiaCity_Gym_Text_GymGuyPostVictory
+	.set FuchsiaCity_Gym_Text_GymGuyPostVictory, 0x08198B1D
+	.global FuchsiaCity_Gym_Text_GymStatue
+	.set FuchsiaCity_Gym_Text_GymStatue, 0x08198B4B
+	.global FuchsiaCity_Gym_Text_GymStatuePlayerWon
+	.set FuchsiaCity_Gym_Text_GymStatuePlayerWon, 0x08198B81
+	.global CinnabarIsland_Gym_Text_BlaineIntro
+	.set CinnabarIsland_Gym_Text_BlaineIntro, 0x08199543
+	.global CinnabarIsland_Gym_Text_BlaineDefeat
+	.set CinnabarIsland_Gym_Text_BlaineDefeat, 0x081995FA
+	.global CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove
+	.set CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove, 0x08199652
+	.global CinnabarIsland_Gym_Text_ExplainVolcanoBadge
+	.set CinnabarIsland_Gym_Text_ExplainVolcanoBadge, 0x0819969E
+	.global CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine
+	.set CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine, 0x081996FF
+	.global CinnabarIsland_Gym_Text_BlainePostBattle
+	.set CinnabarIsland_Gym_Text_BlainePostBattle, 0x0819971D
+	.global CinnabarIsland_Gym_Text_MakeSpaceForThis
+	.set CinnabarIsland_Gym_Text_MakeSpaceForThis, 0x08199789
+	.global CinnabarIsland_Gym_Text_ErikIntro
+	.set CinnabarIsland_Gym_Text_ErikIntro, 0x081997A5
+	.global CinnabarIsland_Gym_Text_ErikDefeat
+	.set CinnabarIsland_Gym_Text_ErikDefeat, 0x081997D6
+	.global CinnabarIsland_Gym_Text_ErikPostBattle
+	.set CinnabarIsland_Gym_Text_ErikPostBattle, 0x081997EA
+	.global CinnabarIsland_Gym_Text_QuinnIntro
+	.set CinnabarIsland_Gym_Text_QuinnIntro, 0x0819983F
+	.global CinnabarIsland_Gym_Text_QuinnDefeat
+	.set CinnabarIsland_Gym_Text_QuinnDefeat, 0x08199870
+	.global CinnabarIsland_Gym_Text_QuinnPostBattle
+	.set CinnabarIsland_Gym_Text_QuinnPostBattle, 0x0819987D
+	.global CinnabarIsland_Gym_Text_AveryIntro
+	.set CinnabarIsland_Gym_Text_AveryIntro, 0x081998BD
+	.global CinnabarIsland_Gym_Text_AveryDefeat
+	.set CinnabarIsland_Gym_Text_AveryDefeat, 0x081998ED
+	.global CinnabarIsland_Gym_Text_AveryPostBattle
+	.set CinnabarIsland_Gym_Text_AveryPostBattle, 0x08199911
+	.global CinnabarIsland_Gym_Text_RamonIntro
+	.set CinnabarIsland_Gym_Text_RamonIntro, 0x08199948
+	.global CinnabarIsland_Gym_Text_RamonDefeat
+	.set CinnabarIsland_Gym_Text_RamonDefeat, 0x08199973
+	.global CinnabarIsland_Gym_Text_RamonPostBattle
+	.set CinnabarIsland_Gym_Text_RamonPostBattle, 0x08199986
+	.global CinnabarIsland_Gym_Text_DerekIntro
+	.set CinnabarIsland_Gym_Text_DerekIntro, 0x081999B7
+	.global CinnabarIsland_Gym_Text_DerekDefeat
+	.set CinnabarIsland_Gym_Text_DerekDefeat, 0x081999DB
+	.global CinnabarIsland_Gym_Text_DerekPostBattle
+	.set CinnabarIsland_Gym_Text_DerekPostBattle, 0x081999DF
+	.global CinnabarIsland_Gym_Text_DustyIntro
+	.set CinnabarIsland_Gym_Text_DustyIntro, 0x08199A7F
+	.global CinnabarIsland_Gym_Text_DustyDefeat
+	.set CinnabarIsland_Gym_Text_DustyDefeat, 0x08199AB9
+	.global CinnabarIsland_Gym_Text_DustyPostBattle
+	.set CinnabarIsland_Gym_Text_DustyPostBattle, 0x08199AC9
+	.global CinnabarIsland_Gym_Text_ZacIntro
+	.set CinnabarIsland_Gym_Text_ZacIntro, 0x08199AFC
+	.global CinnabarIsland_Gym_Text_ZacDefeat
+	.set CinnabarIsland_Gym_Text_ZacDefeat, 0x08199B16
+	.global CinnabarIsland_Gym_Text_ZacPostBattle
+	.set CinnabarIsland_Gym_Text_ZacPostBattle, 0x08199B27
+	.global CinnabarIsland_Gym_Text_GymGuyAdvice
+	.set CinnabarIsland_Gym_Text_GymGuyAdvice, 0x08199B81
+	.global CinnabarIsland_Gym_Text_GymGuyPostVictory
+	.set CinnabarIsland_Gym_Text_GymGuyPostVictory, 0x08199C0C
+	.global CinnabarIsland_Gym_Text_GymStatue
+	.set CinnabarIsland_Gym_Text_GymStatue, 0x08199C29
+	.global CinnabarIsland_Gym_Text_GymStatuePlayerWon
+	.set CinnabarIsland_Gym_Text_GymStatuePlayerWon, 0x08199C62
+	.global CinnabarIsland_Gym_Text_PokemonQuizRules
+	.set CinnabarIsland_Gym_Text_PokemonQuizRules, 0x08199C9F
+	.global CinnabarIsland_Gym_Text_QuizQuestion1
+	.set CinnabarIsland_Gym_Text_QuizQuestion1, 0x08199D5A
+	.global CinnabarIsland_Gym_Text_QuizQuestion2
+	.set CinnabarIsland_Gym_Text_QuizQuestion2, 0x08199D79
+	.global CinnabarIsland_Gym_Text_QuizQuestion3
+	.set CinnabarIsland_Gym_Text_QuizQuestion3, 0x08199DA9
+	.global CinnabarIsland_Gym_Text_QuizQuestion4
+	.set CinnabarIsland_Gym_Text_QuizQuestion4, 0x08199DC6
+	.global CinnabarIsland_Gym_Text_QuizQuestion5
+	.set CinnabarIsland_Gym_Text_QuizQuestion5, 0x08199E00
+	.global CinnabarIsland_Gym_Text_QuizQuestion6
+	.set CinnabarIsland_Gym_Text_QuizQuestion6, 0x08199E36
+	.global CinnabarIsland_Gym_Text_CorrectGoOnThrough
+	.set CinnabarIsland_Gym_Text_CorrectGoOnThrough, 0x08199E4F
+	.global CinnabarIsland_Gym_Text_SorryBadCall
+	.set CinnabarIsland_Gym_Text_SorryBadCall, 0x08199E79
+	.global CinnabarIsland_Gym_Text_PhotoOfBlaineAndFuji
+	.set CinnabarIsland_Gym_Text_PhotoOfBlaineAndFuji, 0x08199E8A
+	.global CinnabarIsland_PokemonLab_Entrance_Text_StudyMonsExtensively
+	.set CinnabarIsland_PokemonLab_Entrance_Text_StudyMonsExtensively, 0x08199EE5
+	.global CinnabarIsland_PokemonLab_Entrance_Text_PhotoOfLabFounderDrFuji
+	.set CinnabarIsland_PokemonLab_Entrance_Text_PhotoOfLabFounderDrFuji, 0x08199F41
+	.global CinnabarIsland_PokemonLab_Entrance_Text_MeetingRoomSign
+	.set CinnabarIsland_PokemonLab_Entrance_Text_MeetingRoomSign, 0x08199F6A
+	.global CinnabarIsland_PokemonLab_Entrance_Text_RAndDRoomSign
+	.set CinnabarIsland_PokemonLab_Entrance_Text_RAndDRoomSign, 0x08199F83
+	.global CinnabarIsland_PokemonLab_Entrance_Text_TestingRoomSign
+	.set CinnabarIsland_PokemonLab_Entrance_Text_TestingRoomSign, 0x08199F9A
+	.global IndigoPlateau_PokemonCenter_1F_Text_GymGuyAdvice
+	.set IndigoPlateau_PokemonCenter_1F_Text_GymGuyAdvice, 0x0819A837
+	.global IndigoPlateau_PokemonCenter_1F_Text_FaceEliteFourGoodLuck
+	.set IndigoPlateau_PokemonCenter_1F_Text_FaceEliteFourGoodLuck, 0x0819A8D8
+	.global IndigoPlateau_PokemonCenter_1F_Text_LoreleiIsAbsentClosedForTimeBeing
+	.set IndigoPlateau_PokemonCenter_1F_Text_LoreleiIsAbsentClosedForTimeBeing, 0x0819A943
+	.global IndigoPlateau_PokemonCenter_1F_Text_AgathaWhuppedUs
+	.set IndigoPlateau_PokemonCenter_1F_Text_AgathaWhuppedUs, 0x0819A9E7
+	.global IndigoPlateau_PokemonCenter_1F_Text_LancesCousinGymLeaderFarAway
+	.set IndigoPlateau_PokemonCenter_1F_Text_LancesCousinGymLeaderFarAway, 0x0819AB16
+	.global SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMale
+	.set SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMale, 0x0819AC60
+	.global SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale
+	.set SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale, 0x0819ACF1
+	.global Text_MimicTeach
+	.set Text_MimicTeach, 0x0819AD85
+	.global Text_MimicDeclined
+	.set Text_MimicDeclined, 0x0819ADD8
+	.global Text_MimicWhichMon
+	.set Text_MimicWhichMon, 0x0819ADEE
+	.global Text_MimicTaughtMale
+	.set Text_MimicTaughtMale, 0x0819AE1C
+	.global Text_MimicTaughtFemale
+	.set Text_MimicTaughtFemale, 0x0819AE90
+	.global SaffronCity_CopycatsHouse_2F_Text_TooMuchInBag
+	.set SaffronCity_CopycatsHouse_2F_Text_TooMuchInBag, 0x0819AF1A
+	.global SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMaleJP
+	.set SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMaleJP, 0x0819AF26
+	.global SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemaleJP
+	.set SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemaleJP, 0x0819AFB0
+	.global SaffronCity_CopycatsHouse_2F_Text_Doduo
+	.set SaffronCity_CopycatsHouse_2F_Text_Doduo, 0x0819B030
+	.global SaffronCity_CopycatsHouse_2F_Text_RareMonOnlyDoll
+	.set SaffronCity_CopycatsHouse_2F_Text_RareMonOnlyDoll, 0x0819B071
+	.global SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket
+	.set SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket, 0x0819B0A0
+	.global SaffronCity_CopycatsHouse_2F_Text_MySecrets
+	.set SaffronCity_CopycatsHouse_2F_Text_MySecrets, 0x0819B0D0
+	.global SaffronCity_CopycatsHouse_2F_Text_HuhCantSee
+	.set SaffronCity_CopycatsHouse_2F_Text_HuhCantSee, 0x0819B123
+	.global SaffronCity_Gym_Text_SabrinaIntro
+	.set SaffronCity_Gym_Text_SabrinaIntro, 0x0819B53C
+	.global SaffronCity_Gym_Text_SabrinaDefeat
+	.set SaffronCity_Gym_Text_SabrinaDefeat, 0x0819B602
+	.global SaffronCity_Gym_Text_SabrinaPostBattle
+	.set SaffronCity_Gym_Text_SabrinaPostBattle, 0x0819B685
+	.global SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis
+	.set SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis, 0x0819B6FA
+	.global SaffronCity_Gym_Text_ReceivedTM04FromSabrina
+	.set SaffronCity_Gym_Text_ReceivedTM04FromSabrina, 0x0819B7D3
+	.global SaffronCity_Gym_Text_ExplainTM04
+	.set SaffronCity_Gym_Text_ExplainTM04, 0x0819B7F2
+	.global SaffronCity_Gym_Text_BagFullOfOtherItems
+	.set SaffronCity_Gym_Text_BagFullOfOtherItems, 0x0819B849
+	.global SaffronCity_Gym_Text_AmandaIntro
+	.set SaffronCity_Gym_Text_AmandaIntro, 0x0819B86A
+	.global SaffronCity_Gym_Text_AmandaDefeat
+	.set SaffronCity_Gym_Text_AmandaDefeat, 0x0819B8A8
+	.global SaffronCity_Gym_Text_AmandaPostBattle
+	.set SaffronCity_Gym_Text_AmandaPostBattle, 0x0819B8B9
+	.global SaffronCity_Gym_Text_JohanIntro
+	.set SaffronCity_Gym_Text_JohanIntro, 0x0819B936
+	.global SaffronCity_Gym_Text_JohanDefeat
+	.set SaffronCity_Gym_Text_JohanDefeat, 0x0819B957
+	.global SaffronCity_Gym_Text_JohanPostBattle
+	.set SaffronCity_Gym_Text_JohanPostBattle, 0x0819B96D
+	.global SaffronCity_Gym_Text_StacyIntro
+	.set SaffronCity_Gym_Text_StacyIntro, 0x0819B998
+	.global SaffronCity_Gym_Text_StacyDefeat
+	.set SaffronCity_Gym_Text_StacyDefeat, 0x0819B9EC
+	.global SaffronCity_Gym_Text_StacyPostBattle
+	.set SaffronCity_Gym_Text_StacyPostBattle, 0x0819B9F7
+	.global SaffronCity_Gym_Text_TyronIntro
+	.set SaffronCity_Gym_Text_TyronIntro, 0x0819BA45
+	.global SaffronCity_Gym_Text_TyronDefeat
+	.set SaffronCity_Gym_Text_TyronDefeat, 0x0819BA9E
+	.global SaffronCity_Gym_Text_TyronPostBattle
+	.set SaffronCity_Gym_Text_TyronPostBattle, 0x0819BAB4
+	.global SaffronCity_Gym_Text_TashaIntro
+	.set SaffronCity_Gym_Text_TashaIntro, 0x0819BAE8
+	.global SaffronCity_Gym_Text_TashaDefeat
+	.set SaffronCity_Gym_Text_TashaDefeat, 0x0819BB0D
+	.global SaffronCity_Gym_Text_TashaPostBattle
+	.set SaffronCity_Gym_Text_TashaPostBattle, 0x0819BB1F
+	.global SaffronCity_Gym_Text_CameronIntro
+	.set SaffronCity_Gym_Text_CameronIntro, 0x0819BB49
+	.global SaffronCity_Gym_Text_CameronDefeat
+	.set SaffronCity_Gym_Text_CameronDefeat, 0x0819BBA1
+	.global SaffronCity_Gym_Text_CameronPostBattle
+	.set SaffronCity_Gym_Text_CameronPostBattle, 0x0819BBB3
+	.global SaffronCity_Gym_Text_PrestonIntro
+	.set SaffronCity_Gym_Text_PrestonIntro, 0x0819BC57
+	.global SaffronCity_Gym_Text_PrestonDefeat
+	.set SaffronCity_Gym_Text_PrestonDefeat, 0x0819BCBC
+	.global SaffronCity_Gym_Text_PrestonPostBattle
+	.set SaffronCity_Gym_Text_PrestonPostBattle, 0x0819BCC4
+	.global SaffronCity_Gym_Text_GymGuyAdvice
+	.set SaffronCity_Gym_Text_GymGuyAdvice, 0x0819BCF6
+	.global SaffronCity_Gym_Text_GymGuyPostVictory
+	.set SaffronCity_Gym_Text_GymGuyPostVictory, 0x0819BDBB
+	.global SaffronCity_Gym_Text_GymStatue
+	.set SaffronCity_Gym_Text_GymStatue, 0x0819BDFE
+	.global SaffronCity_Gym_Text_GymStatuePlayerWon
+	.set SaffronCity_Gym_Text_GymStatuePlayerWon, 0x0819BE37
+	.global SaffronCity_House_Text_DontLookAtMyLetter
+	.set SaffronCity_House_Text_DontLookAtMyLetter, 0x0819BE74
+	.global SaffronCity_House_Text_Pidgey
+	.set SaffronCity_House_Text_Pidgey, 0x0819BEC3
+	.global SaffronCity_House_Text_GettingCopycatPokeDoll
+	.set SaffronCity_House_Text_GettingCopycatPokeDoll, 0x0819BED5
+	.global SaffronCity_House_Text_ExplainPPUp
+	.set SaffronCity_House_Text_ExplainPPUp, 0x0819BF07
+	.global SaffronCity_PokemonTrainerFanClub_Text_HuhYou
+	.set SaffronCity_PokemonTrainerFanClub_Text_HuhYou, 0x0819C22B
+	.global SaffronCity_PokemonTrainerFanClub_Text_YourePlayerWereYourFansNow
+	.set SaffronCity_PokemonTrainerFanClub_Text_YourePlayerWereYourFansNow, 0x0819C235
+	.global SaffronCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou
+	.set SaffronCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou, 0x0819C390
+	.global SaffronCity_PokemonTrainerFanClub_Text_IllAlwaysBelieveInYou
+	.set SaffronCity_PokemonTrainerFanClub_Text_IllAlwaysBelieveInYou, 0x0819C3BD
+	.global SaffronCity_PokemonTrainerFanClub_Text_WasYourFanNotAnymore
+	.set SaffronCity_PokemonTrainerFanClub_Text_WasYourFanNotAnymore, 0x0819C420
+	.global SaffronCity_PokemonTrainerFanClub_Text_EveryonesYourFanButICantBe
+	.set SaffronCity_PokemonTrainerFanClub_Text_EveryonesYourFanButICantBe, 0x0819C4A5
+	.global SaffronCity_PokemonTrainerFanClub_Text_TrainersCoolWhenBattling
+	.set SaffronCity_PokemonTrainerFanClub_Text_TrainersCoolWhenBattling, 0x0819C55C
+	.global SaffronCity_PokemonTrainerFanClub_Text_CanYouAutographShorts
+	.set SaffronCity_PokemonTrainerFanClub_Text_CanYouAutographShorts, 0x0819C5A9
+	.global SaffronCity_PokemonTrainerFanClub_Text_CountingOnYou
+	.set SaffronCity_PokemonTrainerFanClub_Text_CountingOnYou, 0x0819C600
+	.global SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero
+	.set SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero, 0x0819C6BA
+	.global SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd
+	.set SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd, 0x0819C73A
+	.global SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool
+	.set SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool, 0x0819C7C8
+	.global SaffronCity_PokemonTrainerFanClub_Text_HadPleasureOfWatchingYouBattle
+	.set SaffronCity_PokemonTrainerFanClub_Text_HadPleasureOfWatchingYouBattle, 0x0819C81E
+	.global SaffronCity_PokemonTrainerFanClub_Text_NeverSeenTrainerOfYourMagnificence
+	.set SaffronCity_PokemonTrainerFanClub_Text_NeverSeenTrainerOfYourMagnificence, 0x0819C8C1
+	.global SaffronCity_PokemonTrainerFanClub_Text_HmmAndYouAre
+	.set SaffronCity_PokemonTrainerFanClub_Text_HmmAndYouAre, 0x0819C986
+	.global SaffronCity_PokemonTrainerFanClub_Text_YouveStillAWaysToGo
+	.set SaffronCity_PokemonTrainerFanClub_Text_YouveStillAWaysToGo, 0x0819C9D5
+	.global SaffronCity_PokemonTrainerFanClub_Text_YoullBeTalkedAboutIfYouKeepWinning
+	.set SaffronCity_PokemonTrainerFanClub_Text_YoullBeTalkedAboutIfYouKeepWinning, 0x0819CA7C
+	.global SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeYouOneDay
+	.set SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeYouOneDay, 0x0819CB32
+	.global SaffronCity_PokemonTrainerFanClub_Text_EveryoneButMeStoppedBeingYourFan
+	.set SaffronCity_PokemonTrainerFanClub_Text_EveryoneButMeStoppedBeingYourFan, 0x0819CB62
+	.global SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina
+	.set SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina, 0x0819CBD3
+	.global SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan
+	.set SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan, 0x0819CC2B
+	.global SaffronCity_PokemonTrainerFanClub_Text_CanIBecomeCoolTrainerOneDay
+	.set SaffronCity_PokemonTrainerFanClub_Text_CanIBecomeCoolTrainerOneDay, 0x0819CCC2
+	.global SaffronCity_PokemonTrainerFanClub_Text_TheWayYouBattleIsCool
+	.set SaffronCity_PokemonTrainerFanClub_Text_TheWayYouBattleIsCool, 0x0819CCF3
+	.global SaffronCity_PokemonTrainerFanClub_Text_ImOnlyOneLeftOfYourFans
+	.set SaffronCity_PokemonTrainerFanClub_Text_ImOnlyOneLeftOfYourFans, 0x0819CD4E
+	.global SaffronCity_PokemonTrainerFanClub_Text_LoveWayTrainerTalks
+	.set SaffronCity_PokemonTrainerFanClub_Text_LoveWayTrainerTalks, 0x0819CDDA
+	.global SaffronCity_PokemonTrainerFanClub_Text_ImLoneTrainerFan
+	.set SaffronCity_PokemonTrainerFanClub_Text_ImLoneTrainerFan, 0x0819CE3A
+	.global SaffronCity_PokemonTrainerFanClub_Text_AdoreWayYouBattle
+	.set SaffronCity_PokemonTrainerFanClub_Text_AdoreWayYouBattle, 0x0819CEDF
+	.global SaffronCity_PokemonTrainerFanClub_Text_ImYourNumberOneFan
+	.set SaffronCity_PokemonTrainerFanClub_Text_ImYourNumberOneFan, 0x0819CF6D
+	.global SaffronCity_PokemonTrainerFanClub_Text_TrainerHasBeenOnFire
+	.set SaffronCity_PokemonTrainerFanClub_Text_TrainerHasBeenOnFire, 0x0819D01F
+	.global SaffronCity_PokemonTrainerFanClub_Text_EveryoneTalksAboutYou
+	.set SaffronCity_PokemonTrainerFanClub_Text_EveryoneTalksAboutYou, 0x0819D075
+	.global SaffronCity_PokemonTrainerFanClub_Text_YouReallyAreAmazing
+	.set SaffronCity_PokemonTrainerFanClub_Text_YouReallyAreAmazing, 0x0819D0E3
+	.global SaffronCity_PokemonTrainerFanClub_Text_ImYourOnlyFan
+	.set SaffronCity_PokemonTrainerFanClub_Text_ImYourOnlyFan, 0x0819D148
+	.global SaffronCity_PokemonTrainerFanClub_Text_WhyCantOthersSeeMastersDignity
+	.set SaffronCity_PokemonTrainerFanClub_Text_WhyCantOthersSeeMastersDignity, 0x0819D1AE
+	.global SaffronCity_PokemonTrainerFanClub_Text_BelieveInMasterWithAllMyHeart
+	.set SaffronCity_PokemonTrainerFanClub_Text_BelieveInMasterWithAllMyHeart, 0x0819D211
+	.global SaffronCity_PokemonTrainerFanClub_Text_YourBattleStyleIsEducational
+	.set SaffronCity_PokemonTrainerFanClub_Text_YourBattleStyleIsEducational, 0x0819D2B4
+	.global SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingYourFan
+	.set SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingYourFan, 0x0819D31F
+	.global SaffronCity_PokemonTrainerFanClub_Text_OnlyMasterHasMyRespect
+	.set SaffronCity_PokemonTrainerFanClub_Text_OnlyMasterHasMyRespect, 0x0819D3D2
+	.global SaffronCity_PokemonTrainerFanClub_Text_NeverBeFanOfAnyoneButMaster
+	.set SaffronCity_PokemonTrainerFanClub_Text_NeverBeFanOfAnyoneButMaster, 0x0819D477
+	.global Route2_EastBuilding_Text_GiveHM05IfSeen10Mons
+	.set Route2_EastBuilding_Text_GiveHM05IfSeen10Mons, 0x0819D64F
+	.global Route2_EastBuilding_Text_GreatHereYouGo
+	.set Route2_EastBuilding_Text_GreatHereYouGo, 0x0819D74E
+	.global Route2_EastBuilding_Text_ReceivedHM05FromAide
+	.set Route2_EastBuilding_Text_ReceivedHM05FromAide, 0x0819D7A1
+	.global Route2_EastBuilding_Text_ExplainHM05
+	.set Route2_EastBuilding_Text_ExplainHM05, 0x0819D7C1
+	.global Route2_EastBuilding_Text_CanGetThroughRockTunnel
+	.set Route2_EastBuilding_Text_CanGetThroughRockTunnel, 0x0819D81E
+	.global Route5_PokemonDayCare_Text_WantMeToRaiseMon
+	.set Route5_PokemonDayCare_Text_WantMeToRaiseMon, 0x0819DD66
+	.global Route5_PokemonDayCare_Text_ComeAgain
+	.set Route5_PokemonDayCare_Text_ComeAgain, 0x0819DDB2
+	.global Route5_PokemonDayCare_Text_WhichMonShouldIRaise
+	.set Route5_PokemonDayCare_Text_WhichMonShouldIRaise, 0x0819DDBE
+	.global Route5_PokemonDayCare_Text_ComeAnytimeYouLike
+	.set Route5_PokemonDayCare_Text_ComeAnytimeYouLike, 0x0819DDDC
+	.global Route5_PokemonDayCare_Text_LookAfterMonForAWhile
+	.set Route5_PokemonDayCare_Text_LookAfterMonForAWhile, 0x0819DDF9
+	.global Route5_PokemonDayCare_Text_ComeSeeMeInAWhile
+	.set Route5_PokemonDayCare_Text_ComeSeeMeInAWhile, 0x0819DE24
+	.global Route5_PokemonDayCare_Text_MonNeedsToSpendMoreTime
+	.set Route5_PokemonDayCare_Text_MonNeedsToSpendMoreTime, 0x0819DE3C
+	.global Route5_PokemonDayCare_Text_OweMeXForMonsReturn
+	.set Route5_PokemonDayCare_Text_OweMeXForMonsReturn, 0x0819DE80
+	.global Route5_PokemonDayCare_Text_ThankYouHeresMon
+	.set Route5_PokemonDayCare_Text_ThankYouHeresMon, 0x0819DEAF
+	.global Route5_PokemonDayCare_Text_PlayerGotMonBack
+	.set Route5_PokemonDayCare_Text_PlayerGotMonBack, 0x0819DECF
+	.global Route5_PokemonDayCare_Text_OnlyHaveOneMonWithYou
+	.set Route5_PokemonDayCare_Text_OnlyHaveOneMonWithYou, 0x0819DEF5
+	.global Route5_PokemonDayCare_Text_WhatWillYouBattleWith
+	.set Route5_PokemonDayCare_Text_WhatWillYouBattleWith, 0x0819DF1D
+	.global Route5_PokemonDayCare_Text_MonHasGrownByXLevels
+	.set Route5_PokemonDayCare_Text_MonHasGrownByXLevels, 0x0819DF56
+	.global Route5_PokemonDayCare_Text_YouveGotNoRoomForIt
+	.set Route5_PokemonDayCare_Text_YouveGotNoRoomForIt, 0x0819DFC2
+	.global Route5_PokemonDayCare_Text_DontHaveEnoughMoney
+	.set Route5_PokemonDayCare_Text_DontHaveEnoughMoney, 0x0819E001
+	.global Route5_PokemonDayCare_Text_WantMeToTakeALookAtYours
+	.set Route5_PokemonDayCare_Text_WantMeToTakeALookAtYours, 0x0819E01E
+	.global Route5_PokemonDayCare_Text_CantAcceptMonWithHM
+	.set Route5_PokemonDayCare_Text_CantAcceptMonWithHM, 0x0819E02A
+	.global Route5_SouthEntrance_Text_ThirstyOnGuardDuty
+	.set Route5_SouthEntrance_Text_ThirstyOnGuardDuty, 0x0819E04B
+	.global Route5_SouthEntrance_Text_ThatTeaLooksTasty
+	.set Route5_SouthEntrance_Text_ThatTeaLooksTasty, 0x0819E09B
+	.global Route5_SouthEntrance_Text_ThanksIllShareTeaWithGuards
+	.set Route5_SouthEntrance_Text_ThanksIllShareTeaWithGuards, 0x0819E0C1
+	.global Route5_SouthEntrance_Text_HiHowsItGoing
+	.set Route5_SouthEntrance_Text_HiHowsItGoing, 0x0819E16D
+	.global Route8_WestEntrance_Text_ThirstyOnGuardDuty
+	.set Route8_WestEntrance_Text_ThirstyOnGuardDuty, 0x0819E3ED
+	.global Route8_WestEntrance_Text_ThatTeaLooksTasty
+	.set Route8_WestEntrance_Text_ThatTeaLooksTasty, 0x0819E43D
+	.global Route8_WestEntrance_Text_ThanksIllShareTeaWithGuards
+	.set Route8_WestEntrance_Text_ThanksIllShareTeaWithGuards, 0x0819E463
+	.global Route8_WestEntrance_Text_HiHowsItGoing
+	.set Route8_WestEntrance_Text_HiHowsItGoing, 0x0819E50F
+	.global Route10_PokemonCenter_1F_Text_EveryTypeStrongerThanOthers
+	.set Route10_PokemonCenter_1F_Text_EveryTypeStrongerThanOthers, 0x0819E523
+	.global Route10_PokemonCenter_1F_Text_NuggetUselessSoldFor5000
+	.set Route10_PokemonCenter_1F_Text_NuggetUselessSoldFor5000, 0x0819E59D
+	.global Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender
+	.set Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender, 0x0819E5D2
+	.global Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons
+	.set Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons, 0x0819E5FB
+	.global Route10_PokemonCenter_1F_Text_GreatHereYouGo
+	.set Route10_PokemonCenter_1F_Text_GreatHereYouGo, 0x0819E733
+	.global Route10_PokemonCenter_1F_Text_ReceivedEverstoneFromAide
+	.set Route10_PokemonCenter_1F_Text_ReceivedEverstoneFromAide, 0x0819E786
+	.global Route10_PokemonCenter_1F_Text_ExplainEverstone
+	.set Route10_PokemonCenter_1F_Text_ExplainEverstone, 0x0819E7AF
+	.global Route11_EastEntrance_2F_Text_GiveItemfinderIfCaught30
+	.set Route11_EastEntrance_2F_Text_GiveItemfinderIfCaught30, 0x0819E9E5
+	.global Route11_EastEntrance_2F_Text_GreatHereYouGo
+	.set Route11_EastEntrance_2F_Text_GreatHereYouGo, 0x0819EAE4
+	.global Route11_EastEntrance_2F_Text_ReceivedItemfinderFromAide
+	.set Route11_EastEntrance_2F_Text_ReceivedItemfinderFromAide, 0x0819EB37
+	.global Route11_EastEntrance_2F_Text_ExplainItemfinder
+	.set Route11_EastEntrance_2F_Text_ExplainItemfinder, 0x0819EB59
+	.global Route11_EastEntrance_2F_Text_BigMonAsleepOnRoad
+	.set Route11_EastEntrance_2F_Text_BigMonAsleepOnRoad, 0x0819EC8A
+	.global Route11_EastEntrance_2F_Text_WhatABreathtakingView
+	.set Route11_EastEntrance_2F_Text_WhatABreathtakingView, 0x0819ECD9
+	.global Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender
+	.set Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender, 0x0819ED1F
+	.global Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreMale
+	.set Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreMale, 0x0819EDE1
+	.global Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreFemale
+	.set Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreFemale, 0x0819EE40
+	.global Route12_NorthEntrance_2F_Text_ReceivedTM27FromLittleGirl
+	.set Route12_NorthEntrance_2F_Text_ReceivedTM27FromLittleGirl, 0x0819EE9F
+	.global Route12_NorthEntrance_2F_Text_ExplainTM27
+	.set Route12_NorthEntrance_2F_Text_ExplainTM27, 0x0819EEC6
+	.global Route12_NorthEntrance_2F_Text_DontHaveRoomForThis
+	.set Route12_NorthEntrance_2F_Text_DontHaveRoomForThis, 0x0819EF3F
+	.global Route12_NorthEntrance_2F_Text_TheresManFishing
+	.set Route12_NorthEntrance_2F_Text_TheresManFishing, 0x0819EF5D
+	.global Route12_NorthEntrance_2F_Text_ItsPokemonTower
+	.set Route12_NorthEntrance_2F_Text_ItsPokemonTower, 0x0819EFA0
+	.global Route12_FishingHouse_Text_DoYouLikeToFish
+	.set Route12_FishingHouse_Text_DoYouLikeToFish, 0x0819EFE0
+	.global Route12_FishingHouse_Text_TakeThisAndFish
+	.set Route12_FishingHouse_Text_TakeThisAndFish, 0x0819F05B
+	.global Route12_FishingHouse_Text_ReceivedSuperRod
+	.set Route12_FishingHouse_Text_ReceivedSuperRod, 0x0819F0B2
+	.global Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe
+	.set Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe, 0x0819F0EB
+	.global Route12_FishingHouse_Text_OhThatsDisappointing
+	.set Route12_FishingHouse_Text_OhThatsDisappointing, 0x0819F1FA
+	.global Route12_FishingHouse_Text_TryFishingBringMeMagikarp
+	.set Route12_FishingHouse_Text_TryFishingBringMeMagikarp, 0x0819F217
+	.global Route12_FishingHouse_Text_OhMagikarpAllowMeToSee
+	.set Route12_FishingHouse_Text_OhMagikarpAllowMeToSee, 0x0819F2DB
+	.global Route12_FishingHouse_Text_WhoaXInchesTakeThis
+	.set Route12_FishingHouse_Text_WhoaXInchesTakeThis, 0x0819F31B
+	.global Route12_FishingHouse_Text_LookForwardToGreaterRecords
+	.set Route12_FishingHouse_Text_LookForwardToGreaterRecords, 0x0819F395
+	.global Route12_FishingHouse_Text_HuhXInchesSameSizeAsLast
+	.set Route12_FishingHouse_Text_HuhXInchesSameSizeAsLast, 0x0819F3CB
+	.global Route12_FishingHouse_Text_HmmXInchesDoesntMeasureUp
+	.set Route12_FishingHouse_Text_HmmXInchesDoesntMeasureUp, 0x0819F40A
+	.global Route12_FishingHouse_Text_DoesntLookLikeMagikarp
+	.set Route12_FishingHouse_Text_DoesntLookLikeMagikarp, 0x0819F468
+	.global Route12_FishingHouse_Text_NoRoomForGift
+	.set Route12_FishingHouse_Text_NoRoomForGift, 0x0819F494
+	.global Route12_FishingHouse_Text_MostGiganticMagikarpXInches
+	.set Route12_FishingHouse_Text_MostGiganticMagikarpXInches, 0x0819F4CF
+	.global Route12_FishingHouse_Text_BlankChartOfSomeSort
+	.set Route12_FishingHouse_Text_BlankChartOfSomeSort, 0x0819F50C
+	.global Route15_WestEntrance_2F_Text_GiveItemIfCaughtEnough
+	.set Route15_WestEntrance_2F_Text_GiveItemIfCaughtEnough, 0x0819F5AB
+	.global Route15_WestEntrance_2F_Text_GreatHereYouGo
+	.set Route15_WestEntrance_2F_Text_GreatHereYouGo, 0x0819F6AA
+	.global Route15_WestEntrance_2F_Text_ReceivedItemFromAide
+	.set Route15_WestEntrance_2F_Text_ReceivedItemFromAide, 0x0819F6FD
+	.global Route15_WestEntrance_2F_Text_ExplainExpShare
+	.set Route15_WestEntrance_2F_Text_ExplainExpShare, 0x0819F71F
+	.global Route15_WestEntrance_2F_Text_LargeShiningBird
+	.set Route15_WestEntrance_2F_Text_LargeShiningBird, 0x0819F79C
+	.global Route15_WestEntrance_2F_Text_SmallIslandOnHorizon
+	.set Route15_WestEntrance_2F_Text_SmallIslandOnHorizon, 0x0819F7F8
+	.global Route16_NorthEntrance_2F_Text_OnBikeRideWithGirlfriend
+	.set Route16_NorthEntrance_2F_Text_OnBikeRideWithGirlfriend, 0x0819FA07
+	.global Route16_NorthEntrance_2F_Text_RidingTogetherOnNewBikes
+	.set Route16_NorthEntrance_2F_Text_RidingTogetherOnNewBikes, 0x0819FA41
+	.global Route16_NorthEntrance_2F_Text_ItsCeladonDeptStore
+	.set Route16_NorthEntrance_2F_Text_ItsCeladonDeptStore, 0x0819FA6F
+	.global Route16_NorthEntrance_2F_Text_LongPathOverWater
+	.set Route16_NorthEntrance_2F_Text_LongPathOverWater, 0x0819FAB9
+	.global Route16_NorthEntrance_2F_Text_GiveAmuletCoinIfCaught40
+	.set Route16_NorthEntrance_2F_Text_GiveAmuletCoinIfCaught40, 0x0819FB0E
+	.global Route16_NorthEntrance_2F_Text_GreatHereYouGo
+	.set Route16_NorthEntrance_2F_Text_GreatHereYouGo, 0x0819FC15
+	.global Route16_NorthEntrance_2F_Text_ReceivedAmuletCoinFromAide
+	.set Route16_NorthEntrance_2F_Text_ReceivedAmuletCoinFromAide, 0x0819FC68
+	.global Route16_NorthEntrance_2F_Text_ExplainAmuletCoin
+	.set Route16_NorthEntrance_2F_Text_ExplainAmuletCoin, 0x0819FC93
+	.global Route18_EastEntrance_1F_Text_NeedBicycleForCyclingRoad
+	.set Route18_EastEntrance_1F_Text_NeedBicycleForCyclingRoad, 0x0819FD0C
+	.global Route18_EastEntrance_1F_Text_CyclingRoadAllUphillFromHere
+	.set Route18_EastEntrance_1F_Text_CyclingRoadAllUphillFromHere, 0x0819FD3A
+	.global Route18_EastEntrance_1F_Text_ExcuseMe
+	.set Route18_EastEntrance_1F_Text_ExcuseMe, 0x0819FD60
+	.global Route18_EastEntrance_2F_Text_PalletTownInWest
+	.set Route18_EastEntrance_2F_Text_PalletTownInWest, 0x0819FD6B
+	.global Route18_EastEntrance_2F_Text_PeopleSwimming
+	.set Route18_EastEntrance_2F_Text_PeopleSwimming, 0x0819FDB3
+	.global Route25_SeaCottage_Text_ImBillHelpMeOutPal
+	.set Route25_SeaCottage_Text_ImBillHelpMeOutPal, 0x0819FDFA
+	.global Route25_SeaCottage_Text_ImBillHelpMeOutLady
+	.set Route25_SeaCottage_Text_ImBillHelpMeOutLady, 0x0819FEE6
+	.global Route25_SeaCottage_Text_RunCellSeparationOnPC
+	.set Route25_SeaCottage_Text_RunCellSeparationOnPC, 0x0819FFD3
+	.global Route25_SeaCottage_Text_NoPleaseChief
+	.set Route25_SeaCottage_Text_NoPleaseChief, 0x081A0035
+	.global Route25_SeaCottage_Text_NoPleaseBeautiful
+	.set Route25_SeaCottage_Text_NoPleaseBeautiful, 0x081A00B6
+	.global Route25_SeaCottage_Text_ThanksBudTakeThis
+	.set Route25_SeaCottage_Text_ThanksBudTakeThis, 0x081A013B
+	.global Route25_SeaCottage_Text_ThanksLadyTakeThis
+	.set Route25_SeaCottage_Text_ThanksLadyTakeThis, 0x081A01E4
+	.global Route25_SeaCottage_Text_ReceivedSSTicketFromBill
+	.set Route25_SeaCottage_Text_ReceivedSSTicketFromBill, 0x081A028E
+	.global Route25_SeaCottage_Text_YouveGotTooMuchStuff
+	.set Route25_SeaCottage_Text_YouveGotTooMuchStuff, 0x081A02B4
+	.global Route25_SeaCottage_Text_SSAnnePartyYouGoInstead
+	.set Route25_SeaCottage_Text_SSAnnePartyYouGoInstead, 0x081A02CF
+	.global Route25_SeaCottage_Text_CheckOutRareMonsOnPC
+	.set Route25_SeaCottage_Text_CheckOutRareMonsOnPC, 0x081A03AB
+	.global Route25_SeaCottage_Text_TeleporterIsDisplayed
+	.set Route25_SeaCottage_Text_TeleporterIsDisplayed, 0x081A0402
+	.global Route25_SeaCottage_Text_InitiatedTeleportersCellSeparator
+	.set Route25_SeaCottage_Text_InitiatedTeleportersCellSeparator, 0x081A042D
+	.global Route25_SeaCottage_Text_BillsFavoriteMonList
+	.set Route25_SeaCottage_Text_BillsFavoriteMonList, 0x081A045B
+	.global Route25_SeaCottage_Text_SeeWhichMon
+	.set Route25_SeaCottage_Text_SeeWhichMon, 0x081A0479
+	.global SevenIsland_House_Room1_Text_OnlyEnjoymentWatchingBattles
+	.set SevenIsland_House_Room1_Text_OnlyEnjoymentWatchingBattles, 0x081A049B
+	.global SevenIsland_House_Room1_Text_SlightBreezeAroundBox
+	.set SevenIsland_House_Room1_Text_SlightBreezeAroundBox, 0x081A0567
+	.global SevenIsland_House_Room1_Text_ChallengeVisitingTrainer
+	.set SevenIsland_House_Room1_Text_ChallengeVisitingTrainer, 0x081A0598
+	.global SevenIsland_House_Room1_Text_OhYouWontBattle
+	.set SevenIsland_House_Room1_Text_OhYouWontBattle, 0x081A064E
+	.global SevenIsland_House_Room1_Text_LimitThreeMonsPerSide
+	.set SevenIsland_House_Room1_Text_LimitThreeMonsPerSide, 0x081A06AB
+	.global SevenIsland_House_Room1_Text_SaveProgressBeforeBattle
+	.set SevenIsland_House_Room1_Text_SaveProgressBeforeBattle, 0x081A0788
+	.global SevenIsland_House_Room1_Text_DontHoldAnythingBack
+	.set SevenIsland_House_Room1_Text_DontHoldAnythingBack, 0x081A07C4
+	.global SevenIsland_House_Room1_Text_StrVar1_1
+	.set SevenIsland_House_Room1_Text_StrVar1_1, 0x081A07E9
+	.global SevenIsland_House_Room2_Text_MatchEndedUpDraw
+	.set SevenIsland_House_Room2_Text_MatchEndedUpDraw, 0x081A07EC
+	.global SevenIsland_House_Room1_Text_DrawWasIt
+	.set SevenIsland_House_Room1_Text_DrawWasIt, 0x081A0807
+	.global SevenIsland_House_Room1_Text_StrVar1_2
+	.set SevenIsland_House_Room1_Text_StrVar1_2, 0x081A0889
+	.global SevenIsland_House_Room1_Text_AstoundingBattle
+	.set SevenIsland_House_Room1_Text_AstoundingBattle, 0x081A088C
+	.global SevenIsland_House_Room1_Text_StrVar1_3
+	.set SevenIsland_House_Room1_Text_StrVar1_3, 0x081A096E
+	.global SevenIsland_House_Room1_Text_FeelYourDisappointment
+	.set SevenIsland_House_Room1_Text_FeelYourDisappointment, 0x081A0971
+	.global ThreeIsland_House2_Text_CantMakeThisSpoonBend
+	.set ThreeIsland_House2_Text_CantMakeThisSpoonBend, 0x081A3245
+	.global ThreeIsland_House2_Text_IAdmireSabrina
+	.set ThreeIsland_House2_Text_IAdmireSabrina, 0x081A32CA
+	.global Text_BodySlamTeach
+	.set Text_BodySlamTeach, 0x081A3505
+	.global Text_BodySlamDeclined
+	.set Text_BodySlamDeclined, 0x081A35C7
+	.global Text_BodySlamWhichMon
+	.set Text_BodySlamWhichMon, 0x081A35DA
+	.global Text_BodySlamTaught
+	.set Text_BodySlamTaught, 0x081A3609
+	.global FourIsland_House1_Text_FatMan
+	.set FourIsland_House1_Text_FatMan, 0x081A3612
+	.global FourIsland_PokemonCenter_1F_Text_RareIceMonsInCave
+	.set FourIsland_PokemonCenter_1F_Text_RareIceMonsInCave, 0x081A3627
+	.global FourIsland_PokemonCenter_1F_Text_DayCarePeopleFoundEggBefore
+	.set FourIsland_PokemonCenter_1F_Text_DayCarePeopleFoundEggBefore, 0x081A3697
+	.global FourIsland_PokemonCenter_1F_Text_NewPokemonJournalHasntArrived
+	.set FourIsland_PokemonCenter_1F_Text_NewPokemonJournalHasntArrived, 0x081A3734
+	.global JPText_BodySlamTeach
+	.set JPText_BodySlamTeach, 0x081A3778
+	.global JPText_BodySlamDeclined
+	.set JPText_BodySlamDeclined, 0x081A37DB
+	.global JPText_BodySlamWhichMon
+	.set JPText_BodySlamWhichMon, 0x081A37E8
+	.global JPText_BodySlamTaught
+	.set JPText_BodySlamTaught, 0x081A37FB
+	.global FourIsland_House1_Text_YoureAwfullyHeavy
+	.set FourIsland_House1_Text_YoureAwfullyHeavy, 0x081A3802
+	.global FourIsland_Mart_Text_LoreleiGrewUpOnThisIsland
+	.set FourIsland_Mart_Text_LoreleiGrewUpOnThisIsland, 0x081A3A60
+	.global FourIsland_Mart_Text_IcefallCaveIsFrigid
+	.set FourIsland_Mart_Text_IcefallCaveIsFrigid, 0x081A3B14
+	.global SixIsland_WaterPath_House1_Text_LoveItNeedItHeracross
+	.set SixIsland_WaterPath_House1_Text_LoveItNeedItHeracross, 0x081A49E9
+	.global SixIsland_WaterPath_House1_Text_MayIMeasureHeracross
+	.set SixIsland_WaterPath_House1_Text_MayIMeasureHeracross, 0x081A4A3F
+	.global SixIsland_WaterPath_House1_Text_ItsXInchesDeserveReward
+	.set SixIsland_WaterPath_House1_Text_ItsXInchesDeserveReward, 0x081A4A88
+	.global SixIsland_WaterPath_House1_Text_WantToSeeBiggerOne
+	.set SixIsland_WaterPath_House1_Text_WantToSeeBiggerOne, 0x081A4AD9
+	.global SixIsland_WaterPath_House1_Text_ItsXInchesSameAsBefore
+	.set SixIsland_WaterPath_House1_Text_ItsXInchesSameAsBefore, 0x081A4B39
+	.global SixIsland_WaterPath_House1_Text_ItsXInchesYInchesWasBiggest
+	.set SixIsland_WaterPath_House1_Text_ItsXInchesYInchesWasBiggest, 0x081A4B7A
+	.global SixIsland_WaterPath_House1_Text_ThisWontDo
+	.set SixIsland_WaterPath_House1_Text_ThisWontDo, 0x081A4BEF
+	.global SixIsland_WaterPath_House1_Text_YourBagIsFull
+	.set SixIsland_WaterPath_House1_Text_YourBagIsFull, 0x081A4C47
+	.global SixIsland_WaterPath_House1_Text_BiggestHeracrossIsXInches
+	.set SixIsland_WaterPath_House1_Text_BiggestHeracrossIsXInches, 0x081A4C6E
+	.global SixIsland_WaterPath_House1_Text_BlankChartOfSomeSort
+	.set SixIsland_WaterPath_House1_Text_BlankChartOfSomeSort, 0x081A4CB9
+	.global Text_BootedUpPC
+	.set Text_BootedUpPC, 0x081A5075
+	.global Text_AccessWhichPC
+	.set Text_AccessWhichPC, 0x081A508A
+	.global Text_AccessedSomeonesPC
+	.set Text_AccessedSomeonesPC, 0x081A50A7
+	.global Text_OpenedPkmnStorage
+	.set Text_OpenedPkmnStorage, 0x081A50BE
+	.global Text_AccessedPlayersPC
+	.set Text_AccessedPlayersPC, 0x081A50DD
+	.global Text_AccessedBillsPC
+	.set Text_AccessedBillsPC, 0x081A50EF
+	.global Text_ObtainedTheX
+	.set Text_ObtainedTheX, 0x081A51F6
+	.global Text_BagIsFull
+	.set Text_BagIsFull, 0x081A5207
+	.global Text_PutItemAway
+	.set Text_PutItemAway, 0x081A5218
+	.global Text_FoundOneItem
+	.set Text_FoundOneItem, 0x081A5231
+	.global Text_TooBadBagFull
+	.set Text_TooBadBagFull, 0x081A5242
+	.global Text_FoundXCoins
+	.set Text_FoundXCoins, 0x081A525C
+	.global Text_PutCoinsAwayInCoinCase
+	.set Text_PutCoinsAwayInCoinCase, 0x081A526C
+	.global Text_CoinCaseIsFull
+	.set Text_CoinCaseIsFull, 0x081A5294
+	.global Text_NothingToPutThemIn
+	.set Text_NothingToPutThemIn, 0x081A52B4
+	.global Text_FoundXItems
+	.set Text_FoundXItems, 0x081A52DD
+	.global Text_ObtainedTheDecor
+	.set Text_ObtainedTheDecor, 0x081A52F0
+	.global Text_NoRoomForAnotherDecor
+	.set Text_NoRoomForAnotherDecor, 0x081A5301
+	.global Text_DecorTransferredToPC
+	.set Text_DecorTransferredToPC, 0x081A532F
+	.global Text_ItemfinderResponding
+	.set Text_ItemfinderResponding, 0x081A55EA
+	.global Text_DugUpItemFromGround
+	.set Text_DugUpItemFromGround, 0x081A5618
+	.global Text_MonSentToBoxInSomeonesPC
+	.set Text_MonSentToBoxInSomeonesPC, 0x081A5CF1
+	.global Text_MonSentToBoxInBillsPC
+	.set Text_MonSentToBoxInBillsPC, 0x081A5D31
+	.global Text_MonSentToBoxSomeonesBoxFull
+	.set Text_MonSentToBoxSomeonesBoxFull, 0x081A5D6E
+	.global Text_MonSentToBoxBillsBoxFull
+	.set Text_MonSentToBoxBillsBoxFull, 0x081A5DB1
+	.global Text_PlayerObtainedTheMon
+	.set Text_PlayerObtainedTheMon, 0x081A5D09
+	.global Text_MonSentToBoxInPC
+	.set Text_MonSentToBoxInPC, 0x081A5D1D
+	.global Text_NoMoreRoomForPokemon
+	.set Text_NoMoreRoomForPokemon, 0x081A5D49
+	.global EventScript_SetDefeatedEliteFourFlagsVars
+	.set EventScript_SetDefeatedEliteFourFlagsVars, 0x081A6129
+	.global EventScript_SetReadyTryGiveNationalDexScene
+	.set EventScript_SetReadyTryGiveNationalDexScene, 0x081A614A
+	.global EventScript_ResetLegendaries
+	.set EventScript_ResetLegendaries, 0x081A6150
+	.global EventScript_ResetEliteFourEnd
+	.set EventScript_ResetEliteFourEnd, 0x081A654B
+	.global EventScript_ResetEliteFour
+	.set EventScript_ResetEliteFour, 0x081A6160
+	.global PokedexRating_EventScript_RateInPerson
+	.set PokedexRating_EventScript_RateInPerson, 0x081A717E
+	.global PokedexRating_EventScript_DexCompleteIntro
+	.set PokedexRating_EventScript_DexCompleteIntro, 0x081A71A7
+	.global PokedexRating_EventScript_NormalIntro
+	.set PokedexRating_EventScript_NormalIntro, 0x081A71B0
+	.global PokedexRating_EventScript_ShowRatingMsg
+	.set PokedexRating_EventScript_ShowRatingMsg, 0x081A71B9
+	.global PokedexRating_EventScript_NormalFanfare
+	.set PokedexRating_EventScript_NormalFanfare, 0x081A71DB
+	.global PokedexRating_EventScript_DexCompleteFanfare
+	.set PokedexRating_EventScript_DexCompleteFanfare, 0x081A71DF
+	.global PokedexRating_EventScript_Rate
+	.set PokedexRating_EventScript_Rate, 0x081A71E3
+	.global PokedexRating_EventScript_SetTextColor
+	.set PokedexRating_EventScript_SetTextColor, 0x081A7270
+	.global PokedexRating_EventScript_DexIncomplete
+	.set PokedexRating_EventScript_DexIncomplete, 0x081A7273
+	.global PokedexRating_EventScript_DexComplete
+	.set PokedexRating_EventScript_DexComplete, 0x081A7281
+	.global PokedexRating_EventScript_EndRating
+	.set PokedexRating_EventScript_EndRating, 0x081A7292
+	.global CaveOfOrigin_EventScript_Shake1
+	.set CaveOfOrigin_EventScript_Shake1, 0x081A7296
+	.global CaveOfOrigin_EventScript_Shake2
+	.set CaveOfOrigin_EventScript_Shake2, 0x081A72A2
+	.global CaveOfOrigin_EventScript_Shake3
+	.set CaveOfOrigin_EventScript_Shake3, 0x081A72AE
+	.global CaveOfOrigin_EventScript_Shake
+	.set CaveOfOrigin_EventScript_Shake, 0x081A72BA
+	.global CaveOfOrigin_EventScript_DisableShakes
+	.set CaveOfOrigin_EventScript_DisableShakes, 0x081A72D4
+	.global Common_Movement_QuestionMark
+	.set Common_Movement_QuestionMark, 0x081A73DC
+	.global Common_Movement_ExclamationMark
+	.set Common_Movement_ExclamationMark, 0x081A73DE
+	.global Common_Movement_Delay48
+	.set Common_Movement_Delay48, 0x081A73E0
+	.global Common_Movement_FacePlayer
+	.set Common_Movement_FacePlayer, 0x081A73E4
+	.global Common_Movement_FaceAwayPlayer
+	.set Common_Movement_FaceAwayPlayer, 0x081A73E6
+	.global Common_Movement_FaceOriginalDirection
+	.set Common_Movement_FaceOriginalDirection, 0x081A73E8
+	.global Common_Movement_WalkInPlaceFasterLeft
+	.set Common_Movement_WalkInPlaceFasterLeft, 0x081A73EA
+	.global Common_Movement_WalkInPlaceFasterUp
+	.set Common_Movement_WalkInPlaceFasterUp, 0x081A73EC
+	.global Common_Movement_WalkInPlaceFasterRight
+	.set Common_Movement_WalkInPlaceFasterRight, 0x081A73EE
+	.global Common_Movement_WalkInPlaceFasterDown
+	.set Common_Movement_WalkInPlaceFasterDown, 0x081A73F0
+	.global Common_Movement_FaceRight
+	.set Common_Movement_FaceRight, 0x081A73F2
+	.global Common_Movement_FaceDown
+	.set Common_Movement_FaceDown, 0x081A73F4
+	.global Common_Movement_WalkUp5
+	.set Common_Movement_WalkUp5, 0x081A73F6
+	.global Common_Movement_WalkUp4
+	.set Common_Movement_WalkUp4, 0x081A73FC
+	.global Common_Movement_Delay32
+	.set Common_Movement_Delay32, 0x081A7401
+	.global Common_Movement_WalkUp
+	.set Common_Movement_WalkUp, 0x081A7404
+	.global Common_Movement_WalkUp2
+	.set Common_Movement_WalkUp2, 0x081A7406
+	.global Route5_PokemonDayCare_EventScript_DaycareMan
+	.set Route5_PokemonDayCare_EventScript_DaycareMan, 0x081BF19B
+	.global Route5_PokemonDayCare_EventScript_TryGiveMon
+	.set Route5_PokemonDayCare_EventScript_TryGiveMon, 0x081BF1E0
+	.global Route5_PokemonDayCare_EventScript_ComeAgain
+	.set Route5_PokemonDayCare_EventScript_ComeAgain, 0x081BF247
+	.global Route5_PokemonDayCare_EventScript_OnlyOneMonInParty
+	.set Route5_PokemonDayCare_EventScript_OnlyOneMonInParty, 0x081BF255
+	.global Route5_PokemonDayCare_EventScript_OnlyOneAliveMonInParty
+	.set Route5_PokemonDayCare_EventScript_OnlyOneAliveMonInParty, 0x081BF263
+	.global Route5_PokemonDayCare_EventScript_CheckOnMon
+	.set Route5_PokemonDayCare_EventScript_CheckOnMon, 0x081BF271
+	.global Route5_PokemonDayCare_EventScript_MonHasGrownByXLevels
+	.set Route5_PokemonDayCare_EventScript_MonHasGrownByXLevels, 0x081BF2AD
+	.global Route5_PokemonDayCare_EventScript_NotEnoughTime
+	.set Route5_PokemonDayCare_EventScript_NotEnoughTime, 0x081BF2B6
+	.global Route5_PokemonDayCare_EventScript_TryRetrieveMon
+	.set Route5_PokemonDayCare_EventScript_TryRetrieveMon, 0x081BF2BF
+	.global Route5_PokemonDayCare_EventScript_RetrieveMon
+	.set Route5_PokemonDayCare_EventScript_RetrieveMon, 0x081BF2ED
+	.global Route5_PokemonDayCare_EventScript_NoRoomInParty
+	.set Route5_PokemonDayCare_EventScript_NoRoomInParty, 0x081BF336
+	.global Route5_PokemonDayCare_EventScript_CloseMoneyBox
+	.set Route5_PokemonDayCare_EventScript_CloseMoneyBox, 0x081BF344
+	.global EventScript_EggHatch
+	.set EventScript_EggHatch, 0x081BF546
+	.global EventScript_FldEffFlash
+	.set EventScript_FldEffFlash, 0x081BFB5F
+	.global EventScript_RepelWoreOff
+	.set EventScript_RepelWoreOff, 0x081BF968
+	.global Text_RepelWoreOff
+	.set Text_RepelWoreOff, 0x081BF971
+	.global SafariZone_EventScript_OutOfBallsMidBattle
+	.set SafariZone_EventScript_OutOfBallsMidBattle, 0x081BFB87
+	.global SafariZone_EventScript_Exit
+	.set SafariZone_EventScript_Exit, 0x081BF99B
+	.global SafariZone_EventScript_RetirePrompt
+	.set SafariZone_EventScript_RetirePrompt, 0x081BFBAA
+	.global SafariZone_EventScript_Retire
+	.set SafariZone_EventScript_Retire, 0x081BF9C3
+	.global SafariZone_EventScript_TimesUp
+	.set SafariZone_EventScript_TimesUp, 0x081BFBC5
+	.global SafariZone_EventScript_OutOfBalls
+	.set SafariZone_EventScript_OutOfBalls, 0x081BFBD7
+	.global EventScript_CheckFallDownHole
+	.set EventScript_CheckFallDownHole, 0x081C0BB3
+	.global EventScript_FixCrackedGround
+	.set EventScript_FixCrackedGround, 0x081C0BBD
+	.global EventScript_FallDownHole
+	.set EventScript_FallDownHole, 0x081C0BC3
+	.global EventScript_DoFallWarp
+	.set EventScript_DoFallWarp, 0x081C1361
+
+@ Pass 3: additional whole-include byte-exact mappings.
+	.global gSpecials
+	.set gSpecials, 0x0815FD60
+	.global gSpecialsEnd
+	.set gSpecialsEnd, 0x08160450
+	.global BattleColosseum_2P_MapScripts
+	.set BattleColosseum_2P_MapScripts, 0x08160424
+	.global TradeCenter_MapScripts
+	.set TradeCenter_MapScripts, 0x08160425
+	.global RecordCorner_MapScripts
+	.set RecordCorner_MapScripts, 0x08160426
+	.global BattleColosseum_4P_MapScripts
+	.set BattleColosseum_4P_MapScripts, 0x08160427
+	.global MtMoon_B1F_MapScripts
+	.set MtMoon_B1F_MapScripts, 0x08160644
+	.global SSAnne_1F_Room4_MapScripts
+	.set SSAnne_1F_Room4_MapScripts, 0x08160B87
+	.global SSAnne_1F_Room4_EventScript_Woman
+	.set SSAnne_1F_Room4_EventScript_Woman, 0x08160B88
+	.global SSAnne_1F_Room4_EventScript_WomanPlayerMale
+	.set SSAnne_1F_Room4_EventScript_WomanPlayerMale, 0x08160BA0
+	.global RocketHideout_B2F_MapScripts
+	.set RocketHideout_B2F_MapScripts, 0x0816124D
+	.global RocketHideout_B2F_EventScript_Grunt
+	.set RocketHideout_B2F_EventScript_Grunt, 0x0816124E
+	.global RocketHideout_B3F_MapScripts
+	.set RocketHideout_B3F_MapScripts, 0x08161265
+	.global RocketHideout_B3F_EventScript_Grunt1
+	.set RocketHideout_B3F_EventScript_Grunt1, 0x08161266
+	.global RocketHideout_B3F_EventScript_Grunt2
+	.set RocketHideout_B3F_EventScript_Grunt2, 0x0816127D
+	.global SafariZone_East_MapScripts
+	.set SafariZone_East_MapScripts, 0x08162328
+	.global SafariZone_East_EventScript_RestHouseSign
+	.set SafariZone_East_EventScript_RestHouseSign, 0x08162329
+	.global SafariZone_East_EventScript_TrainerTips
+	.set SafariZone_East_EventScript_TrainerTips, 0x08162332
+	.global SafariZone_East_EventScript_AreaSign
+	.set SafariZone_East_EventScript_AreaSign, 0x0816233B
+	.global CeruleanCave_1F_MapScripts
+	.set CeruleanCave_1F_MapScripts, 0x081624A2
+	.global CeruleanCave_1F_OnTransition
+	.set CeruleanCave_1F_OnTransition, 0x081624A8
+	.global CeruleanCave_1F_EventScript_OmegaCustomTrainer
+	.set CeruleanCave_1F_EventScript_OmegaCustomTrainer, 0x081624AC
+	.global RockTunnel_B1F_MapScripts
+	.set RockTunnel_B1F_MapScripts, 0x08162E36
+	.global RockTunnel_B1F_EventScript_Sofia
+	.set RockTunnel_B1F_EventScript_Sofia, 0x08162E37
+	.global RockTunnel_B1F_EventScript_Martha
+	.set RockTunnel_B1F_EventScript_Martha, 0x08162E4E
+	.global RockTunnel_B1F_EventScript_Dudley
+	.set RockTunnel_B1F_EventScript_Dudley, 0x08162E65
+	.global RockTunnel_B1F_EventScript_Allen
+	.set RockTunnel_B1F_EventScript_Allen, 0x08162E7C
+	.global RockTunnel_B1F_EventScript_Eric
+	.set RockTunnel_B1F_EventScript_Eric, 0x08162E93
+	.global RockTunnel_B1F_EventScript_Cooper
+	.set RockTunnel_B1F_EventScript_Cooper, 0x08162EAA
+	.global RockTunnel_B1F_EventScript_Steve
+	.set RockTunnel_B1F_EventScript_Steve, 0x08162EC1
+	.global RockTunnel_B1F_EventScript_Winston
+	.set RockTunnel_B1F_EventScript_Winston, 0x08162ED8
+	.global SeafoamIslands_1F_MapScripts
+	.set SeafoamIslands_1F_MapScripts, 0x08162EEF
+	.global SeafoamIslands_1F_OnTransition
+	.set SeafoamIslands_1F_OnTransition, 0x08162EF5
+	.global SeafoamIslands_B1F_MapScripts
+	.set SeafoamIslands_B1F_MapScripts, 0x08162EF9
+	.global SeafoamIslands_B2F_MapScripts
+	.set SeafoamIslands_B2F_MapScripts, 0x08162EFA
+	.global MtEmber_SummitPath_1F_MapScripts
+	.set MtEmber_SummitPath_1F_MapScripts, 0x08163AA5
+	.global MtEmber_SummitPath_2F_MapScripts
+	.set MtEmber_SummitPath_2F_MapScripts, 0x08163AA6
+	.global MtEmber_SummitPath_3F_MapScripts
+	.set MtEmber_SummitPath_3F_MapScripts, 0x08163AA7
+	.global FourIsland_IcefallCave_Entrance_MapScripts
+	.set FourIsland_IcefallCave_Entrance_MapScripts, 0x08163CE6
+	.global FourIsland_IcefallCave_Entrance_OnTransition
+	.set FourIsland_IcefallCave_Entrance_OnTransition, 0x08163CEC
+	.global FourIsland_IcefallCave_B1F_MapScripts
+	.set FourIsland_IcefallCave_B1F_MapScripts, 0x08163D2D
+	.global SevenIsland_TanobyRuins_DilfordChamber_MapScripts
+	.set SevenIsland_TanobyRuins_DilfordChamber_MapScripts, 0x08164CA2
+	.global SevenIsland_TanobyRuins_DilfordChamber_OnTransition
+	.set SevenIsland_TanobyRuins_DilfordChamber_OnTransition, 0x08164CA8
+	.global SevenIsland_TanobyRuins_ScufibChamber_MapScripts
+	.set SevenIsland_TanobyRuins_ScufibChamber_MapScripts, 0x08164CAE
+	.global SevenIsland_TanobyRuins_ScufibChamber_OnTransition
+	.set SevenIsland_TanobyRuins_ScufibChamber_OnTransition, 0x08164CB4
+	.global NavelRock_1F_MapScripts
+	.set NavelRock_1F_MapScripts, 0x08164F4A
+	.global SaffronCity_Connection_MapScripts
+	.set SaffronCity_Connection_MapScripts, 0x0816742F
+	.global FiveIsland_MapScripts
+	.set FiveIsland_MapScripts, 0x08167E3B
+	.global FiveIsland_OnTransition
+	.set FiveIsland_OnTransition, 0x08167E41
+	.global FiveIsland_EventScript_IslandSign
+	.set FiveIsland_EventScript_IslandSign, 0x08167E45
+	.global FiveIsland_EventScript_BugCatcher
+	.set FiveIsland_EventScript_BugCatcher, 0x08167E4E
+	.global FiveIsland_EventScript_Fisher
+	.set FiveIsland_EventScript_Fisher, 0x08167E57
+	.global SevenIsland_MapScripts
+	.set SevenIsland_MapScripts, 0x08167E60
+	.global SevenIsland_OnTransition
+	.set SevenIsland_OnTransition, 0x08167E66
+	.global SevenIsland_EventScript_IslandSign
+	.set SevenIsland_EventScript_IslandSign, 0x08167E6A
+	.global SevenIsland_EventScript_OldWoman
+	.set SevenIsland_EventScript_OldWoman, 0x08167E73
+	.global SevenIsland_EventScript_Scientist
+	.set SevenIsland_EventScript_Scientist, 0x08167E7C
+	.global Route3_MapScripts
+	.set Route3_MapScripts, 0x08167F24
+	.global Route3_EventScript_Youngster
+	.set Route3_EventScript_Youngster, 0x08167F25
+	.global Route3_EventScript_RouteSign
+	.set Route3_EventScript_RouteSign, 0x08167F2E
+	.global Route7_MapScripts
+	.set Route7_MapScripts, 0x08167F4B
+	.global Route7_EventScript_UndergroundPathSign
+	.set Route7_EventScript_UndergroundPathSign, 0x08167F4C
+	.global Route8_MapScripts
+	.set Route8_MapScripts, 0x08167F55
+	.global Route8_EventScript_UndergroundPathSign
+	.set Route8_EventScript_UndergroundPathSign, 0x08167F56
+	.global Route9_MapScripts
+	.set Route9_MapScripts, 0x08167F5F
+	.global Route9_EventScript_RouteSign
+	.set Route9_EventScript_RouteSign, 0x08167F60
+	.global Route18_MapScripts
+	.set Route18_MapScripts, 0x081681A3
+	.global Route18_OnTransition
+	.set Route18_OnTransition, 0x081681AE
+	.global Route18_OnTransitionCyclingRoad
+	.set Route18_OnTransitionCyclingRoad, 0x081681BA
+	.global Route18_OnWarp
+	.set Route18_OnWarp, 0x081681BE
+	.global Route18_OnWarpCyclingRoad
+	.set Route18_OnWarpCyclingRoad, 0x081681C8
+	.global Route18_EventScript_RouteSign
+	.set Route18_EventScript_RouteSign, 0x081681CC
+	.global Route18_EventScript_CyclingRoadSign
+	.set Route18_EventScript_CyclingRoadSign, 0x081681D5
+	.global Route19_MapScripts
+	.set Route19_MapScripts, 0x081681DE
+	.global Route19_EventScript_RouteSign
+	.set Route19_EventScript_RouteSign, 0x081681DF
+	.global LavenderTown_House1_MapScripts
+	.set LavenderTown_House1_MapScripts, 0x0816B1E0
+	.global LavenderTown_House1_EventScript_CooltrainerF
+	.set LavenderTown_House1_EventScript_CooltrainerF, 0x0816B1E1
+	.global LavenderTown_House1_EventScript_CooltrainerFGhostGone
+	.set LavenderTown_House1_EventScript_CooltrainerFGhostGone, 0x0816B1F6
+	.global LavenderTown_House1_EventScript_Cubone
+	.set LavenderTown_House1_EventScript_Cubone, 0x0816B200
+	.global CeladonCity_DepartmentStore_4F_MapScripts
+	.set CeladonCity_DepartmentStore_4F_MapScripts, 0x0816BB9C
+	.global CeladonCity_DepartmentStore_4F_EventScript_Man
+	.set CeladonCity_DepartmentStore_4F_EventScript_Man, 0x0816BB9D
+	.global CeladonCity_DepartmentStore_4F_EventScript_Youngster
+	.set CeladonCity_DepartmentStore_4F_EventScript_Youngster, 0x0816BBA6
+	.global CeladonCity_DepartmentStore_4F_EventScript_FloorSign
+	.set CeladonCity_DepartmentStore_4F_EventScript_FloorSign, 0x0816BBAF
+	.global CeladonCity_DepartmentStore_4F_EventScript_Clerk
+	.set CeladonCity_DepartmentStore_4F_EventScript_Clerk, 0x0816BBB8
+	.global CeladonCity_DepartmentStore_4F_Items
+	.set CeladonCity_DepartmentStore_4F_Items, 0x0816BBDE
+	.global CinnabarIsland_PokemonLab_Entrance_MapScripts
+	.set CinnabarIsland_PokemonLab_Entrance_MapScripts, 0x0816E220
+	.global CinnabarIsland_PokemonLab_Entrance_OnTransition
+	.set CinnabarIsland_PokemonLab_Entrance_OnTransition, 0x0816E226
+	.global CinnabarIsland_PokemonLab_Entrance_EventScript_ReadyFossil
+	.set CinnabarIsland_PokemonLab_Entrance_EventScript_ReadyFossil, 0x0816E232
+	.global CinnabarIsland_PokemonLab_Entrance_EventScript_Scientist
+	.set CinnabarIsland_PokemonLab_Entrance_EventScript_Scientist, 0x0816E238
+	.global CinnabarIsland_PokemonLab_Entrance_EventScript_DrFujiPhoto
+	.set CinnabarIsland_PokemonLab_Entrance_EventScript_DrFujiPhoto, 0x0816E241
+	.global CinnabarIsland_PokemonLab_Entrance_EventScript_MeetingRoomSign
+	.set CinnabarIsland_PokemonLab_Entrance_EventScript_MeetingRoomSign, 0x0816E24A
+	.global CinnabarIsland_PokemonLab_Entrance_EventScript_RAndDRoomSign
+	.set CinnabarIsland_PokemonLab_Entrance_EventScript_RAndDRoomSign, 0x0816E253
+	.global CinnabarIsland_PokemonLab_Entrance_EventScript_TestingRoomSign
+	.set CinnabarIsland_PokemonLab_Entrance_EventScript_TestingRoomSign, 0x0816E25C
+	.global Route4_PokemonCenter_2F_MapScripts
+	.set Route4_PokemonCenter_2F_MapScripts, 0x0816F886
+	.global Route4_PokemonCenter_2F_EventScript_Colosseum
+	.set Route4_PokemonCenter_2F_EventScript_Colosseum, 0x0816F89B
+	.global Route4_PokemonCenter_2F_EventScript_TradeCenter
+	.set Route4_PokemonCenter_2F_EventScript_TradeCenter, 0x0816F8A1
+	.global Route4_PokemonCenter_2F_EventScript_RecordCorner
+	.set Route4_PokemonCenter_2F_EventScript_RecordCorner, 0x0816F8A7
+	.global Route5_PokemonDayCare_MapScripts
+	.set Route5_PokemonDayCare_MapScripts, 0x0816F8AD
+	.global Route15_WestEntrance_1F_MapScripts
+	.set Route15_WestEntrance_1F_MapScripts, 0x08170036
+	.global Route15_WestEntrance_1F_EventScript_Guard
+	.set Route15_WestEntrance_1F_EventScript_Guard, 0x08170037
+	.global SixIsland_WaterPath_House2_MapScripts
+	.set SixIsland_WaterPath_House2_MapScripts, 0x08172125
+	.global SixIsland_WaterPath_House2_EventScript_Man
+	.set SixIsland_WaterPath_House2_EventScript_Man, 0x08172126
+	.global SafariZone_Center_Text_RestHouse
+	.set SafariZone_Center_Text_RestHouse, 0x0817691A
+	.global SafariZone_Center_Text_PressStartToCheckTime
+	.set SafariZone_Center_Text_PressStartToCheckTime, 0x08176925
+	.global SafariZone_Center_Text_CenterArea
+	.set SafariZone_Center_Text_CenterArea, 0x08176957
+	.global SafariZone_West_Text_RestHouse
+	.set SafariZone_West_Text_RestHouse, 0x0817791B
+	.global SafariZone_West_Text_PleaseFindWardensLostTeeth
+	.set SafariZone_West_Text_PleaseFindWardensLostTeeth, 0x08177926
+	.global SafariZone_West_Text_SearchForSecretHouse
+	.set SafariZone_West_Text_SearchForSecretHouse, 0x081779A5
+	.global SafariZone_West_Text_AreaSign
+	.set SafariZone_West_Text_AreaSign, 0x081779EE
+	.global EventScript_SaveTextColor
+	.set EventScript_SaveTextColor, 0x081A5EBD
+	.global EventScript_RestorePrevTextColor
+	.set EventScript_RestorePrevTextColor, 0x081A5EC3
+	.global Std_ObtainItem
+	.set Std_ObtainItem, 0x081A5EC9
+	.global EventScript_ObtainItemMessage
+	.set EventScript_ObtainItemMessage, 0x081A5EE5
+	.global EventScript_BufferPocketNameTryFanfare
+	.set EventScript_BufferPocketNameTryFanfare, 0x081A5F0A
+	.global EventScript_BufferItemsPocket
+	.set EventScript_BufferItemsPocket, 0x081A5F47
+	.global EventScript_BufferKeyItemsPocket
+	.set EventScript_BufferKeyItemsPocket, 0x081A5F57
+	.global EventScript_BufferPokeBallsPocket
+	.set EventScript_BufferPokeBallsPocket, 0x081A5F67
+	.global EventScript_BufferTMCase
+	.set EventScript_BufferTMCase, 0x081A5F77
+	.global EventScript_BufferBerryPouch
+	.set EventScript_BufferBerryPouch, 0x081A5F87
+	.global EventScript_ObtainedItem
+	.set EventScript_ObtainedItem, 0x081A5F97
+	.global EventScript_NoRoomForItem
+	.set EventScript_NoRoomForItem, 0x081A5FAC
+	.global EventScript_PlayFanfareObtainedItem
+	.set EventScript_PlayFanfareObtainedItem, 0x081A5FB2
+	.global EventScript_PlayFanfareObtainedTMHM
+	.set EventScript_PlayFanfareObtainedTMHM, 0x081A5FB6
+	.global Std_ObtainDecoration
+	.set Std_ObtainDecoration, 0x081A5FBA
+	.global EventScript_ObtainDecorMessage
+	.set EventScript_ObtainDecorMessage, 0x081A5FC8
+	.global EventScript_ObtainedDecor
+	.set EventScript_ObtainedDecor, 0x081A5FE3
+	.global EventScript_NoRoomForDecor
+	.set EventScript_NoRoomForDecor, 0x081A5FFB
+	.global Std_FindItem
+	.set Std_FindItem, 0x081A6001
+	.global EventScript_PickUpItem
+	.set EventScript_PickUpItem, 0x081A603C
+	.global EventScript_FoundTMHM
+	.set EventScript_FoundTMHM, 0x081A606F
+	.global EventScript_FoundItem
+	.set EventScript_FoundItem, 0x081A6075
+	.global EventScript_NoRoomToPickUpItem
+	.set EventScript_NoRoomToPickUpItem, 0x081A607B
+	.global EventScript_HiddenItemScript
+	.set EventScript_HiddenItemScript, 0x081A6843
+	.global EventScript_TryPickUpHiddenItem
+	.set EventScript_TryPickUpHiddenItem, 0x081A60BC
+	.global EventScript_PickedUpHiddenItem
+	.set EventScript_PickedUpHiddenItem, 0x081A60D3
+	.global EventScript_FoundSingleItem
+	.set EventScript_FoundSingleItem, 0x081A60F8
+	.global EventScript_FoundCoins
+	.set EventScript_FoundCoins, 0x081A60FE
+	.global EventScript_FoundMultipleItems
+	.set EventScript_FoundMultipleItems, 0x081A6108
+	.global EventScript_NoRoomForHiddenItem
+	.set EventScript_NoRoomForHiddenItem, 0x081A6112
+	.global EventScript_TryPickUpHiddenCoins
+	.set EventScript_TryPickUpHiddenCoins, 0x081A6129
+	.global EventScript_HiddenCoinsButCaseIsFull
+	.set EventScript_HiddenCoinsButCaseIsFull, 0x081A6165
+	.global EventScript_NoCaseForHiddenCoins
+	.set EventScript_NoCaseForHiddenCoins, 0x081A6184
+	.global PokemonLeague_EventScript_OpenDoor
+	.set PokemonLeague_EventScript_OpenDoor, 0x081A6E1B
+	.global PokemonLeague_EventScript_EnterRoom
+	.set PokemonLeague_EventScript_EnterRoom, 0x081A6E34
+	.global PokemonLeague_EventScript_SetDoorOpen
+	.set PokemonLeague_EventScript_SetDoorOpen, 0x081A6E4D
+	.global PokemonLeague_EventScript_PreventExit
+	.set PokemonLeague_EventScript_PreventExit, 0x081A6E60
+	.global PokemonLeague_EventScript_OpenDoorLance
+	.set PokemonLeague_EventScript_OpenDoorLance, 0x081A6E78
+	.global PokemonLeague_EventScript_SetDoorOpenLance
+	.set PokemonLeague_EventScript_SetDoorOpenLance, 0x081A6E9E
+	.global PokemonLeague_EventScript_CloseEntry
+	.set PokemonLeague_EventScript_CloseEntry, 0x081A6EB1
+	.global PokemonLeague_Movement_ForcePlayerIn
+	.set PokemonLeague_Movement_ForcePlayerIn, 0x081A6EE8
+	.global PokemonLeague_EventScript_DoLightingEffect
+	.set PokemonLeague_EventScript_DoLightingEffect, 0x081A6EEA
+	.global EventScript_Bookshelf
+	.set EventScript_Bookshelf, 0x081A7606
+	.global EventScript_PokeMartShelf
+	.set EventScript_PokeMartShelf, 0x081A760F
+	.global EventScript_Food
+	.set EventScript_Food, 0x081A7618
+	.global EventScript_VideoGame
+	.set EventScript_VideoGame, 0x081A7621
+	.global EventScript_Computer
+	.set EventScript_Computer, 0x081A762A
+	.global EventScript_ImpressiveMachine
+	.set EventScript_ImpressiveMachine, 0x081A7633
+	.global EventScript_Blueprints
+	.set EventScript_Blueprints, 0x081A763C
+	.global EventScript_Burglary
+	.set EventScript_Burglary, 0x081A7645
+	.global EventScript_PlayerFacingTVScreen
+	.set EventScript_PlayerFacingTVScreen, 0x081A764E
+	.global EventScript_Cabinet
+	.set EventScript_Cabinet, 0x081A7657
+	.global EventScript_Kitchen
+	.set EventScript_Kitchen, 0x081A7660
+	.global EventScript_Dresser
+	.set EventScript_Dresser, 0x081A7669
+	.global EventScript_Snacks
+	.set EventScript_Snacks, 0x081A7672
+	.global EventScript_Painting
+	.set EventScript_Painting, 0x081A767B
+	.global EventScript_PowerPlantMachine
+	.set EventScript_PowerPlantMachine, 0x081A7684
+	.global EventScript_Telephone
+	.set EventScript_Telephone, 0x081A768D
+	.global EventScript_AdvertisingPoster
+	.set EventScript_AdvertisingPoster, 0x081A7696
+	.global EventScript_TastyFood
+	.set EventScript_TastyFood, 0x081A769F
+	.global EventScript_TrashBin
+	.set EventScript_TrashBin, 0x081A76A8
+	.global EventScript_Cup
+	.set EventScript_Cup, 0x081A76B1
+	.global EventScript_PolishedWindow
+	.set EventScript_PolishedWindow, 0x081A76BA
+	.global EventScript_BeautifulSkyWindow
+	.set EventScript_BeautifulSkyWindow, 0x081A76C3
+	.global EventScript_BlinkingLights
+	.set EventScript_BlinkingLights, 0x081A76CC
+	.global EventScript_NeatlyLinedUpTools
+	.set EventScript_NeatlyLinedUpTools, 0x081A76D5
+	.global EventScript_PokemartSign
+	.set EventScript_PokemartSign, 0x081A76DE
+	.global EventScript_PokecenterSign
+	.set EventScript_PokecenterSign, 0x081A76E7
+	.global EventScript_Indigo_UltimateGoal
+	.set EventScript_Indigo_UltimateGoal, 0x081A76F0
+	.global EventScript_Indigo_HighestAuthority
+	.set EventScript_Indigo_HighestAuthority, 0x081A76F9
+	.global EventScript_Questionnaire
+	.set EventScript_Questionnaire, 0x081A7702
+	.global EventScript_EnableMysteryGift
+	.set EventScript_EnableMysteryGift, 0x081A7035
+	.global EventScript_DeclineQuestionnaire
+	.set EventScript_DeclineQuestionnaire, 0x081A7072
+	.global EventScript_TookQuestionnaire
+	.set EventScript_TookQuestionnaire, 0x081A7074
+	.global EventScript_GetGiftMonPartySlot
+	.set EventScript_GetGiftMonPartySlot, 0x081A86AC
+	.global EventScript_NameReceivedBoxMon
+	.set EventScript_NameReceivedBoxMon, 0x081A86B8
+	.global EventScript_TransferredToPC
+	.set EventScript_TransferredToPC, 0x081A86C1
+	.global EventScript_TransferredSomeonesPC
+	.set EventScript_TransferredSomeonesPC, 0x081A86DC
+	.global EventScript_TransferredSomeonesPCBoxFull
+	.set EventScript_TransferredSomeonesPCBoxFull, 0x081A86F5
+	.global EventScript_TransferredBillsPC
+	.set EventScript_TransferredBillsPC, 0x081A8707
+	.global EventScript_TransferredBillsPCBoxFull
+	.set EventScript_TransferredBillsPCBoxFull, 0x081A8720
+	.global EventScript_ItemfinderDigUpUnderfootItem
+	.set EventScript_ItemfinderDigUpUnderfootItem, 0x081A8D49
+	.global EventScript_DigUpItemPutInPocket
+	.set EventScript_DigUpItemPutInPocket, 0x081A87EE
+	.global EventScript_DigUpItemBagIsFull
+	.set EventScript_DigUpItemBagIsFull, 0x081A8805
+
+@ Pass 4: additional whole-include byte-exact mappings after pass-3 compaction.
+	.global SafariZone_West_MapScripts
+	.set SafariZone_West_MapScripts, 0x0816232E
+	.global SafariZone_West_EventScript_RestHouseSign
+	.set SafariZone_West_EventScript_RestHouseSign, 0x0816232F
+	.global SafariZone_West_EventScript_LostTeethNotice
+	.set SafariZone_West_EventScript_LostTeethNotice, 0x08162338
+	.global SafariZone_West_EventScript_TrainerTips
+	.set SafariZone_West_EventScript_TrainerTips, 0x08162341
+	.global SafariZone_West_EventScript_AreaSign
+	.set SafariZone_West_EventScript_AreaSign, 0x0816234A
+	.global CeruleanCave_2F_MapScripts
+	.set CeruleanCave_2F_MapScripts, 0x0816247A
+	.global CeruleanCave_2F_EventScript_OmegaTrainer
+	.set CeruleanCave_2F_EventScript_OmegaTrainer, 0x0816247B
+	.global NavelRock_SummitPath_2F_MapScripts
+	.set NavelRock_SummitPath_2F_MapScripts, 0x08165179
+	.global NavelRock_SummitPath_3F_MapScripts
+	.set NavelRock_SummitPath_3F_MapScripts, 0x0816517A
+	.global NavelRock_SummitPath_4F_MapScripts
+	.set NavelRock_SummitPath_4F_MapScripts, 0x0816517B
+	.global NavelRock_SummitPath_5F_MapScripts
+	.set NavelRock_SummitPath_5F_MapScripts, 0x0816517C
+	.global NavelRock_BasePath_B1F_MapScripts
+	.set NavelRock_BasePath_B1F_MapScripts, 0x0816517D
+	.global NavelRock_BasePath_B2F_MapScripts
+	.set NavelRock_BasePath_B2F_MapScripts, 0x0816517E
+	.global NavelRock_BasePath_B3F_MapScripts
+	.set NavelRock_BasePath_B3F_MapScripts, 0x0816517F
+	.global NavelRock_BasePath_B4F_MapScripts
+	.set NavelRock_BasePath_B4F_MapScripts, 0x08165180
+	.global NavelRock_BasePath_B5F_MapScripts
+	.set NavelRock_BasePath_B5F_MapScripts, 0x08165181
+	.global NavelRock_BasePath_B6F_MapScripts
+	.set NavelRock_BasePath_B6F_MapScripts, 0x08165182
+	.global NavelRock_BasePath_B7F_MapScripts
+	.set NavelRock_BasePath_B7F_MapScripts, 0x08165183
+	.global NavelRock_BasePath_B8F_MapScripts
+	.set NavelRock_BasePath_B8F_MapScripts, 0x08165184
+	.global NavelRock_BasePath_B9F_MapScripts
+	.set NavelRock_BasePath_B9F_MapScripts, 0x08165185
+	.global NavelRock_BasePath_B10F_MapScripts
+	.set NavelRock_BasePath_B10F_MapScripts, 0x08165186
+	.global NavelRock_BasePath_B11F_MapScripts
+	.set NavelRock_BasePath_B11F_MapScripts, 0x08165187
+	.global NavelRock_B1F_MapScripts
+	.set NavelRock_B1F_MapScripts, 0x08165188
+	.global NavelRock_Fork_MapScripts
+	.set NavelRock_Fork_MapScripts, 0x08165189
+	.global NavelRock_Harbor_MapScripts
+	.set NavelRock_Harbor_MapScripts, 0x081653A7
+	.global NavelRock_Harbor_EventScript_Sailor
+	.set NavelRock_Harbor_EventScript_Sailor, 0x081653A8
+	.global Route2_MapScripts
+	.set Route2_MapScripts, 0x08167EEE
+	.global Route2_EventScript_RouteSign
+	.set Route2_EventScript_RouteSign, 0x08167EEF
+	.global Route2_EventScript_DiglettsCaveSign
+	.set Route2_EventScript_DiglettsCaveSign, 0x08167EF8
+	.global Route6_MapScripts
+	.set Route6_MapScripts, 0x08167F0B
+	.global Route6_EventScript_UndergroundPathSign
+	.set Route6_EventScript_UndergroundPathSign, 0x08167F0C
+	.global Route11_MapScripts
+	.set Route11_MapScripts, 0x08167F6E
+	.global Route11_EventScript_DiglettsCaveSign
+	.set Route11_EventScript_DiglettsCaveSign, 0x08167F6F
+	.global Route14_MapScripts
+	.set Route14_MapScripts, 0x0816805B
+	.global Route14_EventScript_RouteSign
+	.set Route14_EventScript_RouteSign, 0x0816805C
+	.global Route15_MapScripts
+	.set Route15_MapScripts, 0x08168065
+	.global Route15_EventScript_RouteSign
+	.set Route15_EventScript_RouteSign, 0x08168066
+	.global Route21_North_MapScripts
+	.set Route21_North_MapScripts, 0x081681E5
+	.global Route21_South_MapScripts
+	.set Route21_South_MapScripts, 0x081681E6
+	.global Route25_MapScripts
+	.set Route25_MapScripts, 0x081686CF
+	.global Route25_EventScript_SeaCottageSign
+	.set Route25_EventScript_SeaCottageSign, 0x081686D0
+	.global Route25_EventScript_Man
+	.set Route25_EventScript_Man, 0x081686D9
+	.global OneIsland_KindleRoad_MapScripts
+	.set OneIsland_KindleRoad_MapScripts, 0x081686E2
+	.global OneIsland_KindleRoad_EventScript_RouteSign
+	.set OneIsland_KindleRoad_EventScript_RouteSign, 0x081686E3
+	.global OneIsland_KindleRoad_EventScript_EmberSpaSign
+	.set OneIsland_KindleRoad_EventScript_EmberSpaSign, 0x081686EC
+	.global OneIsland_TreasureBeach_MapScripts
+	.set OneIsland_TreasureBeach_MapScripts, 0x081686F5
+	.global OneIsland_TreasureBeach_EventScript_Boy
+	.set OneIsland_TreasureBeach_EventScript_Boy, 0x081686F6
+	.global TwoIsland_CapeBrink_MapScripts
+	.set TwoIsland_CapeBrink_MapScripts, 0x081686FF
+	.global CeruleanCity_Mart_MapScripts
+	.set CeruleanCity_Mart_MapScripts, 0x0816AC27
+	.global CeruleanCity_Mart_EventScript_Youngster
+	.set CeruleanCity_Mart_EventScript_Youngster, 0x0816AC28
+	.global CeruleanCity_Mart_EventScript_Woman
+	.set CeruleanCity_Mart_EventScript_Woman, 0x0816AC31
+	.global CeruleanCity_Mart_EventScript_Clerk
+	.set CeruleanCity_Mart_EventScript_Clerk, 0x0816AC3A
+	.global CeruleanCity_Mart_Items
+	.set CeruleanCity_Mart_Items, 0x0816AC62
+	.global FuchsiaCity_PokemonCenter_1F_MapScripts
+	.set FuchsiaCity_PokemonCenter_1F_MapScripts, 0x0816D64E
+	.global FuchsiaCity_PokemonCenter_1F_OnTransition
+	.set FuchsiaCity_PokemonCenter_1F_OnTransition, 0x0816D659
+	.global FuchsiaCity_PokemonCenter_1F_EventScript_Nurse
+	.set FuchsiaCity_PokemonCenter_1F_EventScript_Nurse, 0x0816D65D
+	.global FuchsiaCity_PokemonCenter_1F_EventScript_Man
+	.set FuchsiaCity_PokemonCenter_1F_EventScript_Man, 0x0816D666
+	.global FuchsiaCity_PokemonCenter_1F_EventScript_CooltrainerF
+	.set FuchsiaCity_PokemonCenter_1F_EventScript_CooltrainerF, 0x0816D66F
+	.global FuchsiaCity_PokemonCenter_1F_EventScript_Youngster
+	.set FuchsiaCity_PokemonCenter_1F_EventScript_Youngster, 0x0816D678
+	.global SaffronCity_House_MapScripts
+	.set SaffronCity_House_MapScripts, 0x0816EEFA
+	.global SaffronCity_House_EventScript_Lass
+	.set SaffronCity_House_EventScript_Lass, 0x0816EEFB
+	.global SaffronCity_House_EventScript_Youngster
+	.set SaffronCity_House_EventScript_Youngster, 0x0816EF04
+	.global SaffronCity_House_EventScript_Pidgey
+	.set SaffronCity_House_EventScript_Pidgey, 0x0816EF0D
+	.global SaffronCity_House_EventScript_Letter
+	.set SaffronCity_House_EventScript_Letter, 0x0816EF20
+	.global SaffronCity_PokemonCenter_1F_MapScripts
+	.set SaffronCity_PokemonCenter_1F_MapScripts, 0x0816EF73
+	.global SaffronCity_PokemonCenter_1F_OnTransition
+	.set SaffronCity_PokemonCenter_1F_OnTransition, 0x0816EF7E
+	.global SaffronCity_PokemonCenter_1F_EventScript_Nurse
+	.set SaffronCity_PokemonCenter_1F_EventScript_Nurse, 0x0816EF82
+	.global SaffronCity_PokemonCenter_1F_EventScript_Gentleman
+	.set SaffronCity_PokemonCenter_1F_EventScript_Gentleman, 0x0816EF8B
+	.global SaffronCity_PokemonCenter_1F_EventScript_Woman
+	.set SaffronCity_PokemonCenter_1F_EventScript_Woman, 0x0816EF94
+	.global SaffronCity_PokemonCenter_1F_EventScript_Youngster
+	.set SaffronCity_PokemonCenter_1F_EventScript_Youngster, 0x0816EF9D
+	.global SaffronCity_PokemonCenter_1F_EventScript_YoungsterRocketsGone
+	.set SaffronCity_PokemonCenter_1F_EventScript_YoungsterRocketsGone, 0x0816EFB4
+	.global Route19_UnusedHouse_MapScripts
+	.set Route19_UnusedHouse_MapScripts, 0x08170483
+	.global SevenIsland_UnusedHouse_MapScripts
+	.set SevenIsland_UnusedHouse_MapScripts, 0x08170B6E
+	.global SevenIsland_Harbor_MapScripts
+	.set SevenIsland_Harbor_MapScripts, 0x08170B6F
+	.global SevenIsland_Harbor_EventScript_Sailor
+	.set SevenIsland_Harbor_EventScript_Sailor, 0x08170B70
+	.global SafariZone_East_Text_RestHouse
+	.set SafariZone_East_Text_RestHouse, 0x081768F7
+	.global SafariZone_East_Text_TimeDeclinesOnlyWhileYouWalk
+	.set SafariZone_East_Text_TimeDeclinesOnlyWhileYouWalk, 0x08176902
+	.global SafariZone_East_Text_AreaSign
+	.set SafariZone_East_Text_AreaSign, 0x08176940
+	.global EventScript_PC
+	.set EventScript_PC, 0x081A6955
+	.global EventScript_PCDisabled
+	.set EventScript_PCDisabled, 0x081A5ED3
+	.global EventScript_PCMainMenu
+	.set EventScript_PCMainMenu, 0x081A5EDD
+	.global EventScript_ChoosePCMenu
+	.set EventScript_ChoosePCMenu, 0x081A5EED
+	.global EventScript_AccessPlayersPC
+	.set EventScript_AccessPlayersPC, 0x081A5F35
+	.global EventScript_AccessPokemonStorage
+	.set EventScript_AccessPokemonStorage, 0x081A5F4A
+	.global EventScript_AccessSomeonesPC
+	.set EventScript_AccessSomeonesPC, 0x081A5F79
+	.global EventScript_AccessBillsPC
+	.set EventScript_AccessBillsPC, 0x081A5F82
+	.global EventScript_TurnOffPC
+	.set EventScript_TurnOffPC, 0x081A5F8B
+	.global EventScript_AccessHallOfFame
+	.set EventScript_AccessHallOfFame, 0x081A5F9B
+	.global EventScript_AccessProfOaksPC
+	.set EventScript_AccessProfOaksPC, 0x081A5FBF
+	.global EventScript_ExitOaksPC
+	.set EventScript_ExitOaksPC, 0x081A5FF7
+	.global EventScript_UseSurf
+	.set EventScript_UseSurf, 0x081A6AC8
+	.global EventScript_CurrentTooFast
+	.set EventScript_CurrentTooFast, 0x081A6B0D
+	.global EventScript_SetGymTrainers
+	.set EventScript_SetGymTrainers, 0x081A605D
+	.global EventScript_SetPewterGymTrainers
+	.set EventScript_SetPewterGymTrainers, 0x081A60BB
+	.global EventScript_SetCeruleanGymTrainers
+	.set EventScript_SetCeruleanGymTrainers, 0x081A60BF
+	.global EventScript_SetVermilionGymTrainers
+	.set EventScript_SetVermilionGymTrainers, 0x081A60C6
+	.global EventScript_SetCeladonGymTrainers
+	.set EventScript_SetCeladonGymTrainers, 0x081A60D0
+	.global EventScript_SetFuchsiaGymTrainers
+	.set EventScript_SetFuchsiaGymTrainers, 0x081A60E6
+	.global EventScript_SetSaffronGymTrainers
+	.set EventScript_SetSaffronGymTrainers, 0x081A60F9
+	.global EventScript_SetCinnabarGymTrainers
+	.set EventScript_SetCinnabarGymTrainers, 0x081A610F
+	.global EventScript_SetViridianGymTrainers
+	.set EventScript_SetViridianGymTrainers, 0x081A6125
+	.global EventScript_BagIsFull
+	.set EventScript_BagIsFull, 0x081A613E
+	.global EventScript_BagIsFullRet
+	.set EventScript_BagIsFullRet, 0x081A614A
+	.global EventScript_NoRoomForAnotherDecor
+	.set EventScript_NoRoomForAnotherDecor, 0x081A6153
+	.global EventScript_NoRoomForAnotherDecorRet
+	.set EventScript_NoRoomForAnotherDecorRet, 0x081A615D
+	.global Route23_EventScript_MissingBoulderBadge
+	.set Route23_EventScript_MissingBoulderBadge, 0x081A6DF8
+	.global Route23_EventScript_MissingBadge
+	.set Route23_EventScript_MissingBadge, 0x081A6E0D
+	.global Route23_EventScript_AlreadyRecognizedBoulderBadge
+	.set Route23_EventScript_AlreadyRecognizedBoulderBadge, 0x081A6E1B
+	.global Route23_EventScript_AlreadyRecognizedBadge
+	.set Route23_EventScript_AlreadyRecognizedBadge, 0x081A6E28
+	.global Route22_NorthEntrance_EventScript_BadgeGuard
+	.set Route22_NorthEntrance_EventScript_BadgeGuard, 0x081A6E32
+	.global Route23_EventScript_BadgeGuard
+	.set Route23_EventScript_BadgeGuard, 0x081A6E9B
+	.global Route23_EventScript_CheckBoulderBadge
+	.set Route23_EventScript_CheckBoulderBadge, 0x081A6F04
+	.global Route23_EventScript_CheckCascadeBadge
+	.set Route23_EventScript_CheckCascadeBadge, 0x081A6F13
+	.global Route23_EventScript_CheckThunderBadge
+	.set Route23_EventScript_CheckThunderBadge, 0x081A6F22
+	.global Route23_EventScript_CheckRainbowBadge
+	.set Route23_EventScript_CheckRainbowBadge, 0x081A6F31
+	.global Route23_EventScript_CheckSoulBadge
+	.set Route23_EventScript_CheckSoulBadge, 0x081A6F40
+	.global Route23_EventScript_CheckMarshBadge
+	.set Route23_EventScript_CheckMarshBadge, 0x081A6F4F
+	.global Route23_EventScript_CheckVolcanoBadge
+	.set Route23_EventScript_CheckVolcanoBadge, 0x081A6F5E
+	.global Route23_EventScript_CheckEarthBadge
+	.set Route23_EventScript_CheckEarthBadge, 0x081A6F6D
+	.global Route23_EventScript_RecognizeBoulderBadge
+	.set Route23_EventScript_RecognizeBoulderBadge, 0x081A6F7C
+	.global Route23_EventScript_RecognizeBadge
+	.set Route23_EventScript_RecognizeBadge, 0x081A6F8E
+	.global Route23_EventScript_BadgeGuardTrigger
+	.set Route23_EventScript_BadgeGuardTrigger, 0x081A6F9D
+	.global Route23_EventScript_CheckBoulderBadgeTrigger
+	.set Route23_EventScript_CheckBoulderBadgeTrigger, 0x081A7007
+	.global Route23_EventScript_CheckCascadeBadgeTrigger
+	.set Route23_EventScript_CheckCascadeBadgeTrigger, 0x081A7016
+	.global Route23_EventScript_CheckThunderBadgeTrigger
+	.set Route23_EventScript_CheckThunderBadgeTrigger, 0x081A7025
+	.global Route23_EventScript_CheckRainbowBadgeTrigger
+	.set Route23_EventScript_CheckRainbowBadgeTrigger, 0x081A7034
+	.global Route23_EventScript_CheckSoulBadgeTrigger
+	.set Route23_EventScript_CheckSoulBadgeTrigger, 0x081A7043
+	.global Route23_EventScript_CheckMarshBadgeTrigger
+	.set Route23_EventScript_CheckMarshBadgeTrigger, 0x081A7052
+	.global Route23_EventScript_CheckVolcanoBadgeTrigger
+	.set Route23_EventScript_CheckVolcanoBadgeTrigger, 0x081A7061
+	.global Route23_EventScript_CheckEarthBadgeTrigger
+	.set Route23_EventScript_CheckEarthBadgeTrigger, 0x081A7070
+	.global Route23_EventScript_MissingBoulderBadgeTrigger
+	.set Route23_EventScript_MissingBoulderBadgeTrigger, 0x081A707F
+	.global Route23_EventScript_MissingBadgeTrigger
+	.set Route23_EventScript_MissingBadgeTrigger, 0x081A70A6
+	.global Route23_EventScript_RecognizeBoulderBadgeTrigger
+	.set Route23_EventScript_RecognizeBoulderBadgeTrigger, 0x081A70C5
+	.global Route23_EventScript_RecognizeBadgeTrigger
+	.set Route23_EventScript_RecognizeBadgeTrigger, 0x081A70D7
+	.global Route23_Movement_WalkDown
+	.set Route23_Movement_WalkDown, 0x081A70E6
+	.global Aide_EventScript_HaventCaughtEnough
+	.set Aide_EventScript_HaventCaughtEnough, 0x081A70EC
+	.global Aide_EventScript_NoRoomForItem
+	.set Aide_EventScript_NoRoomForItem, 0x081A70F6
+	.global Aide_EventScript_DeclineCheckMons
+	.set Aide_EventScript_DeclineCheckMons, 0x081A7100
+	.global EventScript_AfterWhiteOutHeal
+	.set EventScript_AfterWhiteOutHeal, 0x081A8D97
+	.global EventScript_AfterWhiteOutHealMsgPreBrock
+	.set EventScript_AfterWhiteOutHealMsgPreBrock, 0x081A868F
+	.global EventScript_AfterWhiteOutHealMsg
+	.set EventScript_AfterWhiteOutHealMsg, 0x081A8698
+	.global EventScript_AfterWhiteOutMomHeal
+	.set EventScript_AfterWhiteOutMomHeal, 0x081A8DD8
+	.global EventScript_FieldPoison
+	.set EventScript_FieldPoison, 0x081A8DFD
+	.global EventScript_FieldWhiteOut
+	.set EventScript_FieldWhiteOut, 0x081A86DA
+	.global EventScript_FieldWhiteOutNoMoney
+	.set EventScript_FieldWhiteOutNoMoney, 0x081A86F7
+	.global EventScript_FieldWhiteOutHasMoney
+	.set EventScript_FieldWhiteOutHasMoney, 0x081A8705
+	.global EventScript_FieldWhiteOutFade
+	.set EventScript_FieldWhiteOutFade, 0x081A8716
+	.global CeladonCity_GameCorner_EventScript_PhotoPrinter
+	.set CeladonCity_GameCorner_EventScript_PhotoPrinter, 0x081B2204
+	.global CeladonCity_GameCorner_EventScript_PrintTypeNormal
+	.set CeladonCity_GameCorner_EventScript_PrintTypeNormal, 0x081B2278
+	.global CeladonCity_GameCorner_EventScript_PrintTypeBlack
+	.set CeladonCity_GameCorner_EventScript_PrintTypeBlack, 0x081B2283
+	.global CeladonCity_GameCorner_EventScript_PrintTypePink
+	.set CeladonCity_GameCorner_EventScript_PrintTypePink, 0x081B228E
+	.global CeladonCity_GameCorner_EventScript_PrintTypeSepia
+	.set CeladonCity_GameCorner_EventScript_PrintTypeSepia, 0x081B2299
+	.global CeladonCity_GameCorner_EventScript_PrintPhoto
+	.set CeladonCity_GameCorner_EventScript_PrintPhoto, 0x081B22A4
+	.global CeladonCity_GameCorner_EventScript_DeclinePhoto
+	.set CeladonCity_GameCorner_EventScript_DeclinePhoto, 0x081B22C3
+	.global CeladonCity_GameCorner_EventScript_NotEnoughMoneyForPhoto
+	.set CeladonCity_GameCorner_EventScript_NotEnoughMoneyForPhoto, 0x081B22C8
+	.global FourIsland_House2_EventScript_StickerMan
+	.set FourIsland_House2_EventScript_StickerMan, 0x081B22D5
+	.global FourIsland_House2_EventScript_MeetStickerMan
+	.set FourIsland_House2_EventScript_MeetStickerMan, 0x081B22EE
+	.global FourIsland_House2_EventScript_StickerManAskForBrag
+	.set FourIsland_House2_EventScript_StickerManAskForBrag, 0x081B2331
+	.global FourIsland_House2_EventScript_NothingToBragAbout
+	.set FourIsland_House2_EventScript_NothingToBragAbout, 0x081B2363
+	.global FourIsland_House2_EventScript_ChooseBrag
+	.set FourIsland_House2_EventScript_ChooseBrag, 0x081B236D
+	.global FourIsland_House2_EventScript_ChooseBragHoF
+	.set FourIsland_House2_EventScript_ChooseBragHoF, 0x081B23C0
+	.global FourIsland_House2_EventScript_ChooseBragEggs
+	.set FourIsland_House2_EventScript_ChooseBragEggs, 0x081B23EC
+	.global FourIsland_House2_EventScript_ChooseBragLinkWins
+	.set FourIsland_House2_EventScript_ChooseBragLinkWins, 0x081B2418
+	.global FourIsland_House2_EventScript_ChooseBragHoFEggs
+	.set FourIsland_House2_EventScript_ChooseBragHoFEggs, 0x081B2444
+	.global FourIsland_House2_EventScript_ChooseBragHoFLinkWins
+	.set FourIsland_House2_EventScript_ChooseBragHoFLinkWins, 0x081B247B
+	.global FourIsland_House2_EventScript_ChooseBragEggsLinkWins
+	.set FourIsland_House2_EventScript_ChooseBragEggsLinkWins, 0x081B24B2
+	.global FourIsland_House2_EventScript_ChooseBragHofEggsLinkWins
+	.set FourIsland_House2_EventScript_ChooseBragHofEggsLinkWins, 0x081B24E9
+	.global FourIsland_House2_EventScript_StickerManNothingToBrag
+	.set FourIsland_House2_EventScript_StickerManNothingToBrag, 0x081B252B
+	.global FourIsland_House2_EventScript_BragHoF
+	.set FourIsland_House2_EventScript_BragHoF, 0x081B2535
+	.global FourIsland_House2_EventScript_BragHoFLowest
+	.set FourIsland_House2_EventScript_BragHoFLowest, 0x081B2562
+	.global FourIsland_House2_EventScript_BragHoFLow
+	.set FourIsland_House2_EventScript_BragHoFLow, 0x081B2580
+	.global FourIsland_House2_EventScript_BragHoFHigh
+	.set FourIsland_House2_EventScript_BragHoFHigh, 0x081B259E
+	.global FourIsland_House2_EventScript_BragHoFHighest
+	.set FourIsland_House2_EventScript_BragHoFHighest, 0x081B25BC
+	.global FourIsland_House2_EventScript_AlreadyBraggedHoF
+	.set FourIsland_House2_EventScript_AlreadyBraggedHoF, 0x081B25DA
+	.global FourIsland_House2_EventScript_AlreadyBraggedHoFMax
+	.set FourIsland_House2_EventScript_AlreadyBraggedHoFMax, 0x081B25E4
+	.global FourIsland_House2_EventScript_BraggedHoF
+	.set FourIsland_House2_EventScript_BraggedHoF, 0x081B25EE
+	.global FourIsland_House2_EventScript_BragEggs
+	.set FourIsland_House2_EventScript_BragEggs, 0x081B25FF
+	.global FourIsland_House2_EventScript_BragEggsLowest
+	.set FourIsland_House2_EventScript_BragEggsLowest, 0x081B262C
+	.global FourIsland_House2_EventScript_BragEggsLow
+	.set FourIsland_House2_EventScript_BragEggsLow, 0x081B264A
+	.global FourIsland_House2_EventScript_BragEggsHigh
+	.set FourIsland_House2_EventScript_BragEggsHigh, 0x081B2668
+	.global FourIsland_House2_EventScript_BragEggsHighest
+	.set FourIsland_House2_EventScript_BragEggsHighest, 0x081B2686
+	.global FourIsland_House2_EventScript_AlreadyBraggedEggs
+	.set FourIsland_House2_EventScript_AlreadyBraggedEggs, 0x081B26A4
+	.global FourIsland_House2_EventScript_AlreadyBraggedEggsMax
+	.set FourIsland_House2_EventScript_AlreadyBraggedEggsMax, 0x081B26AE
+	.global FourIsland_House2_EventScript_BraggedEggs
+	.set FourIsland_House2_EventScript_BraggedEggs, 0x081B26B8
+	.global FourIsland_House2_EventScript_BragLinkWins
+	.set FourIsland_House2_EventScript_BragLinkWins, 0x081B26C9
+	.global FourIsland_House2_EventScript_BragLinkWinsLowest
+	.set FourIsland_House2_EventScript_BragLinkWinsLowest, 0x081B26F6
+	.global FourIsland_House2_EventScript_BragLinkWinsLow
+	.set FourIsland_House2_EventScript_BragLinkWinsLow, 0x081B2714
+	.global FourIsland_House2_EventScript_BragLinkWinsHigh
+	.set FourIsland_House2_EventScript_BragLinkWinsHigh, 0x081B2732
+	.global FourIsland_House2_EventScript_BragLinkWinsHighest
+	.set FourIsland_House2_EventScript_BragLinkWinsHighest, 0x081B2750
+	.global FourIsland_House2_EventScript_AlreadyBraggedLinkWins
+	.set FourIsland_House2_EventScript_AlreadyBraggedLinkWins, 0x081B276E
+	.global FourIsland_House2_EventScript_AlreadyBraggedLinkWinsMax
+	.set FourIsland_House2_EventScript_AlreadyBraggedLinkWinsMax, 0x081B2778
+	.global FourIsland_House2_EventScript_BraggedLinkWins
+	.set FourIsland_House2_EventScript_BraggedLinkWins, 0x081B2782
+	.global FourIsland_House2_EventScript_QuitBrag
+	.set FourIsland_House2_EventScript_QuitBrag, 0x081B2793
+	.global MysteryEventClub_EventScript_Woman
+	.set MysteryEventClub_EventScript_Woman, 0x081BE82B
+
+@ Text-data pass 1: individually verified byte-exact text labels.
+	.global SilphCo_7F_Text_RocketsAfterMasterBall
+	.set SilphCo_7F_Text_RocketsAfterMasterBall, 0x081763C8
+	.global SilphCo_7F_Text_CanceledMasterBallProject
+	.set SilphCo_7F_Text_CanceledMasterBallProject, 0x0817640A
+	.global SilphCo_7F_Text_BadIfTeamRocketTookOver
+	.set SilphCo_7F_Text_BadIfTeamRocketTookOver, 0x08176446
+	.global SilphCo_7F_Text_WowYouChasedOffTeamRocket
+	.set SilphCo_7F_Text_WowYouChasedOffTeamRocket, 0x08176485
+	.global SilphCo_7F_Text_ReallyDangerousHere
+	.set SilphCo_7F_Text_ReallyDangerousHere, 0x081764B6
+	.global SilphCo_7F_Text_ThankYouSoMuch
+	.set SilphCo_7F_Text_ThankYouSoMuch, 0x081764F7
+	.global SilphCo_7F_Text_Grunt3Intro
+	.set SilphCo_7F_Text_Grunt3Intro, 0x0817650A
+	.global SilphCo_7F_Text_Grunt3Defeat
+	.set SilphCo_7F_Text_Grunt3Defeat, 0x08176529
+	.global SilphCo_7F_Text_Grunt3PostBattle
+	.set SilphCo_7F_Text_Grunt3PostBattle, 0x08176535
+	.global SilphCo_7F_Text_JoshuaIntro
+	.set SilphCo_7F_Text_JoshuaIntro, 0x08176566
+	.global SilphCo_7F_Text_JoshuaDefeat
+	.set SilphCo_7F_Text_JoshuaDefeat, 0x08176590
+	.global SilphCo_7F_Text_JoshuaPostBattle
+	.set SilphCo_7F_Text_JoshuaPostBattle, 0x0817659A
+	.global SilphCo_7F_Text_Grunt1Intro
+	.set SilphCo_7F_Text_Grunt1Intro, 0x081765C7
+	.global SilphCo_7F_Text_Grunt1Defeat
+	.set SilphCo_7F_Text_Grunt1Defeat, 0x081765ED
+	.global SilphCo_7F_Text_Grunt1PostBattle
+	.set SilphCo_7F_Text_Grunt1PostBattle, 0x08176605
+	.global SilphCo_7F_Text_Grunt2Intro
+	.set SilphCo_7F_Text_Grunt2Intro, 0x08176637
+	.global SilphCo_7F_Text_Grunt2Defeat
+	.set SilphCo_7F_Text_Grunt2Defeat, 0x0817665B
+	.global SilphCo_7F_Text_Grunt2PostBattle
+	.set SilphCo_7F_Text_Grunt2PostBattle, 0x08176669
+	.global SilphCo_7F_Text_RivalWhatKeptYou
+	.set SilphCo_7F_Text_RivalWhatKeptYou, 0x08176694
+	.global SilphCo_7F_Text_RivalIntro
+	.set SilphCo_7F_Text_RivalIntro, 0x081766AB
+	.global SilphCo_7F_Text_RivalDefeat
+	.set SilphCo_7F_Text_RivalDefeat, 0x08176754
+	.global SilphCo_7F_Text_RivalVictory
+	.set SilphCo_7F_Text_RivalVictory, 0x08176780
+	.global SilphCo_7F_Text_RivalPostBattle
+	.set SilphCo_7F_Text_RivalPostBattle, 0x081767AB
+	.global SilphCo_7F_Text_FloorSign
+	.set SilphCo_7F_Text_FloorSign, 0x081768D8
+	.global SafariZone_North_Text_RestHouse
+	.set SafariZone_North_Text_RestHouse, 0x081768F1
+	.global SafariZone_North_Text_SecretHouseStillAhead
+	.set SafariZone_North_Text_SecretHouseStillAhead, 0x081768FC
+	.global SafariZone_North_Text_Area2
+	.set SafariZone_North_Text_Area2, 0x0817692A
+	.global CeruleanCave_2F_Text_OmegaTrainerIntro
+	.set CeruleanCave_2F_Text_OmegaTrainerIntro, 0x081778F2
+	.global CeruleanCave_2F_Text_OmegaTrainerDefeat
+	.set CeruleanCave_2F_Text_OmegaTrainerDefeat, 0x08177936
+	.global PokemonLeague_BrunosRoom_Text_Intro
+	.set PokemonLeague_BrunosRoom_Text_Intro, 0x08178193
+	.global PokemonLeague_LancesRoom_Text_Intro
+	.set PokemonLeague_LancesRoom_Text_Intro, 0x081786E8
+	.global PokemonLeague_ChampionsRoom_Text_Intro
+	.set PokemonLeague_ChampionsRoom_Text_Intro, 0x08178AF0
+	.global PokemonLeague_ChampionsRoom_Text_Victory
+	.set PokemonLeague_ChampionsRoom_Text_Victory, 0x08178E47
+	.global PokemonLeague_ChampionsRoom_Text_PostBattle
+	.set PokemonLeague_ChampionsRoom_Text_PostBattle, 0x08178EB3
+	.global PokemonLeague_ChampionsRoom_Text_OakPlayer
+	.set PokemonLeague_ChampionsRoom_Text_OakPlayer, 0x08178F4A
+	.global PokemonLeague_ChampionsRoom_Text_OakCongratulations
+	.set PokemonLeague_ChampionsRoom_Text_OakCongratulations, 0x08178F53
+	.global PokemonLeague_ChampionsRoom_Text_OakImDisappointedRival
+	.set PokemonLeague_ChampionsRoom_Text_OakImDisappointedRival, 0x08179013
+	.global PokemonLeague_ChampionsRoom_Text_OakPlayerComeWithMe
+	.set PokemonLeague_ChampionsRoom_Text_OakPlayerComeWithMe, 0x08179127
+	.global PokemonTower_1F_Text_ComeToPayRespectsGirl
+	.set PokemonTower_1F_Text_ComeToPayRespectsGirl, 0x08179B80
+	.global PokemonTower_1F_Text_CameToPrayForDepartedClefairy
+	.set PokemonTower_1F_Text_CameToPrayForDepartedClefairy, 0x08179BC5
+	.global PokemonTower_1F_Text_GrowlitheWhyDidYouDie
+	.set PokemonTower_1F_Text_GrowlitheWhyDidYouDie, 0x08179C10
+	.global PokemonTower_1F_Text_SenseSpiritsUpToMischief
+	.set PokemonTower_1F_Text_SenseSpiritsUpToMischief, 0x08179C2F
+	.global PokemonTower_1F_Text_OmegaChanneler
+	.set PokemonTower_1F_Text_OmegaChanneler, 0x08179C83
+	.global ViridianCity_Text_GymClosedWonderWhoLeaderIs
+	.set ViridianCity_Text_GymClosedWonderWhoLeaderIs, 0x0817DABD
+	.global ViridianCity_Text_ViridiansGymLeaderReturned
+	.set ViridianCity_Text_ViridiansGymLeaderReturned, 0x0817DAFC
+	.global ViridianCity_Text_WantToKnowAboutCaterpillarMons
+	.set ViridianCity_Text_WantToKnowAboutCaterpillarMons, 0x0817DB1C
+	.global ViridianCity_Text_OhOkayThen
+	.set ViridianCity_Text_OhOkayThen, 0x0817DB59
+	.global ViridianCity_Text_ExplainCaterpieWeedle
+	.set ViridianCity_Text_ExplainCaterpieWeedle, 0x0817DB68
+	.global ViridianCity_Text_GrandpaHasntHadCoffeeYet
+	.set ViridianCity_Text_GrandpaHasntHadCoffeeYet, 0x0817DBD2
+	.global ViridianCity_Text_GoShoppingInPewterOccasionally
+	.set ViridianCity_Text_GoShoppingInPewterOccasionally, 0x0817DC1D
+	.global ViridianCity_Text_ThisIsPrivateProperty
+	.set ViridianCity_Text_ThisIsPrivateProperty, 0x0817DC87
+	.global ViridianCity_Text_ShowYouHowToCatchMons
+	.set ViridianCity_Text_ShowYouHowToCatchMons, 0x0817DCD2
+	.global ViridianCity_Text_ThatWasEducationalTakeThis
+	.set ViridianCity_Text_ThatWasEducationalTakeThis, 0x0817DE1F
+	.global ViridianCity_Text_WatchThatToLearnBasics
+	.set ViridianCity_Text_WatchThatToLearnBasics, 0x0817DE6F
+	.global ViridianCity_Text_WeakenMonsFirstToCatch
+	.set ViridianCity_Text_WeakenMonsFirstToCatch, 0x0817DEE5
+	.global ViridianCity_Text_HowsTeachyTVHelping
+	.set ViridianCity_Text_HowsTeachyTVHelping, 0x0817DFCA
+	.global ViridianCity_Text_MyGrandsonOnTheShow
+	.set ViridianCity_Text_MyGrandsonOnTheShow, 0x0817E06E
+	.global ViridianCity_Text_TooBusyForTeachyTV
+	.set ViridianCity_Text_TooBusyForTeachyTV, 0x0817E0D2
+	.global ViridianCity_Text_CitySign
+	.set ViridianCity_Text_CitySign, 0x0817E13F
+	.global ViridianCity_Text_CatchMonsForEasierBattles
+	.set ViridianCity_Text_CatchMonsForEasierBattles, 0x0817E16B
+	.global ViridianCity_Text_MovesLimitedByPP
+	.set ViridianCity_Text_MovesLimitedByPP, 0x0817E1D1
+	.global ViridianCity_Text_GymSign
+	.set ViridianCity_Text_GymSign, 0x0817E25F
+	.global ViridianCity_Text_GymDoorsAreLocked
+	.set ViridianCity_Text_GymDoorsAreLocked, 0x0817E279
+	.global ViridianCity_Text_ReceivedOldRodFromFishingGuru
+	.set ViridianCity_Text_ReceivedOldRodFromFishingGuru, 0x0817E29A
+	.global Text_DreamEaterDeclined
+	.set Text_DreamEaterDeclined, 0x0817E36D
+	.global Text_DreamEaterWhichMon
+	.set Text_DreamEaterWhichMon, 0x0817E375
+	.global Text_DreamEaterTaught
+	.set Text_DreamEaterTaught, 0x0817E39F
+	.global PewterCity_Text_ClefairyCameFromMoon
+	.set PewterCity_Text_ClefairyCameFromMoon, 0x0817E3BA
+	.global PewterCity_Text_BrockOnlySeriousTrainerHere
+	.set PewterCity_Text_BrockOnlySeriousTrainerHere, 0x0817E423
+	.global PewterCity_Text_DidYouCheckOutMuseum
+	.set PewterCity_Text_DidYouCheckOutMuseum, 0x0817E4C2
+	.global PewterCity_Text_WerentThoseFossilsAmazing
+	.set PewterCity_Text_WerentThoseFossilsAmazing, 0x0817E4E0
+	.global PewterCity_Text_ReallyYouHaveToGo
+	.set PewterCity_Text_ReallyYouHaveToGo, 0x0817E50D
+	.global PewterCity_Text_ThisIsTheMuseum
+	.set PewterCity_Text_ThisIsTheMuseum, 0x0817E530
+	.global PewterCity_Text_DoYouKnowWhatImDoing
+	.set PewterCity_Text_DoYouKnowWhatImDoing, 0x0817E586
+	.global PewterCity_Text_ThatsRightItsHardWork
+	.set PewterCity_Text_ThatsRightItsHardWork, 0x0817E5AA
+	.global PewterCity_Text_SprayingRepelToKeepWildMonsOut
+	.set PewterCity_Text_SprayingRepelToKeepWildMonsOut, 0x0817E5C8
+	.global PewterCity_Text_TrainerTipsEarningEXP
+	.set PewterCity_Text_TrainerTipsEarningEXP, 0x0817E67A
+	.global PewterCity_Text_MuseumOfScience
+	.set PewterCity_Text_MuseumOfScience, 0x0817E749
+	.global PewterCity_Text_GymSign
+	.set PewterCity_Text_GymSign, 0x0817E762
+	.global PewterCity_Text_CitySign
+	.set PewterCity_Text_CitySign, 0x0817E7A8
+	.global PewterCity_Text_DefeatedBrockYouCanHaveTreasure
+	.set PewterCity_Text_DefeatedBrockYouCanHaveTreasure, 0x0817E7C6
+	.global PewterCity_Text_BerriesInsideUseCarefully
+	.set PewterCity_Text_BerriesInsideUseCarefully, 0x0817E802
+	.global PewterCity_Text_MonsWillUseHeldBerriesOnTheirOwn
+	.set PewterCity_Text_MonsWillUseHeldBerriesOnTheirOwn, 0x0817E838
+	.global PewterCity_Text_OhPlayer
+	.set PewterCity_Text_OhPlayer, 0x0817E886
+	.global PewterCity_Text_AskedToDeliverThis
+	.set PewterCity_Text_AskedToDeliverThis, 0x0817E890
+	.global PewterCity_Text_ReceivedRunningShoesFromAide
+	.set PewterCity_Text_ReceivedRunningShoesFromAide, 0x0817E8F4
+	.global PewterCity_Text_SwitchedShoesWithRunningShoes
+	.set PewterCity_Text_SwitchedShoesWithRunningShoes, 0x0817E921
+	.global PewterCity_Text_ExplainRunningShoes
+	.set PewterCity_Text_ExplainRunningShoes, 0x0817E94B
+	.global PewterCity_Text_MustBeGoingBackToLab
+	.set PewterCity_Text_MustBeGoingBackToLab, 0x0817E98A
+	.global PewterCity_Text_RunningShoesLetterFromMom
+	.set PewterCity_Text_RunningShoesLetterFromMom, 0x0817E9BA
+	.global VermilionCity_Text_SSAnneHasDepartedForYear
+	.set VermilionCity_Text_SSAnneHasDepartedForYear, 0x0817F72A
+	.global VermilionCity_Text_BuildingOnThisLand
+	.set VermilionCity_Text_BuildingOnThisLand, 0x0817F781
+	.global VermilionCity_Text_SnorlaxBlockingRoute12
+	.set VermilionCity_Text_SnorlaxBlockingRoute12, 0x0817F8AC
+	.global VermilionCity_Text_PokemonFanClubSign
+	.set VermilionCity_Text_PokemonFanClubSign, 0x0817F925
+	.global VermilionCity_Text_GymSign
+	.set VermilionCity_Text_GymSign, 0x0817F950
+	.global VermilionCity_Text_VermilionHarbor
+	.set VermilionCity_Text_VermilionHarbor, 0x0817F995
+	.global VermilionCity_Text_WelcomeToTheSSAnne
+	.set VermilionCity_Text_WelcomeToTheSSAnne, 0x0817F9A6
+	.global VermilionCity_Text_DoYouHaveATicket
+	.set VermilionCity_Text_DoYouHaveATicket, 0x0817F9C0
+	.global VermilionCity_Text_FlashedSSTicket
+	.set VermilionCity_Text_FlashedSSTicket, 0x0817F9FB
+	.global VermilionCity_Text_DontHaveNeededSSTicket
+	.set VermilionCity_Text_DontHaveNeededSSTicket, 0x0817FA3E
+	.global VermilionCity_Text_TheShipSetSail
+	.set VermilionCity_Text_TheShipSetSail, 0x0817FA94
+	.global VermilionCity_Text_BoardSeagallopTriPass
+	.set VermilionCity_Text_BoardSeagallopTriPass, 0x0817FAA7
+	.global VermilionCity_Text_Seagallop7Departing
+	.set VermilionCity_Text_Seagallop7Departing, 0x0817FAEB
+	.global VermilionCity_Text_BoardSeagallopRainbowPass
+	.set VermilionCity_Text_BoardSeagallopRainbowPass, 0x0817FB3C
+	.global VermilionCity_Text_OhMysticTicketTakeYouToNavelRock
+	.set VermilionCity_Text_OhMysticTicketTakeYouToNavelRock, 0x0817FB84
+	.global VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland
+	.set VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland, 0x0817FBE3
+	.global VermilionCity_Text_BoardSeagallopFerry
+	.set VermilionCity_Text_BoardSeagallopFerry, 0x0817FC45
+	.global VermilionCity_Text_Seagallop10Departing
+	.set VermilionCity_Text_Seagallop10Departing, 0x0817FC70
+	.global VermilionCity_Text_Seagallop12Departing
+	.set VermilionCity_Text_Seagallop12Departing, 0x0817FCE3
+	.global VermilionCity_Text_Route2AideHasPackageForYou
+	.set VermilionCity_Text_Route2AideHasPackageForYou, 0x0817FD56
+	.global Route10_Text_ClarkIntro
+	.set Route10_Text_ClarkIntro, 0x08184BA1
+	.global Route10_Text_ClarkDefeat
+	.set Route10_Text_ClarkDefeat, 0x08184BB1
+	.global Route10_Text_ClarkPostBattle
+	.set Route10_Text_ClarkPostBattle, 0x08184BE4
+	.global Route10_Text_HermanIntro
+	.set Route10_Text_HermanIntro, 0x08184C0A
+	.global Route10_Text_HermanDefeat
+	.set Route10_Text_HermanDefeat, 0x08184C2B
+	.global Route10_Text_HermanPostBattle
+	.set Route10_Text_HermanPostBattle, 0x08184C3F
+	.global Route10_Text_HeidiIntro
+	.set Route10_Text_HeidiIntro, 0x08184C75
+	.global Route10_Text_HeidiDefeat
+	.set Route10_Text_HeidiDefeat, 0x08184CB5
+	.global Route10_Text_HeidiPostBattle
+	.set Route10_Text_HeidiPostBattle, 0x08184CD1
+	.global Route10_Text_TrentIntro
+	.set Route10_Text_TrentIntro, 0x08184D2E
+	.global Route10_Text_TrentDefeat
+	.set Route10_Text_TrentDefeat, 0x08184D52
+	.global Route10_Text_TrentPostBattle
+	.set Route10_Text_TrentPostBattle, 0x08184D68
+	.global Route10_Text_CarolIntro
+	.set Route10_Text_CarolIntro, 0x08184D88
+	.global Route10_Text_CarolDefeat
+	.set Route10_Text_CarolDefeat, 0x08184DBF
+	.global Route10_Text_CarolPostBattle
+	.set Route10_Text_CarolPostBattle, 0x08184DE2
+	.global Route10_Text_RockTunnelDetourToLavender
+	.set Route10_Text_RockTunnelDetourToLavender, 0x08184E49
+	.global Route10_Text_RockTunnel
+	.set Route10_Text_RockTunnel, 0x08184E6D
+	.global Route10_Text_PowerPlant
+	.set Route10_Text_PowerPlant, 0x08184E79
+	.global Route10_Text_OmegaScientist
+	.set Route10_Text_OmegaScientist, 0x08184E85
+	.global Route10_Text_OmegaBeautyGive
+	.set Route10_Text_OmegaBeautyGive, 0x08184EC7
+	.global Route20_Text_ShirleyIntro
+	.set Route20_Text_ShirleyIntro, 0x08187E3F
+	.global Route20_Text_ShirleyDefeat
+	.set Route20_Text_ShirleyDefeat, 0x08187E71
+	.global Route20_Text_ShirleyPostBattle
+	.set Route20_Text_ShirleyPostBattle, 0x08187E7A
+	.global Route20_Text_TiffanyIntro
+	.set Route20_Text_TiffanyIntro, 0x08187EA8
+	.global Route20_Text_TiffanyDefeat
+	.set Route20_Text_TiffanyDefeat, 0x08187EDE
+	.global Route20_Text_TiffanyPostBattle
+	.set Route20_Text_TiffanyPostBattle, 0x08187EE5
+	.global Route20_Text_IreneIntro
+	.set Route20_Text_IreneIntro, 0x08187EFC
+	.global Route20_Text_IreneDefeat
+	.set Route20_Text_IreneDefeat, 0x08187F16
+	.global Route20_Text_IrenePostBattle
+	.set Route20_Text_IrenePostBattle, 0x08187F27
+	.global Route20_Text_DeanIntro
+	.set Route20_Text_DeanIntro, 0x08187F5F
+	.global Route20_Text_DeanDefeat
+	.set Route20_Text_DeanDefeat, 0x08187F7B
+	.global Route20_Text_DeanPostBattle
+	.set Route20_Text_DeanPostBattle, 0x08187F82
+	.global Route20_Text_DarrinIntro
+	.set Route20_Text_DarrinIntro, 0x08187FB2
+	.global Route20_Text_DarrinDefeat
+	.set Route20_Text_DarrinDefeat, 0x08187FE0
+	.global Route20_Text_DarrinPostBattle
+	.set Route20_Text_DarrinPostBattle, 0x08187FF1
+	.global Route20_Text_RogerIntro
+	.set Route20_Text_RogerIntro, 0x08188012
+	.global Route20_Text_RogerDefeat
+	.set Route20_Text_RogerDefeat, 0x0818802F
+	.global Route20_Text_RogerPostBattle
+	.set Route20_Text_RogerPostBattle, 0x0818804C
+	.global Route20_Text_NoraIntro
+	.set Route20_Text_NoraIntro, 0x0818807C
+	.global Route20_Text_NoraDefeat
+	.set Route20_Text_NoraDefeat, 0x0818809D
+	.global Route20_Text_NoraPostBattle
+	.set Route20_Text_NoraPostBattle, 0x081880BD
+	.global Route20_Text_MissyIntro
+	.set Route20_Text_MissyIntro, 0x081880E9
+	.global Route20_Text_MissyDefeat
+	.set Route20_Text_MissyDefeat, 0x08188127
+	.global Route20_Text_MissyPostBattle
+	.set Route20_Text_MissyPostBattle, 0x0818813C
+	.global Route20_Text_MelissaIntro
+	.set Route20_Text_MelissaIntro, 0x0818819C
+	.global Route20_Text_MelissaDefeat
+	.set Route20_Text_MelissaDefeat, 0x081881E0
+	.global Route20_Text_MelissaPostBattle
+	.set Route20_Text_MelissaPostBattle, 0x081881FF
+	.global Route20_Text_SeafoamIslands
+	.set Route20_Text_SeafoamIslands, 0x08188255
+	.global Route20_Text_MistyTrainsHere
+	.set Route20_Text_MistyTrainsHere, 0x08188265
+	.global Route20_Text_OmegaTrainerIntro
+	.set Route20_Text_OmegaTrainerIntro, 0x081882DE
+	.global Route20_Text_OmegaTrainerDefeat
+	.set Route20_Text_OmegaTrainerDefeat, 0x08188309
+	.global Route20_Text_OmegaTrainerPostBattle
+	.set Route20_Text_OmegaTrainerPostBattle, 0x0818830E
+	.global PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow
+	.set PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow, 0x0818E331
+	.global PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe
+	.set PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe, 0x0818E389
+	.global PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel
+	.set PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel, 0x0818E433
+	.global PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered
+	.set PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered, 0x0818E44E
+	.global PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo
+	.set PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo, 0x0818E48C
+	.global PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk
+	.set PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk, 0x0818E4BA
+	.global PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou
+	.set PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou, 0x0818E549
+	.global PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak
+	.set PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak, 0x0818E56E
+	.global PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese
+	.set PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese, 0x0818E596
+	.global PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls
+	.set PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls, 0x0818E637
+	.global PalletTown_ProfessorOaksLab_Text_OakExplainCatching
+	.set PalletTown_ProfessorOaksLab_Text_OakExplainCatching, 0x0818E654
+	.global PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream
+	.set PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream, 0x0818E708
+	.global PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait
+	.set PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait, 0x0818E7F5
+	.global PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex
+	.set PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex, 0x0818E820
+	.global PalletTown_ProfessorOaksLab_Text_OakComeSeeMeSometime
+	.set PalletTown_ProfessorOaksLab_Text_OakComeSeeMeSometime, 0x0818E912
+	.global PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia
+	.set PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia, 0x0818E969
+	.global PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls
+	.set PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls, 0x0818E99D
+	.global PalletTown_ProfessorOaksLab_Text_OaksLastMon
+	.set PalletTown_ProfessorOaksLab_Text_OaksLastMon, 0x0818E9C9
+	.global PalletTown_ProfessorOaksLab_Text_PressStartToOpenMenu
+	.set PalletTown_ProfessorOaksLab_Text_PressStartToOpenMenu, 0x0818E9EA
+	.global PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu
+	.set PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu, 0x0818EA08
+	.global PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints
+	.set PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints, 0x0818EA3A
+	.global PalletTown_ProfessorOaksLab_Text_EmailMessage
+	.set PalletTown_ProfessorOaksLab_Text_EmailMessage, 0x0818EA78
+	.global PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide
+	.set PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide, 0x0818EB6A
+	.global PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons
+	.set PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons, 0x0818EB8F
+	.global PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow
+	.set PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow, 0x0818EC99
+	.global PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons
+	.set PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons, 0x0818ED05
+	.global PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer
+	.set PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer, 0x0818ED79
+	.global PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons
+	.set PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons, 0x0818EDE4
+	.global PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything
+	.set PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything, 0x0818EEDD
+	.global PalletTown_ProfessorOaksLab_Text_OakNeedYourHelpTooNeedToSeePokedexes
+	.set PalletTown_ProfessorOaksLab_Text_OakNeedYourHelpTooNeedToSeePokedexes, 0x0818EF88
+	.global PalletTown_ProfessorOaksLab_Text_OakTookBothPokedexUnits
+	.set PalletTown_ProfessorOaksLab_Text_OakTookBothPokedexUnits, 0x0818EFE6
+	.global PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData
+	.set PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData, 0x0818F009
+	.global PalletTown_ProfessorOaksLab_Text_PlayersPokedexWasUpgraded
+	.set PalletTown_ProfessorOaksLab_Text_PlayersPokedexWasUpgraded, 0x0818F06C
+	.global PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex
+	.set PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex, 0x0818F087
+	.global PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex
+	.set PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex, 0x0818F15F
+	.global VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish
+	.set VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish, 0x0818F216
+	.global FuchsiaCity_House2_Text_ReceivedGoodRod
+	.set FuchsiaCity_House2_Text_ReceivedGoodRod, 0x081991E2
+	.global FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons
+	.set FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons, 0x0819921A
+	.global FuchsiaCity_House2_Text_OhThatsDisappointing
+	.set FuchsiaCity_House2_Text_OhThatsDisappointing, 0x081992BB
+	.global FuchsiaCity_House2_Text_HowAreTheFishBiting
+	.set FuchsiaCity_House2_Text_HowAreTheFishBiting, 0x081992D8
+	.global FuchsiaCity_House2_Text_YouHaveNoRoomForGift
+	.set FuchsiaCity_House2_Text_YouHaveNoRoomForGift, 0x08199302
+	.global FuchsiaCity_House2_Text_HaveLapras
+	.set FuchsiaCity_House2_Text_HaveLapras, 0x0819933D
+	.global FuchsiaCity_House2_Text_LaprasIsAmazing
+	.set FuchsiaCity_House2_Text_LaprasIsAmazing, 0x0819937F
+	.global FuchsiaCity_House2_Text_ObtainedLapras
+	.set FuchsiaCity_House2_Text_ObtainedLapras, 0x0819939D
+	.global SaffronCity_Dojo_Text_ChoosePrizedFightingMon
+	.set SaffronCity_Dojo_Text_ChoosePrizedFightingMon, 0x0819B12B
+	.global SaffronCity_Dojo_Text_StayAndTrainWithUs
+	.set SaffronCity_Dojo_Text_StayAndTrainWithUs, 0x0819B1D0
+	.global SaffronCity_Dojo_Text_HidekiIntro
+	.set SaffronCity_Dojo_Text_HidekiIntro, 0x0819B264
+	.global SaffronCity_Dojo_Text_HidekiDefeat
+	.set SaffronCity_Dojo_Text_HidekiDefeat, 0x0819B281
+	.global SaffronCity_Dojo_Text_HidekiPostBattle
+	.set SaffronCity_Dojo_Text_HidekiPostBattle, 0x0819B293
+	.global SaffronCity_Dojo_Text_AaronIntro
+	.set SaffronCity_Dojo_Text_AaronIntro, 0x0819B2C5
+	.global SaffronCity_Dojo_Text_AaronDefeat
+	.set SaffronCity_Dojo_Text_AaronDefeat, 0x0819B31A
+	.global SaffronCity_Dojo_Text_AaronPostBattle
+	.set SaffronCity_Dojo_Text_AaronPostBattle, 0x0819B330
+	.global SaffronCity_Dojo_Text_HitoshiIntro
+	.set SaffronCity_Dojo_Text_HitoshiIntro, 0x0819B363
+	.global SaffronCity_Dojo_Text_HitoshiDefeat
+	.set SaffronCity_Dojo_Text_HitoshiDefeat, 0x0819B393
+	.global SaffronCity_Dojo_Text_HitoshiPostBattle
+	.set SaffronCity_Dojo_Text_HitoshiPostBattle, 0x0819B3A3
+	.global SaffronCity_Dojo_Text_YouWantHitmonlee
+	.set SaffronCity_Dojo_Text_YouWantHitmonlee, 0x0819B3D2
+	.global SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster
+	.set SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster, 0x0819B3F7
+	.global SaffronCity_Dojo_Text_YouWantHitmonchan
+	.set SaffronCity_Dojo_Text_YouWantHitmonchan, 0x0819B422
+	.global SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster2
+	.set SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster2, 0x0819B44B
+	.global SaffronCity_Dojo_Text_BetterNotGetGreedy
+	.set SaffronCity_Dojo_Text_BetterNotGetGreedy, 0x0819B465
+	.global SaffronCity_Dojo_Text_EnemiesOnEverySide
+	.set SaffronCity_Dojo_Text_EnemiesOnEverySide, 0x0819B47C
+	.global SaffronCity_Dojo_Text_GoesAroundComesAround
+	.set SaffronCity_Dojo_Text_GoesAroundComesAround, 0x0819B493
+	.global SaffronCity_Dojo_Text_FightingDojo
+	.set SaffronCity_Dojo_Text_FightingDojo, 0x0819B4B2
+	.global Route6_NorthEntrance_Text_ThirstyOnGuardDuty
+	.set Route6_NorthEntrance_Text_ThirstyOnGuardDuty, 0x0819B4C0
+	.global Route6_NorthEntrance_Text_ThatTeaLooksTasty
+	.set Route6_NorthEntrance_Text_ThatTeaLooksTasty, 0x0819B510
+	.global TwoIsland_House_Text_WantMeToTeachMove
+	.set TwoIsland_House_Text_WantMeToTeachMove, 0x081A2BE7
+	.global TwoIsland_House_Text_TutorWhichMon
+	.set TwoIsland_House_Text_TutorWhichMon, 0x081A2C47
+	.global TwoIsland_House_Text_TeachWhichMove
+	.set TwoIsland_House_Text_TeachWhichMove, 0x081A2C65
+	.global TwoIsland_House_Text_NoMoveICanTeachThatMon
+	.set TwoIsland_House_Text_NoMoveICanTeachThatMon, 0x081A2C80
+	.global TwoIsland_House_Text_IllNeedMushroomOrTwo
+	.set TwoIsland_House_Text_IllNeedMushroomOrTwo, 0x081A2CC7
+	.global TwoIsland_House_Text_HandedOverTwoTinyMushrooms
+	.set TwoIsland_House_Text_HandedOverTwoTinyMushrooms, 0x081A2D09
+	.global TwoIsland_House_Text_HandedOverOneBigMushroom
+	.set TwoIsland_House_Text_HandedOverOneBigMushroom, 0x081A2D37
+	.global TwoIsland_House_Text_NeedMushroomOrTwoToLearnMove
+	.set TwoIsland_House_Text_NeedMushroomOrTwoToLearnMove, 0x081A2D64
+	.global TwoIsland_House_Text_CantTeachAnEgg
+	.set TwoIsland_House_Text_CantTeachAnEgg, 0x081A2DA4
+	.global TwoIsland_House_Text_OmegaWorker
+	.set TwoIsland_House_Text_OmegaWorker, 0x081A2DDD
+
+@ Oak Lab text pass: exact Fire Red Omega placements.
+	.global PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround
+	.set PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround, 0x0818DC67
+	.global PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting
+	.set PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting, 0x0818DC94
+	.global PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe
+	.set PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe, 0x0818DCB9
+	.global PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer
+	.set PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer, 0x0818DCE2
+	.global PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen
+	.set PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen, 0x0818DD34
+	.global PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak
+	.set PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak, 0x0818DD52
+	.global PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher
+	.set PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher, 0x0818DD75
+	.global PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons
+	.set PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons, 0x0818DDA4
+	.global PalletTown_ProfessorOaksLab_Text_RivalDefeat
+	.set PalletTown_ProfessorOaksLab_Text_RivalDefeat, 0x0818DDEA
+	.global Text_RivalVictory
+	.set Text_RivalVictory, 0x0818DE1A
+	.global PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon
+	.set PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon, 0x0818DE38
+	.global PalletTown_ProfessorOaksLab_Text_RivalGramps
+	.set PalletTown_ProfessorOaksLab_Text_RivalGramps, 0x0818DE8D
+	.global PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor
+	.set PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor, 0x0818DE99
+	.global PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps
+	.set PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps, 0x0818DEC8
+	.global PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap
+	.set PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap, 0x0818DEF3
+	.global PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne
+	.set PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne, 0x0818DFBC
+	.global PalletTown_ProfessorOaksLab_Text_OakBePatientRival
+	.set PalletTown_ProfessorOaksLab_Text_OakBePatientRival, 0x0818E0EA
+	.global PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose
+	.set PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose, 0x0818E116
+	.global PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet
+	.set PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet, 0x0818E177
+	.global PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander
+	.set PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander, 0x0818E194
+	.global PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle
+	.set PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle, 0x0871A882
+	.global PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur
+	.set PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur, 0x0818E272
+	.global PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic
+	.set PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic, 0x0818E2E5
+	.global PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak
+	.set PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak, 0x0818E30D
+	.global PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon
+	.set PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon, 0x0818E330
+
+@ Pokemon League text pass: exact Fire Red Omega placements.
+	.global PokemonLeague_LoreleisRoom_Text_Intro
+	.set PokemonLeague_LoreleisRoom_Text_Intro, 0x08177FA4
+	.global PokemonLeague_LoreleisRoom_Text_RematchIntro
+	.set PokemonLeague_LoreleisRoom_Text_RematchIntro, 0x0871AB89
+	.global PokemonLeague_LoreleisRoom_Text_Defeat
+	.set PokemonLeague_LoreleisRoom_Text_Defeat, 0x08178191
+	.global PokemonLeague_LoreleisRoom_Text_PostBattle
+	.set PokemonLeague_LoreleisRoom_Text_PostBattle, 0x081781B0
+	.global PokemonLeague_BrunosRoom_Text_RematchIntro
+	.set PokemonLeague_BrunosRoom_Text_RematchIntro, 0x0817820F
+	.global PokemonLeague_BrunosRoom_Text_Defeat
+	.set PokemonLeague_BrunosRoom_Text_Defeat, 0x08178409
+	.global PokemonLeague_BrunosRoom_Text_PostBattle
+	.set PokemonLeague_BrunosRoom_Text_PostBattle, 0x08178420
+	.global PokemonLeague_AgathasRoom_Text_Intro
+	.set PokemonLeague_AgathasRoom_Text_Intro, 0x0817844D
+	.global PokemonLeague_AgathasRoom_Text_RematchIntro
+	.set PokemonLeague_AgathasRoom_Text_RematchIntro, 0x0871AE75
+	.global PokemonLeague_AgathasRoom_Text_Defeat
+	.set PokemonLeague_AgathasRoom_Text_Defeat, 0x081786D7
+	.global PokemonLeague_AgathasRoom_Text_PostBattle
+	.set PokemonLeague_AgathasRoom_Text_PostBattle, 0x08178700
+	.global PokemonLeague_LancesRoom_Text_RematchIntro
+	.set PokemonLeague_LancesRoom_Text_RematchIntro, 0x0871B003
+	.global PokemonLeague_LancesRoom_Text_Defeat
+	.set PokemonLeague_LancesRoom_Text_Defeat, 0x08178A15
+	.global PokemonLeague_LancesRoom_Text_PostBattle
+	.set PokemonLeague_LancesRoom_Text_PostBattle, 0x08178A52
+	.global PokemonLeague_ChampionsRoom_Text_RematchIntro
+	.set PokemonLeague_ChampionsRoom_Text_RematchIntro, 0x0872DAEC
+	.global PokemonLeague_ChampionsRoom_Text_Defeat
+	.set PokemonLeague_ChampionsRoom_Text_Defeat, 0x08178E3F
+
+@ Large remaining-text pass: labels inferred from unanimous verified same-file Omega displacement.
+	.global SilphCo_7F_Text_HaveMonForSavingUs
+	.set SilphCo_7F_Text_HaveMonForSavingUs, 0x081761EA
+	.global SilphCo_7F_Text_ObtainedLaprasFromEmployee
+	.set SilphCo_7F_Text_ObtainedLaprasFromEmployee, 0x0817625B
+	.global SilphCo_7F_Text_ExplainLapras
+	.set SilphCo_7F_Text_ExplainLapras, 0x08176289
+	.global SilphCo_7F_Text_RocketBossWentToBoardroom
+	.set SilphCo_7F_Text_RocketBossWentToBoardroom, 0x08176361
+	.global SilphCo_7F_Text_OhNo
+	.set SilphCo_7F_Text_OhNo, 0x081763AF
+	.global SilphCo_7F_Text_SavedAtLast
+	.set SilphCo_7F_Text_SavedAtLast, 0x081763BB
+	.global SafariZone_North_Text_ZigzagThroughTallGrass
+	.set SafariZone_North_Text_ZigzagThroughTallGrass, 0x08176939
+	.global SafariZone_North_Text_WinFreeHMFindSecretHouse
+	.set SafariZone_North_Text_WinFreeHMFindSecretHouse, 0x08176991
+	.global CeruleanCave_2F_Text_OmegaTrainerAfter
+	.set CeruleanCave_2F_Text_OmegaTrainerAfter, 0x0817793E
+	.global PokemonTower_1F_Text_ErectedInMemoryOfDeadMons
+	.set PokemonTower_1F_Text_ErectedInMemoryOfDeadMons, 0x08179AFE
+	.global PokemonTower_1F_Text_ComeToPayRespectsSon
+	.set PokemonTower_1F_Text_ComeToPayRespectsSon, 0x08179B3C
+	.global ViridianCity_Text_CanCarryMonsAnywhere
+	.set ViridianCity_Text_CanCarryMonsAnywhere, 0x0817DA3F
+	.global Text_DreamEaterTeach
+	.set Text_DreamEaterTeach, 0x0817E29A
+	.global PewterCity_Text_BrocksLookingForChallengersFollowMe
+	.set PewterCity_Text_BrocksLookingForChallengersFollowMe, 0x0817E602
+	.global PewterCity_Text_GoTakeOnBrock
+	.set PewterCity_Text_GoTakeOnBrock, 0x0817E64B
+	.global PewterCity_Text_CallPoliceIfInfoOnThieves
+	.set PewterCity_Text_CallPoliceIfInfoOnThieves, 0x0817E6CC
+	.global VermilionCity_Text_GrimerMultipliesInSludge
+	.set VermilionCity_Text_GrimerMultipliesInSludge, 0x0817F6A7
+	.global VermilionCity_Text_DidYouSeeSSAnneInHarbor
+	.set VermilionCity_Text_DidYouSeeSSAnneInHarbor, 0x0817F6FA
+	.global VermilionCity_Text_Machop
+	.set VermilionCity_Text_Machop, 0x0817F7F5
+	.global VermilionCity_Text_MachopStompingLandFlat
+	.set VermilionCity_Text_MachopStompingLandFlat, 0x0817F80C
+	.global VermilionCity_Text_SSAnneVisitsOnceAYear
+	.set VermilionCity_Text_SSAnneVisitsOnceAYear, 0x0817F830
+	.global VermilionCity_Text_CitySign
+	.set VermilionCity_Text_CitySign, 0x0817F87F
+	.global Route10_Text_MarkIntro
+	.set Route10_Text_MarkIntro, 0x08184B0E
+	.global Route10_Text_MarkDefeat
+	.set Route10_Text_MarkDefeat, 0x08184B69
+	.global Route10_Text_MarkPostBattle
+	.set Route10_Text_MarkPostBattle, 0x08184B7F
+	.global Route10_Text_OmegaBeautyReceived
+	.set Route10_Text_OmegaBeautyReceived, 0x08184F00
+	.global Route20_Text_BarryIntro
+	.set Route20_Text_BarryIntro, 0x08187DC4
+	.global Route20_Text_BarryDefeat
+	.set Route20_Text_BarryDefeat, 0x08187DFF
+	.global Route20_Text_BarryPostBattle
+	.set Route20_Text_BarryPostBattle, 0x08187E07
+	.global VermilionCity_House1_Text_TakeThisAndFish
+	.set VermilionCity_House1_Text_TakeThisAndFish, 0x0818F27F
+	.global VermilionCity_House1_Text_ReceivedOldRodFromFishingGuru
+	.set VermilionCity_House1_Text_ReceivedOldRodFromFishingGuru, 0x0818F2D6
+	.global VermilionCity_House1_Text_FishingIsAWayOfLife
+	.set VermilionCity_House1_Text_FishingIsAWayOfLife, 0x0818F304
+	.global VermilionCity_House1_Text_OhThatsSoDisappointing
+	.set VermilionCity_House1_Text_OhThatsSoDisappointing, 0x0818F37D
+	.global VermilionCity_House1_Text_HowAreTheFishBiting
+	.set VermilionCity_House1_Text_HowAreTheFishBiting, 0x0818F39A
+	.global VermilionCity_House1_Text_NoRoomForNiceGift
+	.set VermilionCity_House1_Text_NoRoomForNiceGift, 0x0818F3C4
+	.global FuchsiaCity_House2_Text_DoYouLikeToFish
+	.set FuchsiaCity_House2_Text_DoYouLikeToFish, 0x08199112
+	.global FuchsiaCity_House2_Text_LikeYourStyleTakeThis
+	.set FuchsiaCity_House2_Text_LikeYourStyleTakeThis, 0x0819918B
+	.global FuchsiaCity_House2_Text_ExplainLapras
+	.set FuchsiaCity_House2_Text_ExplainLapras, 0x081993B3
+	.global SaffronCity_Dojo_Text_MasterKoichiIntro
+	.set SaffronCity_Dojo_Text_MasterKoichiIntro, 0x0819B0B0
+	.global SaffronCity_Dojo_Text_MasterKoichiDefeat
+	.set SaffronCity_Dojo_Text_MasterKoichiDefeat, 0x0819B117
+	.global SaffronCity_Dojo_Text_MikeIntro
+	.set SaffronCity_Dojo_Text_MikeIntro, 0x0819B1F9
+	.global SaffronCity_Dojo_Text_MikeDefeat
+	.set SaffronCity_Dojo_Text_MikeDefeat, 0x0819B216
+	.global SaffronCity_Dojo_Text_MikePostBattle
+	.set SaffronCity_Dojo_Text_MikePostBattle, 0x0819B221
+	.global Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards
+	.set Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards, 0x0819B536
+	.global Route6_NorthEntrance_Text_HiHowsItGoing
+	.set Route6_NorthEntrance_Text_HiHowsItGoing, 0x0819B5E2
+	.global TwoIsland_House_Text_TeachMonMoveForMushroom
+	.set TwoIsland_House_Text_TeachMonMoveForMushroom, 0x081A2B0C
+
+@ Final text pass: all remaining live text labels verified against original Omega bytes.
+	.global CeruleanCave_B1F_Text_Mew
+	.set CeruleanCave_B1F_Text_Mew, 0x08177F9F
+	.global CeruleanCave_B1F_Text_OmegaTrainerIntro
+	.set CeruleanCave_B1F_Text_OmegaTrainerIntro, 0x088032FB
+	.global CeruleanCave_B1F_Text_OmegaTrainerDefeat
+	.set CeruleanCave_B1F_Text_OmegaTrainerDefeat, 0x0880335C
+	.global CeruleanCave_B1F_Text_OmegaTrainerAfter
+	.set CeruleanCave_B1F_Text_OmegaTrainerAfter, 0x0880337C
+	.global Route7_EastEntrance_Text_ThirstyOnGuardDuty
+	.set Route7_EastEntrance_Text_ThirstyOnGuardDuty, 0x0819E2B7
+	.global Route7_EastEntrance_Text_ThatTeaLooksTasty
+	.set Route7_EastEntrance_Text_ThatTeaLooksTasty, 0x0819E307
+	.global Route7_EastEntrance_Text_ThanksIllShareTeaWithGuards
+	.set Route7_EastEntrance_Text_ThanksIllShareTeaWithGuards, 0x0819E32D
+	.global Route7_EastEntrance_Text_HiHowsItGoing
+	.set Route7_EastEntrance_Text_HiHowsItGoing, 0x0819E3D9
+@ Whole exact after completed text aliases: data/maps/SafariZone_West_RestHouse/scripts.inc
+	.global SafariZone_West_RestHouse_MapScripts
+	.set SafariZone_West_RestHouse_MapScripts, 0x0816232E
+	.global SafariZone_West_RestHouse_EventScript_Man
+	.set SafariZone_West_RestHouse_EventScript_Man, 0x0816232F
+	.global SafariZone_West_RestHouse_EventScript_Scientist
+	.set SafariZone_West_RestHouse_EventScript_Scientist, 0x08162338
+	.global SafariZone_West_RestHouse_EventScript_CooltrainerF
+	.set SafariZone_West_RestHouse_EventScript_CooltrainerF, 0x08162341
+
+@ Whole exact after completed text aliases: data/maps/Route5/scripts.inc
+	.global Route5_MapScripts
+	.set Route5_MapScripts, 0x08167EEA
+	.global Route5_EventScript_UndergroundPathSign
+	.set Route5_EventScript_UndergroundPathSign, 0x08167EEB
+
+@ Whole exact after completed text aliases: data/maps/ThreeIsland_BondBridge/scripts.inc
+	.global ThreeIsland_BondBridge_MapScripts
+	.set ThreeIsland_BondBridge_MapScripts, 0x081686CB
+	.global ThreeIsland_BondBridge_EventScript_BerryForestSign
+	.set ThreeIsland_BondBridge_EventScript_BerryForestSign, 0x081686CC
+	.global ThreeIsland_BondBridge_EventScript_BondBridgeSign
+	.set ThreeIsland_BondBridge_EventScript_BondBridgeSign, 0x081686D5
+
+@ Whole exact after completed text aliases: data/maps/FuchsiaCity_PokemonCenter_2F/scripts.inc
+	.global FuchsiaCity_PokemonCenter_2F_MapScripts
+	.set FuchsiaCity_PokemonCenter_2F_MapScripts, 0x0816D64B
+	.global FuchsiaCity_PokemonCenter_2F_EventScript_Colosseum
+	.set FuchsiaCity_PokemonCenter_2F_EventScript_Colosseum, 0x0816D660
+	.global FuchsiaCity_PokemonCenter_2F_EventScript_TradeCenter
+	.set FuchsiaCity_PokemonCenter_2F_EventScript_TradeCenter, 0x0816D666
+	.global FuchsiaCity_PokemonCenter_2F_EventScript_RecordCorner
+	.set FuchsiaCity_PokemonCenter_2F_EventScript_RecordCorner, 0x0816D66C
+
+@ Whole exact after completed text aliases: data/maps/FiveIsland_PokemonCenter_1F/scripts.inc
+	.global FiveIsland_PokemonCenter_1F_MapScripts
+	.set FiveIsland_PokemonCenter_1F_MapScripts, 0x08171C78
+	.global FiveIsland_PokemonCenter_1F_OnTransition
+	.set FiveIsland_PokemonCenter_1F_OnTransition, 0x08171C83
+	.global FiveIsland_PokemonCenter_1F_EventScript_Nurse
+	.set FiveIsland_PokemonCenter_1F_EventScript_Nurse, 0x08171C87
+	.global FiveIsland_PokemonCenter_1F_EventScript_Chef
+	.set FiveIsland_PokemonCenter_1F_EventScript_Chef, 0x08171C90
+	.global FiveIsland_PokemonCenter_1F_EventScript_CooltrainerF
+	.set FiveIsland_PokemonCenter_1F_EventScript_CooltrainerF, 0x08171C99
+
+@ Whole exact after completed text aliases: data/maps/SafariZone_North/text.inc
+	.global SafariZone_North_Text_RestHouse
+	.set SafariZone_North_Text_RestHouse, 0x081A59D8
+	.global SafariZone_North_Text_SecretHouseStillAhead
+	.set SafariZone_North_Text_SecretHouseStillAhead, 0x081A59E3
+	.global SafariZone_North_Text_Area2
+	.set SafariZone_North_Text_Area2, 0x081A5A11
+	.global SafariZone_North_Text_ZigzagThroughTallGrass
+	.set SafariZone_North_Text_ZigzagThroughTallGrass, 0x081A5A20
+	.global SafariZone_North_Text_WinFreeHMFindSecretHouse
+	.set SafariZone_North_Text_WinFreeHMFindSecretHouse, 0x081A5A78
+
+@ Whole exact after completed text aliases: data/maps/CeruleanCave_2F/text.inc
+	.global CeruleanCave_2F_Text_OmegaTrainerIntro
+	.set CeruleanCave_2F_Text_OmegaTrainerIntro, 0x081A5AB1
+	.global CeruleanCave_2F_Text_OmegaTrainerDefeat
+	.set CeruleanCave_2F_Text_OmegaTrainerDefeat, 0x081A5AF5
+	.global CeruleanCave_2F_Text_OmegaTrainerAfter
+	.set CeruleanCave_2F_Text_OmegaTrainerAfter, 0x081A5AFD
+
+@ Whole exact after completed text aliases: data/maps/CeruleanCave_B1F/text.inc
+	.global CeruleanCave_B1F_Text_Mew
+	.set CeruleanCave_B1F_Text_Mew, 0x081A5B46
+	.global CeruleanCave_B1F_Text_OmegaTrainerIntro
+	.set CeruleanCave_B1F_Text_OmegaTrainerIntro, 0x081A5B4B
+	.global CeruleanCave_B1F_Text_OmegaTrainerDefeat
+	.set CeruleanCave_B1F_Text_OmegaTrainerDefeat, 0x081A5BA9
+	.global CeruleanCave_B1F_Text_OmegaTrainerAfter
+	.set CeruleanCave_B1F_Text_OmegaTrainerAfter, 0x081A5BC7
+
+@ Whole exact after completed text aliases: data/maps/PokemonLeague_LancesRoom/text.inc
+	.global PokemonLeague_LancesRoom_Text_Intro
+	.set PokemonLeague_LancesRoom_Text_Intro, 0x081A6D5C
+	.global PokemonLeague_LancesRoom_Text_RematchIntro
+	.set PokemonLeague_LancesRoom_Text_RematchIntro, 0x081A6EB5
+	.global PokemonLeague_LancesRoom_Text_Defeat
+	.set PokemonLeague_LancesRoom_Text_Defeat, 0x081A700D
+	.global PokemonLeague_LancesRoom_Text_PostBattle
+	.set PokemonLeague_LancesRoom_Text_PostBattle, 0x081A704A
+
+@ Whole exact after completed text aliases: data/text/white_out.inc
+	.global Text_FirstShouldRestoreMonsHealth
+	.set Text_FirstShouldRestoreMonsHealth, 0x081AD245
+	.global Text_MonsHealedShouldBuyPotions
+	.set Text_MonsHealedShouldBuyPotions, 0x081AD27C
+	.global Text_MonsHealed
+	.set Text_MonsHealed, 0x081AD357
+	.global Text_HadQuiteAnExperienceTakeRest
+	.set Text_HadQuiteAnExperienceTakeRest, 0x081AD39B
+	.global Text_MomExplainHPGetPotions
+	.set Text_MomExplainHPGetPotions, 0x081AD402
+	.global Text_WhitedOutLostMoney
+	.set Text_WhitedOutLostMoney, 0x081AD553
+	.global Text_WhitedOut
+	.set Text_WhitedOut, 0x081AD5A1
+
+@ Whole exact after completed text aliases: data/scripts/pkmn_center_nurse.inc
+	.global EventScript_PkmnCenterNurse
+	.set EventScript_PkmnCenterNurse, 0x081AD5CD
+	.global EventScript_PkmnCenterNurse_HealPkmn
+	.set EventScript_PkmnCenterNurse_HealPkmn, 0x081AD60D
+	.global EventScript_PkmnCenterNurse_TakeAndHealPkmn
+	.set EventScript_PkmnCenterNurse_TakeAndHealPkmn, 0x081AD623
+	.global EventScript_PkmnCenterNurse_CheckTrainerTowerAndUnionRoom
+	.set EventScript_PkmnCenterNurse_CheckTrainerTowerAndUnionRoom, 0x081AD641
+	.global EventScript_PkmnCenterNurse_ReturnPkmn
+	.set EventScript_PkmnCenterNurse_ReturnPkmn, 0x081AD672
+	.global EventScript_PkmnCenterNurse_PlayerWaitingInUnionRoom
+	.set EventScript_PkmnCenterNurse_PlayerWaitingInUnionRoom, 0x081AD68B
+	.global EventScript_PkmnCenterNurse_Goodbye
+	.set EventScript_PkmnCenterNurse_Goodbye, 0x081AD6B8
+	.global Movement_Bow
+	.set Movement_Bow, 0x081AD6C1
+
+@ Whole exact after completed text aliases: data/text/pokedex_rating.inc
+	.global PokedexRating_Text_HowIsPokedexComingAlong
+	.set PokedexRating_Text_HowIsPokedexComingAlong, 0x081AD6C4
+	.global PokedexRating_Text_SeenXOwnedY
+	.set PokedexRating_Text_SeenXOwnedY, 0x081AD716
+	.global PokedexRating_Text_LessThan10
+	.set PokedexRating_Text_LessThan10, 0x081A6D17
+	.global PokedexRating_Text_LessThan20
+	.set PokedexRating_Text_LessThan20, 0x081A6D6D
+	.global PokedexRating_Text_LessThan30
+	.set PokedexRating_Text_LessThan30, 0x081A6DDF
+	.global PokedexRating_Text_LessThan40
+	.set PokedexRating_Text_LessThan40, 0x081A6E36
+	.global PokedexRating_Text_LessThan50
+	.set PokedexRating_Text_LessThan50, 0x081A6EA4
+	.global PokedexRating_Text_LessThan60
+	.set PokedexRating_Text_LessThan60, 0x081A6F0B
+	.global PokedexRating_Text_LessThan70
+	.set PokedexRating_Text_LessThan70, 0x081A6F71
+	.global PokedexRating_Text_LessThan80
+	.set PokedexRating_Text_LessThan80, 0x081A6FAB
+	.global PokedexRating_Text_LessThan90
+	.set PokedexRating_Text_LessThan90, 0x081A6FF1
+	.global PokedexRating_Text_LessThan100
+	.set PokedexRating_Text_LessThan100, 0x081A7031
+	.global PokedexRating_Text_LessThan110
+	.set PokedexRating_Text_LessThan110, 0x081A7063
+	.global PokedexRating_Text_LessThan120
+	.set PokedexRating_Text_LessThan120, 0x081A70A5
+	.global PokedexRating_Text_LessThan130
+	.set PokedexRating_Text_LessThan130, 0x081A70D8
+	.global PokedexRating_Text_LessThan140
+	.set PokedexRating_Text_LessThan140, 0x081A7108
+	.global PokedexRating_Text_LessThan150
+	.set PokedexRating_Text_LessThan150, 0x081A7137
+	.global PokedexRating_Text_Complete
+	.set PokedexRating_Text_Complete, 0x081A7175
+	.global PokedexRating_Text_NationalDexSeenXOwnedY
+	.set PokedexRating_Text_NationalDexSeenXOwnedY, 0x081ADC1D
+	.global PokedexRating_Text_LookForwardToFilledNationalDex
+	.set PokedexRating_Text_LookForwardToFilledNationalDex, 0x081ADC61
+	.global PokedexRating_Text_YouveCompletedDex
+	.set PokedexRating_Text_YouveCompletedDex, 0x081ADCA2
+	.global PokedexRating_Text_Wroooaaarrr
+	.set PokedexRating_Text_Wroooaaarrr, 0x081ADD04
+	.global PokedexRating_Text_HaHa
+	.set PokedexRating_Text_HaHa, 0x081ADD19
+	.global PokedexRating_Text_ThankYouMadeDreamReality
+	.set PokedexRating_Text_ThankYouMadeDreamReality, 0x081ADD20
+	.global PokedexRating_Text_LoveSeeingYourPokedex
+	.set PokedexRating_Text_LoveSeeingYourPokedex, 0x081ADD65
+
+@ Whole exact after completed text aliases: data/scripts/pokemon_mansion.inc
+	.global PokemonMansion_EventScript_SecretSwitch
+	.set PokemonMansion_EventScript_SecretSwitch, 0x081ADDEE
+	.global PokemonMansion_EventScript_ResetSwitch
+	.set PokemonMansion_EventScript_ResetSwitch, 0x081ADE47
+	.global PokemonMansion_EventScript_DontPressSwitch
+	.set PokemonMansion_EventScript_DontPressSwitch, 0x081ADE7C
+	.global PokemonMansion_EventScript_PressSwitch_1F
+	.set PokemonMansion_EventScript_PressSwitch_1F, 0x081ADE86
+	.global PokemonMansion_EventScript_ResetSwitch_1F
+	.set PokemonMansion_EventScript_ResetSwitch_1F, 0x081ADF68
+	.global PokemonMansion_EventScript_PressSwitch_2F
+	.set PokemonMansion_EventScript_PressSwitch_2F, 0x081AE04A
+	.global PokemonMansion_EventScript_ResetSwitch_2F
+	.set PokemonMansion_EventScript_ResetSwitch_2F, 0x081AE0E4
+	.global PokemonMansion_EventScript_PressSwitch_3F
+	.set PokemonMansion_EventScript_PressSwitch_3F, 0x081AE17E
+	.global PokemonMansion_EventScript_ResetSwitch_3F
+	.set PokemonMansion_EventScript_ResetSwitch_3F, 0x081AE1EB
+	.global PokemonMansion_EventScript_PressSwitch_B1F
+	.set PokemonMansion_EventScript_PressSwitch_B1F, 0x081AE258
+	.global PokemonMansion_EventScript_ResetSwitch_B1F
+	.set PokemonMansion_EventScript_ResetSwitch_B1F, 0x081AE331
+
+@ Whole exact after completed text aliases: data/scripts/silphco_doors.inc
+	.global EventScript_NeedCardKey
+	.set EventScript_NeedCardKey, 0x081AE441
+	.global EventScript_DoorUnlocked
+	.set EventScript_DoorUnlocked, 0x081AE44B
+	.global EventScript_Close2FDoor1
+	.set EventScript_Close2FDoor1, 0x081AE455
+	.global EventScript_Close2FDoor2
+	.set EventScript_Close2FDoor2, 0x081AE483
+	.global EventScript_Close3FDoor1
+	.set EventScript_Close3FDoor1, 0x081AE4B1
+	.global EventScript_Close3FDoor2
+	.set EventScript_Close3FDoor2, 0x081AE4E8
+	.global EventScript_Close4FDoor1
+	.set EventScript_Close4FDoor1, 0x081AE51F
+	.global EventScript_Close4FDoor2
+	.set EventScript_Close4FDoor2, 0x081AE54D
+	.global EventScript_Close5FDoor1
+	.set EventScript_Close5FDoor1, 0x081AE57B
+	.global EventScript_Close5FDoor2
+	.set EventScript_Close5FDoor2, 0x081AE5B2
+	.global EventScript_Close5FDoor3
+	.set EventScript_Close5FDoor3, 0x081AE5E9
+	.global EventScript_Close6FDoor
+	.set EventScript_Close6FDoor, 0x081AE620
+	.global EventScript_Close7FDoor1
+	.set EventScript_Close7FDoor1, 0x081AE657
+	.global EventScript_Close7FDoor2
+	.set EventScript_Close7FDoor2, 0x081AE685
+	.global EventScript_Close7FDoor3
+	.set EventScript_Close7FDoor3, 0x081AE6B3
+	.global EventScript_Close8FDoor
+	.set EventScript_Close8FDoor, 0x081AE6E1
+	.global EventScript_Close9FDoor1
+	.set EventScript_Close9FDoor1, 0x081AE718
+	.global EventScript_Close9FDoor2
+	.set EventScript_Close9FDoor2, 0x081AE74F
+	.global EventScript_Close9FDoor3
+	.set EventScript_Close9FDoor3, 0x081AE786
+	.global EventScript_Close9FDoor4
+	.set EventScript_Close9FDoor4, 0x081AE7B4
+	.global EventScript_Close10FDoor
+	.set EventScript_Close10FDoor, 0x081AE7E2
+	.global EventScript_Close11FDoor
+	.set EventScript_Close11FDoor, 0x081AE810
+	.global EventScript_Open2FDoor1
+	.set EventScript_Open2FDoor1, 0x081AE83E
+	.global EventScript_Open2FDoor2
+	.set EventScript_Open2FDoor2, 0x081AE86C
+	.global EventScript_Open3FDoor1
+	.set EventScript_Open3FDoor1, 0x081AE89A
+	.global EventScript_Open3FDoor2
+	.set EventScript_Open3FDoor2, 0x081AE8D1
+	.global EventScript_Open4FDoor1
+	.set EventScript_Open4FDoor1, 0x081AE908
+	.global EventScript_Open4FDoor2
+	.set EventScript_Open4FDoor2, 0x081AE936
+	.global EventScript_Open5FDoor1
+	.set EventScript_Open5FDoor1, 0x081AE964
+	.global EventScript_Open5FDoor2
+	.set EventScript_Open5FDoor2, 0x081AE99B
+	.global EventScript_Open5FDoor3
+	.set EventScript_Open5FDoor3, 0x081AE9D2
+	.global EventScript_Open6FDoor
+	.set EventScript_Open6FDoor, 0x081AEA09
+	.global EventScript_Open7FDoor1
+	.set EventScript_Open7FDoor1, 0x081AEA40
+	.global EventScript_Open7FDoor2
+	.set EventScript_Open7FDoor2, 0x081AEA6E
+	.global EventScript_Open7FDoor3
+	.set EventScript_Open7FDoor3, 0x081AEA9C
+	.global EventScript_Open8FDoor
+	.set EventScript_Open8FDoor, 0x081AEACA
+	.global EventScript_Open9FDoor1
+	.set EventScript_Open9FDoor1, 0x081AEB01
+	.global EventScript_Open9FDoor2
+	.set EventScript_Open9FDoor2, 0x081AEB38
+	.global EventScript_Open9FDoor3
+	.set EventScript_Open9FDoor3, 0x081AEB6F
+	.global EventScript_Open9FDoor4
+	.set EventScript_Open9FDoor4, 0x081AEB9D
+	.global EventScript_Open10FDoor
+	.set EventScript_Open10FDoor, 0x081AEBCB
+	.global EventScript_Open11FDoor
+	.set EventScript_Open11FDoor, 0x081AEBF9
+	.global SilphCo_2F_EventScript_Door1
+	.set SilphCo_2F_EventScript_Door1, 0x081AEC27
+	.global SilphCo_2F_EventScript_Door2
+	.set SilphCo_2F_EventScript_Door2, 0x081AEC41
+	.global SilphCo_3F_EventScript_Door1
+	.set SilphCo_3F_EventScript_Door1, 0x081AEC5B
+	.global SilphCo_3F_EventScript_Door2
+	.set SilphCo_3F_EventScript_Door2, 0x081AEC75
+	.global SilphCo_4F_EventScript_Door1
+	.set SilphCo_4F_EventScript_Door1, 0x081AEC8F
+	.global SilphCo_4F_EventScript_Door2
+	.set SilphCo_4F_EventScript_Door2, 0x081AECA9
+	.global SilphCo_5F_EventScript_Door1
+	.set SilphCo_5F_EventScript_Door1, 0x081AECC3
+	.global SilphCo_5F_EventScript_Door2
+	.set SilphCo_5F_EventScript_Door2, 0x081AECDD
+	.global SilphCo_5F_EventScript_Door3
+	.set SilphCo_5F_EventScript_Door3, 0x081AECF7
+	.global SilphCo_6F_EventScript_Door
+	.set SilphCo_6F_EventScript_Door, 0x081AED11
+	.global SilphCo_7F_EventScript_Door1
+	.set SilphCo_7F_EventScript_Door1, 0x081AED2B
+	.global SilphCo_7F_EventScript_Door2
+	.set SilphCo_7F_EventScript_Door2, 0x081AED45
+	.global SilphCo_7F_EventScript_Door3
+	.set SilphCo_7F_EventScript_Door3, 0x081AED5F
+	.global SilphCo_8F_EventScript_Door
+	.set SilphCo_8F_EventScript_Door, 0x081AED79
+	.global SilphCo_9F_EventScript_Door1
+	.set SilphCo_9F_EventScript_Door1, 0x081AED93
+	.global SilphCo_9F_EventScript_Door2
+	.set SilphCo_9F_EventScript_Door2, 0x081AEDAD
+	.global SilphCo_9F_EventScript_Door3
+	.set SilphCo_9F_EventScript_Door3, 0x081AEDC7
+	.global SilphCo_9F_EventScript_Door4
+	.set SilphCo_9F_EventScript_Door4, 0x081AEDE1
+	.global SilphCo_10F_EventScript_Door
+	.set SilphCo_10F_EventScript_Door, 0x081AEDFB
+	.global SilphCo_11F_EventScript_Door
+	.set SilphCo_11F_EventScript_Door, 0x081AEE15
+	.global EventScript_TryUnlockDoor
+	.set EventScript_TryUnlockDoor, 0x081AEE2F
+	.global EventScript_OpenDoor
+	.set EventScript_OpenDoor, 0x081AEE3E
+
+@ Whole exact after completed text aliases: data/scripts/seagallop.inc
+	.global EventScript_ChooseDestFromOneIsland
+	.set EventScript_ChooseDestFromOneIsland, 0x081AEF33
+	.global EventScript_ChooseDestFromOneIslandVermilionAllowed
+	.set EventScript_ChooseDestFromOneIslandVermilionAllowed, 0x081AEF80
+	.global EventScript_ChooseDestFromTwoIsland
+	.set EventScript_ChooseDestFromTwoIsland, 0x081AEFC2
+	.global EventScript_ChooseDestFromTwoIslandVermilionAllowed
+	.set EventScript_ChooseDestFromTwoIslandVermilionAllowed, 0x081AF00F
+	.global EventScript_SailToVermilion2
+	.set EventScript_SailToVermilion2, 0x081AF051
+	.global EventScript_SailToOneIsland2
+	.set EventScript_SailToOneIsland2, 0x081AF05C
+	.global EventScript_SailToTwoIsland2
+	.set EventScript_SailToTwoIsland2, 0x081AF067
+	.global EventScript_SailToThreeIsland2
+	.set EventScript_SailToThreeIsland2, 0x081AF072
+	.global EventScript_ChooseDestFromIsland
+	.set EventScript_ChooseDestFromIsland, 0x081AF07D
+	.global EventScript_ChooseDestFromIslandVermilionAllowed
+	.set EventScript_ChooseDestFromIslandVermilionAllowed, 0x081AF0CA
+	.global EventScript_SailToDest
+	.set EventScript_SailToDest, 0x081AF10C
+	.global EventScript_DepartingVermilion
+	.set EventScript_DepartingVermilion, 0x081AF12C
+	.global EventScript_DepartingNotVermilion
+	.set EventScript_DepartingNotVermilion, 0x081AF13A
+	.global EventScript_SetSail
+	.set EventScript_SetSail, 0x081AF148
+	.global EventScript_CancelSail
+	.set EventScript_CancelSail, 0x081AF164
+	.global VermilionCity_EventScript_WalkUpPier
+	.set VermilionCity_EventScript_WalkUpPier, 0x081AF176
+	.global VermilionCity_Movement_WalkUp
+	.set VermilionCity_Movement_WalkUp, 0x081AF18A
+	.global EventScript_SeviiDestinationsPage1
+	.set EventScript_SeviiDestinationsPage1, 0x081AF18C
+	.global EventScript_SeviiDestinationsPage2
+	.set EventScript_SeviiDestinationsPage2, 0x081AF1ED
+	.global EventScript_SailToVermilionCity
+	.set EventScript_SailToVermilionCity, 0x081AF243
+	.global EventScript_SailToOneIsland
+	.set EventScript_SailToOneIsland, 0x081AF24E
+	.global EventScript_SailToTwoIsland
+	.set EventScript_SailToTwoIsland, 0x081AF259
+	.global EventScript_SailToThreeIsland
+	.set EventScript_SailToThreeIsland, 0x081AF264
+	.global EventScript_SailToFourIsland
+	.set EventScript_SailToFourIsland, 0x081AF26F
+	.global EventScript_SailToFiveIsland
+	.set EventScript_SailToFiveIsland, 0x081AF27A
+	.global EventScript_SailToSixIsland
+	.set EventScript_SailToSixIsland, 0x081AF285
+	.global EventScript_SailToSevenIsland
+	.set EventScript_SailToSevenIsland, 0x081AF290
+
+@ Whole exact after completed text aliases: data/scripts/static_pokemon.inc
+	.global EventScript_RemoveStaticMon
+	.set EventScript_RemoveStaticMon, 0x081AF29B
+	.global EventScript_MonFlewAway
+	.set EventScript_MonFlewAway, 0x081AF2A4
+	.global EventScript_AwakenSnorlax
+	.set EventScript_AwakenSnorlax, 0x081AF2B9
+
+@ Whole exact after completed text aliases: data/text/braille.inc
+	.global Braille_Text_Up
+	.set Braille_Text_Up, 0x081AF2F6
+	.global Braille_Text_Down
+	.set Braille_Text_Down, 0x081AF2F9
+	.global Braille_Text_Right
+	.set Braille_Text_Right, 0x081AF2FE
+	.global Braille_Text_Left
+	.set Braille_Text_Left, 0x081AF304
+	.global Braille_Text_Cut
+	.set Braille_Text_Cut, 0x081AF309
+	.global Braille_Text_ABC
+	.set Braille_Text_ABC, 0x081AF30D
+	.global Braille_Text_GHI
+	.set Braille_Text_GHI, 0x081AF311
+	.global Braille_Text_MNO
+	.set Braille_Text_MNO, 0x081AF315
+	.global Braille_Text_TUV
+	.set Braille_Text_TUV, 0x081AF319
+	.global Braille_Text_DEF
+	.set Braille_Text_DEF, 0x081AF31D
+	.global Braille_Text_JKL
+	.set Braille_Text_JKL, 0x081AF321
+	.global Braille_Text_PQRS
+	.set Braille_Text_PQRS, 0x081AF325
+	.global Braille_Text_WXYZ
+	.set Braille_Text_WXYZ, 0x081AF32A
+	.global Braille_Text_Period
+	.set Braille_Text_Period, 0x081AF32F
+	.global Braille_Text_Comma
+	.set Braille_Text_Comma, 0x081AF331
+	.global Braille_Text_Everything
+	.set Braille_Text_Everything, 0x081AF333
+	.global Braille_Text_HasMeaning1
+	.set Braille_Text_HasMeaning1, 0x081AF33E
+	.global Braille_Text_Existence
+	.set Braille_Text_Existence, 0x081AF34A
+	.global Braille_Text_HasMeaning2
+	.set Braille_Text_HasMeaning2, 0x081AF354
+	.global Braille_Text_BeingAlive
+	.set Braille_Text_BeingAlive, 0x081AF360
+	.global Braille_Text_HasMeaning3
+	.set Braille_Text_HasMeaning3, 0x081AF36C
+	.global Braille_Text_HaveDreams
+	.set Braille_Text_HaveDreams, 0x081AF378
+	.global Braille_Text_UsePower
+	.set Braille_Text_UsePower, 0x081AF384
+	.global Braille_Text_LetTheTwo
+	.set Braille_Text_LetTheTwo, 0x081AF38F
+	.global Braille_Text_Glittering
+	.set Braille_Text_Glittering, 0x081AF39B
+	.global Braille_Text_Stones
+	.set Braille_Text_Stones, 0x081AF3A6
+	.global Braille_Text_OneInRed
+	.set Braille_Text_OneInRed, 0x081AF3AD
+	.global Braille_Text_OneInBlue
+	.set Braille_Text_OneInBlue, 0x081AF3B8
+	.global Braille_Text_ConnectThe
+	.set Braille_Text_ConnectThe, 0x081AF3C4
+	.global Braille_Text_Past
+	.set Braille_Text_Past, 0x081AF3D0
+	.global Braille_Text_TwoFriends
+	.set Braille_Text_TwoFriends, 0x081AF3D6
+	.global Braille_Text_Sharing
+	.set Braille_Text_Sharing, 0x081AF3E2
+	.global Braille_Text_PowerOpen
+	.set Braille_Text_PowerOpen, 0x081AF3EA
+	.global Braille_Text_AWindowTo
+	.set Braille_Text_AWindowTo, 0x081AF3F5
+	.global Braille_Text_ANewWorld
+	.set Braille_Text_ANewWorld, 0x081AF401
+	.global Braille_Text_ThatGlows
+	.set Braille_Text_ThatGlows, 0x081AF40D
+	.global Braille_Text_TheNext
+	.set Braille_Text_TheNext, 0x081AF419
+	.global Braille_Text_WorldWaits
+	.set Braille_Text_WorldWaits, 0x081AF422
+	.global Braille_Text_ForYou
+	.set Braille_Text_ForYou, 0x081AF42E
+
+@ Whole exact after completed text aliases: data/text/fame_checker.inc
+	.global gFameCheckerFlavorText_ProfOak0
+	.set gFameCheckerFlavorText_ProfOak0, 0x081AD106
+	.global gFameCheckerFlavorText_ProfOak1
+	.set gFameCheckerFlavorText_ProfOak1, 0x081AD145
+	.global gFameCheckerFlavorText_ProfOak2
+	.set gFameCheckerFlavorText_ProfOak2, 0x081AD1BB
+	.global gFameCheckerFlavorText_ProfOak3
+	.set gFameCheckerFlavorText_ProfOak3, 0x081AD258
+	.global gFameCheckerFlavorText_ProfOak4
+	.set gFameCheckerFlavorText_ProfOak4, 0x081AD2B9
+	.global gFameCheckerFlavorText_ProfOak5
+	.set gFameCheckerFlavorText_ProfOak5, 0x081AD377
+	.global gFameCheckerFlavorText_Daisy0
+	.set gFameCheckerFlavorText_Daisy0, 0x081AD40C
+	.global gFameCheckerFlavorText_Daisy1
+	.set gFameCheckerFlavorText_Daisy1, 0x081AD4AE
+	.global gFameCheckerFlavorText_Daisy2
+	.set gFameCheckerFlavorText_Daisy2, 0x081AD516
+	.global gFameCheckerFlavorText_Daisy3
+	.set gFameCheckerFlavorText_Daisy3, 0x081AD5A7
+	.global gFameCheckerFlavorText_Daisy4
+	.set gFameCheckerFlavorText_Daisy4, 0x081AD608
+	.global gFameCheckerFlavorText_Daisy5
+	.set gFameCheckerFlavorText_Daisy5, 0x081AD69F
+	.global gFameCheckerFlavorText_Brock0
+	.set gFameCheckerFlavorText_Brock0, 0x081AD705
+	.global gFameCheckerFlavorText_Brock1
+	.set gFameCheckerFlavorText_Brock1, 0x081AD771
+	.global gFameCheckerFlavorText_Brock2
+	.set gFameCheckerFlavorText_Brock2, 0x081AD840
+	.global gFameCheckerFlavorText_Brock3
+	.set gFameCheckerFlavorText_Brock3, 0x081AD908
+	.global gFameCheckerFlavorText_Brock4
+	.set gFameCheckerFlavorText_Brock4, 0x081AD99A
+	.global gFameCheckerFlavorText_Brock5
+	.set gFameCheckerFlavorText_Brock5, 0x081ADA27
+	.global gFameCheckerFlavorText_Misty0
+	.set gFameCheckerFlavorText_Misty0, 0x081ADA91
+	.global gFameCheckerFlavorText_Misty1
+	.set gFameCheckerFlavorText_Misty1, 0x081ADAF6
+	.global gFameCheckerFlavorText_Misty2
+	.set gFameCheckerFlavorText_Misty2, 0x081ADB5A
+	.global gFameCheckerFlavorText_Misty3
+	.set gFameCheckerFlavorText_Misty3, 0x081ADBD9
+	.global gFameCheckerFlavorText_Misty4
+	.set gFameCheckerFlavorText_Misty4, 0x081ADC72
+	.global gFameCheckerFlavorText_Misty5
+	.set gFameCheckerFlavorText_Misty5, 0x081ADCEB
+	.global gFameCheckerFlavorText_LtSurge0
+	.set gFameCheckerFlavorText_LtSurge0, 0x081ADD3C
+	.global gFameCheckerFlavorText_LtSurge1
+	.set gFameCheckerFlavorText_LtSurge1, 0x081ADDA7
+	.global gFameCheckerFlavorText_LtSurge2
+	.set gFameCheckerFlavorText_LtSurge2, 0x081ADE0B
+	.global gFameCheckerFlavorText_LtSurge3
+	.set gFameCheckerFlavorText_LtSurge3, 0x081ADE82
+	.global gFameCheckerFlavorText_LtSurge4
+	.set gFameCheckerFlavorText_LtSurge4, 0x081ADEEC
+	.global gFameCheckerFlavorText_LtSurge5
+	.set gFameCheckerFlavorText_LtSurge5, 0x081ADF6A
+	.global gFameCheckerFlavorText_Erika0
+	.set gFameCheckerFlavorText_Erika0, 0x081AE009
+	.global gFameCheckerFlavorText_Erika1
+	.set gFameCheckerFlavorText_Erika1, 0x081AE072
+	.global gFameCheckerFlavorText_Erika2
+	.set gFameCheckerFlavorText_Erika2, 0x081AE0F3
+	.global gFameCheckerFlavorText_Erika3
+	.set gFameCheckerFlavorText_Erika3, 0x081AE15B
+	.global gFameCheckerFlavorText_Erika4
+	.set gFameCheckerFlavorText_Erika4, 0x081AE1E5
+	.global gFameCheckerFlavorText_Erika5
+	.set gFameCheckerFlavorText_Erika5, 0x081AE247
+	.global gFameCheckerFlavorText_Koga0
+	.set gFameCheckerFlavorText_Koga0, 0x081AE2B6
+	.global gFameCheckerFlavorText_Koga1
+	.set gFameCheckerFlavorText_Koga1, 0x081AE31D
+	.global gFameCheckerFlavorText_Koga2
+	.set gFameCheckerFlavorText_Koga2, 0x081AE37D
+	.global gFameCheckerFlavorText_Koga3
+	.set gFameCheckerFlavorText_Koga3, 0x081AE407
+	.global gFameCheckerFlavorText_Koga4
+	.set gFameCheckerFlavorText_Koga4, 0x081AE48D
+	.global gFameCheckerFlavorText_Koga5
+	.set gFameCheckerFlavorText_Koga5, 0x081AE51B
+	.global gFameCheckerFlavorText_Sabrina0
+	.set gFameCheckerFlavorText_Sabrina0, 0x081AE5E8
+	.global gFameCheckerFlavorText_Sabrina1
+	.set gFameCheckerFlavorText_Sabrina1, 0x081AE656
+	.global gFameCheckerFlavorText_Sabrina2
+	.set gFameCheckerFlavorText_Sabrina2, 0x081AE6D7
+	.global gFameCheckerFlavorText_Sabrina3
+	.set gFameCheckerFlavorText_Sabrina3, 0x081AE762
+	.global gFameCheckerFlavorText_Sabrina4
+	.set gFameCheckerFlavorText_Sabrina4, 0x081AE7CB
+	.global gFameCheckerFlavorText_Sabrina5
+	.set gFameCheckerFlavorText_Sabrina5, 0x081AE841
+	.global gFameCheckerFlavorText_Blaine0
+	.set gFameCheckerFlavorText_Blaine0, 0x081AE89E
+	.global gFameCheckerFlavorText_Blaine1
+	.set gFameCheckerFlavorText_Blaine1, 0x081AE90A
+	.global gFameCheckerFlavorText_Blaine2
+	.set gFameCheckerFlavorText_Blaine2, 0x081AE990
+	.global gFameCheckerFlavorText_Blaine3
+	.set gFameCheckerFlavorText_Blaine3, 0x081AEA59
+	.global gFameCheckerFlavorText_Blaine4
+	.set gFameCheckerFlavorText_Blaine4, 0x081AEAEE
+	.global gFameCheckerFlavorText_Blaine5
+	.set gFameCheckerFlavorText_Blaine5, 0x081AEB69
+	.global gFameCheckerFlavorText_Lorelei0
+	.set gFameCheckerFlavorText_Lorelei0, 0x081AEBDF
+	.global gFameCheckerFlavorText_Lorelei1
+	.set gFameCheckerFlavorText_Lorelei1, 0x081AEC28
+	.global gFameCheckerFlavorText_Lorelei2
+	.set gFameCheckerFlavorText_Lorelei2, 0x081AEC82
+	.global gFameCheckerFlavorText_Lorelei3
+	.set gFameCheckerFlavorText_Lorelei3, 0x081AED27
+	.global gFameCheckerFlavorText_Lorelei4
+	.set gFameCheckerFlavorText_Lorelei4, 0x081AEDAA
+	.global gFameCheckerFlavorText_Lorelei5
+	.set gFameCheckerFlavorText_Lorelei5, 0x081AEE51
+	.global gFameCheckerFlavorText_Bruno0
+	.set gFameCheckerFlavorText_Bruno0, 0x081AEF25
+	.global gFameCheckerFlavorText_Bruno1
+	.set gFameCheckerFlavorText_Bruno1, 0x081AEF6C
+	.global gFameCheckerFlavorText_Bruno2
+	.set gFameCheckerFlavorText_Bruno2, 0x081AEFC6
+	.global gFameCheckerFlavorText_Bruno3
+	.set gFameCheckerFlavorText_Bruno3, 0x081AF04C
+	.global gFameCheckerFlavorText_Bruno4
+	.set gFameCheckerFlavorText_Bruno4, 0x081AF0F0
+	.global gFameCheckerFlavorText_Bruno5
+	.set gFameCheckerFlavorText_Bruno5, 0x081AF19A
+	.global gFameCheckerFlavorText_Agatha0
+	.set gFameCheckerFlavorText_Agatha0, 0x081AF200
+	.global gFameCheckerFlavorText_Agatha1
+	.set gFameCheckerFlavorText_Agatha1, 0x081AF248
+	.global gFameCheckerFlavorText_Agatha2
+	.set gFameCheckerFlavorText_Agatha2, 0x081AF2B7
+	.global gFameCheckerFlavorText_Agatha3
+	.set gFameCheckerFlavorText_Agatha3, 0x081AF34E
+	.global gFameCheckerFlavorText_Agatha4
+	.set gFameCheckerFlavorText_Agatha4, 0x081AF3BE
+	.global gFameCheckerFlavorText_Agatha5
+	.set gFameCheckerFlavorText_Agatha5, 0x081AF47C
+	.global gFameCheckerFlavorText_Lance0
+	.set gFameCheckerFlavorText_Lance0, 0x081AF4FD
+	.global gFameCheckerFlavorText_Lance1
+	.set gFameCheckerFlavorText_Lance1, 0x081AF567
+	.global gFameCheckerFlavorText_Lance2
+	.set gFameCheckerFlavorText_Lance2, 0x081AF641
+	.global gFameCheckerFlavorText_Lance3
+	.set gFameCheckerFlavorText_Lance3, 0x081AF6BA
+	.global gFameCheckerFlavorText_Lance4
+	.set gFameCheckerFlavorText_Lance4, 0x081AF758
+	.global gFameCheckerFlavorText_Lance5
+	.set gFameCheckerFlavorText_Lance5, 0x081AF7CB
+	.global gFameCheckerFlavorText_Bill0
+	.set gFameCheckerFlavorText_Bill0, 0x081AF83E
+	.global gFameCheckerFlavorText_Bill1
+	.set gFameCheckerFlavorText_Bill1, 0x081AF8CA
+	.global gFameCheckerFlavorText_Bill2
+	.set gFameCheckerFlavorText_Bill2, 0x081AF929
+	.global gFameCheckerFlavorText_Bill3
+	.set gFameCheckerFlavorText_Bill3, 0x081AF998
+	.global gFameCheckerFlavorText_Bill4
+	.set gFameCheckerFlavorText_Bill4, 0x081AFA20
+	.global gFameCheckerFlavorText_Bill5
+	.set gFameCheckerFlavorText_Bill5, 0x081AFAB9
+	.global gFameCheckerFlavorText_MrFuji0
+	.set gFameCheckerFlavorText_MrFuji0, 0x081AFB0C
+	.global gFameCheckerFlavorText_MrFuji1
+	.set gFameCheckerFlavorText_MrFuji1, 0x081AFB76
+	.global gFameCheckerFlavorText_MrFuji2
+	.set gFameCheckerFlavorText_MrFuji2, 0x081AFC38
+	.global gFameCheckerFlavorText_MrFuji3
+	.set gFameCheckerFlavorText_MrFuji3, 0x081AFCE9
+	.global gFameCheckerFlavorText_MrFuji4
+	.set gFameCheckerFlavorText_MrFuji4, 0x081AFD49
+	.global gFameCheckerFlavorText_MrFuji5
+	.set gFameCheckerFlavorText_MrFuji5, 0x081AFDC4
+	.global gFameCheckerFlavorText_Giovanni0
+	.set gFameCheckerFlavorText_Giovanni0, 0x081AFE68
+	.global gFameCheckerFlavorText_Giovanni1
+	.set gFameCheckerFlavorText_Giovanni1, 0x081AFF23
+	.global gFameCheckerFlavorText_Giovanni2
+	.set gFameCheckerFlavorText_Giovanni2, 0x081AFFA8
+	.global gFameCheckerFlavorText_Giovanni3
+	.set gFameCheckerFlavorText_Giovanni3, 0x081B0022
+	.global gFameCheckerFlavorText_Giovanni4
+	.set gFameCheckerFlavorText_Giovanni4, 0x081B00A6
+	.global gFameCheckerFlavorText_Giovanni5
+	.set gFameCheckerFlavorText_Giovanni5, 0x081B0106
+	.global gFameCheckerPersonName_ProfOak
+	.set gFameCheckerPersonName_ProfOak, 0x081B0188
+	.global gFameCheckerPersonQuote_ProfOak
+	.set gFameCheckerPersonQuote_ProfOak, 0x081B0198
+	.global gFameCheckerPersonName_Daisy
+	.set gFameCheckerPersonName_Daisy, 0x081B0251
+	.global gFameCheckerPersonQuote_Daisy
+	.set gFameCheckerPersonQuote_Daisy, 0x081B025D
+	.global gFameCheckerPersonName_Brock
+	.set gFameCheckerPersonName_Brock, 0x081B030F
+	.global gFameCheckerPersonQuote_Brock
+	.set gFameCheckerPersonQuote_Brock, 0x081B031B
+	.global gFameCheckerPersonName_Misty
+	.set gFameCheckerPersonName_Misty, 0x081B03B3
+	.global gFameCheckerPersonQuote_Misty
+	.set gFameCheckerPersonQuote_Misty, 0x081B03BF
+	.global gFameCheckerPersonName_LtSurge
+	.set gFameCheckerPersonName_LtSurge, 0x081B0446
+	.global gFameCheckerPersonQuote_LtSurge
+	.set gFameCheckerPersonQuote_LtSurge, 0x081B0456
+	.global gFameCheckerPersonName_Erika
+	.set gFameCheckerPersonName_Erika, 0x081B0504
+	.global gFameCheckerPersonQuote_Erika
+	.set gFameCheckerPersonQuote_Erika, 0x081B0510
+	.global gFameCheckerPersonName_Koga
+	.set gFameCheckerPersonName_Koga, 0x081B05C2
+	.global gFameCheckerPersonQuote_Koga
+	.set gFameCheckerPersonQuote_Koga, 0x081B05CD
+	.global gFameCheckerPersonName_Sabrina
+	.set gFameCheckerPersonName_Sabrina, 0x081B0667
+	.global gFameCheckerPersonQuote_Sabrina
+	.set gFameCheckerPersonQuote_Sabrina, 0x081B0675
+	.global gFameCheckerPersonName_Blaine
+	.set gFameCheckerPersonName_Blaine, 0x081B06FB
+	.global gFameCheckerPersonQuote_Blaine
+	.set gFameCheckerPersonQuote_Blaine, 0x081B0708
+	.global gFameCheckerPersonName_Lorelei
+	.set gFameCheckerPersonName_Lorelei, 0x081B079F
+	.global gFameCheckerPersonQuote_Lorelei
+	.set gFameCheckerPersonQuote_Lorelei, 0x081B07AD
+	.global gFameCheckerPersonName_Bruno
+	.set gFameCheckerPersonName_Bruno, 0x081B0845
+	.global gFameCheckerPersonQuote_Bruno
+	.set gFameCheckerPersonQuote_Bruno, 0x081B0851
+	.global gFameCheckerPersonName_Agatha
+	.set gFameCheckerPersonName_Agatha, 0x081B08EE
+	.global gFameCheckerPersonQuote_Agatha
+	.set gFameCheckerPersonQuote_Agatha, 0x081B08FB
+	.global gFameCheckerPersonName_Lance
+	.set gFameCheckerPersonName_Lance, 0x081B097F
+	.global gFameCheckerPersonQuote_Lance
+	.set gFameCheckerPersonQuote_Lance, 0x081B098B
+	.global gFameCheckerPersonName_Bill
+	.set gFameCheckerPersonName_Bill, 0x081B0A45
+	.global gFameCheckerPersonQuote_Bill
+	.set gFameCheckerPersonQuote_Bill, 0x081B0A50
+	.global gFameCheckerPersonName_MrFuji
+	.set gFameCheckerPersonName_MrFuji, 0x081B0AFF
+	.global gFameCheckerPersonQuote_MrFuji
+	.set gFameCheckerPersonQuote_MrFuji, 0x081B0B0E
+	.global gFameCheckerPersonName_Giovanni
+	.set gFameCheckerPersonName_Giovanni, 0x081B0BA6
+	.global gFameCheckerPersonQuote_Giovanni
+	.set gFameCheckerPersonQuote_Giovanni, 0x081B0BB5
+	.global gFameCheckerFlavorTextOriginLocation_ProfOak0
+	.set gFameCheckerFlavorTextOriginLocation_ProfOak0, 0x081B0C45
+	.global gFameCheckerFlavorTextOriginLocation_ProfOak1
+	.set gFameCheckerFlavorTextOriginLocation_ProfOak1, 0x081B0C51
+	.global gFameCheckerFlavorTextOriginLocation_ProfOak2
+	.set gFameCheckerFlavorTextOriginLocation_ProfOak2, 0x081B0C5E
+	.global gFameCheckerFlavorTextOriginLocation_ProfOak3
+	.set gFameCheckerFlavorTextOriginLocation_ProfOak3, 0x081B0C6B
+	.global gFameCheckerFlavorTextOriginLocation_ProfOak4
+	.set gFameCheckerFlavorTextOriginLocation_ProfOak4, 0x081B0C79
+	.global gFameCheckerFlavorTextOriginLocation_ProfOak5
+	.set gFameCheckerFlavorTextOriginLocation_ProfOak5, 0x081B0C88
+	.global gFameCheckerFlavorTextOriginLocation_Daisy0
+	.set gFameCheckerFlavorTextOriginLocation_Daisy0, 0x081B0C95
+	.global gFameCheckerFlavorTextOriginLocation_Daisy1
+	.set gFameCheckerFlavorTextOriginLocation_Daisy1, 0x081B0CA2
+	.global gFameCheckerFlavorTextOriginLocation_Daisy2
+	.set gFameCheckerFlavorTextOriginLocation_Daisy2, 0x081B0CB1
+	.global gFameCheckerFlavorTextOriginLocation_Daisy3
+	.set gFameCheckerFlavorTextOriginLocation_Daisy3, 0x081B0CC1
+	.global gFameCheckerFlavorTextOriginLocation_Daisy4
+	.set gFameCheckerFlavorTextOriginLocation_Daisy4, 0x081B0CCF
+	.global gFameCheckerFlavorTextOriginLocation_Daisy5
+	.set gFameCheckerFlavorTextOriginLocation_Daisy5, 0x081B0CDF
+	.global gFameCheckerFlavorTextOriginLocation_Brock0
+	.set gFameCheckerFlavorTextOriginLocation_Brock0, 0x081B0CEB
+	.global gFameCheckerFlavorTextOriginLocation_Brock1
+	.set gFameCheckerFlavorTextOriginLocation_Brock1, 0x081B0CF7
+	.global gFameCheckerFlavorTextOriginLocation_Brock2
+	.set gFameCheckerFlavorTextOriginLocation_Brock2, 0x081B0D02
+	.global gFameCheckerFlavorTextOriginLocation_Brock3
+	.set gFameCheckerFlavorTextOriginLocation_Brock3, 0x081B0D0E
+	.global gFameCheckerFlavorTextOriginLocation_Brock4
+	.set gFameCheckerFlavorTextOriginLocation_Brock4, 0x081B0D16
+	.global gFameCheckerFlavorTextOriginLocation_Brock5
+	.set gFameCheckerFlavorTextOriginLocation_Brock5, 0x081B0D1F
+	.global gFameCheckerFlavorTextOriginLocation_Misty0
+	.set gFameCheckerFlavorTextOriginLocation_Misty0, 0x081B0D2D
+	.global gFameCheckerFlavorTextOriginLocation_Misty1
+	.set gFameCheckerFlavorTextOriginLocation_Misty1, 0x081B0D3B
+	.global gFameCheckerFlavorTextOriginLocation_Misty2
+	.set gFameCheckerFlavorTextOriginLocation_Misty2, 0x081B0D48
+	.global gFameCheckerFlavorTextOriginLocation_Misty3
+	.set gFameCheckerFlavorTextOriginLocation_Misty3, 0x081B0D55
+	.global gFameCheckerFlavorTextOriginLocation_Misty4
+	.set gFameCheckerFlavorTextOriginLocation_Misty4, 0x081B0D65
+	.global gFameCheckerFlavorTextOriginLocation_Misty5
+	.set gFameCheckerFlavorTextOriginLocation_Misty5, 0x081B0D73
+	.global gFameCheckerFlavorTextOriginLocation_LtSurge0
+	.set gFameCheckerFlavorTextOriginLocation_LtSurge0, 0x081B0D81
+	.global gFameCheckerFlavorTextOriginLocation_LtSurge1
+	.set gFameCheckerFlavorTextOriginLocation_LtSurge1, 0x081B0D90
+	.global gFameCheckerFlavorTextOriginLocation_LtSurge2
+	.set gFameCheckerFlavorTextOriginLocation_LtSurge2, 0x081B0D9E
+	.global gFameCheckerFlavorTextOriginLocation_LtSurge3
+	.set gFameCheckerFlavorTextOriginLocation_LtSurge3, 0x081B0DAC
+	.global gFameCheckerFlavorTextOriginLocation_LtSurge4
+	.set gFameCheckerFlavorTextOriginLocation_LtSurge4, 0x081B0DBA
+	.global gFameCheckerFlavorTextOriginLocation_LtSurge5
+	.set gFameCheckerFlavorTextOriginLocation_LtSurge5, 0x081B0DC8
+	.global gFameCheckerFlavorTextOriginLocation_Erika0
+	.set gFameCheckerFlavorTextOriginLocation_Erika0, 0x081B0DD7
+	.global gFameCheckerFlavorTextOriginLocation_Erika1
+	.set gFameCheckerFlavorTextOriginLocation_Erika1, 0x081B0DE4
+	.global gFameCheckerFlavorTextOriginLocation_Erika2
+	.set gFameCheckerFlavorTextOriginLocation_Erika2, 0x081B0DF0
+	.global gFameCheckerFlavorTextOriginLocation_Erika3
+	.set gFameCheckerFlavorTextOriginLocation_Erika3, 0x081B0DFC
+	.global gFameCheckerFlavorTextOriginLocation_Erika4
+	.set gFameCheckerFlavorTextOriginLocation_Erika4, 0x081B0E08
+	.global gFameCheckerFlavorTextOriginLocation_Erika5
+	.set gFameCheckerFlavorTextOriginLocation_Erika5, 0x081B0E14
+	.global gFameCheckerFlavorTextOriginLocation_Koga0
+	.set gFameCheckerFlavorTextOriginLocation_Koga0, 0x081B0E24
+	.global gFameCheckerFlavorTextOriginLocation_Koga1
+	.set gFameCheckerFlavorTextOriginLocation_Koga1, 0x081B0E31
+	.global gFameCheckerFlavorTextOriginLocation_Koga2
+	.set gFameCheckerFlavorTextOriginLocation_Koga2, 0x081B0E3D
+	.global gFameCheckerFlavorTextOriginLocation_Koga3
+	.set gFameCheckerFlavorTextOriginLocation_Koga3, 0x081B0E49
+	.global gFameCheckerFlavorTextOriginLocation_Koga4
+	.set gFameCheckerFlavorTextOriginLocation_Koga4, 0x081B0E56
+	.global gFameCheckerFlavorTextOriginLocation_Koga5
+	.set gFameCheckerFlavorTextOriginLocation_Koga5, 0x081B0E63
+	.global gFameCheckerFlavorTextOriginLocation_Sabrina0
+	.set gFameCheckerFlavorTextOriginLocation_Sabrina0, 0x081B0E6F
+	.global gFameCheckerFlavorTextOriginLocation_Sabrina1
+	.set gFameCheckerFlavorTextOriginLocation_Sabrina1, 0x081B0E7C
+	.global gFameCheckerFlavorTextOriginLocation_Sabrina2
+	.set gFameCheckerFlavorTextOriginLocation_Sabrina2, 0x081B0E89
+	.global gFameCheckerFlavorTextOriginLocation_Sabrina3
+	.set gFameCheckerFlavorTextOriginLocation_Sabrina3, 0x081B0E95
+	.global gFameCheckerFlavorTextOriginLocation_Sabrina4
+	.set gFameCheckerFlavorTextOriginLocation_Sabrina4, 0x081B0EA1
+	.global gFameCheckerFlavorTextOriginLocation_Sabrina5
+	.set gFameCheckerFlavorTextOriginLocation_Sabrina5, 0x081B0EAE
+	.global gFameCheckerFlavorTextOriginLocation_Blaine0
+	.set gFameCheckerFlavorTextOriginLocation_Blaine0, 0x081B0EBA
+	.global gFameCheckerFlavorTextOriginLocation_Blaine1
+	.set gFameCheckerFlavorTextOriginLocation_Blaine1, 0x081B0ECA
+	.global gFameCheckerFlavorTextOriginLocation_Blaine2
+	.set gFameCheckerFlavorTextOriginLocation_Blaine2, 0x081B0ED7
+	.global gFameCheckerFlavorTextOriginLocation_Blaine3
+	.set gFameCheckerFlavorTextOriginLocation_Blaine3, 0x081B0EE4
+	.global gFameCheckerFlavorTextOriginLocation_Blaine4
+	.set gFameCheckerFlavorTextOriginLocation_Blaine4, 0x081B0EF4
+	.global gFameCheckerFlavorTextOriginLocation_Blaine5
+	.set gFameCheckerFlavorTextOriginLocation_Blaine5, 0x081B0F01
+	.global gFameCheckerFlavorTextOriginLocation_Lorelei0
+	.set gFameCheckerFlavorTextOriginLocation_Lorelei0, 0x081B0F11
+	.global gFameCheckerFlavorTextOriginLocation_Lorelei1
+	.set gFameCheckerFlavorTextOriginLocation_Lorelei1, 0x081B0F20
+	.global gFameCheckerFlavorTextOriginLocation_Lorelei2
+	.set gFameCheckerFlavorTextOriginLocation_Lorelei2, 0x081B0F2F
+	.global gFameCheckerFlavorTextOriginLocation_Lorelei3
+	.set gFameCheckerFlavorTextOriginLocation_Lorelei3, 0x081B0F3B
+	.global gFameCheckerFlavorTextOriginLocation_Lorelei4
+	.set gFameCheckerFlavorTextOriginLocation_Lorelei4, 0x081B0F47
+	.global gFameCheckerFlavorTextOriginLocation_Lorelei5
+	.set gFameCheckerFlavorTextOriginLocation_Lorelei5, 0x081B0F53
+	.global gFameCheckerFlavorTextOriginLocation_Bruno0
+	.set gFameCheckerFlavorTextOriginLocation_Bruno0, 0x081B0F5F
+	.global gFameCheckerFlavorTextOriginLocation_Bruno1
+	.set gFameCheckerFlavorTextOriginLocation_Bruno1, 0x081B0F6E
+	.global gFameCheckerFlavorTextOriginLocation_Bruno2
+	.set gFameCheckerFlavorTextOriginLocation_Bruno2, 0x081B0F7D
+	.global gFameCheckerFlavorTextOriginLocation_Bruno3
+	.set gFameCheckerFlavorTextOriginLocation_Bruno3, 0x081B0F8A
+	.global gFameCheckerFlavorTextOriginLocation_Bruno4
+	.set gFameCheckerFlavorTextOriginLocation_Bruno4, 0x081B0F94
+	.global gFameCheckerFlavorTextOriginLocation_Bruno5
+	.set gFameCheckerFlavorTextOriginLocation_Bruno5, 0x081B0F9F
+	.global gFameCheckerFlavorTextOriginLocation_Agatha0
+	.set gFameCheckerFlavorTextOriginLocation_Agatha0, 0x081B0FAE
+	.global gFameCheckerFlavorTextOriginLocation_Agatha1
+	.set gFameCheckerFlavorTextOriginLocation_Agatha1, 0x081B0FBD
+	.global gFameCheckerFlavorTextOriginLocation_Agatha2
+	.set gFameCheckerFlavorTextOriginLocation_Agatha2, 0x081B0FCC
+	.global gFameCheckerFlavorTextOriginLocation_Agatha3
+	.set gFameCheckerFlavorTextOriginLocation_Agatha3, 0x081B0FDB
+	.global gFameCheckerFlavorTextOriginLocation_Agatha4
+	.set gFameCheckerFlavorTextOriginLocation_Agatha4, 0x081B0FE8
+	.global gFameCheckerFlavorTextOriginLocation_Agatha5
+	.set gFameCheckerFlavorTextOriginLocation_Agatha5, 0x081B0FF7
+	.global gFameCheckerFlavorTextOriginLocation_Lance0
+	.set gFameCheckerFlavorTextOriginLocation_Lance0, 0x081B1002
+	.global gFameCheckerFlavorTextOriginLocation_Lance1
+	.set gFameCheckerFlavorTextOriginLocation_Lance1, 0x081B1011
+	.global gFameCheckerFlavorTextOriginLocation_Lance2
+	.set gFameCheckerFlavorTextOriginLocation_Lance2, 0x081B1020
+	.global gFameCheckerFlavorTextOriginLocation_Lance3
+	.set gFameCheckerFlavorTextOriginLocation_Lance3, 0x081B102D
+	.global gFameCheckerFlavorTextOriginLocation_Lance4
+	.set gFameCheckerFlavorTextOriginLocation_Lance4, 0x081B103B
+	.global gFameCheckerFlavorTextOriginLocation_Lance5
+	.set gFameCheckerFlavorTextOriginLocation_Lance5, 0x081B104A
+	.global gFameCheckerFlavorTextOriginLocation_Bill0
+	.set gFameCheckerFlavorTextOriginLocation_Bill0, 0x081B1059
+	.global gFameCheckerFlavorTextOriginLocation_Bill1
+	.set gFameCheckerFlavorTextOriginLocation_Bill1, 0x081B1067
+	.global gFameCheckerFlavorTextOriginLocation_Bill2
+	.set gFameCheckerFlavorTextOriginLocation_Bill2, 0x081B1075
+	.global gFameCheckerFlavorTextOriginLocation_Bill3
+	.set gFameCheckerFlavorTextOriginLocation_Bill3, 0x081B1082
+	.global gFameCheckerFlavorTextOriginLocation_Bill4
+	.set gFameCheckerFlavorTextOriginLocation_Bill4, 0x081B108D
+	.global gFameCheckerFlavorTextOriginLocation_Bill5
+	.set gFameCheckerFlavorTextOriginLocation_Bill5, 0x081B1098
+	.global gFameCheckerFlavorTextOriginLocation_MrFuji0
+	.set gFameCheckerFlavorTextOriginLocation_MrFuji0, 0x081B10A3
+	.global gFameCheckerFlavorTextOriginLocation_MrFuji1
+	.set gFameCheckerFlavorTextOriginLocation_MrFuji1, 0x081B10B1
+	.global gFameCheckerFlavorTextOriginLocation_MrFuji2
+	.set gFameCheckerFlavorTextOriginLocation_MrFuji2, 0x081B10BF
+	.global gFameCheckerFlavorTextOriginLocation_MrFuji3
+	.set gFameCheckerFlavorTextOriginLocation_MrFuji3, 0x081B10CD
+	.global gFameCheckerFlavorTextOriginLocation_MrFuji4
+	.set gFameCheckerFlavorTextOriginLocation_MrFuji4, 0x081B10DB
+	.global gFameCheckerFlavorTextOriginLocation_MrFuji5
+	.set gFameCheckerFlavorTextOriginLocation_MrFuji5, 0x081B10E8
+	.global gFameCheckerFlavorTextOriginLocation_Giovanni0
+	.set gFameCheckerFlavorTextOriginLocation_Giovanni0, 0x081B10F8
+	.global gFameCheckerFlavorTextOriginLocation_Giovanni1
+	.set gFameCheckerFlavorTextOriginLocation_Giovanni1, 0x081B1107
+	.global gFameCheckerFlavorTextOriginLocation_Giovanni2
+	.set gFameCheckerFlavorTextOriginLocation_Giovanni2, 0x081B1111
+	.global gFameCheckerFlavorTextOriginLocation_Giovanni3
+	.set gFameCheckerFlavorTextOriginLocation_Giovanni3, 0x081B111B
+	.global gFameCheckerFlavorTextOriginLocation_Giovanni4
+	.set gFameCheckerFlavorTextOriginLocation_Giovanni4, 0x081B1128
+	.global gFameCheckerFlavorTextOriginLocation_Giovanni5
+	.set gFameCheckerFlavorTextOriginLocation_Giovanni5, 0x081B1135
+	.global gFameCheckerFlavorTextOriginObjectName_ProfOak0
+	.set gFameCheckerFlavorTextOriginObjectName_ProfOak0, 0x081B1146
+	.global gFameCheckerFlavorTextOriginObjectName_ProfOak1
+	.set gFameCheckerFlavorTextOriginObjectName_ProfOak1, 0x081B114B
+	.global gFameCheckerFlavorTextOriginObjectName_ProfOak2
+	.set gFameCheckerFlavorTextOriginObjectName_ProfOak2, 0x081B1155
+	.global gFameCheckerFlavorTextOriginObjectName_ProfOak3
+	.set gFameCheckerFlavorTextOriginObjectName_ProfOak3, 0x081B115A
+	.global gFameCheckerFlavorTextOriginObjectName_ProfOak4
+	.set gFameCheckerFlavorTextOriginObjectName_ProfOak4, 0x081B116A
+	.global gFameCheckerFlavorTextOriginObjectName_ProfOak5
+	.set gFameCheckerFlavorTextOriginObjectName_ProfOak5, 0x081B1171
+	.global gFameCheckerFlavorTextOriginObjectName_Daisy0
+	.set gFameCheckerFlavorTextOriginObjectName_Daisy0, 0x081B1176
+	.global gFameCheckerFlavorTextOriginObjectName_Daisy1
+	.set gFameCheckerFlavorTextOriginObjectName_Daisy1, 0x081B117B
+	.global gFameCheckerFlavorTextOriginObjectName_Daisy2
+	.set gFameCheckerFlavorTextOriginObjectName_Daisy2, 0x081B1181
+	.global gFameCheckerFlavorTextOriginObjectName_Daisy3
+	.set gFameCheckerFlavorTextOriginObjectName_Daisy3, 0x081B1185
+	.global gFameCheckerFlavorTextOriginObjectName_Daisy4
+	.set gFameCheckerFlavorTextOriginObjectName_Daisy4, 0x081B1195
+	.global gFameCheckerFlavorTextOriginObjectName_Daisy5
+	.set gFameCheckerFlavorTextOriginObjectName_Daisy5, 0x081B119E
+	.global gFameCheckerFlavorTextOriginObjectName_Brock0
+	.set gFameCheckerFlavorTextOriginObjectName_Brock0, 0x081B11AE
+	.global gFameCheckerFlavorTextOriginObjectName_Brock1
+	.set gFameCheckerFlavorTextOriginObjectName_Brock1, 0x081B11B3
+	.global gFameCheckerFlavorTextOriginObjectName_Brock2
+	.set gFameCheckerFlavorTextOriginObjectName_Brock2, 0x081B11B9
+	.global gFameCheckerFlavorTextOriginObjectName_Brock3
+	.set gFameCheckerFlavorTextOriginObjectName_Brock3, 0x081B11C3
+	.global gFameCheckerFlavorTextOriginObjectName_Brock4
+	.set gFameCheckerFlavorTextOriginObjectName_Brock4, 0x081B11C7
+	.global gFameCheckerFlavorTextOriginObjectName_Brock5
+	.set gFameCheckerFlavorTextOriginObjectName_Brock5, 0x081B11CB
+	.global gFameCheckerFlavorTextOriginObjectName_Misty0
+	.set gFameCheckerFlavorTextOriginObjectName_Misty0, 0x081B11DB
+	.global gFameCheckerFlavorTextOriginObjectName_Misty1
+	.set gFameCheckerFlavorTextOriginObjectName_Misty1, 0x081B11E0
+	.global gFameCheckerFlavorTextOriginObjectName_Misty2
+	.set gFameCheckerFlavorTextOriginObjectName_Misty2, 0x081B11E6
+	.global gFameCheckerFlavorTextOriginObjectName_Misty3
+	.set gFameCheckerFlavorTextOriginObjectName_Misty3, 0x081B11EB
+	.global gFameCheckerFlavorTextOriginObjectName_Misty4
+	.set gFameCheckerFlavorTextOriginObjectName_Misty4, 0x081B11F5
+	.global gFameCheckerFlavorTextOriginObjectName_Misty5
+	.set gFameCheckerFlavorTextOriginObjectName_Misty5, 0x081B11FA
+	.global gFameCheckerFlavorTextOriginObjectName_LtSurge0
+	.set gFameCheckerFlavorTextOriginObjectName_LtSurge0, 0x081B120A
+	.global gFameCheckerFlavorTextOriginObjectName_LtSurge1
+	.set gFameCheckerFlavorTextOriginObjectName_LtSurge1, 0x081B120F
+	.global gFameCheckerFlavorTextOriginObjectName_LtSurge2
+	.set gFameCheckerFlavorTextOriginObjectName_LtSurge2, 0x081B1219
+	.global gFameCheckerFlavorTextOriginObjectName_LtSurge3
+	.set gFameCheckerFlavorTextOriginObjectName_LtSurge3, 0x081B1220
+	.global gFameCheckerFlavorTextOriginObjectName_LtSurge4
+	.set gFameCheckerFlavorTextOriginObjectName_LtSurge4, 0x081B1227
+	.global gFameCheckerFlavorTextOriginObjectName_LtSurge5
+	.set gFameCheckerFlavorTextOriginObjectName_LtSurge5, 0x081B122E
+	.global gFameCheckerFlavorTextOriginObjectName_Erika0
+	.set gFameCheckerFlavorTextOriginObjectName_Erika0, 0x081B123E
+	.global gFameCheckerFlavorTextOriginObjectName_Erika1
+	.set gFameCheckerFlavorTextOriginObjectName_Erika1, 0x081B1243
+	.global gFameCheckerFlavorTextOriginObjectName_Erika2
+	.set gFameCheckerFlavorTextOriginObjectName_Erika2, 0x081B1249
+	.global gFameCheckerFlavorTextOriginObjectName_Erika3
+	.set gFameCheckerFlavorTextOriginObjectName_Erika3, 0x081B124E
+	.global gFameCheckerFlavorTextOriginObjectName_Erika4
+	.set gFameCheckerFlavorTextOriginObjectName_Erika4, 0x081B1254
+	.global gFameCheckerFlavorTextOriginObjectName_Erika5
+	.set gFameCheckerFlavorTextOriginObjectName_Erika5, 0x081B125A
+	.global gFameCheckerFlavorTextOriginObjectName_Koga0
+	.set gFameCheckerFlavorTextOriginObjectName_Koga0, 0x081B126A
+	.global gFameCheckerFlavorTextOriginObjectName_Koga1
+	.set gFameCheckerFlavorTextOriginObjectName_Koga1, 0x081B126F
+	.global gFameCheckerFlavorTextOriginObjectName_Koga2
+	.set gFameCheckerFlavorTextOriginObjectName_Koga2, 0x081B1274
+	.global gFameCheckerFlavorTextOriginObjectName_Koga3
+	.set gFameCheckerFlavorTextOriginObjectName_Koga3, 0x081B1279
+	.global gFameCheckerFlavorTextOriginObjectName_Koga4
+	.set gFameCheckerFlavorTextOriginObjectName_Koga4, 0x081B1281
+	.global gFameCheckerFlavorTextOriginObjectName_Koga5
+	.set gFameCheckerFlavorTextOriginObjectName_Koga5, 0x081B1291
+	.global gFameCheckerFlavorTextOriginObjectName_Sabrina0
+	.set gFameCheckerFlavorTextOriginObjectName_Sabrina0, 0x081B1295
+	.global gFameCheckerFlavorTextOriginObjectName_Sabrina1
+	.set gFameCheckerFlavorTextOriginObjectName_Sabrina1, 0x081B129A
+	.global gFameCheckerFlavorTextOriginObjectName_Sabrina2
+	.set gFameCheckerFlavorTextOriginObjectName_Sabrina2, 0x081B12A4
+	.global gFameCheckerFlavorTextOriginObjectName_Sabrina3
+	.set gFameCheckerFlavorTextOriginObjectName_Sabrina3, 0x081B12AC
+	.global gFameCheckerFlavorTextOriginObjectName_Sabrina4
+	.set gFameCheckerFlavorTextOriginObjectName_Sabrina4, 0x081B12B4
+	.global gFameCheckerFlavorTextOriginObjectName_Sabrina5
+	.set gFameCheckerFlavorTextOriginObjectName_Sabrina5, 0x081B12C4
+	.global gFameCheckerFlavorTextOriginObjectName_Blaine0
+	.set gFameCheckerFlavorTextOriginObjectName_Blaine0, 0x081B12CA
+	.global gFameCheckerFlavorTextOriginObjectName_Blaine1
+	.set gFameCheckerFlavorTextOriginObjectName_Blaine1, 0x081B12CF
+	.global gFameCheckerFlavorTextOriginObjectName_Blaine2
+	.set gFameCheckerFlavorTextOriginObjectName_Blaine2, 0x081B12D6
+	.global gFameCheckerFlavorTextOriginObjectName_Blaine3
+	.set gFameCheckerFlavorTextOriginObjectName_Blaine3, 0x081B12DC
+	.global gFameCheckerFlavorTextOriginObjectName_Blaine4
+	.set gFameCheckerFlavorTextOriginObjectName_Blaine4, 0x081B12E2
+	.global gFameCheckerFlavorTextOriginObjectName_Blaine5
+	.set gFameCheckerFlavorTextOriginObjectName_Blaine5, 0x081B12E8
+	.global gFameCheckerFlavorTextOriginObjectName_Lorelei0
+	.set gFameCheckerFlavorTextOriginObjectName_Lorelei0, 0x081B12F8
+	.global gFameCheckerFlavorTextOriginObjectName_Lorelei1
+	.set gFameCheckerFlavorTextOriginObjectName_Lorelei1, 0x081B1300
+	.global gFameCheckerFlavorTextOriginObjectName_Lorelei2
+	.set gFameCheckerFlavorTextOriginObjectName_Lorelei2, 0x081B1308
+	.global gFameCheckerFlavorTextOriginObjectName_Lorelei3
+	.set gFameCheckerFlavorTextOriginObjectName_Lorelei3, 0x081B1310
+	.global gFameCheckerFlavorTextOriginObjectName_Lorelei4
+	.set gFameCheckerFlavorTextOriginObjectName_Lorelei4, 0x081B1320
+	.global gFameCheckerFlavorTextOriginObjectName_Lorelei5
+	.set gFameCheckerFlavorTextOriginObjectName_Lorelei5, 0x081B132C
+	.global gFameCheckerFlavorTextOriginObjectName_Bruno0
+	.set gFameCheckerFlavorTextOriginObjectName_Bruno0, 0x081B1335
+	.global gFameCheckerFlavorTextOriginObjectName_Bruno1
+	.set gFameCheckerFlavorTextOriginObjectName_Bruno1, 0x081B133B
+	.global gFameCheckerFlavorTextOriginObjectName_Bruno2
+	.set gFameCheckerFlavorTextOriginObjectName_Bruno2, 0x081B1341
+	.global gFameCheckerFlavorTextOriginObjectName_Bruno3
+	.set gFameCheckerFlavorTextOriginObjectName_Bruno3, 0x081B1351
+	.global gFameCheckerFlavorTextOriginObjectName_Bruno4
+	.set gFameCheckerFlavorTextOriginObjectName_Bruno4, 0x081B1359
+	.global gFameCheckerFlavorTextOriginObjectName_Bruno5
+	.set gFameCheckerFlavorTextOriginObjectName_Bruno5, 0x081B135F
+	.global gFameCheckerFlavorTextOriginObjectName_Agatha0
+	.set gFameCheckerFlavorTextOriginObjectName_Agatha0, 0x081B1367
+	.global gFameCheckerFlavorTextOriginObjectName_Agatha1
+	.set gFameCheckerFlavorTextOriginObjectName_Agatha1, 0x081B136E
+	.global gFameCheckerFlavorTextOriginObjectName_Agatha2
+	.set gFameCheckerFlavorTextOriginObjectName_Agatha2, 0x081B1376
+	.global gFameCheckerFlavorTextOriginObjectName_Agatha3
+	.set gFameCheckerFlavorTextOriginObjectName_Agatha3, 0x081B137E
+	.global gFameCheckerFlavorTextOriginObjectName_Agatha4
+	.set gFameCheckerFlavorTextOriginObjectName_Agatha4, 0x081B138E
+	.global gFameCheckerFlavorTextOriginObjectName_Agatha5
+	.set gFameCheckerFlavorTextOriginObjectName_Agatha5, 0x081B1395
+	.global gFameCheckerFlavorTextOriginObjectName_Lance0
+	.set gFameCheckerFlavorTextOriginObjectName_Lance0, 0x081B139E
+	.global gFameCheckerFlavorTextOriginObjectName_Lance1
+	.set gFameCheckerFlavorTextOriginObjectName_Lance1, 0x081B13A4
+	.global gFameCheckerFlavorTextOriginObjectName_Lance2
+	.set gFameCheckerFlavorTextOriginObjectName_Lance2, 0x081B13AA
+	.global gFameCheckerFlavorTextOriginObjectName_Lance3
+	.set gFameCheckerFlavorTextOriginObjectName_Lance3, 0x081B13B0
+	.global gFameCheckerFlavorTextOriginObjectName_Lance4
+	.set gFameCheckerFlavorTextOriginObjectName_Lance4, 0x081B13BC
+	.global gFameCheckerFlavorTextOriginObjectName_Lance5
+	.set gFameCheckerFlavorTextOriginObjectName_Lance5, 0x081B13CC
+	.global gFameCheckerFlavorTextOriginObjectName_Bill0
+	.set gFameCheckerFlavorTextOriginObjectName_Bill0, 0x081B13D6
+	.global gFameCheckerFlavorTextOriginObjectName_Bill1
+	.set gFameCheckerFlavorTextOriginObjectName_Bill1, 0x081B13D9
+	.global gFameCheckerFlavorTextOriginObjectName_Bill2
+	.set gFameCheckerFlavorTextOriginObjectName_Bill2, 0x081B13E4
+	.global gFameCheckerFlavorTextOriginObjectName_Bill3
+	.set gFameCheckerFlavorTextOriginObjectName_Bill3, 0x081B13EC
+	.global gFameCheckerFlavorTextOriginObjectName_Bill4
+	.set gFameCheckerFlavorTextOriginObjectName_Bill4, 0x081B13F2
+	.global gFameCheckerFlavorTextOriginObjectName_Bill5
+	.set gFameCheckerFlavorTextOriginObjectName_Bill5, 0x081B13F8
+	.global gFameCheckerFlavorTextOriginObjectName_MrFuji0
+	.set gFameCheckerFlavorTextOriginObjectName_MrFuji0, 0x081B13FE
+	.global gFameCheckerFlavorTextOriginObjectName_MrFuji1
+	.set gFameCheckerFlavorTextOriginObjectName_MrFuji1, 0x081B140A
+	.global gFameCheckerFlavorTextOriginObjectName_MrFuji2
+	.set gFameCheckerFlavorTextOriginObjectName_MrFuji2, 0x081B1416
+	.global gFameCheckerFlavorTextOriginObjectName_MrFuji3
+	.set gFameCheckerFlavorTextOriginObjectName_MrFuji3, 0x081B141F
+	.global gFameCheckerFlavorTextOriginObjectName_MrFuji4
+	.set gFameCheckerFlavorTextOriginObjectName_MrFuji4, 0x081B1423
+	.global gFameCheckerFlavorTextOriginObjectName_MrFuji5
+	.set gFameCheckerFlavorTextOriginObjectName_MrFuji5, 0x081B1429
+	.global gFameCheckerFlavorTextOriginObjectName_Giovanni0
+	.set gFameCheckerFlavorTextOriginObjectName_Giovanni0, 0x081B1439
+	.global gFameCheckerFlavorTextOriginObjectName_Giovanni1
+	.set gFameCheckerFlavorTextOriginObjectName_Giovanni1, 0x081B1442
+	.global gFameCheckerFlavorTextOriginObjectName_Giovanni2
+	.set gFameCheckerFlavorTextOriginObjectName_Giovanni2, 0x081B144C
+	.global gFameCheckerFlavorTextOriginObjectName_Giovanni3
+	.set gFameCheckerFlavorTextOriginObjectName_Giovanni3, 0x081B1456
+	.global gFameCheckerFlavorTextOriginObjectName_Giovanni4
+	.set gFameCheckerFlavorTextOriginObjectName_Giovanni4, 0x081B145F
+	.global gFameCheckerFlavorTextOriginObjectName_Giovanni5
+	.set gFameCheckerFlavorTextOriginObjectName_Giovanni5, 0x081B1463
+	.global PokemonJournal_Text_SpecialFeatureBrock
+	.set PokemonJournal_Text_SpecialFeatureBrock, 0x081B77BA
+	.global PokemonJournal_Text_SpecialFeatureMisty
+	.set PokemonJournal_Text_SpecialFeatureMisty, 0x081B7838
+	.global PokemonJournal_Text_SpecialFeatureLtSurge
+	.set PokemonJournal_Text_SpecialFeatureLtSurge, 0x081B78A8
+	.global PokemonJournal_Text_SpecialFeatureErika
+	.set PokemonJournal_Text_SpecialFeatureErika, 0x081B796B
+	.global PokemonJournal_Text_SpecialFeatureKoga
+	.set PokemonJournal_Text_SpecialFeatureKoga, 0x081B79F8
+	.global PokemonJournal_Text_SpecialFeatureSabrina
+	.set PokemonJournal_Text_SpecialFeatureSabrina, 0x081B7AA3
+	.global PokemonJournal_Text_SpecialFeatureBlaine
+	.set PokemonJournal_Text_SpecialFeatureBlaine, 0x081B7B39
+	.global PokemonJournal_Text_SpecialFeatureLorelei
+	.set PokemonJournal_Text_SpecialFeatureLorelei, 0x081B7BCF
+	.global PokemonJournal_Text_SpecialFeatureBruno
+	.set PokemonJournal_Text_SpecialFeatureBruno, 0x081B7C63
+	.global PokemonJournal_Text_SpecialFeatureAgatha
+	.set PokemonJournal_Text_SpecialFeatureAgatha, 0x081B7CF8
+	.global PokemonJournal_Text_SpecialFeatureLance
+	.set PokemonJournal_Text_SpecialFeatureLance, 0x081B7D81
+	.global PokemonJournal_Text_SpecialFeatureProfOak
+	.set PokemonJournal_Text_SpecialFeatureProfOak, 0x081B7E09
+	.global PokemonJournal_Text_SpecialFeatureDaisyOak
+	.set PokemonJournal_Text_SpecialFeatureDaisyOak, 0x081B7E8D
+	.global PokemonJournal_Text_SpecialFeatureMrFuji
+	.set PokemonJournal_Text_SpecialFeatureMrFuji, 0x081B7F21
+
+@ Whole exact after completed text aliases: data/text/trainer_card.inc
+	.global CeladonCity_GameCorner_Text_TryPokemonPrinter
+	.set CeladonCity_GameCorner_Text_TryPokemonPrinter, 0x081B7FDB
+	.global CeladonCity_GameCorner_Text_DontHaveEnoughMoney
+	.set CeladonCity_GameCorner_Text_DontHaveEnoughMoney, 0x081B8065
+	.global CeladonCity_GameCorner_Text_ChoosePrintType
+	.set CeladonCity_GameCorner_Text_ChoosePrintType, 0x081B8082
+	.global CeladonCity_GameCorner_Text_BigSmileForPhoto
+	.set CeladonCity_GameCorner_Text_BigSmileForPhoto, 0x081B80A0
+	.global CeladonCity_GameCorner_Text_PrintIsReadyCheckTrainerCard
+	.set CeladonCity_GameCorner_Text_PrintIsReadyCheckTrainerCard, 0x081B80DB
+	.global FourIsland_House2_Text_WishICouldShowOffStickers
+	.set FourIsland_House2_Text_WishICouldShowOffStickers, 0x081B8111
+	.global FourIsland_House2_Text_GiveYouStickerIfYouBrag
+	.set FourIsland_House2_Text_GiveYouStickerIfYouBrag, 0x081B8156
+	.global FourIsland_House2_Text_BragAboutSomethingForMe
+	.set FourIsland_House2_Text_BragAboutSomethingForMe, 0x081B824D
+	.global FourIsland_House2_Text_BragAboutWhatToday
+	.set FourIsland_House2_Text_BragAboutWhatToday, 0x081B8283
+	.global FourIsland_House2_Text_WowHoFLowest
+	.set FourIsland_House2_Text_WowHoFLowest, 0x081B82CC
+	.global FourIsland_House2_Text_WowHoFLow
+	.set FourIsland_House2_Text_WowHoFLow, 0x081B832D
+	.global FourIsland_House2_Text_WowHoFHigh
+	.set FourIsland_House2_Text_WowHoFHigh, 0x081B8391
+	.global FourIsland_House2_Text_WowHoFHighest
+	.set FourIsland_House2_Text_WowHoFHighest, 0x081B8422
+	.global FourIsland_House2_Text_HoFStickerApplied
+	.set FourIsland_House2_Text_HoFStickerApplied, 0x081B84A0
+	.global FourIsland_House2_Text_ComeBackWithBetterStoryHoF
+	.set FourIsland_House2_Text_ComeBackWithBetterStoryHoF, 0x081B84DA
+	.global FourIsland_House2_Text_LivingLegendHoF
+	.set FourIsland_House2_Text_LivingLegendHoF, 0x081B850E
+	.global FourIsland_House2_Text_WowEggsLowest
+	.set FourIsland_House2_Text_WowEggsLowest, 0x081B8566
+	.global FourIsland_House2_Text_WowEggsLow
+	.set FourIsland_House2_Text_WowEggsLow, 0x081B85D0
+	.global FourIsland_House2_Text_WowEggsHigh
+	.set FourIsland_House2_Text_WowEggsHigh, 0x081B863E
+	.global FourIsland_House2_Text_WowEggsHighest
+	.set FourIsland_House2_Text_WowEggsHighest, 0x081B86A6
+	.global FourIsland_House2_Text_EggStickerApplied
+	.set FourIsland_House2_Text_EggStickerApplied, 0x081B8748
+	.global FourIsland_House2_Text_ComeBackWithBetterStoryEggs
+	.set FourIsland_House2_Text_ComeBackWithBetterStoryEggs, 0x081B8779
+	.global FourIsland_House2_Text_LivingLegendEggs
+	.set FourIsland_House2_Text_LivingLegendEggs, 0x081B87AD
+	.global FourIsland_House2_Text_WowLinkWinsLowest
+	.set FourIsland_House2_Text_WowLinkWinsLowest, 0x081B8805
+	.global FourIsland_House2_Text_WowLinkWinsLow
+	.set FourIsland_House2_Text_WowLinkWinsLow, 0x081B8867
+	.global FourIsland_House2_Text_WowLinkWinsHigh
+	.set FourIsland_House2_Text_WowLinkWinsHigh, 0x081B88D9
+	.global FourIsland_House2_Text_WowLinkWinsHighest
+	.set FourIsland_House2_Text_WowLinkWinsHighest, 0x081B8954
+	.global FourIsland_House2_Text_VictoryStickerApplied
+	.set FourIsland_House2_Text_VictoryStickerApplied, 0x081B8A04
+	.global FourIsland_House2_Text_ComeBackWithBetterStoryLinkWins
+	.set FourIsland_House2_Text_ComeBackWithBetterStoryLinkWins, 0x081B8A39
+	.global FourIsland_House2_Text_LivingLegendLinkWins
+	.set FourIsland_House2_Text_LivingLegendLinkWins, 0x081B8A6D
+@ Whole exact large-script pass 2: data/maps/FiveIsland_PokemonCenter_2F/scripts.inc
+	.global FiveIsland_PokemonCenter_2F_MapScripts
+	.set FiveIsland_PokemonCenter_2F_MapScripts, 0x08171C78
+	.global FiveIsland_PokemonCenter_2F_EventScript_Colosseum
+	.set FiveIsland_PokemonCenter_2F_EventScript_Colosseum, 0x08171C8D
+	.global FiveIsland_PokemonCenter_2F_EventScript_TradeCenter
+	.set FiveIsland_PokemonCenter_2F_EventScript_TradeCenter, 0x08171C93
+	.global FiveIsland_PokemonCenter_2F_EventScript_RecordCorner
+	.set FiveIsland_PokemonCenter_2F_EventScript_RecordCorner, 0x08171C99
+
+@ Whole exact large-script pass 2: data/maps/PokemonLeague_LoreleisRoom/text.inc
+	.global PokemonLeague_LoreleisRoom_Text_Intro
+	.set PokemonLeague_LoreleisRoom_Text_Intro, 0x081A59DA
+	.global PokemonLeague_LoreleisRoom_Text_RematchIntro
+	.set PokemonLeague_LoreleisRoom_Text_RematchIntro, 0x081A5ABF
+	.global PokemonLeague_LoreleisRoom_Text_Defeat
+	.set PokemonLeague_LoreleisRoom_Text_Defeat, 0x081A5BC7
+	.global PokemonLeague_LoreleisRoom_Text_PostBattle
+	.set PokemonLeague_LoreleisRoom_Text_PostBattle, 0x081A5BE6
+
+@ Whole exact large-script pass 2: data/maps/VermilionCity_House1/text.inc
+	.global VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish
+	.set VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish, 0x081B365B
+	.global VermilionCity_House1_Text_TakeThisAndFish
+	.set VermilionCity_House1_Text_TakeThisAndFish, 0x081B36C4
+	.global VermilionCity_House1_Text_ReceivedOldRodFromFishingGuru
+	.set VermilionCity_House1_Text_ReceivedOldRodFromFishingGuru, 0x081B371B
+	.global VermilionCity_House1_Text_FishingIsAWayOfLife
+	.set VermilionCity_House1_Text_FishingIsAWayOfLife, 0x081B3749
+	.global VermilionCity_House1_Text_OhThatsSoDisappointing
+	.set VermilionCity_House1_Text_OhThatsSoDisappointing, 0x081B37C2
+	.global VermilionCity_House1_Text_HowAreTheFishBiting
+	.set VermilionCity_House1_Text_HowAreTheFishBiting, 0x081B37DF
+	.global VermilionCity_House1_Text_NoRoomForNiceGift
+	.set VermilionCity_House1_Text_NoRoomForNiceGift, 0x081B3809
+
+@ Whole exact large-script pass 2: data/maps/FuchsiaCity_House2/text.inc
+	.global FuchsiaCity_House2_Text_DoYouLikeToFish
+	.set FuchsiaCity_House2_Text_DoYouLikeToFish, 0x081B3849
+	.global FuchsiaCity_House2_Text_LikeYourStyleTakeThis
+	.set FuchsiaCity_House2_Text_LikeYourStyleTakeThis, 0x081B38C2
+	.global FuchsiaCity_House2_Text_ReceivedGoodRod
+	.set FuchsiaCity_House2_Text_ReceivedGoodRod, 0x081B3919
+	.global FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons
+	.set FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons, 0x081B3951
+	.global FuchsiaCity_House2_Text_OhThatsDisappointing
+	.set FuchsiaCity_House2_Text_OhThatsDisappointing, 0x081B39F2
+	.global FuchsiaCity_House2_Text_HowAreTheFishBiting
+	.set FuchsiaCity_House2_Text_HowAreTheFishBiting, 0x081B3A0F
+	.global FuchsiaCity_House2_Text_YouHaveNoRoomForGift
+	.set FuchsiaCity_House2_Text_YouHaveNoRoomForGift, 0x081B3A39
+	.global FuchsiaCity_House2_Text_HaveLapras
+	.set FuchsiaCity_House2_Text_HaveLapras, 0x081B3A74
+	.global FuchsiaCity_House2_Text_LaprasIsAmazing
+	.set FuchsiaCity_House2_Text_LaprasIsAmazing, 0x081B3AB6
+	.global FuchsiaCity_House2_Text_ObtainedLapras
+	.set FuchsiaCity_House2_Text_ObtainedLapras, 0x081B3AD4
+	.global FuchsiaCity_House2_Text_ExplainLapras
+	.set FuchsiaCity_House2_Text_ExplainLapras, 0x081B3AEA
+
+@ Whole exact large-script pass 2: data/maps/SaffronCity_Dojo/text.inc
+	.global SaffronCity_Dojo_Text_MasterKoichiIntro
+	.set SaffronCity_Dojo_Text_MasterKoichiIntro, 0x081B3B2A
+	.global SaffronCity_Dojo_Text_MasterKoichiDefeat
+	.set SaffronCity_Dojo_Text_MasterKoichiDefeat, 0x081B3B91
+	.global SaffronCity_Dojo_Text_ChoosePrizedFightingMon
+	.set SaffronCity_Dojo_Text_ChoosePrizedFightingMon, 0x081B3BA5
+	.global SaffronCity_Dojo_Text_StayAndTrainWithUs
+	.set SaffronCity_Dojo_Text_StayAndTrainWithUs, 0x081B3C4A
+	.global SaffronCity_Dojo_Text_MikeIntro
+	.set SaffronCity_Dojo_Text_MikeIntro, 0x081B3C73
+	.global SaffronCity_Dojo_Text_MikeDefeat
+	.set SaffronCity_Dojo_Text_MikeDefeat, 0x081B3C90
+	.global SaffronCity_Dojo_Text_MikePostBattle
+	.set SaffronCity_Dojo_Text_MikePostBattle, 0x081B3C9B
+	.global SaffronCity_Dojo_Text_HidekiIntro
+	.set SaffronCity_Dojo_Text_HidekiIntro, 0x081B3CDE
+	.global SaffronCity_Dojo_Text_HidekiDefeat
+	.set SaffronCity_Dojo_Text_HidekiDefeat, 0x081B3CFB
+	.global SaffronCity_Dojo_Text_HidekiPostBattle
+	.set SaffronCity_Dojo_Text_HidekiPostBattle, 0x081B3D0D
+	.global SaffronCity_Dojo_Text_AaronIntro
+	.set SaffronCity_Dojo_Text_AaronIntro, 0x081B3D3F
+	.global SaffronCity_Dojo_Text_AaronDefeat
+	.set SaffronCity_Dojo_Text_AaronDefeat, 0x081B3D94
+	.global SaffronCity_Dojo_Text_AaronPostBattle
+	.set SaffronCity_Dojo_Text_AaronPostBattle, 0x081B3DAA
+	.global SaffronCity_Dojo_Text_HitoshiIntro
+	.set SaffronCity_Dojo_Text_HitoshiIntro, 0x081B3DDD
+	.global SaffronCity_Dojo_Text_HitoshiDefeat
+	.set SaffronCity_Dojo_Text_HitoshiDefeat, 0x081B3E0D
+	.global SaffronCity_Dojo_Text_HitoshiPostBattle
+	.set SaffronCity_Dojo_Text_HitoshiPostBattle, 0x081B3E1D
+	.global SaffronCity_Dojo_Text_YouWantHitmonlee
+	.set SaffronCity_Dojo_Text_YouWantHitmonlee, 0x081B3E4C
+	.global SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster
+	.set SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster, 0x081B3E71
+	.global SaffronCity_Dojo_Text_YouWantHitmonchan
+	.set SaffronCity_Dojo_Text_YouWantHitmonchan, 0x081B3E9C
+	.global SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster2
+	.set SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster2, 0x081B3EC5
+	.global SaffronCity_Dojo_Text_BetterNotGetGreedy
+	.set SaffronCity_Dojo_Text_BetterNotGetGreedy, 0x081B3EDF
+	.global SaffronCity_Dojo_Text_EnemiesOnEverySide
+	.set SaffronCity_Dojo_Text_EnemiesOnEverySide, 0x081B3EF6
+	.global SaffronCity_Dojo_Text_GoesAroundComesAround
+	.set SaffronCity_Dojo_Text_GoesAroundComesAround, 0x081B3F0D
+	.global SaffronCity_Dojo_Text_FightingDojo
+	.set SaffronCity_Dojo_Text_FightingDojo, 0x081B3F2C
+
+@ Whole exact large-script pass 2: data/maps/Route6_NorthEntrance/text.inc
+	.global Route6_NorthEntrance_Text_ThirstyOnGuardDuty
+	.set Route6_NorthEntrance_Text_ThirstyOnGuardDuty, 0x081B3F3A
+	.global Route6_NorthEntrance_Text_ThatTeaLooksTasty
+	.set Route6_NorthEntrance_Text_ThatTeaLooksTasty, 0x081B3F8A
+	.global Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards
+	.set Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards, 0x081B3FB0
+	.global Route6_NorthEntrance_Text_HiHowsItGoing
+	.set Route6_NorthEntrance_Text_HiHowsItGoing, 0x081B405C
+
+@ Whole exact large-script pass 2: data/maps/Route7_EastEntrance/text.inc
+	.global Route7_EastEntrance_Text_ThirstyOnGuardDuty
+	.set Route7_EastEntrance_Text_ThirstyOnGuardDuty, 0x081B4070
+	.global Route7_EastEntrance_Text_ThatTeaLooksTasty
+	.set Route7_EastEntrance_Text_ThatTeaLooksTasty, 0x081B40C0
+	.global Route7_EastEntrance_Text_ThanksIllShareTeaWithGuards
+	.set Route7_EastEntrance_Text_ThanksIllShareTeaWithGuards, 0x081B40E6
+	.global Route7_EastEntrance_Text_HiHowsItGoing
+	.set Route7_EastEntrance_Text_HiHowsItGoing, 0x081B4192
+
+@ Whole exact large-script pass 2: data/maps/TwoIsland_House/text.inc
+	.global TwoIsland_House_Text_TeachMonMoveForMushroom
+	.set TwoIsland_House_Text_TeachMonMoveForMushroom, 0x081B41A6
+	.global TwoIsland_House_Text_WantMeToTeachMove
+	.set TwoIsland_House_Text_WantMeToTeachMove, 0x081B4281
+	.global TwoIsland_House_Text_TutorWhichMon
+	.set TwoIsland_House_Text_TutorWhichMon, 0x081B42E1
+	.global TwoIsland_House_Text_TeachWhichMove
+	.set TwoIsland_House_Text_TeachWhichMove, 0x081B42FF
+	.global TwoIsland_House_Text_NoMoveICanTeachThatMon
+	.set TwoIsland_House_Text_NoMoveICanTeachThatMon, 0x081B431A
+	.global TwoIsland_House_Text_IllNeedMushroomOrTwo
+	.set TwoIsland_House_Text_IllNeedMushroomOrTwo, 0x081B4361
+	.global TwoIsland_House_Text_HandedOverTwoTinyMushrooms
+	.set TwoIsland_House_Text_HandedOverTwoTinyMushrooms, 0x081B43A3
+	.global TwoIsland_House_Text_HandedOverOneBigMushroom
+	.set TwoIsland_House_Text_HandedOverOneBigMushroom, 0x081B43D1
+	.global TwoIsland_House_Text_NeedMushroomOrTwoToLearnMove
+	.set TwoIsland_House_Text_NeedMushroomOrTwoToLearnMove, 0x081B43FE
+	.global TwoIsland_House_Text_CantTeachAnEgg
+	.set TwoIsland_House_Text_CantTeachAnEgg, 0x081B443E
+	.global TwoIsland_House_Text_OmegaWorker
+	.set TwoIsland_House_Text_OmegaWorker, 0x081B4477
+
+@ Whole exact large-script pass 2: data/scripts/std_msgbox.inc
+	.global Std_MsgboxNPC
+	.set Std_MsgboxNPC, 0x081B44E6
+	.global Std_MsgboxSign
+	.set Std_MsgboxSign, 0x081B44F1
+	.global Std_MsgboxDefault
+	.set Std_MsgboxDefault, 0x081B44FB
+	.global Std_MsgboxYesNo
+	.set Std_MsgboxYesNo, 0x081B4503
+	.global Std_ReceivedItem
+	.set Std_ReceivedItem, 0x081B450D
+	.global EventScript_ReceivedItemFanfare1
+	.set EventScript_ReceivedItemFanfare1, 0x081B4549
+	.global EventScript_ReceivedItemFanfare2
+	.set EventScript_ReceivedItemFanfare2, 0x081B454D
+	.global EventScript_ReceivedItemWaitFanfare
+	.set EventScript_ReceivedItemWaitFanfare, 0x081B4551
+	.global EventScript_UnusedReturn
+	.set EventScript_UnusedReturn, 0x081B4555
+	.global EventScript_AskSaveGame
+	.set EventScript_AskSaveGame, 0x081B4556
+
+@ Whole exact large-script pass 2: data/scripts/trainer_battle.inc
+	.global EventScript_DoTrainerBattleFromApproach
+	.set EventScript_DoTrainerBattleFromApproach, 0x081A4EB4
+	.global EventScript_TryDoNormalTrainerBattle
+	.set EventScript_TryDoNormalTrainerBattle, 0x081A4EC1
+	.global EventScript_NoTrainerBattle
+	.set EventScript_NoTrainerBattle, 0x081B458F
+	.global EventScript_TryDoDoubleTrainerBattle
+	.set EventScript_TryDoDoubleTrainerBattle, 0x081A4EE9
+	.global EventScript_NotEnoughMonsForDoubleBattle
+	.set EventScript_NotEnoughMonsForDoubleBattle, 0x081B45C0
+	.global EventScript_NoDoubleTrainerBattle
+	.set EventScript_NoDoubleTrainerBattle, 0x081B45C7
+	.global EventScript_DoNoIntroTrainerBattle
+	.set EventScript_DoNoIntroTrainerBattle, 0x081A4F21
+	.global EventScript_TryDoRematchBattle
+	.set EventScript_TryDoRematchBattle, 0x081A4F3E
+	.global EventScript_NoRematchBattle
+	.set EventScript_NoRematchBattle, 0x081B4619
+	.global EventScript_TryDoDoubleRematchBattle
+	.set EventScript_TryDoDoubleRematchBattle, 0x081A4F73
+	.global EventScript_NoDoubleRematchBattle
+	.set EventScript_NoDoubleRematchBattle, 0x081B4657
+	.global EventScript_NotEnoughMonsForDoubleRematchBattle
+	.set EventScript_NotEnoughMonsForDoubleRematchBattle, 0x081B4658
+	.global EventScript_EndQuestLogRematch
+	.set EventScript_EndQuestLogRematch, 0x081B465F
+	.global EventScript_RevealTrainer
+	.set EventScript_RevealTrainer, 0x081B4661
+	.global Movement_RevealTrainer
+	.set Movement_RevealTrainer, 0x081B466C
+	.global EventScript_DoTrainerBattle
+	.set EventScript_DoTrainerBattle, 0x081B466E
+	.global EventScript_EndTrainerBattle
+	.set EventScript_EndTrainerBattle, 0x081B46BE
+	.global EventScript_EndTrainerBattleContinueScript
+	.set EventScript_EndTrainerBattleContinueScript, 0x081B46C0
+	.global EventScript_EndQuestLogBattle
+	.set EventScript_EndQuestLogBattle, 0x081B46C1
+	.global Std_MsgboxAutoclose
+	.set Std_MsgboxAutoclose, 0x081B46C6
+
+@ Whole exact large-script pass 2: data/text/ingame_trade.inc
+	.global Trade_Text_LookingForMonWannaTradeForMon
+	.set Trade_Text_LookingForMonWannaTradeForMon, 0x081B471C
+	.global Trade_Text_AwwOhWell
+	.set Trade_Text_AwwOhWell, 0x081B4757
+	.global Trade_Text_WhatThatsNoMon
+	.set Trade_Text_WhatThatsNoMon, 0x081B4767
+	.global Trade_Text_HeyThanks
+	.set Trade_Text_HeyThanks, 0x081B477B
+	.global Trade_Text_IsntMyOldMonGreat
+	.set Trade_Text_IsntMyOldMonGreat, 0x081B4788
+	.global Trade_Text_DoYouHaveMonWouldYouTradeForMon
+	.set Trade_Text_DoYouHaveMonWouldYouTradeForMon, 0x081B479F
+	.global Trade_Text_WellIfYouDontWantTo
+	.set Trade_Text_WellIfYouDontWantTo, 0x081B47EF
+	.global Trade_Text_ThisIsntMon
+	.set Trade_Text_ThisIsntMon, 0x081B480B
+	.global Trade_Text_Thanks
+	.set Trade_Text_Thanks, 0x081B483E
+	.global Trade_Text_HasTradedMonGrownStronger
+	.set Trade_Text_HasTradedMonGrownStronger, 0x081B4846
+	.global Trade_Text_DoYouHaveMonWantToTradeForMon
+	.set Trade_Text_DoYouHaveMonWantToTradeForMon, 0x081B4877
+	.global Trade_Text_ThatsTooBad
+	.set Trade_Text_ThatsTooBad, 0x081B48A9
+	.global Trade_Text_ThisIsNoMon
+	.set Trade_Text_ThisIsNoMon, 0x081B48B9
+	.global Trade_Text_ThanksYoureAPal
+	.set Trade_Text_ThanksYoureAPal, 0x081B48EB
+	.global Trade_Text_HowIsMyOldMon
+	.set Trade_Text_HowIsMyOldMon, 0x081B4901
+
+@ Whole exact large-script pass 2: data/scripts/trainers.inc
+	.global Route3_EventScript_Ben
+	.set Route3_EventScript_Ben, 0x081B4A92
+	.global Route3_EventScript_BenRematch
+	.set Route3_EventScript_BenRematch, 0x081B4AB9
+	.global Route3_EventScript_Calvin
+	.set Route3_EventScript_Calvin, 0x081B4AD0
+	.global Route3_EventScript_CalvinRematch
+	.set Route3_EventScript_CalvinRematch, 0x081B4AF7
+	.global Route3_EventScript_Colton
+	.set Route3_EventScript_Colton, 0x081B4B0E
+	.global Route3_EventScript_ColtonRematch
+	.set Route3_EventScript_ColtonRematch, 0x081B4B35
+	.global Route3_EventScript_Greg
+	.set Route3_EventScript_Greg, 0x081B4B4C
+	.global Route3_EventScript_GregRematch
+	.set Route3_EventScript_GregRematch, 0x081B4B73
+	.global Route3_EventScript_James
+	.set Route3_EventScript_James, 0x081B4B8A
+	.global Route3_EventScript_JamesRematch
+	.set Route3_EventScript_JamesRematch, 0x081B4BB1
+	.global Route3_EventScript_Janice
+	.set Route3_EventScript_Janice, 0x081B4BC8
+	.global Route3_EventScript_JaniceRematch
+	.set Route3_EventScript_JaniceRematch, 0x081B4BEF
+	.global Route3_EventScript_Sally
+	.set Route3_EventScript_Sally, 0x081B4C06
+	.global Route3_EventScript_SallyRematch
+	.set Route3_EventScript_SallyRematch, 0x081B4C2D
+	.global Route3_EventScript_Robin
+	.set Route3_EventScript_Robin, 0x081B4C44
+	.global Route3_EventScript_RobinRematch
+	.set Route3_EventScript_RobinRematch, 0x081B4C6B
+	.global Route4_EventScript_Crissy
+	.set Route4_EventScript_Crissy, 0x081B4C82
+	.global Route4_EventScript_CrissyRematch
+	.set Route4_EventScript_CrissyRematch, 0x081B4CA9
+	.global Route24_EventScript_Timmy
+	.set Route24_EventScript_Timmy, 0x081B4CC0
+	.global Route24_EventScript_TimmyRematch
+	.set Route24_EventScript_TimmyRematch, 0x081B4CE7
+	.global Route24_EventScript_Cale
+	.set Route24_EventScript_Cale, 0x081B4CFE
+	.global Route24_EventScript_CaleRematch
+	.set Route24_EventScript_CaleRematch, 0x081B4D25
+	.global Route24_EventScript_Reli
+	.set Route24_EventScript_Reli, 0x081B4D3C
+	.global Route24_EventScript_ReliRematch
+	.set Route24_EventScript_ReliRematch, 0x081B4D63
+	.global Route24_EventScript_Ali
+	.set Route24_EventScript_Ali, 0x081B4D7A
+	.global Route24_EventScript_AliRematch
+	.set Route24_EventScript_AliRematch, 0x081B4DA1
+	.global Route24_EventScript_Shane
+	.set Route24_EventScript_Shane, 0x081B4DB8
+	.global Route24_EventScript_ShaneRematch
+	.set Route24_EventScript_ShaneRematch, 0x081B4DDF
+	.global Route24_EventScript_Ethan
+	.set Route24_EventScript_Ethan, 0x081B4DF6
+	.global Route24_EventScript_EthanRematch
+	.set Route24_EventScript_EthanRematch, 0x081B4E1D
+	.global Route25_EventScript_Joey
+	.set Route25_EventScript_Joey, 0x081B4E34
+	.global Route25_EventScript_JoeyRematch
+	.set Route25_EventScript_JoeyRematch, 0x081B4E5B
+	.global Route25_EventScript_Dan
+	.set Route25_EventScript_Dan, 0x081B4E72
+	.global Route25_EventScript_DanRematch
+	.set Route25_EventScript_DanRematch, 0x081B4E99
+	.global Route25_EventScript_Chad
+	.set Route25_EventScript_Chad, 0x081B4EB0
+	.global Route25_EventScript_ChadRematch
+	.set Route25_EventScript_ChadRematch, 0x081B4ED7
+	.global Route25_EventScript_Kelsey
+	.set Route25_EventScript_Kelsey, 0x081B4EEE
+	.global Route25_EventScript_KelseyRematch
+	.set Route25_EventScript_KelseyRematch, 0x081B4F15
+	.global Route25_EventScript_Haley
+	.set Route25_EventScript_Haley, 0x081B4F2C
+	.global Route25_EventScript_HaleyRematch
+	.set Route25_EventScript_HaleyRematch, 0x081B4F53
+	.global Route25_EventScript_Franklin
+	.set Route25_EventScript_Franklin, 0x081B4F6A
+	.global Route25_EventScript_FranklinRematch
+	.set Route25_EventScript_FranklinRematch, 0x081B4F91
+	.global Route25_EventScript_Nob
+	.set Route25_EventScript_Nob, 0x081B4FA8
+	.global Route25_EventScript_NobRematch
+	.set Route25_EventScript_NobRematch, 0x081B4FCF
+	.global Route25_EventScript_Wayne
+	.set Route25_EventScript_Wayne, 0x081B4FE6
+	.global Route25_EventScript_WayneRematch
+	.set Route25_EventScript_WayneRematch, 0x081B500D
+	.global Route25_EventScript_Flint
+	.set Route25_EventScript_Flint, 0x081B5024
+	.global Route25_EventScript_FlintRematch
+	.set Route25_EventScript_FlintRematch, 0x081B504B
+	.global Route6_EventScript_Keigo
+	.set Route6_EventScript_Keigo, 0x081B5062
+	.global Route6_EventScript_KeigoRematch
+	.set Route6_EventScript_KeigoRematch, 0x081B5089
+	.global Route6_EventScript_Elijah
+	.set Route6_EventScript_Elijah, 0x081B50A0
+	.global Route6_EventScript_ElijahRematch
+	.set Route6_EventScript_ElijahRematch, 0x081B50C7
+	.global Route6_EventScript_Ricky
+	.set Route6_EventScript_Ricky, 0x081B50DE
+	.global Route6_EventScript_RickyRematch
+	.set Route6_EventScript_RickyRematch, 0x081B5105
+	.global Route6_EventScript_Jeff
+	.set Route6_EventScript_Jeff, 0x081B511C
+	.global Route6_EventScript_JeffRematch
+	.set Route6_EventScript_JeffRematch, 0x081B5143
+	.global Route6_EventScript_Nancy
+	.set Route6_EventScript_Nancy, 0x081B515A
+	.global Route6_EventScript_NancyRematch
+	.set Route6_EventScript_NancyRematch, 0x081B5181
+	.global Route6_EventScript_Isabelle
+	.set Route6_EventScript_Isabelle, 0x081B5198
+	.global Route6_EventScript_IsabelleRematch
+	.set Route6_EventScript_IsabelleRematch, 0x081B51BF
+	.global Route11_EventScript_Eddie
+	.set Route11_EventScript_Eddie, 0x081B51D6
+	.global Route11_EventScript_EddieRematch
+	.set Route11_EventScript_EddieRematch, 0x081B51FD
+	.global Route11_EventScript_Dillon
+	.set Route11_EventScript_Dillon, 0x081B5214
+	.global Route11_EventScript_DillonRematch
+	.set Route11_EventScript_DillonRematch, 0x081B523B
+	.global Route11_EventScript_Yasu
+	.set Route11_EventScript_Yasu, 0x081B5252
+	.global Route11_EventScript_YasuRematch
+	.set Route11_EventScript_YasuRematch, 0x081B5279
+	.global Route11_EventScript_Dave
+	.set Route11_EventScript_Dave, 0x081B5290
+	.global Route11_EventScript_DaveRematch
+	.set Route11_EventScript_DaveRematch, 0x081B52B7
+	.global Route11_EventScript_Braxton
+	.set Route11_EventScript_Braxton, 0x081B52CE
+	.global Route11_EventScript_BraxtonRematch
+	.set Route11_EventScript_BraxtonRematch, 0x081B52F5
+	.global Route11_EventScript_Bernie
+	.set Route11_EventScript_Bernie, 0x081B530C
+	.global Route11_EventScript_BernieRematch
+	.set Route11_EventScript_BernieRematch, 0x081B5333
+	.global Route11_EventScript_Hugo
+	.set Route11_EventScript_Hugo, 0x081B534A
+	.global Route11_EventScript_HugoRematch
+	.set Route11_EventScript_HugoRematch, 0x081B5371
+	.global Route11_EventScript_Jasper
+	.set Route11_EventScript_Jasper, 0x081B5388
+	.global Route11_EventScript_JasperRematch
+	.set Route11_EventScript_JasperRematch, 0x081B53AF
+	.global Route11_EventScript_Dirk
+	.set Route11_EventScript_Dirk, 0x081B53C6
+	.global Route11_EventScript_DirkRematch
+	.set Route11_EventScript_DirkRematch, 0x081B53ED
+	.global Route11_EventScript_Darian
+	.set Route11_EventScript_Darian, 0x081B5404
+	.global Route11_EventScript_DarianRematch
+	.set Route11_EventScript_DarianRematch, 0x081B542B
+	.global Route9_EventScript_Brent
+	.set Route9_EventScript_Brent, 0x081B5442
+	.global Route9_EventScript_BrentRematch
+	.set Route9_EventScript_BrentRematch, 0x081B5469
+	.global Route9_EventScript_Conner
+	.set Route9_EventScript_Conner, 0x081B5480
+	.global Route9_EventScript_ConnerRematch
+	.set Route9_EventScript_ConnerRematch, 0x081B54A7
+	.global Route9_EventScript_Chris
+	.set Route9_EventScript_Chris, 0x081B54BE
+	.global Route9_EventScript_ChrisRematch
+	.set Route9_EventScript_ChrisRematch, 0x081B54E5
+	.global Route9_EventScript_Drew
+	.set Route9_EventScript_Drew, 0x081B54FC
+	.global Route9_EventScript_DrewRematch
+	.set Route9_EventScript_DrewRematch, 0x081B5523
+	.global Route9_EventScript_Alicia
+	.set Route9_EventScript_Alicia, 0x081B553A
+	.global Route9_EventScript_AliciaRematch
+	.set Route9_EventScript_AliciaRematch, 0x081B5561
+	.global Route9_EventScript_Caitlin
+	.set Route9_EventScript_Caitlin, 0x081B5578
+	.global Route9_EventScript_CaitlinRematch
+	.set Route9_EventScript_CaitlinRematch, 0x081B559F
+	.global Route9_EventScript_Alan
+	.set Route9_EventScript_Alan, 0x081B55B6
+	.global Route9_EventScript_AlanRematch
+	.set Route9_EventScript_AlanRematch, 0x081B55DD
+	.global Route9_EventScript_Brice
+	.set Route9_EventScript_Brice, 0x081B55F4
+	.global Route9_EventScript_BriceRematch
+	.set Route9_EventScript_BriceRematch, 0x081B561B
+	.global Route9_EventScript_Jeremy
+	.set Route9_EventScript_Jeremy, 0x081B5632
+	.global Route9_EventScript_JeremyRematch
+	.set Route9_EventScript_JeremyRematch, 0x081B5659
+	.global Route10_EventScript_Heidi
+	.set Route10_EventScript_Heidi, 0x081B5670
+	.global Route10_EventScript_HeidiRematch
+	.set Route10_EventScript_HeidiRematch, 0x081B5697
+	.global Route10_EventScript_Carol
+	.set Route10_EventScript_Carol, 0x081B56AE
+	.global Route10_EventScript_CarolRematch
+	.set Route10_EventScript_CarolRematch, 0x081B56D5
+	.global Route10_EventScript_Mark
+	.set Route10_EventScript_Mark, 0x081B56EC
+	.global Route10_EventScript_MarkRematch
+	.set Route10_EventScript_MarkRematch, 0x081B5713
+	.global Route10_EventScript_Herman
+	.set Route10_EventScript_Herman, 0x081B572A
+	.global Route10_EventScript_HermanRematch
+	.set Route10_EventScript_HermanRematch, 0x081B5751
+	.global Route10_EventScript_Clark
+	.set Route10_EventScript_Clark, 0x081B5768
+	.global Route10_EventScript_ClarkRematch
+	.set Route10_EventScript_ClarkRematch, 0x081B578F
+	.global Route10_EventScript_Trent
+	.set Route10_EventScript_Trent, 0x081B57A6
+	.global Route10_EventScript_TrentRematch
+	.set Route10_EventScript_TrentRematch, 0x081B57CD
+	.global Route8_EventScript_Paige
+	.set Route8_EventScript_Paige, 0x081B57E4
+	.global Route8_EventScript_PaigeRematch
+	.set Route8_EventScript_PaigeRematch, 0x081B580B
+	.global Route8_EventScript_Andrea
+	.set Route8_EventScript_Andrea, 0x081B5822
+	.global Route8_EventScript_AndreaRematch
+	.set Route8_EventScript_AndreaRematch, 0x081B5849
+	.global Route8_EventScript_Megan
+	.set Route8_EventScript_Megan, 0x081B5860
+	.global Route8_EventScript_MeganRematch
+	.set Route8_EventScript_MeganRematch, 0x081B5887
+	.global Route8_EventScript_Julia
+	.set Route8_EventScript_Julia, 0x081B589E
+	.global Route8_EventScript_JuliaRematch
+	.set Route8_EventScript_JuliaRematch, 0x081B58C5
+	.global Route8_EventScript_Aidan
+	.set Route8_EventScript_Aidan, 0x081B58DC
+	.global Route8_EventScript_AidanRematch
+	.set Route8_EventScript_AidanRematch, 0x081B5903
+	.global Route8_EventScript_Glenn
+	.set Route8_EventScript_Glenn, 0x081B591A
+	.global Route8_EventScript_GlennRematch
+	.set Route8_EventScript_GlennRematch, 0x081B5941
+	.global Route8_EventScript_Leslie
+	.set Route8_EventScript_Leslie, 0x081B5958
+	.global Route8_EventScript_LeslieRematch
+	.set Route8_EventScript_LeslieRematch, 0x081B597F
+	.global Route8_EventScript_Stan
+	.set Route8_EventScript_Stan, 0x081B5996
+	.global Route8_EventScript_StanRematch
+	.set Route8_EventScript_StanRematch, 0x081B59BD
+	.global Route8_EventScript_Rich
+	.set Route8_EventScript_Rich, 0x081B59D4
+	.global Route8_EventScript_RichRematch
+	.set Route8_EventScript_RichRematch, 0x081B59FB
+	.global Route8_EventScript_Eli
+	.set Route8_EventScript_Eli, 0x081B5A12
+	.global Route8_EventScript_EliRematch
+	.set Route8_EventScript_EliRematch, 0x081B5A3D
+	.global Route8_EventScript_Anne
+	.set Route8_EventScript_Anne, 0x081B5A58
+	.global Route8_EventScript_AnneRematch
+	.set Route8_EventScript_AnneRematch, 0x081B5A83
+	.global Route8_EventScript_Ricardo
+	.set Route8_EventScript_Ricardo, 0x081B5A9E
+	.global Route8_EventScript_RicardoRematch
+	.set Route8_EventScript_RicardoRematch, 0x081B5AC5
+	.global Route8_EventScript_Jaren
+	.set Route8_EventScript_Jaren, 0x081B5ADC
+	.global Route8_EventScript_JarenRematch
+	.set Route8_EventScript_JarenRematch, 0x081B5B03
+	.global Route12_EventScript_Ned
+	.set Route12_EventScript_Ned, 0x081B5B1A
+	.global Route12_EventScript_NedRematch
+	.set Route12_EventScript_NedRematch, 0x081B5B41
+	.global Route12_EventScript_Chip
+	.set Route12_EventScript_Chip, 0x081B5B58
+	.global Route12_EventScript_ChipRematch
+	.set Route12_EventScript_ChipRematch, 0x081B5B7F
+	.global Route12_EventScript_Hank
+	.set Route12_EventScript_Hank, 0x081B5B96
+	.global Route12_EventScript_HankRematch
+	.set Route12_EventScript_HankRematch, 0x081B5BBD
+	.global Route12_EventScript_Elliot
+	.set Route12_EventScript_Elliot, 0x081B5BD4
+	.global Route12_EventScript_ElliotRematch
+	.set Route12_EventScript_ElliotRematch, 0x081B5BFB
+	.global Route12_EventScript_Andrew
+	.set Route12_EventScript_Andrew, 0x081B5C12
+	.global Route12_EventScript_AndrewRematch
+	.set Route12_EventScript_AndrewRematch, 0x081B5C39
+	.global Route12_EventScript_Luca
+	.set Route12_EventScript_Luca, 0x081B5C50
+	.global Route12_EventScript_LucaRematch
+	.set Route12_EventScript_LucaRematch, 0x081B5C77
+	.global Route12_EventScript_Justin
+	.set Route12_EventScript_Justin, 0x081B5C8E
+	.global Route12_EventScript_JustinRematch
+	.set Route12_EventScript_JustinRematch, 0x081B5CB5
+	.global Route12_EventScript_Jes
+	.set Route12_EventScript_Jes, 0x081B5CCC
+	.global Route12_EventScript_JesRematch
+	.set Route12_EventScript_JesRematch, 0x081B5CF7
+	.global Route12_EventScript_Gia
+	.set Route12_EventScript_Gia, 0x081B5D12
+	.global Route12_EventScript_GiaRematch
+	.set Route12_EventScript_GiaRematch, 0x081B5D3D
+	.global Route13_EventScript_Jared
+	.set Route13_EventScript_Jared, 0x081B5D58
+	.global Route13_EventScript_JaredRematch
+	.set Route13_EventScript_JaredRematch, 0x081B5D7F
+	.global Route13_EventScript_Lola
+	.set Route13_EventScript_Lola, 0x081B5D96
+	.global Route13_EventScript_LolaRematch
+	.set Route13_EventScript_LolaRematch, 0x081B5DBD
+	.global Route13_EventScript_Sheila
+	.set Route13_EventScript_Sheila, 0x081B5DD4
+	.global Route13_EventScript_SheilaRematch
+	.set Route13_EventScript_SheilaRematch, 0x081B5DFB
+	.global Route13_EventScript_Sebastian
+	.set Route13_EventScript_Sebastian, 0x081B5E12
+	.global Route13_EventScript_SebastianRematch
+	.set Route13_EventScript_SebastianRematch, 0x081B5E39
+	.global Route13_EventScript_Perry
+	.set Route13_EventScript_Perry, 0x081B5E50
+	.global Route13_EventScript_PerryRematch
+	.set Route13_EventScript_PerryRematch, 0x081B5E77
+	.global Route13_EventScript_Robert
+	.set Route13_EventScript_Robert, 0x081B5E8E
+	.global Route13_EventScript_RobertRematch
+	.set Route13_EventScript_RobertRematch, 0x081B5EB5
+	.global Route13_EventScript_Alma
+	.set Route13_EventScript_Alma, 0x081B5ECC
+	.global Route13_EventScript_AlmaRematch
+	.set Route13_EventScript_AlmaRematch, 0x081B5EF3
+	.global Route13_EventScript_Susie
+	.set Route13_EventScript_Susie, 0x081B5F0A
+	.global Route13_EventScript_SusieRematch
+	.set Route13_EventScript_SusieRematch, 0x081B5F31
+	.global Route13_EventScript_Valerie
+	.set Route13_EventScript_Valerie, 0x081B5F48
+	.global Route13_EventScript_ValerieRematch
+	.set Route13_EventScript_ValerieRematch, 0x081B5F6F
+	.global Route13_EventScript_Gwen
+	.set Route13_EventScript_Gwen, 0x081B5F86
+	.global Route13_EventScript_GwenRematch
+	.set Route13_EventScript_GwenRematch, 0x081B5FAD
+	.global Route14_EventScript_Malik
+	.set Route14_EventScript_Malik, 0x081B5FC4
+	.global Route14_EventScript_MalikRematch
+	.set Route14_EventScript_MalikRematch, 0x081B5FEB
+	.global Route14_EventScript_Lukas
+	.set Route14_EventScript_Lukas, 0x081B6002
+	.global Route14_EventScript_LukasRematch
+	.set Route14_EventScript_LukasRematch, 0x081B6029
+	.global Route14_EventScript_Isaac
+	.set Route14_EventScript_Isaac, 0x081B6040
+	.global Route14_EventScript_IsaacRematch
+	.set Route14_EventScript_IsaacRematch, 0x081B6067
+	.global Route14_EventScript_Gerald
+	.set Route14_EventScript_Gerald, 0x081B607E
+	.global Route14_EventScript_GeraldRematch
+	.set Route14_EventScript_GeraldRematch, 0x081B60A5
+	.global Route14_EventScript_Donald
+	.set Route14_EventScript_Donald, 0x081B60BC
+	.global Route14_EventScript_DonaldRematch
+	.set Route14_EventScript_DonaldRematch, 0x081B60E3
+	.global Route14_EventScript_Benny
+	.set Route14_EventScript_Benny, 0x081B60FA
+	.global Route14_EventScript_BennyRematch
+	.set Route14_EventScript_BennyRematch, 0x081B6121
+	.global Route14_EventScript_Carter
+	.set Route14_EventScript_Carter, 0x081B6138
+	.global Route14_EventScript_CarterRematch
+	.set Route14_EventScript_CarterRematch, 0x081B615F
+	.global Route14_EventScript_Mitch
+	.set Route14_EventScript_Mitch, 0x081B6176
+	.global Route14_EventScript_MitchRematch
+	.set Route14_EventScript_MitchRematch, 0x081B619D
+	.global Route14_EventScript_Beck
+	.set Route14_EventScript_Beck, 0x081B61B4
+	.global Route14_EventScript_BeckRematch
+	.set Route14_EventScript_BeckRematch, 0x081B61DB
+	.global Route14_EventScript_Marlon
+	.set Route14_EventScript_Marlon, 0x081B61F2
+	.global Route14_EventScript_MarlonRematch
+	.set Route14_EventScript_MarlonRematch, 0x081B6219
+	.global Route14_EventScript_Kiri
+	.set Route14_EventScript_Kiri, 0x081B6230
+	.global Route14_EventScript_KiriRematch
+	.set Route14_EventScript_KiriRematch, 0x081B625B
+	.global Route14_EventScript_Jan
+	.set Route14_EventScript_Jan, 0x081B6276
+	.global Route14_EventScript_JanRematch
+	.set Route14_EventScript_JanRematch, 0x081B62A1
+	.global Route15_EventScript_Ernest
+	.set Route15_EventScript_Ernest, 0x081B62BC
+	.global Route15_EventScript_ErnestRematch
+	.set Route15_EventScript_ErnestRematch, 0x081B62E3
+	.global Route15_EventScript_Alex
+	.set Route15_EventScript_Alex, 0x081B62FA
+	.global Route15_EventScript_AlexRematch
+	.set Route15_EventScript_AlexRematch, 0x081B6321
+	.global Route15_EventScript_Grace
+	.set Route15_EventScript_Grace, 0x081B6338
+	.global Route15_EventScript_GraceRematch
+	.set Route15_EventScript_GraceRematch, 0x081B635F
+	.global Route15_EventScript_Olivia
+	.set Route15_EventScript_Olivia, 0x081B6376
+	.global Route15_EventScript_OliviaRematch
+	.set Route15_EventScript_OliviaRematch, 0x081B639D
+	.global Route15_EventScript_Edwin
+	.set Route15_EventScript_Edwin, 0x081B63B4
+	.global Route15_EventScript_EdwinRematch
+	.set Route15_EventScript_EdwinRematch, 0x081B63DB
+	.global Route15_EventScript_Chester
+	.set Route15_EventScript_Chester, 0x081B63F2
+	.global Route15_EventScript_ChesterRematch
+	.set Route15_EventScript_ChesterRematch, 0x081B6419
+	.global Route15_EventScript_Yazmin
+	.set Route15_EventScript_Yazmin, 0x081B6430
+	.global Route15_EventScript_YazminRematch
+	.set Route15_EventScript_YazminRematch, 0x081B6457
+	.global Route15_EventScript_Kindra
+	.set Route15_EventScript_Kindra, 0x081B646E
+	.global Route15_EventScript_KindraRematch
+	.set Route15_EventScript_KindraRematch, 0x081B6495
+	.global Route15_EventScript_Becky
+	.set Route15_EventScript_Becky, 0x081B64AC
+	.global Route15_EventScript_BeckyRematch
+	.set Route15_EventScript_BeckyRematch, 0x081B64D3
+	.global Route15_EventScript_Celia
+	.set Route15_EventScript_Celia, 0x081B64EA
+	.global Route15_EventScript_CeliaRematch
+	.set Route15_EventScript_CeliaRematch, 0x081B6511
+	.global Route15_EventScript_Mya
+	.set Route15_EventScript_Mya, 0x081B6528
+	.global Route15_EventScript_MyaRematch
+	.set Route15_EventScript_MyaRematch, 0x081B6553
+	.global Route15_EventScript_Ron
+	.set Route15_EventScript_Ron, 0x081B656E
+	.global Route15_EventScript_RonRematch
+	.set Route15_EventScript_RonRematch, 0x081B6599
+	.global Route16_EventScript_Lao
+	.set Route16_EventScript_Lao, 0x081B65B4
+	.global Route16_EventScript_LaoRematch
+	.set Route16_EventScript_LaoRematch, 0x081B65DB
+	.global Route16_EventScript_Hideo
+	.set Route16_EventScript_Hideo, 0x081B65F2
+	.global Route16_EventScript_HideoRematch
+	.set Route16_EventScript_HideoRematch, 0x081B6619
+	.global Route16_EventScript_Ruben
+	.set Route16_EventScript_Ruben, 0x081B6630
+	.global Route16_EventScript_RubenRematch
+	.set Route16_EventScript_RubenRematch, 0x081B6657
+	.global Route16_EventScript_Koji
+	.set Route16_EventScript_Koji, 0x081B666E
+	.global Route16_EventScript_KojiRematch
+	.set Route16_EventScript_KojiRematch, 0x081B6695
+	.global Route16_EventScript_Luke
+	.set Route16_EventScript_Luke, 0x081B66AC
+	.global Route16_EventScript_LukeRematch
+	.set Route16_EventScript_LukeRematch, 0x081B66D3
+	.global Route16_EventScript_Camron
+	.set Route16_EventScript_Camron, 0x081B66EA
+	.global Route16_EventScript_CamronRematch
+	.set Route16_EventScript_CamronRematch, 0x081B6711
+	.global Route16_EventScript_Jed
+	.set Route16_EventScript_Jed, 0x081B6728
+	.global Route16_EventScript_JedRematch
+	.set Route16_EventScript_JedRematch, 0x081B6753
+	.global Route16_EventScript_Lea
+	.set Route16_EventScript_Lea, 0x081B676E
+	.global Route16_EventScript_LeaRematch
+	.set Route16_EventScript_LeaRematch, 0x081B6799
+	.global Route17_EventScript_Billy
+	.set Route17_EventScript_Billy, 0x081B67B4
+	.global Route17_EventScript_BillyRematch
+	.set Route17_EventScript_BillyRematch, 0x081B67DB
+	.global Route17_EventScript_Nikolas
+	.set Route17_EventScript_Nikolas, 0x081B67F2
+	.global Route17_EventScript_NikolasRematch
+	.set Route17_EventScript_NikolasRematch, 0x081B6819
+	.global Route17_EventScript_Jaxon
+	.set Route17_EventScript_Jaxon, 0x081B6830
+	.global Route17_EventScript_JaxonRematch
+	.set Route17_EventScript_JaxonRematch, 0x081B6857
+	.global Route17_EventScript_William
+	.set Route17_EventScript_William, 0x081B686E
+	.global Route17_EventScript_WilliamRematch
+	.set Route17_EventScript_WilliamRematch, 0x081B6895
+	.global Route17_EventScript_Raul
+	.set Route17_EventScript_Raul, 0x081B68AC
+	.global Route17_EventScript_RaulRematch
+	.set Route17_EventScript_RaulRematch, 0x081B68D3
+	.global Route17_EventScript_Isaiah
+	.set Route17_EventScript_Isaiah, 0x081B68EA
+	.global Route17_EventScript_IsaiahRematch
+	.set Route17_EventScript_IsaiahRematch, 0x081B6911
+	.global Route17_EventScript_Zeek
+	.set Route17_EventScript_Zeek, 0x081B6928
+	.global Route17_EventScript_ZeekRematch
+	.set Route17_EventScript_ZeekRematch, 0x081B694F
+	.global Route17_EventScript_Jamal
+	.set Route17_EventScript_Jamal, 0x081B6966
+	.global Route17_EventScript_JamalRematch
+	.set Route17_EventScript_JamalRematch, 0x081B698D
+	.global Route17_EventScript_Corey
+	.set Route17_EventScript_Corey, 0x081B69A4
+	.global Route17_EventScript_CoreyRematch
+	.set Route17_EventScript_CoreyRematch, 0x081B69CB
+	.global Route17_EventScript_Virgil
+	.set Route17_EventScript_Virgil, 0x081B69E2
+	.global Route17_EventScript_VirgilRematch
+	.set Route17_EventScript_VirgilRematch, 0x081B6A09
+	.global Route18_EventScript_Wilton
+	.set Route18_EventScript_Wilton, 0x081B6A20
+	.global Route18_EventScript_WiltonRematch
+	.set Route18_EventScript_WiltonRematch, 0x081B6A47
+	.global Route18_EventScript_Ramiro
+	.set Route18_EventScript_Ramiro, 0x081B6A5E
+	.global Route18_EventScript_RamiroRematch
+	.set Route18_EventScript_RamiroRematch, 0x081B6A85
+	.global Route18_EventScript_Jacob
+	.set Route18_EventScript_Jacob, 0x081B6A9C
+	.global Route18_EventScript_JacobRematch
+	.set Route18_EventScript_JacobRematch, 0x081B6AC3
+	.global Route19_EventScript_Richard
+	.set Route19_EventScript_Richard, 0x081B6ADA
+	.global Route19_EventScript_RichardRematch
+	.set Route19_EventScript_RichardRematch, 0x081B6B01
+	.global Route19_EventScript_Reece
+	.set Route19_EventScript_Reece, 0x081B6B18
+	.global Route19_EventScript_ReeceRematch
+	.set Route19_EventScript_ReeceRematch, 0x081B6B3F
+	.global Route19_EventScript_Matthew
+	.set Route19_EventScript_Matthew, 0x081B6B56
+	.global Route19_EventScript_MatthewRematch
+	.set Route19_EventScript_MatthewRematch, 0x081B6B7D
+	.global Route19_EventScript_Douglas
+	.set Route19_EventScript_Douglas, 0x081B6B94
+	.global Route19_EventScript_DouglasRematch
+	.set Route19_EventScript_DouglasRematch, 0x081B6BBB
+	.global Route19_EventScript_David
+	.set Route19_EventScript_David, 0x081B6BD2
+	.global Route19_EventScript_DavidRematch
+	.set Route19_EventScript_DavidRematch, 0x081B6BF9
+	.global Route19_EventScript_Tony
+	.set Route19_EventScript_Tony, 0x081B6C10
+	.global Route19_EventScript_TonyRematch
+	.set Route19_EventScript_TonyRematch, 0x081B6C37
+	.global Route19_EventScript_Axle
+	.set Route19_EventScript_Axle, 0x081B6C4E
+	.global Route19_EventScript_AxleRematch
+	.set Route19_EventScript_AxleRematch, 0x081B6C75
+	.global Route19_EventScript_Anya
+	.set Route19_EventScript_Anya, 0x081B6C8C
+	.global Route19_EventScript_AnyaRematch
+	.set Route19_EventScript_AnyaRematch, 0x081B6CB3
+	.global Route19_EventScript_Alice
+	.set Route19_EventScript_Alice, 0x081B6CCA
+	.global Route19_EventScript_AliceRematch
+	.set Route19_EventScript_AliceRematch, 0x081B6CF1
+	.global Route19_EventScript_Connie
+	.set Route19_EventScript_Connie, 0x081B6D08
+	.global Route19_EventScript_ConnieRematch
+	.set Route19_EventScript_ConnieRematch, 0x081B6D2F
+	.global Route19_EventScript_Lia
+	.set Route19_EventScript_Lia, 0x081B6D46
+	.global Route19_EventScript_LiaRematch
+	.set Route19_EventScript_LiaRematch, 0x081B6D71
+	.global Route19_EventScript_Luc
+	.set Route19_EventScript_Luc, 0x081B6D8C
+	.global Route19_EventScript_LucRematch
+	.set Route19_EventScript_LucRematch, 0x081B6DB7
+	.global Route20_EventScript_Barry
+	.set Route20_EventScript_Barry, 0x081B6DD2
+	.global Route20_EventScript_BarryRematch
+	.set Route20_EventScript_BarryRematch, 0x081B6DF9
+	.global Route20_EventScript_Dean
+	.set Route20_EventScript_Dean, 0x081B6E10
+	.global Route20_EventScript_DeanRematch
+	.set Route20_EventScript_DeanRematch, 0x081B6E37
+	.global Route20_EventScript_Darrin
+	.set Route20_EventScript_Darrin, 0x081B6E4E
+	.global Route20_EventScript_DarrinRematch
+	.set Route20_EventScript_DarrinRematch, 0x081B6E75
+	.global Route20_EventScript_Tiffany
+	.set Route20_EventScript_Tiffany, 0x081B6E8C
+	.global Route20_EventScript_TiffanyRematch
+	.set Route20_EventScript_TiffanyRematch, 0x081B6EB3
+	.global Route20_EventScript_Nora
+	.set Route20_EventScript_Nora, 0x081B6ECA
+	.global Route20_EventScript_NoraRematch
+	.set Route20_EventScript_NoraRematch, 0x081B6EF1
+	.global Route20_EventScript_Melissa
+	.set Route20_EventScript_Melissa, 0x081B6F08
+	.global Route20_EventScript_MelissaRematch
+	.set Route20_EventScript_MelissaRematch, 0x081B6F2F
+	.global Route20_EventScript_Shirley
+	.set Route20_EventScript_Shirley, 0x081B6F46
+	.global Route20_EventScript_ShirleyRematch
+	.set Route20_EventScript_ShirleyRematch, 0x081B6F6D
+	.global Route20_EventScript_Roger
+	.set Route20_EventScript_Roger, 0x081B6F84
+	.global Route20_EventScript_RogerRematch
+	.set Route20_EventScript_RogerRematch, 0x081B6FAB
+	.global Route20_EventScript_Missy
+	.set Route20_EventScript_Missy, 0x081B6FC2
+	.global Route20_EventScript_MissyRematch
+	.set Route20_EventScript_MissyRematch, 0x081B6FE9
+	.global Route20_EventScript_Irene
+	.set Route20_EventScript_Irene, 0x081B7000
+	.global Route20_EventScript_IreneRematch
+	.set Route20_EventScript_IreneRematch, 0x081B7027
+	.global Route21_North_EventScript_Ronald
+	.set Route21_North_EventScript_Ronald, 0x081B703E
+	.global Route21_North_EventScript_RonaldRematch
+	.set Route21_North_EventScript_RonaldRematch, 0x081B7065
+	.global Route21_South_EventScript_Claude
+	.set Route21_South_EventScript_Claude, 0x081B707C
+	.global Route21_South_EventScript_ClaudeRematch
+	.set Route21_South_EventScript_ClaudeRematch, 0x081B70A3
+	.global Route21_North_EventScript_Wade
+	.set Route21_North_EventScript_Wade, 0x081B70BA
+	.global Route21_North_EventScript_WadeRematch
+	.set Route21_North_EventScript_WadeRematch, 0x081B70E1
+	.global Route21_South_EventScript_Nolan
+	.set Route21_South_EventScript_Nolan, 0x081B70F8
+	.global Route21_South_EventScript_NolanRematch
+	.set Route21_South_EventScript_NolanRematch, 0x081B711F
+	.global Route21_North_EventScript_Spencer
+	.set Route21_North_EventScript_Spencer, 0x081B7136
+	.global Route21_North_EventScript_SpencerRematch
+	.set Route21_North_EventScript_SpencerRematch, 0x081B715D
+	.global Route21_South_EventScript_Jack
+	.set Route21_South_EventScript_Jack, 0x081B7174
+	.global Route21_South_EventScript_JackRematch
+	.set Route21_South_EventScript_JackRematch, 0x081B719B
+	.global Route21_South_EventScript_Jerome
+	.set Route21_South_EventScript_Jerome, 0x081B71B2
+	.global Route21_South_EventScript_JeromeRematch
+	.set Route21_South_EventScript_JeromeRematch, 0x081B71D9
+	.global Route21_South_EventScript_Roland
+	.set Route21_South_EventScript_Roland, 0x081B71F0
+	.global Route21_South_EventScript_RolandRematch
+	.set Route21_South_EventScript_RolandRematch, 0x081B7217
+	.global Route21_North_EventScript_Lil
+	.set Route21_North_EventScript_Lil, 0x081B722E
+	.global Route21_North_EventScript_LilRematch
+	.set Route21_North_EventScript_LilRematch, 0x081B7259
+	.global Route21_North_EventScript_Ian
+	.set Route21_North_EventScript_Ian, 0x081B7274
+	.global Route21_North_EventScript_IanRematch
+	.set Route21_North_EventScript_IanRematch, 0x081B729F
+	.global OneIsland_KindleRoad_EventScript_Maria
+	.set OneIsland_KindleRoad_EventScript_Maria, 0x081B72BA
+	.global OneIsland_KindleRoad_EventScript_MariaRematch
+	.set OneIsland_KindleRoad_EventScript_MariaRematch, 0x081B72E1
+	.global OneIsland_KindleRoad_EventScript_Abigail
+	.set OneIsland_KindleRoad_EventScript_Abigail, 0x081B72F8
+	.global OneIsland_KindleRoad_EventScript_AbigailRematch
+	.set OneIsland_KindleRoad_EventScript_AbigailRematch, 0x081B731F
+	.global OneIsland_KindleRoad_EventScript_Finn
+	.set OneIsland_KindleRoad_EventScript_Finn, 0x081B7336
+	.global OneIsland_KindleRoad_EventScript_FinnRematch
+	.set OneIsland_KindleRoad_EventScript_FinnRematch, 0x081B735D
+	.global OneIsland_KindleRoad_EventScript_Garrett
+	.set OneIsland_KindleRoad_EventScript_Garrett, 0x081B7374
+	.global OneIsland_KindleRoad_EventScript_GarrettRematch
+	.set OneIsland_KindleRoad_EventScript_GarrettRematch, 0x081B739B
+	.global OneIsland_KindleRoad_EventScript_Tommy
+	.set OneIsland_KindleRoad_EventScript_Tommy, 0x081B73B2
+	.global OneIsland_KindleRoad_EventScript_TommyRematch
+	.set OneIsland_KindleRoad_EventScript_TommyRematch, 0x081B73D9
+	.global OneIsland_KindleRoad_EventScript_Sharon
+	.set OneIsland_KindleRoad_EventScript_Sharon, 0x081B73F0
+	.global OneIsland_KindleRoad_EventScript_SharonRematch
+	.set OneIsland_KindleRoad_EventScript_SharonRematch, 0x081B7417
+	.global OneIsland_KindleRoad_EventScript_Tanya
+	.set OneIsland_KindleRoad_EventScript_Tanya, 0x081B742E
+	.global OneIsland_KindleRoad_EventScript_TanyaRematch
+	.set OneIsland_KindleRoad_EventScript_TanyaRematch, 0x081B7455
+	.global OneIsland_KindleRoad_EventScript_Shea
+	.set OneIsland_KindleRoad_EventScript_Shea, 0x081B746C
+	.global OneIsland_KindleRoad_EventScript_SheaRematch
+	.set OneIsland_KindleRoad_EventScript_SheaRematch, 0x081B7493
+	.global OneIsland_KindleRoad_EventScript_Hugh
+	.set OneIsland_KindleRoad_EventScript_Hugh, 0x081B74AA
+	.global OneIsland_KindleRoad_EventScript_HughRematch
+	.set OneIsland_KindleRoad_EventScript_HughRematch, 0x081B74D1
+	.global OneIsland_KindleRoad_EventScript_Bryce
+	.set OneIsland_KindleRoad_EventScript_Bryce, 0x081B74E8
+	.global OneIsland_KindleRoad_EventScript_BryceRematch
+	.set OneIsland_KindleRoad_EventScript_BryceRematch, 0x081B750F
+	.global OneIsland_KindleRoad_EventScript_Claire
+	.set OneIsland_KindleRoad_EventScript_Claire, 0x081B7526
+	.global OneIsland_KindleRoad_EventScript_ClaireRematch
+	.set OneIsland_KindleRoad_EventScript_ClaireRematch, 0x081B754D
+	.global OneIsland_KindleRoad_EventScript_Kia
+	.set OneIsland_KindleRoad_EventScript_Kia, 0x081B7564
+	.global OneIsland_KindleRoad_EventScript_KiaRematch
+	.set OneIsland_KindleRoad_EventScript_KiaRematch, 0x081B758F
+	.global OneIsland_KindleRoad_EventScript_Mik
+	.set OneIsland_KindleRoad_EventScript_Mik, 0x081B75AA
+	.global OneIsland_KindleRoad_EventScript_MikRematch
+	.set OneIsland_KindleRoad_EventScript_MikRematch, 0x081B75D5
+	.global OneIsland_TreasureBeach_EventScript_Amara
+	.set OneIsland_TreasureBeach_EventScript_Amara, 0x081B75F0
+	.global OneIsland_TreasureBeach_EventScript_AmaraRematch
+	.set OneIsland_TreasureBeach_EventScript_AmaraRematch, 0x081B7617
+	.global ThreeIsland_BondBridge_EventScript_Nikki
+	.set ThreeIsland_BondBridge_EventScript_Nikki, 0x081B762E
+	.global ThreeIsland_BondBridge_EventScript_NikkiRematch
+	.set ThreeIsland_BondBridge_EventScript_NikkiRematch, 0x081B7655
+	.global ThreeIsland_BondBridge_EventScript_Violet
+	.set ThreeIsland_BondBridge_EventScript_Violet, 0x081B766C
+	.global ThreeIsland_BondBridge_EventScript_VioletRematch
+	.set ThreeIsland_BondBridge_EventScript_VioletRematch, 0x081B7693
+	.global ThreeIsland_BondBridge_EventScript_Amira
+	.set ThreeIsland_BondBridge_EventScript_Amira, 0x081B76AA
+	.global ThreeIsland_BondBridge_EventScript_AmiraRematch
+	.set ThreeIsland_BondBridge_EventScript_AmiraRematch, 0x081B76D1
+	.global ThreeIsland_BondBridge_EventScript_Alexis
+	.set ThreeIsland_BondBridge_EventScript_Alexis, 0x081B76E8
+	.global ThreeIsland_BondBridge_EventScript_AlexisRematch
+	.set ThreeIsland_BondBridge_EventScript_AlexisRematch, 0x081B770F
+	.global ThreeIsland_BondBridge_EventScript_Tisha
+	.set ThreeIsland_BondBridge_EventScript_Tisha, 0x081B7726
+	.global ThreeIsland_BondBridge_EventScript_TishaRematch
+	.set ThreeIsland_BondBridge_EventScript_TishaRematch, 0x081B774D
+	.global ThreeIsland_BondBridge_EventScript_Joy
+	.set ThreeIsland_BondBridge_EventScript_Joy, 0x081B7764
+	.global ThreeIsland_BondBridge_EventScript_JoyRematch
+	.set ThreeIsland_BondBridge_EventScript_JoyRematch, 0x081B778F
+	.global ThreeIsland_BondBridge_EventScript_Meg
+	.set ThreeIsland_BondBridge_EventScript_Meg, 0x081B77AA
+	.global ThreeIsland_BondBridge_EventScript_MegRematch
+	.set ThreeIsland_BondBridge_EventScript_MegRematch, 0x081B77D5
+	.global FiveIsland_ResortGorgeous_EventScript_Daisy
+	.set FiveIsland_ResortGorgeous_EventScript_Daisy, 0x081B77F0
+	.global FiveIsland_ResortGorgeous_EventScript_DaisyRematch
+	.set FiveIsland_ResortGorgeous_EventScript_DaisyRematch, 0x081B7817
+	.global FiveIsland_ResortGorgeous_EventScript_Celina
+	.set FiveIsland_ResortGorgeous_EventScript_Celina, 0x081B782E
+	.global FiveIsland_ResortGorgeous_EventScript_CelinaRematch
+	.set FiveIsland_ResortGorgeous_EventScript_CelinaRematch, 0x081B7855
+	.global FiveIsland_ResortGorgeous_EventScript_Rayna
+	.set FiveIsland_ResortGorgeous_EventScript_Rayna, 0x081B786C
+	.global FiveIsland_ResortGorgeous_EventScript_RaynaRematch
+	.set FiveIsland_ResortGorgeous_EventScript_RaynaRematch, 0x081B7893
+	.global FiveIsland_ResortGorgeous_EventScript_Jacki
+	.set FiveIsland_ResortGorgeous_EventScript_Jacki, 0x081B78AA
+	.global FiveIsland_ResortGorgeous_EventScript_JackiRematch
+	.set FiveIsland_ResortGorgeous_EventScript_JackiRematch, 0x081B78D1
+	.global FiveIsland_ResortGorgeous_EventScript_Gillian
+	.set FiveIsland_ResortGorgeous_EventScript_Gillian, 0x081B78E8
+	.global FiveIsland_ResortGorgeous_EventScript_GillianRematch
+	.set FiveIsland_ResortGorgeous_EventScript_GillianRematch, 0x081B790F
+	.global FiveIsland_ResortGorgeous_EventScript_Destin
+	.set FiveIsland_ResortGorgeous_EventScript_Destin, 0x081B7926
+	.global FiveIsland_ResortGorgeous_EventScript_DestinRematch
+	.set FiveIsland_ResortGorgeous_EventScript_DestinRematch, 0x081B794D
+	.global FiveIsland_ResortGorgeous_EventScript_Toby
+	.set FiveIsland_ResortGorgeous_EventScript_Toby, 0x081B7964
+	.global FiveIsland_ResortGorgeous_EventScript_TobyRematch
+	.set FiveIsland_ResortGorgeous_EventScript_TobyRematch, 0x081B798B
+	.global FiveIsland_WaterLabyrinth_EventScript_Alize
+	.set FiveIsland_WaterLabyrinth_EventScript_Alize, 0x081B79A2
+	.global FiveIsland_WaterLabyrinth_EventScript_AlizeRematch
+	.set FiveIsland_WaterLabyrinth_EventScript_AlizeRematch, 0x081B79C9
+	.global FiveIsland_MemorialPillar_EventScript_Milo
+	.set FiveIsland_MemorialPillar_EventScript_Milo, 0x081B79E0
+	.global FiveIsland_MemorialPillar_EventScript_MiloRematch
+	.set FiveIsland_MemorialPillar_EventScript_MiloRematch, 0x081B7A07
+	.global FiveIsland_MemorialPillar_EventScript_Chaz
+	.set FiveIsland_MemorialPillar_EventScript_Chaz, 0x081B7A1E
+	.global FiveIsland_MemorialPillar_EventScript_ChazRematch
+	.set FiveIsland_MemorialPillar_EventScript_ChazRematch, 0x081B7A45
+	.global FiveIsland_MemorialPillar_EventScript_Harold
+	.set FiveIsland_MemorialPillar_EventScript_Harold, 0x081B7A5C
+	.global FiveIsland_MemorialPillar_EventScript_HaroldRematch
+	.set FiveIsland_MemorialPillar_EventScript_HaroldRematch, 0x081B7A83
+	.global SixIsland_OutcastIsland_EventScript_Tylor
+	.set SixIsland_OutcastIsland_EventScript_Tylor, 0x081B7A9A
+	.global SixIsland_OutcastIsland_EventScript_TylorRematch
+	.set SixIsland_OutcastIsland_EventScript_TylorRematch, 0x081B7AC1
+	.global SixIsland_OutcastIsland_EventScript_Mymo
+	.set SixIsland_OutcastIsland_EventScript_Mymo, 0x081B7AD8
+	.global SixIsland_OutcastIsland_EventScript_MymoRematch
+	.set SixIsland_OutcastIsland_EventScript_MymoRematch, 0x081B7AFF
+	.global SixIsland_OutcastIsland_EventScript_Nicole
+	.set SixIsland_OutcastIsland_EventScript_Nicole, 0x081B7B16
+	.global SixIsland_OutcastIsland_EventScript_NicoleRematch
+	.set SixIsland_OutcastIsland_EventScript_NicoleRematch, 0x081B7B3D
+	.global SixIsland_OutcastIsland_EventScript_Ava
+	.set SixIsland_OutcastIsland_EventScript_Ava, 0x081B7B54
+	.global SixIsland_OutcastIsland_EventScript_AvaRematch
+	.set SixIsland_OutcastIsland_EventScript_AvaRematch, 0x081B7B7F
+	.global SixIsland_OutcastIsland_EventScript_Geb
+	.set SixIsland_OutcastIsland_EventScript_Geb, 0x081B7B9A
+	.global SixIsland_OutcastIsland_EventScript_GebRematch
+	.set SixIsland_OutcastIsland_EventScript_GebRematch, 0x081B7BC5
+	.global SixIsland_GreenPath_EventScript_Jaclyn
+	.set SixIsland_GreenPath_EventScript_Jaclyn, 0x081B7BE0
+	.global SixIsland_GreenPath_EventScript_JaclynRematch
+	.set SixIsland_GreenPath_EventScript_JaclynRematch, 0x081B7C07
+	.global SixIsland_WaterPath_EventScript_Rose
+	.set SixIsland_WaterPath_EventScript_Rose, 0x081B7C1E
+	.global SixIsland_WaterPath_EventScript_RoseRematch
+	.set SixIsland_WaterPath_EventScript_RoseRematch, 0x081B7C45
+	.global SixIsland_WaterPath_EventScript_Edward
+	.set SixIsland_WaterPath_EventScript_Edward, 0x081B7C5C
+	.global SixIsland_WaterPath_EventScript_EdwardRematch
+	.set SixIsland_WaterPath_EventScript_EdwardRematch, 0x081B7C83
+	.global SixIsland_WaterPath_EventScript_Samir
+	.set SixIsland_WaterPath_EventScript_Samir, 0x081B7C9A
+	.global SixIsland_WaterPath_EventScript_SamirRematch
+	.set SixIsland_WaterPath_EventScript_SamirRematch, 0x081B7CC1
+	.global SixIsland_WaterPath_EventScript_Denise
+	.set SixIsland_WaterPath_EventScript_Denise, 0x081B7CD8
+	.global SixIsland_WaterPath_EventScript_DeniseRematch
+	.set SixIsland_WaterPath_EventScript_DeniseRematch, 0x081B7CFF
+	.global SixIsland_WaterPath_EventScript_Miu
+	.set SixIsland_WaterPath_EventScript_Miu, 0x081B7D16
+	.global SixIsland_WaterPath_EventScript_MiuRematch
+	.set SixIsland_WaterPath_EventScript_MiuRematch, 0x081B7D41
+	.global SixIsland_WaterPath_EventScript_Mia
+	.set SixIsland_WaterPath_EventScript_Mia, 0x081B7D5C
+	.global SixIsland_WaterPath_EventScript_MiaRematch
+	.set SixIsland_WaterPath_EventScript_MiaRematch, 0x081B7D87
+	.global SixIsland_WaterPath_EventScript_Earl
+	.set SixIsland_WaterPath_EventScript_Earl, 0x081B7DA2
+	.global SixIsland_WaterPath_EventScript_EarlRematch
+	.set SixIsland_WaterPath_EventScript_EarlRematch, 0x081B7DC9
+	.global SixIsland_RuinValley_EventScript_Stanly
+	.set SixIsland_RuinValley_EventScript_Stanly, 0x081B7DE0
+	.global SixIsland_RuinValley_EventScript_StanlyRematch
+	.set SixIsland_RuinValley_EventScript_StanlyRematch, 0x081B7E07
+	.global SixIsland_RuinValley_EventScript_Foster
+	.set SixIsland_RuinValley_EventScript_Foster, 0x081B7E1E
+	.global SixIsland_RuinValley_EventScript_FosterRematch
+	.set SixIsland_RuinValley_EventScript_FosterRematch, 0x081B7E45
+	.global SixIsland_RuinValley_EventScript_Larry
+	.set SixIsland_RuinValley_EventScript_Larry, 0x081B7E5C
+	.global SixIsland_RuinValley_EventScript_LarryRematch
+	.set SixIsland_RuinValley_EventScript_LarryRematch, 0x081B7E83
+	.global SixIsland_RuinValley_EventScript_Daryl
+	.set SixIsland_RuinValley_EventScript_Daryl, 0x081B7E9A
+	.global SixIsland_RuinValley_EventScript_DarylRematch
+	.set SixIsland_RuinValley_EventScript_DarylRematch, 0x081B7EC1
+	.global SixIsland_RuinValley_EventScript_Hector
+	.set SixIsland_RuinValley_EventScript_Hector, 0x081B7ED8
+	.global SixIsland_RuinValley_EventScript_HectorRematch
+	.set SixIsland_RuinValley_EventScript_HectorRematch, 0x081B7EFF
+	.global SevenIsland_TrainerTower_EventScript_Dario
+	.set SevenIsland_TrainerTower_EventScript_Dario, 0x081B7F16
+	.global SevenIsland_TrainerTower_EventScript_DarioRematch
+	.set SevenIsland_TrainerTower_EventScript_DarioRematch, 0x081B7F3D
+	.global SevenIsland_TrainerTower_EventScript_Rodette
+	.set SevenIsland_TrainerTower_EventScript_Rodette, 0x081B7F54
+	.global SevenIsland_TrainerTower_EventScript_RodetteRematch
+	.set SevenIsland_TrainerTower_EventScript_RodetteRematch, 0x081B7F7B
+	.global SevenIsland_SevaultCanyon_Entrance_EventScript_Miah
+	.set SevenIsland_SevaultCanyon_Entrance_EventScript_Miah, 0x081B7F92
+	.global SevenIsland_SevaultCanyon_Entrance_EventScript_MiahRematch
+	.set SevenIsland_SevaultCanyon_Entrance_EventScript_MiahRematch, 0x081B7FB9
+	.global SevenIsland_SevaultCanyon_Entrance_EventScript_Eve
+	.set SevenIsland_SevaultCanyon_Entrance_EventScript_Eve, 0x081B7FD0
+	.global SevenIsland_SevaultCanyon_Entrance_EventScript_EveRematch
+	.set SevenIsland_SevaultCanyon_Entrance_EventScript_EveRematch, 0x081B7FFB
+	.global SevenIsland_SevaultCanyon_Entrance_EventScript_Jon
+	.set SevenIsland_SevaultCanyon_Entrance_EventScript_Jon, 0x081B8016
+	.global SevenIsland_SevaultCanyon_Entrance_EventScript_JonRematch
+	.set SevenIsland_SevaultCanyon_Entrance_EventScript_JonRematch, 0x081B8041
+	.global SevenIsland_SevaultCanyon_Entrance_EventScript_Mason
+	.set SevenIsland_SevaultCanyon_Entrance_EventScript_Mason, 0x081B805C
+	.global SevenIsland_SevaultCanyon_Entrance_EventScript_MasonRematch
+	.set SevenIsland_SevaultCanyon_Entrance_EventScript_MasonRematch, 0x081B8083
+	.global SevenIsland_SevaultCanyon_Entrance_EventScript_Nicolas
+	.set SevenIsland_SevaultCanyon_Entrance_EventScript_Nicolas, 0x081B809A
+	.global SevenIsland_SevaultCanyon_Entrance_EventScript_NicolasRematch
+	.set SevenIsland_SevaultCanyon_Entrance_EventScript_NicolasRematch, 0x081B80C1
+	.global SevenIsland_SevaultCanyon_Entrance_EventScript_Madeline
+	.set SevenIsland_SevaultCanyon_Entrance_EventScript_Madeline, 0x081B80D8
+	.global SevenIsland_SevaultCanyon_Entrance_EventScript_MadelineRematch
+	.set SevenIsland_SevaultCanyon_Entrance_EventScript_MadelineRematch, 0x081B80FF
+	.global SevenIsland_SevaultCanyon_EventScript_Cyndy
+	.set SevenIsland_SevaultCanyon_EventScript_Cyndy, 0x081B8116
+	.global SevenIsland_SevaultCanyon_EventScript_CyndyRematch
+	.set SevenIsland_SevaultCanyon_EventScript_CyndyRematch, 0x081B813D
+	.global SevenIsland_SevaultCanyon_EventScript_Evan
+	.set SevenIsland_SevaultCanyon_EventScript_Evan, 0x081B8154
+	.global SevenIsland_SevaultCanyon_EventScript_EvanRematch
+	.set SevenIsland_SevaultCanyon_EventScript_EvanRematch, 0x081B817B
+	.global SevenIsland_SevaultCanyon_EventScript_Jackson
+	.set SevenIsland_SevaultCanyon_EventScript_Jackson, 0x081B8192
+	.global SevenIsland_SevaultCanyon_EventScript_JacksonRematch
+	.set SevenIsland_SevaultCanyon_EventScript_JacksonRematch, 0x081B81B9
+	.global SevenIsland_SevaultCanyon_EventScript_Katelyn
+	.set SevenIsland_SevaultCanyon_EventScript_Katelyn, 0x081B81D0
+	.global SevenIsland_SevaultCanyon_EventScript_KatelynRematch
+	.set SevenIsland_SevaultCanyon_EventScript_KatelynRematch, 0x081B81F7
+	.global SevenIsland_SevaultCanyon_EventScript_Leroy
+	.set SevenIsland_SevaultCanyon_EventScript_Leroy, 0x081B820E
+	.global SevenIsland_SevaultCanyon_EventScript_LeroyRematch
+	.set SevenIsland_SevaultCanyon_EventScript_LeroyRematch, 0x081B8235
+	.global SevenIsland_SevaultCanyon_EventScript_Michelle
+	.set SevenIsland_SevaultCanyon_EventScript_Michelle, 0x081B824C
+	.global SevenIsland_SevaultCanyon_EventScript_MichelleRematch
+	.set SevenIsland_SevaultCanyon_EventScript_MichelleRematch, 0x081B8273
+	.global SevenIsland_SevaultCanyon_EventScript_Lex
+	.set SevenIsland_SevaultCanyon_EventScript_Lex, 0x081B828A
+	.global SevenIsland_SevaultCanyon_EventScript_LexRematch
+	.set SevenIsland_SevaultCanyon_EventScript_LexRematch, 0x081B82B5
+	.global SevenIsland_SevaultCanyon_EventScript_Nya
+	.set SevenIsland_SevaultCanyon_EventScript_Nya, 0x081B82D0
+	.global SevenIsland_SevaultCanyon_EventScript_NyaRematch
+	.set SevenIsland_SevaultCanyon_EventScript_NyaRematch, 0x081B82FB
+	.global SevenIsland_TanobyRuins_EventScript_Brandon
+	.set SevenIsland_TanobyRuins_EventScript_Brandon, 0x081B8316
+	.global SevenIsland_TanobyRuins_EventScript_BrandonRematch
+	.set SevenIsland_TanobyRuins_EventScript_BrandonRematch, 0x081B833D
+	.global SevenIsland_TanobyRuins_EventScript_Benjamin
+	.set SevenIsland_TanobyRuins_EventScript_Benjamin, 0x081B8354
+	.global SevenIsland_TanobyRuins_EventScript_BenjaminRematch
+	.set SevenIsland_TanobyRuins_EventScript_BenjaminRematch, 0x081B837B
+	.global SevenIsland_TanobyRuins_EventScript_Edna
+	.set SevenIsland_TanobyRuins_EventScript_Edna, 0x081B8392
+	.global SevenIsland_TanobyRuins_EventScript_EdnaRematch
+	.set SevenIsland_TanobyRuins_EventScript_EdnaRematch, 0x081B83B9
+	.global SevenIsland_TanobyRuins_EventScript_Clifford
+	.set SevenIsland_TanobyRuins_EventScript_Clifford, 0x081B83D0
+	.global SevenIsland_TanobyRuins_EventScript_CliffordRematch
+	.set SevenIsland_TanobyRuins_EventScript_CliffordRematch, 0x081B83F7
+
+@ Whole exact large-script pass 2: data/scripts/cable_club.inc
+	.global CableClub_OnTransition
+	.set CableClub_OnTransition, 0x081C17A7
+	.global CableClub_EventScript_HideOrShowMysteryGiftMan
+	.set CableClub_EventScript_HideOrShowMysteryGiftMan, 0x081C17AD
+	.global EventScript_HideMysteryGiftMan
+	.set EventScript_HideMysteryGiftMan, 0x081C17C1
+	.global CableClub_EventScript_MysteryGiftMan
+	.set CableClub_EventScript_MysteryGiftMan, 0x081C17C5
+	.global EventScript_MysteryGiftThankYou
+	.set EventScript_MysteryGiftThankYou, 0x081C17D7
+	.global CableClub_OnWarp
+	.set CableClub_OnWarp, 0x081C17E0
+	.global EventScript_CheckTurnAttendant
+	.set EventScript_CheckTurnAttendant, 0x081C181A
+	.global CableClub_OnLoad
+	.set CableClub_OnLoad, 0x081C182A
+	.global EventScript_OnLoadFromColosseum
+	.set EventScript_OnLoadFromColosseum, 0x081C1878
+	.global EventScript_OnLoadFromTradeCenter
+	.set EventScript_OnLoadFromTradeCenter, 0x081C187E
+	.global EventScript_OnLoadFromUnionRoom
+	.set EventScript_OnLoadFromUnionRoom, 0x081C1884
+	.global EventScript_OnLoadFromBerryCrush
+	.set EventScript_OnLoadFromBerryCrush, 0x081C188A
+	.global EventScript_OnLoadFromGameCorner
+	.set EventScript_OnLoadFromGameCorner, 0x081C1890
+	.global CableClub_OnFrame
+	.set CableClub_OnFrame, 0x081C1896
+	.global CableClub_EventScript_ExitLinkRoom
+	.set CableClub_EventScript_ExitLinkRoom, 0x081C18D8
+	.global CableClub_EventScript_ExitMinigameRoom
+	.set CableClub_EventScript_ExitMinigameRoom, 0x081C18F0
+	.global CableClub_EventScript_CloseLinkAndExitLinkRoom
+	.set CableClub_EventScript_CloseLinkAndExitLinkRoom, 0x081C1908
+	.global CableClub_EventScript_ExitTradeCenter
+	.set CableClub_EventScript_ExitTradeCenter, 0x081C1942
+	.global CableClub_EventScript_PlayerExitTradeCenter
+	.set CableClub_EventScript_PlayerExitTradeCenter, 0x081C195A
+	.global CableClub_EventScript_ExitUnionRoom
+	.set CableClub_EventScript_ExitUnionRoom, 0x081C198F
+	.global CableClub_EventScript_PlayerExitUnionRoom
+	.set CableClub_EventScript_PlayerExitUnionRoom, 0x081C19A7
+	.global CableClub_EventScript_TrainerCardDataOverwritten
+	.set CableClub_EventScript_TrainerCardDataOverwritten, 0x081C19D9
+	.global CableClub_EventScript_PlayerExitLinkRoom
+	.set CableClub_EventScript_PlayerExitLinkRoom, 0x081C19FD
+	.global CableClub_EventScript_Tutorial
+	.set CableClub_EventScript_Tutorial, 0x081C1A08
+	.global CableClub_EventScript_WelcomeToCableClub
+	.set CableClub_EventScript_WelcomeToCableClub, 0x081C1A3D
+	.global CableClub_EventScript_UnusedWelcomeToCableClub
+	.set CableClub_EventScript_UnusedWelcomeToCableClub, 0x081C1A4C
+	.global CableClub_EventScript_SelectCableClubRoom
+	.set CableClub_EventScript_SelectCableClubRoom, 0x081C1A5A
+	.global CableClub_EventScript_Colosseum
+	.set CableClub_EventScript_Colosseum, 0x081C1A96
+	.global CableClub_EventScript_SelectBattleMode
+	.set CableClub_EventScript_SelectBattleMode, 0x081C1AA1
+	.global CableClub_EventScript_BattleModeInfo
+	.set CableClub_EventScript_BattleModeInfo, 0x081C1AF4
+	.global CableClub_EventScript_SingleBattleMode
+	.set CableClub_EventScript_SingleBattleMode, 0x081C1B02
+	.global CableClub_EventScript_DoubleBattleMode
+	.set CableClub_EventScript_DoubleBattleMode, 0x081C1B0D
+	.global CableClub_EventScript_NeedTwoMonsForDoubleBattle
+	.set CableClub_EventScript_NeedTwoMonsForDoubleBattle, 0x081C1B26
+	.global CableClub_EventScript_MultiBattleMode
+	.set CableClub_EventScript_MultiBattleMode, 0x081C1B34
+	.global CableClub_EventScript_TryEnterColosseum
+	.set CableClub_EventScript_TryEnterColosseum, 0x081C1B3F
+	.global CableClub_EventScript_EnterColosseum
+	.set CableClub_EventScript_EnterColosseum, 0x081C1BA6
+	.global CableClub_EventScript_PlayerApproachLinkRoomRight
+	.set CableClub_EventScript_PlayerApproachLinkRoomRight, 0x081C1C14
+	.global CableClub_EventScript_WarpTo4PColosseum
+	.set CableClub_EventScript_WarpTo4PColosseum, 0x081C1C1F
+	.global CableClub_EventScript_AbortLinkIncorrectNumberOfBattlers
+	.set CableClub_EventScript_AbortLinkIncorrectNumberOfBattlers, 0x081C1C2F
+	.global CableClub_EventScript_AbortLinkNeedFourPlayers
+	.set CableClub_EventScript_AbortLinkNeedFourPlayers, 0x081C1C5B
+	.global CableClub_EventScript_AbortLinkWrongNumberForDoubleBattle
+	.set CableClub_EventScript_AbortLinkWrongNumberForDoubleBattle, 0x081C1C6C
+	.global CableClub_EventScript_AbortLinkWrongNumberForSingleBattle
+	.set CableClub_EventScript_AbortLinkWrongNumberForSingleBattle, 0x081C1C7D
+	.global CableClub_EventScript_ConfirmNumberAndRestart
+	.set CableClub_EventScript_ConfirmNumberAndRestart, 0x081C1C8E
+	.global CableClub_EventScript_TradeCenter
+	.set CableClub_EventScript_TradeCenter, 0x081C1C9E
+	.global CableClub_EventScript_EnterTradeCenter
+	.set CableClub_EventScript_EnterTradeCenter, 0x081C1D30
+	.global CableClub_EventScript_CheckPartyTradeRequirements
+	.set CableClub_EventScript_CheckPartyTradeRequirements, 0x081C1D8F
+	.global CableClub_EventScript_NeedTwoMonsToTrade
+	.set CableClub_EventScript_NeedTwoMonsToTrade, 0x081C1DB5
+	.global CableClub_EventScript_CantTradeEnigmaBerry
+	.set CableClub_EventScript_CantTradeEnigmaBerry, 0x081C1DC3
+	.global CableClub_EventScript_RecordCorner
+	.set CableClub_EventScript_RecordCorner, 0x081C1DD1
+	.global CableClub_EventScript_AbortLinkPlayerNotReady
+	.set CableClub_EventScript_AbortLinkPlayerNotReady, 0x081C1DD2
+	.global CableClub_EventScript_AbortLinkOtherTrainerNotReady
+	.set CableClub_EventScript_AbortLinkOtherTrainerNotReady, 0x081C1DE2
+	.global CableClub_EventScript_AbortLinkConnectionError
+	.set CableClub_EventScript_AbortLinkConnectionError, 0x081C1DF2
+	.global CableClub_EventScript_AbortLinkSomeoneNotReady
+	.set CableClub_EventScript_AbortLinkSomeoneNotReady, 0x081C1E02
+	.global CableClub_EventScript_AbortLinkDifferentSelections
+	.set CableClub_EventScript_AbortLinkDifferentSelections, 0x081C1E12
+	.global CableClub_EventScript_AbortLink
+	.set CableClub_EventScript_AbortLink, 0x081C1E22
+	.global CableClub_EventScript_AbortMinigame
+	.set CableClub_EventScript_AbortMinigame, 0x081C1E32
+	.global CableClub_EventScript_CableClubWarp
+	.set CableClub_EventScript_CableClubWarp, 0x081C1E42
+	.global CableClub_EventScript_AbortLinkIncorrectNumberOfParticipants
+	.set CableClub_EventScript_AbortLinkIncorrectNumberOfParticipants, 0x081C1E4A
+	.global CableClub_EventScript_AbortLinkPlayerHasBadEgg
+	.set CableClub_EventScript_AbortLinkPlayerHasBadEgg, 0x081C1E5A
+	.global CableClub_EventScript_WirelessClubAdjustements
+	.set CableClub_EventScript_WirelessClubAdjustements, 0x081C1E6A
+	.global CableClub_EventScript_NotReadyYet
+	.set CableClub_EventScript_NotReadyYet, 0x081C1E74
+	.global Movement_AttendantFaceDown
+	.set Movement_AttendantFaceDown, 0x081C1E7E
+	.global Movement_AttendantFaceRight
+	.set Movement_AttendantFaceRight, 0x081C1E80
+	.global Movement_AttendantFaceLeft
+	.set Movement_AttendantFaceLeft, 0x081C1E82
+	.global Movement_PlayerExitLinkRoom
+	.set Movement_PlayerExitLinkRoom, 0x081C1E84
+	.global Movement_PlayerApproachLinkRoomRight
+	.set Movement_PlayerApproachLinkRoomRight, 0x081C1E87
+	.global Movement_PlayerApproachLinkRoomLeft
+	.set Movement_PlayerApproachLinkRoomLeft, 0x081C1E8B
+	.global Movement_PlayerEnterLinkRoom
+	.set Movement_PlayerEnterLinkRoom, 0x081C1E8F
+	.global Movement_PlayerFaceAttendantLeft
+	.set Movement_PlayerFaceAttendantLeft, 0x081C1E91
+	.global Movement_PlayerFaceAttendantRight
+	.set Movement_PlayerFaceAttendantRight, 0x081C1E93
+	.global Movement_PlayerEnterMinigameRoom
+	.set Movement_PlayerEnterMinigameRoom, 0x081C1E95
+	.global CableClub_EventScript_ShowBattleRecords
+	.set CableClub_EventScript_ShowBattleRecords, 0x081BB8A7
+	.global BattleColosseum_2P_EventScript_PlayerSpot0
+	.set BattleColosseum_2P_EventScript_PlayerSpot0, 0x081BB8C3
+	.global BattleColosseum_2P_EventScript_PlayerSpot1
+	.set BattleColosseum_2P_EventScript_PlayerSpot1, 0x081BB8CF
+	.global BattleColosseum_4P_EventScript_PlayerSpot0
+	.set BattleColosseum_4P_EventScript_PlayerSpot0, 0x081BB8DB
+	.global BattleColosseum_4P_EventScript_PlayerSpot1
+	.set BattleColosseum_4P_EventScript_PlayerSpot1, 0x081BB8F8
+	.global BattleColosseum_4P_EventScript_PlayerSpot2
+	.set BattleColosseum_4P_EventScript_PlayerSpot2, 0x081BB915
+	.global BattleColosseum_4P_EventScript_PlayerSpot3
+	.set BattleColosseum_4P_EventScript_PlayerSpot3, 0x081BB932
+	.global BattleColosseum_4P_EventScript_CancelSpotTrigger
+	.set BattleColosseum_4P_EventScript_CancelSpotTrigger, 0x081C1F42
+	.global TradeCenter_EventScript_Chair0
+	.set TradeCenter_EventScript_Chair0, 0x081BB950
+	.global TradeCenter_EventScript_Chair1
+	.set TradeCenter_EventScript_Chair1, 0x081BB95C
+	.global TradeCenter_EventScript_Chair2
+	.set TradeCenter_EventScript_Chair2, 0x081C1F5B
+	.global TradeCenter_EventScript_Chair3
+	.set TradeCenter_EventScript_Chair3, 0x081C1F67
+	.global RecordCorner_EventScript_Spot0
+	.set RecordCorner_EventScript_Spot0, 0x081BB980
+	.global RecordCorner_EventScript_Spot1
+	.set RecordCorner_EventScript_Spot1, 0x081BB980
+	.global RecordCorner_EventScript_Spot2
+	.set RecordCorner_EventScript_Spot2, 0x081BB980
+	.global RecordCorner_EventScript_Spot3
+	.set RecordCorner_EventScript_Spot3, 0x081BB980
+	.global CableClub_EventScript_ReadTrainerCard
+	.set CableClub_EventScript_ReadTrainerCard, 0x081BB981
+	.global CableClub_EventScript_ReadTrainerCardColored
+	.set CableClub_EventScript_ReadTrainerCardColored, 0x081BB992
+	.global CableClub_EventScript_TooBusyToNotice
+	.set CableClub_EventScript_TooBusyToNotice, 0x081BB9A3
+	.global BattleColosseum_2P_EventScript_Attendant
+	.set BattleColosseum_2P_EventScript_Attendant, 0x081C1FA2
+	.global TradeCenter_EventScript_Attendant
+	.set TradeCenter_EventScript_Attendant, 0x081C1FB4
+	.global RecordCorner_EventScript_Attendant
+	.set RecordCorner_EventScript_Attendant, 0x081C1FC6
+	.global TradeCenter_ConfirmLeaveRoom
+	.set TradeCenter_ConfirmLeaveRoom, 0x081BB9D4
+	.global TradeCenter_TerminateLink
+	.set TradeCenter_TerminateLink, 0x081BB9F0
+	.global CableClub_EventScript_DoLinkRoomExit
+	.set CableClub_EventScript_DoLinkRoomExit, 0x081BB9FC
+	.global CableClub_EventScript_UnionRoomAttendant
+	.set CableClub_EventScript_UnionRoomAttendant, 0x081C1FF7
+	.global CableClub_EventScript_AskEnterUnionRoom
+	.set CableClub_EventScript_AskEnterUnionRoom, 0x081C2044
+	.global CableClub_EventScript_UnionRoomInfo
+	.set CableClub_EventScript_UnionRoomInfo, 0x081C207B
+	.global CableClub_EventScript_EnterUnionRoom
+	.set CableClub_EventScript_EnterUnionRoom, 0x081C2087
+	.global CableClub_EventScript_CheckPartyUnionRoomRequirements
+	.set CableClub_EventScript_CheckPartyUnionRoomRequirements, 0x081C2111
+	.global CableClub_EventScript_NeedTwoMonsForUnionRoom
+	.set CableClub_EventScript_NeedTwoMonsForUnionRoom, 0x081C2137
+	.global CableClub_EventScript_NoEnigmaBerryInUnionRoom
+	.set CableClub_EventScript_NoEnigmaBerryInUnionRoom, 0x081C2145
+	.global CableClub_EventScript_UnionRoomAdapterNotConnected
+	.set CableClub_EventScript_UnionRoomAdapterNotConnected, 0x081C2153
+	.global CableClub_EventScript_WirelessClubAttendant
+	.set CableClub_EventScript_WirelessClubAttendant, 0x081C215D
+	.global CableClub_EventScript_DontAskAboutLinking
+	.set CableClub_EventScript_DontAskAboutLinking, 0x081C2185
+	.global CableClub_EventScript_DirectCornerAttendant
+	.set CableClub_EventScript_DirectCornerAttendant, 0x081C218F
+	.global CableClub_EventScript_DirectCornerSelectService
+	.set CableClub_EventScript_DirectCornerSelectService, 0x081C21DA
+	.global CableClub_EventScript_DirectCornerNoBerry
+	.set CableClub_EventScript_DirectCornerNoBerry, 0x081C2225
+	.global CableClub_EventScript_WirelessTrade
+	.set CableClub_EventScript_WirelessTrade, 0x081C225C
+	.global CableClub_EventScript_WirelessBattleSelect
+	.set CableClub_EventScript_WirelessBattleSelect, 0x081C228A
+	.global CableClub_EventScript_WirelessSingleBattle
+	.set CableClub_EventScript_WirelessSingleBattle, 0x081C22DD
+	.global CableClub_EventScript_WirelessDoubleBattle
+	.set CableClub_EventScript_WirelessDoubleBattle, 0x081C22E8
+	.global CableClub_EventScript_TwoMonsNeededForWirelessDoubleBattle
+	.set CableClub_EventScript_TwoMonsNeededForWirelessDoubleBattle, 0x081C2301
+	.global CableClub_EventScript_WirelessMultiBattle
+	.set CableClub_EventScript_WirelessMultiBattle, 0x081C230F
+	.global CableClub_EventScript_WirelessBattleInfo
+	.set CableClub_EventScript_WirelessBattleInfo, 0x081C231A
+	.global CableClub_EventScript_WirelessBerryCrush
+	.set CableClub_EventScript_WirelessBerryCrush, 0x081C2328
+	.global CableClub_EventScript_NeedBerryForBerryCrush
+	.set CableClub_EventScript_NeedBerryForBerryCrush, 0x081C2354
+	.global CableClub_EventScript_SaveAndChooseLinkLeader
+	.set CableClub_EventScript_SaveAndChooseLinkLeader, 0x081C2362
+	.global CableClub_EventScript_ChooseLinkLeaderFrom2
+	.set CableClub_EventScript_ChooseLinkLeaderFrom2, 0x081C23AF
+	.global CableClub_EventScript_TryLeadGroup2Players
+	.set CableClub_EventScript_TryLeadGroup2Players, 0x081C23F3
+	.global CableClub_EventScript_TryJoinGroup2Players
+	.set CableClub_EventScript_TryJoinGroup2Players, 0x081C241B
+	.global CableClub_EventScript_ChooseLinkLeaderFrom4
+	.set CableClub_EventScript_ChooseLinkLeaderFrom4, 0x081C2443
+	.global CableClub_EventScript_TryLeadGroup4Players
+	.set CableClub_EventScript_TryLeadGroup4Players, 0x081C2487
+	.global CableClub_EventScript_TryJoinGroup4Players
+	.set CableClub_EventScript_TryJoinGroup4Players, 0x081C24AF
+	.global CableClub_EventScript_ChooseLinkLeader
+	.set CableClub_EventScript_ChooseLinkLeader, 0x081C24D7
+	.global CableClub_EventScript_TryLeadGroupXPlayers
+	.set CableClub_EventScript_TryLeadGroupXPlayers, 0x081C251B
+	.global CableClub_EventScript_TryJoinGroupXPlayers
+	.set CableClub_EventScript_TryJoinGroupXPlayers, 0x081C2543
+	.global CableClub_EventScript_TryBecomeLinkLeader
+	.set CableClub_EventScript_TryBecomeLinkLeader, 0x081C256B
+	.global CableClub_EventScript_TryJoinLinkGroup
+	.set CableClub_EventScript_TryJoinLinkGroup, 0x081C2573
+	.global CableClub_EventScript_EnterWirelessLinkRoom
+	.set CableClub_EventScript_EnterWirelessLinkRoom, 0x081C257B
+	.global CableClub_EventScript_ShowWirelessCommunicationScreen
+	.set CableClub_EventScript_ShowWirelessCommunicationScreen, 0x081BBFD8
+	.global CableClub_EventScript_AdapterNotConnected
+	.set CableClub_EventScript_AdapterNotConnected, 0x081C2609
+	.global CableClub_EventScript_OpenUnionRoomBarrier
+	.set CableClub_EventScript_OpenUnionRoomBarrier, 0x081C2613
+	.global CableClub_EventScript_CloseUnionRoomBarrier
+	.set CableClub_EventScript_CloseUnionRoomBarrier, 0x081C261D
+	.global CableClub_EventScript_OpenDirectCornerBarrier
+	.set CableClub_EventScript_OpenDirectCornerBarrier, 0x081C2627
+	.global CableClub_EventScript_CloseDirectCornerBarrier
+	.set CableClub_EventScript_CloseDirectCornerBarrier, 0x081C2631
+	.global CableClub_EventScript_OpenGameCornerBarrier
+	.set CableClub_EventScript_OpenGameCornerBarrier, 0x081C263B
+	.global CableClub_EventScript_CloseGameCornerBarrier
+	.set CableClub_EventScript_CloseGameCornerBarrier, 0x081C2645
+	.global CableClub_OnResume
+	.set CableClub_OnResume, 0x081C264F
+	.global JoyfulGameCorner_EventScript_InfoMan2
+	.set JoyfulGameCorner_EventScript_InfoMan2, 0x081C2653
+	.global CableClub_EventScript_PokemonJumpInfo
+	.set CableClub_EventScript_PokemonJumpInfo, 0x081C26A3
+	.global CableClub_EventScript_DodrioBerryPickingInfo
+	.set CableClub_EventScript_DodrioBerryPickingInfo, 0x081C26AD
+	.global CableClub_EventScript_MinigameInfoExit
+	.set CableClub_EventScript_MinigameInfoExit, 0x081C26B7
+	.global JoyfulGameCorner_EventScript_MinigameAttendant
+	.set JoyfulGameCorner_EventScript_MinigameAttendant, 0x081C26C1
+	.global CableClub_EventScript_PlayPokemonJump
+	.set CableClub_EventScript_PlayPokemonJump, 0x081C272D
+	.global CableClub_EventScript_PlayDodrioBerryPicking
+	.set CableClub_EventScript_PlayDodrioBerryPicking, 0x081C2777
+	.global CableClub_EventScript_ChooseLinkLeaderMinigame
+	.set CableClub_EventScript_ChooseLinkLeaderMinigame, 0x081C27C1
+	.global CableClub_EventScript_TryBecomeMinigameLinkLeader
+	.set CableClub_EventScript_TryBecomeMinigameLinkLeader, 0x081C2805
+	.global CableClub_EventScript_TryJoinMinigameLinkGroup
+	.set CableClub_EventScript_TryJoinMinigameLinkGroup, 0x081C282D
+	.global CableClub_EventScript_EnterMinigame
+	.set CableClub_EventScript_EnterMinigame, 0x081C2855
+	.global CableClub_EventScript_AdapterNotConnectedMinigame
+	.set CableClub_EventScript_AdapterNotConnectedMinigame, 0x081C288F
+	.global CableClub_EventScript_NoEligiblePkmn
+	.set CableClub_EventScript_NoEligiblePkmn, 0x081C2899
+	.global CableClub_EventScript_ExplainPokemonJumpRequirements
+	.set CableClub_EventScript_ExplainPokemonJumpRequirements, 0x081C28C8
+	.global CableClub_EventScript_ExplainDodrioBerryPickingRequirements
+	.set CableClub_EventScript_ExplainDodrioBerryPickingRequirements, 0x081C28D1
+	.global TwoIsland_JoyfulGameCorner_EventScript_ShowPokemonJumpRecords
+	.set TwoIsland_JoyfulGameCorner_EventScript_ShowPokemonJumpRecords, 0x081C28DA
+	.global TwoIsland_JoyfulGameCorner_EventScript_ShowDodrioBerryPickingRecords
+	.set TwoIsland_JoyfulGameCorner_EventScript_ShowDodrioBerryPickingRecords, 0x081C28EF
+	.global CableClub_Text_WelcomeWhichCableClubService
+	.set CableClub_Text_WelcomeWhichCableClubService, 0x081C2904
+	.global CableClub_Text_WhichService
+	.set CableClub_Text_WhichService, 0x081C2951
+	.global CableClub_Text_TradeMonsUsingLinkCable
+	.set CableClub_Text_TradeMonsUsingLinkCable, 0x081BC388
+	.global CableClub_Text_BattleUsingLinkCable
+	.set CableClub_Text_BattleUsingLinkCable, 0x081BC3C7
+	.global CableClub_Text_CloseThisMenu
+	.set CableClub_Text_CloseThisMenu, 0x081C29F6
+	.global CableClub_Text_NeedTwoMonsForDoubleBattle
+	.set CableClub_Text_NeedTwoMonsForDoubleBattle, 0x081C29FC
+	.global CableClub_Text_NeedTwoMonsToTrade
+	.set CableClub_Text_NeedTwoMonsToTrade, 0x081C2A35
+	.global CableClub_Text_CantTradeEnigmaBerry
+	.set CableClub_Text_CantTradeEnigmaBerry, 0x081C2A6F
+	.global CableClub_Text_PleaseWaitBCancel
+	.set CableClub_Text_PleaseWaitBCancel, 0x081BC4AC
+	.global CableClub_Text_WhenAllPlayersReadyAConfirmBCancel
+	.set CableClub_Text_WhenAllPlayersReadyAConfirmBCancel, 0x081BC4CE
+	.global CableClub_Text_StartLinkWithXPlayersAConfirmBCancel
+	.set CableClub_Text_StartLinkWithXPlayersAConfirmBCancel, 0x081BC50D
+	.global CableClub_Text_AwaitingLinkupBCancel
+	.set CableClub_Text_AwaitingLinkupBCancel, 0x081BC54C
+	.global CableClub_Text_OkayToSaveProgress
+	.set CableClub_Text_OkayToSaveProgress, 0x081C2B65
+	.global CableClub_Text_PleaseEnter
+	.set CableClub_Text_PleaseEnter, 0x081C2B83
+	.global CableClub_Text_DirectYouToYourRoom
+	.set CableClub_Text_DirectYouToYourRoom, 0x081C2B91
+	.global CableClub_Text_SomeoneIsNotReadyToLink
+	.set CableClub_Text_SomeoneIsNotReadyToLink, 0x081C2BB3
+	.global CableClub_Text_LinkErrorPleaseReset
+	.set CableClub_Text_LinkErrorPleaseReset, 0x081C2C08
+	.global CableClub_Text_PlayersMadeDifferentSelections
+	.set CableClub_Text_PlayersMadeDifferentSelections, 0x081C2C41
+	.global CableClub_Text_PleaseVisitAgain
+	.set CableClub_Text_PleaseVisitAgain, 0x081C2C7D
+	.global CableClub_Text_IncorrectNumberOfParticipants
+	.set CableClub_Text_IncorrectNumberOfParticipants, 0x081C2C94
+	.global CableClub_Text_CantSingleBattleWithXPlayers
+	.set CableClub_Text_CantSingleBattleWithXPlayers, 0x081C2CBD
+	.global CableClub_Text_CantDoubleBattleWithXPlayers
+	.set CableClub_Text_CantDoubleBattleWithXPlayers, 0x081C2CF3
+	.global CableClub_Text_NeedFourPlayers
+	.set CableClub_Text_NeedFourPlayers, 0x081C2D29
+	.global CableClub_Text_PleaseConfirmNumberAndRestart
+	.set CableClub_Text_PleaseConfirmNumberAndRestart, 0x081C2D5E
+	.global Text_TerminateLinkIfYouLeaveRoom
+	.set Text_TerminateLinkIfYouLeaveRoom, 0x081C2D94
+	.global Text_TerminateLinkConfirmation
+	.set Text_TerminateLinkConfirmation, 0x081C2DD5
+	.global Text_TrainerTooBusyToNotice
+	.set Text_TrainerTooBusyToNotice, 0x081C2E1A
+	.global Text_LookedAtPlayersTrainerCard
+	.set Text_LookedAtPlayersTrainerCard, 0x081C2E3E
+	.global Text_LookedAtPlayersTrainerCardColored
+	.set Text_LookedAtPlayersTrainerCardColored, 0x081C2E67
+	.global Text_TakeSeatStartBattle
+	.set Text_TakeSeatStartBattle, 0x081C2EA0
+	.global Text_TakeSeatStartTrade
+	.set Text_TakeSeatStartTrade, 0x081C2ECD
+	.global RecordCorner_Text_ThanksForComing
+	.set RecordCorner_Text_ThanksForComing, 0x081C2EF9
+	.global CableClub_Text_TrainerCardDataOverwritten
+	.set CableClub_Text_TrainerCardDataOverwritten, 0x081C2F0B
+	.global CableClub_Text_HopeToSeeYouAgain
+	.set CableClub_Text_HopeToSeeYouAgain, 0x081C2F36
+	.global CableClub_Text_NotSetUpForFarAwayRegion
+	.set CableClub_Text_NotSetUpForFarAwayRegion, 0x081C2F4F
+	.global CableClub_Text_OtherTrainerNotReady
+	.set CableClub_Text_OtherTrainerNotReady, 0x081C2FB3
+	.global CableClub_Text_YouHaveAMonThatCantBeTaken
+	.set CableClub_Text_YouHaveAMonThatCantBeTaken, 0x081C2FD3
+	.global CableClub_Text_AdapterNotConnected
+	.set CableClub_Text_AdapterNotConnected, 0x081C3006
+	.global CableClub_Text_ParticipantsStepUpToCounter
+	.set CableClub_Text_ParticipantsStepUpToCounter, 0x081C3036
+	.global CableClub_Text_Hello
+	.set CableClub_Text_Hello, 0x081C3072
+	.global CableClub_Text_PleaseWait
+	.set CableClub_Text_PleaseWait, 0x081C3079
+	.global CableClub_Text_YouMayTradeHere
+	.set CableClub_Text_YouMayTradeHere, 0x081BCA95
+	.global CableClub_Text_YouMayBattleHere
+	.set CableClub_Text_YouMayBattleHere, 0x081BCACB
+	.global CableClub_Text_CanMakeBerryPowder
+	.set CableClub_Text_CanMakeBerryPowder, 0x081BCAF2
+	.global CableClub_Text_CanMixRecords
+	.set CableClub_Text_CanMixRecords, 0x081C311A
+	.global CableClub_Text_CancelSelectedItem
+	.set CableClub_Text_CancelSelectedItem, 0x081BCB42
+	.global CableClub_Text_WhichBattleMode
+	.set CableClub_Text_WhichBattleMode, 0x081C3155
+	.global CableClub_Text_ReturnsToPreviousStep
+	.set CableClub_Text_ReturnsToPreviousStep, 0x081C3166
+	.global CableClub_Text_NeedBerryForBerryCrush
+	.set CableClub_Text_NeedBerryForBerryCrush, 0x081C3174
+	.global CableClub_Text_NeedTwoMonsForUnionRoom
+	.set CableClub_Text_NeedTwoMonsForUnionRoom, 0x081C31B6
+	.global CableClub_Text_NoEnigmaBerryInUnionRoom
+	.set CableClub_Text_NoEnigmaBerryInUnionRoom, 0x081C31F3
+	.global CableClub_Text_UnionRoomAdapterNotConnected
+	.set CableClub_Text_UnionRoomAdapterNotConnected, 0x081C322D
+	.global CableClub_Text_OhExcuseMe
+	.set CableClub_Text_OhExcuseMe, 0x081C32B1
+	.global Text_PlayerIsPlayingRightNowGoForIt
+	.set Text_PlayerIsPlayingRightNowGoForIt, 0x081C32BD
+	.global Text_DescribeWhichGame
+	.set Text_DescribeWhichGame, 0x081C32F2
+	.global Text_PokemonJumpInfo
+	.set Text_PokemonJumpInfo, 0x081C3340
+	.global Text_DodrioBerryPickingInfo
+	.set Text_DodrioBerryPickingInfo, 0x081C3466
+	.global Text_TalkToManToPlay
+	.set Text_TalkToManToPlay, 0x081C3521
+	.global Text_WelcomeCanYouWait
+	.set Text_WelcomeCanYouWait, 0x081C355C
+	.global CableClub_Text_ComeAgain
+	.set CableClub_Text_ComeAgain, 0x081C35C4
+	.global Text_AdapterNotConnectedMinigame
+	.set Text_AdapterNotConnectedMinigame, 0x081C35DB
+	.global Text_PlayWhichGame
+	.set Text_PlayWhichGame, 0x081C3620
+	.global Text_EnterWhichPokemon
+	.set Text_EnterWhichPokemon, 0x081C364C
+	.global Text_AllGoodToGo
+	.set Text_AllGoodToGo, 0x081C3673
+	.global Text_LeavingDoComeAgain
+	.set Text_LeavingDoComeAgain, 0x081C36AF
+	.global EventScript_ExplainPokemonJumpRequirements
+	.set EventScript_ExplainPokemonJumpRequirements, 0x081C36C2
+	.global Text_ShortJumpingPokemonAllowed
+	.set Text_ShortJumpingPokemonAllowed, 0x081C373E
+	.global Text_OnlyDodrioAllowed
+	.set Text_OnlyDodrioAllowed, 0x081C3806
+	.global Text_RetryFromStartPlease
+	.set Text_RetryFromStartPlease, 0x081C3867
+	.global CableClub_Text_WelcomeWhichDirectCornerRoom
+	.set CableClub_Text_WelcomeWhichDirectCornerRoom, 0x081C3880
+	.global CableClub_Text_TradePokemon
+	.set CableClub_Text_TradePokemon, 0x081C390A
+	.global CableClub_Text_PlayWhichBattleMode
+	.set CableClub_Text_PlayWhichBattleMode, 0x081C392B
+	.global CableClub_Text_UseBerryCrush
+	.set CableClub_Text_UseBerryCrush, 0x081C3955
+	.global CableClub_Text_ExplainBattleModes
+	.set CableClub_Text_ExplainBattleModes, 0x081C3983
+	.global CableClub_Text_ChooseGroupLeaderOfTwo
+	.set CableClub_Text_ChooseGroupLeaderOfTwo, 0x081C3B0E
+	.global CableClub_Text_ChooseGroupLeaderOfFour
+	.set CableClub_Text_ChooseGroupLeaderOfFour, 0x081C3B75
+	.global CableClub_Text_ChooseGroupLeader
+	.set CableClub_Text_ChooseGroupLeader, 0x081C3BE4
+	.global CableClub_Text_WelcomeUnionRoomEnter
+	.set CableClub_Text_WelcomeUnionRoomEnter, 0x081C3C4E
+	.global CableClub_Text_UnionRoomInfo
+	.set CableClub_Text_UnionRoomInfo, 0x081C3CF9
+	.global CableClub_Text_EnjoyUnionRoom
+	.set CableClub_Text_EnjoyUnionRoom, 0x081C3E5D
+	.global CableClub_Text_FirstTimeRightThisWay
+	.set CableClub_Text_FirstTimeRightThisWay, 0x081C3E8B
+	.global CableClub_Text_ExplainWirelessClubFirstTime
+	.set CableClub_Text_ExplainWirelessClubFirstTime, 0x081C3F59
+	.global CableClub_Text_AskAboutLinking
+	.set CableClub_Text_AskAboutLinking, 0x081C4178
+	.global CableClub_Text_ExplainWirelessClub
+	.set CableClub_Text_ExplainWirelessClub, 0x081C41EB
+	.global CableClub_Text_HopeYouEnjoyWirelessSystem
+	.set CableClub_Text_HopeYouEnjoyWirelessSystem, 0x081C44D2
+@ Whole exact large modified-script sweep: data/maps/TrainerTower_7F/scripts.inc
+	.global TrainerTower_7F_MapScripts
+	.set TrainerTower_7F_MapScripts, 0x0816570D
+	.global TrainerTower_7F_EventScript_DoublesTrainer1
+	.set TrainerTower_7F_EventScript_DoublesTrainer1, 0x0816571D
+	.global TrainerTower_7F_EventScript_SinglesTrainer
+	.set TrainerTower_7F_EventScript_SinglesTrainer, 0x08165723
+	.global TrainerTower_7F_EventScript_KnockoutTrainer
+	.set TrainerTower_7F_EventScript_KnockoutTrainer, 0x08165729
+	.global TrainerTower_7F_EventScript_DoublesTrainer2
+	.set TrainerTower_7F_EventScript_DoublesTrainer2, 0x0816572F
+	.global TrainerTower_7F_EventScript_Owner
+	.set TrainerTower_7F_EventScript_Owner, 0x08165735
+
+@ Whole exact large modified-script sweep: data/maps/SevenIsland_TanobyRuins_LiptooChamber/scripts.inc
+	.global SevenIsland_TanobyRuins_LiptooChamber_MapScripts
+	.set SevenIsland_TanobyRuins_LiptooChamber_MapScripts, 0x08165BA4
+	.global SevenIsland_TanobyRuins_LiptooChamber_OnTransition
+	.set SevenIsland_TanobyRuins_LiptooChamber_OnTransition, 0x08165BAA
+
+@ Whole exact large modified-script sweep: data/maps/SixIsland/scripts.inc
+	.global SixIsland_MapScripts
+	.set SixIsland_MapScripts, 0x08168ED5
+	.global SixIsland_OnTransition
+	.set SixIsland_OnTransition, 0x08168EDB
+	.global SixIsland_EventScript_Hiker
+	.set SixIsland_EventScript_Hiker, 0x08168EDF
+	.global SixIsland_EventScript_Boy
+	.set SixIsland_EventScript_Boy, 0x08168EE8
+	.global SixIsland_EventScript_IslandSign
+	.set SixIsland_EventScript_IslandSign, 0x08168EF1
+
+@ Whole exact large modified-script sweep: data/maps/SevenIsland_SevaultCanyon/scripts.inc
+	.global SevenIsland_SevaultCanyon_MapScripts
+	.set SevenIsland_SevaultCanyon_MapScripts, 0x08169CDA
+	.global SevenIsland_SevaultCanyon_EventScript_RouteSign
+	.set SevenIsland_SevaultCanyon_EventScript_RouteSign, 0x08169CDB
+
+@ Whole exact large modified-script sweep: data/maps/ViridianCity_PokemonCenter_2F/scripts.inc
+	.global ViridianCity_PokemonCenter_2F_MapScripts
+	.set ViridianCity_PokemonCenter_2F_MapScripts, 0x0816B4D7
+	.global ViridianCity_PokemonCenter_2F_EventScript_Colosseum
+	.set ViridianCity_PokemonCenter_2F_EventScript_Colosseum, 0x0816B4EC
+	.global ViridianCity_PokemonCenter_2F_EventScript_TradeCenter
+	.set ViridianCity_PokemonCenter_2F_EventScript_TradeCenter, 0x0816B4F2
+	.global ViridianCity_PokemonCenter_2F_EventScript_RecordCorner
+	.set ViridianCity_PokemonCenter_2F_EventScript_RecordCorner, 0x0816B4F8
+
+@ Whole exact large modified-script sweep: data/maps/PewterCity_House1/scripts.inc
+	.global PewterCity_House1_MapScripts
+	.set PewterCity_House1_MapScripts, 0x0816B900
+	.global PewterCity_House1_EventScript_BaldingMan
+	.set PewterCity_House1_EventScript_BaldingMan, 0x0816B901
+	.global PewterCity_House1_EventScript_LittleBoy
+	.set PewterCity_House1_EventScript_LittleBoy, 0x0816B90A
+	.global PewterCity_House1_EventScript_Nidoran
+	.set PewterCity_House1_EventScript_Nidoran, 0x0816B91A
+	.global PewterCity_House1_EventScript_DoNidoranCry
+	.set PewterCity_House1_EventScript_DoNidoranCry, 0x0816B92D
+
+@ Whole exact large modified-script sweep: data/maps/LavenderTown_PokemonCenter_2F/scripts.inc
+	.global LavenderTown_PokemonCenter_2F_MapScripts
+	.set LavenderTown_PokemonCenter_2F_MapScripts, 0x0816C376
+	.global LavenderTown_PokemonCenter_2F_EventScript_Colosseum
+	.set LavenderTown_PokemonCenter_2F_EventScript_Colosseum, 0x0816C38B
+	.global LavenderTown_PokemonCenter_2F_EventScript_TradeCenter
+	.set LavenderTown_PokemonCenter_2F_EventScript_TradeCenter, 0x0816C391
+	.global LavenderTown_PokemonCenter_2F_EventScript_RecordCorner
+	.set LavenderTown_PokemonCenter_2F_EventScript_RecordCorner, 0x0816C397
+
+@ Whole exact large modified-script sweep: data/maps/CeladonCity_Condominiums_1F/scripts.inc
+	.global CeladonCity_Condominiums_1F_MapScripts
+	.set CeladonCity_Condominiums_1F_MapScripts, 0x0816D5D1
+	.global CeladonCity_Condominiums_1F_EventScript_TeaWoman
+	.set CeladonCity_Condominiums_1F_EventScript_TeaWoman, 0x0816D5D2
+	.global CeladonCity_Condominiums_1F_EventScript_TeaWomanAfterTea
+	.set CeladonCity_Condominiums_1F_EventScript_TeaWomanAfterTea, 0x0816D61B
+	.global CeladonCity_Condominiums_1F_EventScript_TeaWomanMentionDaisy
+	.set CeladonCity_Condominiums_1F_EventScript_TeaWomanMentionDaisy, 0x0816D625
+	.global CeladonCity_Condominiums_1F_EventScript_Meowth
+	.set CeladonCity_Condominiums_1F_EventScript_Meowth, 0x0816D63F
+	.global CeladonCity_Condominiums_1F_EventScript_Clefairy
+	.set CeladonCity_Condominiums_1F_EventScript_Clefairy, 0x0816D652
+	.global CeladonCity_Condominiums_1F_EventScript_Nidoran
+	.set CeladonCity_Condominiums_1F_EventScript_Nidoran, 0x0816D665
+	.global CeladonCity_Condominiums_1F_EventScript_SuiteSign
+	.set CeladonCity_Condominiums_1F_EventScript_SuiteSign, 0x0816D678
+
+@ Whole exact large modified-script sweep: data/maps/CinnabarIsland_Mart/scripts.inc
+	.global CinnabarIsland_Mart_MapScripts
+	.set CinnabarIsland_Mart_MapScripts, 0x0816FEC2
+	.global CinnabarIsland_Mart_EventScript_Woman
+	.set CinnabarIsland_Mart_EventScript_Woman, 0x0816FEC3
+	.global CinnabarIsland_Mart_EventScript_Scientist
+	.set CinnabarIsland_Mart_EventScript_Scientist, 0x0816FECC
+	.global CinnabarIsland_Mart_EventScript_Clerk
+	.set CinnabarIsland_Mart_EventScript_Clerk, 0x0816FED5
+	.global CinnabarIsland_Mart_Items
+	.set CinnabarIsland_Mart_Items, 0x0816FEFB
+
+@ Whole exact large modified-script sweep: data/maps/OneIsland_PokemonCenter_2F/scripts.inc
+	.global OneIsland_PokemonCenter_2F_MapScripts
+	.set OneIsland_PokemonCenter_2F_MapScripts, 0x081A64A9
+	.global OneIsland_PokemonCenter_2F_EventScript_Colosseum
+	.set OneIsland_PokemonCenter_2F_EventScript_Colosseum, 0x081A64BE
+	.global OneIsland_PokemonCenter_2F_EventScript_TradeCenter
+	.set OneIsland_PokemonCenter_2F_EventScript_TradeCenter, 0x081A64C4
+	.global OneIsland_PokemonCenter_2F_EventScript_RecordCorner
+	.set OneIsland_PokemonCenter_2F_EventScript_RecordCorner, 0x081A64CA
+
+@ Whole exact large modified-script sweep: data/maps/TwoIsland_House/scripts.inc
+	.global TwoIsland_House_MapScripts
+	.set TwoIsland_House_MapScripts, 0x081B2E5A
+	.global TwoIsland_House_EventScript_MoveManiac
+	.set TwoIsland_House_EventScript_MoveManiac, 0x081B2E5B
+	.global TwoIsland_House_EventScript_CheckPlayerHasMushrooms
+	.set TwoIsland_House_EventScript_CheckPlayerHasMushrooms, 0x081B2E91
+	.global TwoIsland_House_EventScript_CheckAlsoHasTinyMushrooms
+	.set TwoIsland_House_EventScript_CheckAlsoHasTinyMushrooms, 0x081B2EC9
+	.global TwoIsland_House_EventScript_CheckAlsoHasBigMushroom
+	.set TwoIsland_House_EventScript_CheckAlsoHasBigMushroom, 0x081B2ED8
+	.global TwoIsland_House_EventScript_AskTutorMon
+	.set TwoIsland_House_EventScript_AskTutorMon, 0x081B2EE7
+	.global TwoIsland_House_EventScript_ChooseMonToTutor
+	.set TwoIsland_House_EventScript_ChooseMonToTutor, 0x081B2F00
+	.global TwoIsland_House_EventScript_ChooseMoveToTeach
+	.set TwoIsland_House_EventScript_ChooseMoveToTeach, 0x081B2F36
+	.global TwoIsland_House_EventScript_GiveBigMushroom
+	.set TwoIsland_House_EventScript_GiveBigMushroom, 0x081B2F69
+	.global TwoIsland_House_EventScript_GiveTinyMushrooms
+	.set TwoIsland_House_EventScript_GiveTinyMushrooms, 0x081B2F83
+	.global TwoIsland_House_EventScript_ChooseMushroom
+	.set TwoIsland_House_EventScript_ChooseMushroom, 0x081B2F9D
+	.global TwoIsland_House_EventScript_NoMoveToTutorMon
+	.set TwoIsland_House_EventScript_NoMoveToTutorMon, 0x081B2FC4
+	.global TwoIsland_House_EventScript_CantTutorEgg
+	.set TwoIsland_House_EventScript_CantTutorEgg, 0x081B2FD2
+	.global TwoIsland_House_EventScript_EndTutorMove
+	.set TwoIsland_House_EventScript_EndTutorMove, 0x081B2FE0
+	.global TwoIsland_House_EventScript_SetHasBigMushroom
+	.set TwoIsland_House_EventScript_SetHasBigMushroom, 0x081B2FEA
+	.global TwoIsland_House_EventScript_SetHasTinyMushrooms
+	.set TwoIsland_House_EventScript_SetHasTinyMushrooms, 0x081B2FEE
+	.global TwoIsland_House_EventScript_SetHasBothMushrooms
+	.set TwoIsland_House_EventScript_SetHasBothMushrooms, 0x081B2FF2
+	.global TwoIsland_House_EventScript_OmegaWorker
+	.set TwoIsland_House_EventScript_OmegaWorker, 0x081B2FF6
+
+@ Whole exact large modified-script sweep: data/maps/TwoIsland_PokemonCenter_1F/scripts.inc
+	.global TwoIsland_PokemonCenter_1F_MapScripts
+	.set TwoIsland_PokemonCenter_1F_MapScripts, 0x081B3002
+	.global TwoIsland_PokemonCenter_1F_OnTransition
+	.set TwoIsland_PokemonCenter_1F_OnTransition, 0x081B300D
+	.global TwoIsland_PokemonCenter_1F_EventScript_Nurse
+	.set TwoIsland_PokemonCenter_1F_EventScript_Nurse, 0x081B3011
+	.global TwoIsland_PokemonCenter_1F_EventScript_GBAKid
+	.set TwoIsland_PokemonCenter_1F_EventScript_GBAKid, 0x081B301A
+	.global TwoIsland_PokemonCenter_1F_EventScript_BugCatcher
+	.set TwoIsland_PokemonCenter_1F_EventScript_BugCatcher, 0x081B3023
+
+@ Whole exact large modified-script sweep: data/maps/TwoIsland_PokemonCenter_2F/scripts.inc
+	.global TwoIsland_PokemonCenter_2F_MapScripts
+	.set TwoIsland_PokemonCenter_2F_MapScripts, 0x081B302C
+	.global TwoIsland_PokemonCenter_2F_EventScript_Colosseum
+	.set TwoIsland_PokemonCenter_2F_EventScript_Colosseum, 0x081B3041
+	.global TwoIsland_PokemonCenter_2F_EventScript_TradeCenter
+	.set TwoIsland_PokemonCenter_2F_EventScript_TradeCenter, 0x081B3047
+	.global TwoIsland_PokemonCenter_2F_EventScript_RecordCorner
+	.set TwoIsland_PokemonCenter_2F_EventScript_RecordCorner, 0x081B304D
+
+@ Whole exact large modified-script sweep: data/maps/TwoIsland_Harbor/scripts.inc
+	.global TwoIsland_Harbor_MapScripts
+	.set TwoIsland_Harbor_MapScripts, 0x081B3053
+	.global TwoIsland_Harbor_EventScript_Sailor
+	.set TwoIsland_Harbor_EventScript_Sailor, 0x081B3054
+
+@ Whole exact large modified-script sweep: data/maps/ThreeIsland_PokemonCenter_1F/scripts.inc
+	.global ThreeIsland_PokemonCenter_1F_MapScripts
+	.set ThreeIsland_PokemonCenter_1F_MapScripts, 0x081B3080
+	.global ThreeIsland_PokemonCenter_1F_OnTransition
+	.set ThreeIsland_PokemonCenter_1F_OnTransition, 0x081B308B
+	.global ThreeIsland_PokemonCenter_1F_EventScript_Nurse
+	.set ThreeIsland_PokemonCenter_1F_EventScript_Nurse, 0x081B308F
+	.global ThreeIsland_PokemonCenter_1F_EventScript_Sailor
+	.set ThreeIsland_PokemonCenter_1F_EventScript_Sailor, 0x081B3098
+	.global ThreeIsland_PokemonCenter_1F_EventScript_Lass
+	.set ThreeIsland_PokemonCenter_1F_EventScript_Lass, 0x081B30A1
+	.global ThreeIsland_PokemonCenter_1F_EventScript_Rocker
+	.set ThreeIsland_PokemonCenter_1F_EventScript_Rocker, 0x081B30AA
+
+@ Whole exact large modified-script sweep: data/maps/ThreeIsland_PokemonCenter_2F/scripts.inc
+	.global ThreeIsland_PokemonCenter_2F_MapScripts
+	.set ThreeIsland_PokemonCenter_2F_MapScripts, 0x081B30B3
+	.global ThreeIsland_PokemonCenter_2F_EventScript_Colosseum
+	.set ThreeIsland_PokemonCenter_2F_EventScript_Colosseum, 0x081B30C8
+	.global ThreeIsland_PokemonCenter_2F_EventScript_TradeCenter
+	.set ThreeIsland_PokemonCenter_2F_EventScript_TradeCenter, 0x081B30CE
+	.global ThreeIsland_PokemonCenter_2F_EventScript_RecordCorner
+	.set ThreeIsland_PokemonCenter_2F_EventScript_RecordCorner, 0x081B30D4
+
+@ Whole exact large modified-script sweep: data/maps/ThreeIsland_Mart/scripts.inc
+	.global ThreeIsland_Mart_MapScripts
+	.set ThreeIsland_Mart_MapScripts, 0x081B30DA
+	.global ThreeIsland_Mart_EventScript_Clerk
+	.set ThreeIsland_Mart_EventScript_Clerk, 0x081B30DB
+	.global ThreeIsland_Mart_Items
+	.set ThreeIsland_Mart_Items, 0x081B3102
+	.global ThreeIsland_Mart_EventScript_Picnicker
+	.set ThreeIsland_Mart_EventScript_Picnicker, 0x081B3112
+	.global ThreeIsland_Mart_EventScript_BugCatcher
+	.set ThreeIsland_Mart_EventScript_BugCatcher, 0x081B311B
+	.global ThreeIsland_Mart_EventScript_Youngster
+	.set ThreeIsland_Mart_EventScript_Youngster, 0x081B3124
+
+@ Whole exact large modified-script sweep: data/maps/ThreeIsland_House2/scripts.inc
+	.global ThreeIsland_House2_MapScripts
+	.set ThreeIsland_House2_MapScripts, 0x081B312D
+	.global ThreeIsland_House2_EventScript_Man
+	.set ThreeIsland_House2_EventScript_Man, 0x081B312E
+	.global ThreeIsland_House2_EventScript_Rocker
+	.set ThreeIsland_House2_EventScript_Rocker, 0x081B3147
+
+@ Whole exact large modified-script sweep: data/maps/ThreeIsland_House5/scripts.inc
+	.global ThreeIsland_House5_MapScripts
+	.set ThreeIsland_House5_MapScripts, 0x081B316D
+	.global ThreeIsland_House5_EventScript_LittleGirl
+	.set ThreeIsland_House5_EventScript_LittleGirl, 0x081B316E
+	.global ThreeIsland_House5_EventScript_LittleGirlLostelleFound
+	.set ThreeIsland_House5_EventScript_LittleGirlLostelleFound, 0x081B3183
+
+@ Whole exact large modified-script sweep: data/maps/FourIsland_PokemonDayCare/scripts.inc
+	.global FourIsland_PokemonDayCare_MapScripts
+	.set FourIsland_PokemonDayCare_MapScripts, 0x081B318D
+	.global FourIsland_PokemonDayCare_EventScript_DaycareWoman
+	.set FourIsland_PokemonDayCare_EventScript_DaycareWoman, 0x081B318E
+	.global FourIsland_PokemonDayCare_GiveMonToRaise
+	.set FourIsland_PokemonDayCare_GiveMonToRaise, 0x081B31E1
+	.global FourIsland_PokemonDayCare_ComeAgain
+	.set FourIsland_PokemonDayCare_ComeAgain, 0x081B3245
+	.global FourIsland_PokemonDayCare_CanRaiseOneMore
+	.set FourIsland_PokemonDayCare_CanRaiseOneMore, 0x081B324F
+	.global FourIsland_PokemonDayCare_OnlyOneMonInParty
+	.set FourIsland_PokemonDayCare_OnlyOneMonInParty, 0x081B3268
+	.global FourIsland_PokemonDayCare_OnlyOneAliveMonInParty
+	.set FourIsland_PokemonDayCare_OnlyOneAliveMonInParty, 0x081B3272
+	.global FourIsland_PokemonDayCare_EggWaiting
+	.set FourIsland_PokemonDayCare_EggWaiting, 0x081B327C
+	.global FourIsland_PokemonDayCare_MonHasGrownXLevels
+	.set FourIsland_PokemonDayCare_MonHasGrownXLevels, 0x081B3286
+	.global FourIsland_PokemonDayCare_DisplayLevelsGained
+	.set FourIsland_PokemonDayCare_DisplayLevelsGained, 0x081B328F
+	.global FourIsland_PokemonDayCare_OneMonInDaycare
+	.set FourIsland_PokemonDayCare_OneMonInDaycare, 0x081B32A0
+	.global FourIsland_PokemonDayCare_TryRetrieveMon
+	.set FourIsland_PokemonDayCare_TryRetrieveMon, 0x081B32DE
+	.global FourIsland_PokemonDayCare_CostPrompt
+	.set FourIsland_PokemonDayCare_CostPrompt, 0x081B331D
+	.global FourIsland_PokemonDayCare_CheckEnoughMoney
+	.set FourIsland_PokemonDayCare_CheckEnoughMoney, 0x081B3339
+	.global FourIsland_PokemonDayCare_RetrieveMon
+	.set FourIsland_PokemonDayCare_RetrieveMon, 0x081B3353
+	.global FourIsland_PokemonDayCare_AskRetrieveOtherMon
+	.set FourIsland_PokemonDayCare_AskRetrieveOtherMon, 0x081B339C
+	.global FourIsland_PokemonDayCare_NoRoomInParty
+	.set FourIsland_PokemonDayCare_NoRoomInParty, 0x081B33B5
+	.global FourIsland_PokemonDayCare_Movement_RetrieveMon
+	.set FourIsland_PokemonDayCare_Movement_RetrieveMon, 0x081B33BF
+	.global FourIsland_PokemonDayCare_EventScript_UnusedEnd
+	.set FourIsland_PokemonDayCare_EventScript_UnusedEnd, 0x081B33D3
+	.global FourIsland_PokemonDayCare_TwoMonsInDaycare
+	.set FourIsland_PokemonDayCare_TwoMonsInDaycare, 0x081B33D4
+	.global FourIsland_PokemonDayCare_EventScript_UnusedRetrieveMon
+	.set FourIsland_PokemonDayCare_EventScript_UnusedRetrieveMon, 0x081B340D
+
+@ Whole exact large modified-script sweep: data/maps/FourIsland_PokemonCenter_1F/scripts.inc
+	.global FourIsland_PokemonCenter_1F_MapScripts
+	.set FourIsland_PokemonCenter_1F_MapScripts, 0x081B3438
+	.global FourIsland_PokemonCenter_1F_OnTransition
+	.set FourIsland_PokemonCenter_1F_OnTransition, 0x081B3443
+	.global FourIsland_PokemonCenter_1F_EventScript_Nurse
+	.set FourIsland_PokemonCenter_1F_EventScript_Nurse, 0x081B3447
+	.global FourIsland_PokemonCenter_1F_EventScript_Man
+	.set FourIsland_PokemonCenter_1F_EventScript_Man, 0x081B3450
+	.global FourIsland_PokemonCenter_1F_EventScript_Woman
+	.set FourIsland_PokemonCenter_1F_EventScript_Woman, 0x081B3459
+	.global FourIsland_PokemonCenter_1F_EventScript_Gentleman
+	.set FourIsland_PokemonCenter_1F_EventScript_Gentleman, 0x081B3462
+
+@ Whole exact large modified-script sweep: data/maps/FourIsland_PokemonCenter_2F/scripts.inc
+	.global FourIsland_PokemonCenter_2F_MapScripts
+	.set FourIsland_PokemonCenter_2F_MapScripts, 0x081B346B
+	.global FourIsland_PokemonCenter_2F_EventScript_Colosseum
+	.set FourIsland_PokemonCenter_2F_EventScript_Colosseum, 0x081B3480
+	.global FourIsland_PokemonCenter_2F_EventScript_TradeCenter
+	.set FourIsland_PokemonCenter_2F_EventScript_TradeCenter, 0x081B3486
+	.global FourIsland_PokemonCenter_2F_EventScript_RecordCorner
+	.set FourIsland_PokemonCenter_2F_EventScript_RecordCorner, 0x081B348C
+
+@ Whole exact large modified-script sweep: data/maps/FourIsland_House1/scripts.inc
+	.global FourIsland_House1_MapScripts
+	.set FourIsland_House1_MapScripts, 0x081B3492
+	.global FourIsland_House1_EventScript_FatMan
+	.set FourIsland_House1_EventScript_FatMan, 0x081B3493
+
+@ Whole exact large modified-script sweep: data/maps/FourIsland_LoreleisHouse/scripts.inc
+	.global FourIsland_LoreleisHouse_MapScripts
+	.set FourIsland_LoreleisHouse_MapScripts, 0x081B349C
+	.global FourIsland_LoreleisHouse_OnTransition
+	.set FourIsland_LoreleisHouse_OnTransition, 0x081B34A2
+	.global FourIsland_LoreleisHouse_EventScript_Lorelei
+	.set FourIsland_LoreleisHouse_EventScript_Lorelei, 0x081B34A6
+	.global FourIsland_LoreleisHouse_EventScript_Lorelei2
+	.set FourIsland_LoreleisHouse_EventScript_Lorelei2, 0x081B34C4
+	.global FourIsland_LoreleisHouse_EventScript_Lorelei3
+	.set FourIsland_LoreleisHouse_EventScript_Lorelei3, 0x081B34D1
+	.global FourIsland_LoreleisHouse_EventScript_Doll
+	.set FourIsland_LoreleisHouse_EventScript_Doll, 0x081B34DB
+
+@ Whole exact large modified-script sweep: data/maps/FourIsland_Harbor/scripts.inc
+	.global FourIsland_Harbor_MapScripts
+	.set FourIsland_Harbor_MapScripts, 0x081B34E6
+	.global FourIsland_Harbor_EventScript_Sailor
+	.set FourIsland_Harbor_EventScript_Sailor, 0x081B34E7
+
+@ Whole exact large modified-script sweep: data/maps/FourIsland_Mart/scripts.inc
+	.global FourIsland_Mart_MapScripts
+	.set FourIsland_Mart_MapScripts, 0x081B34FB
+	.global FourIsland_Mart_EventScript_Clerk
+	.set FourIsland_Mart_EventScript_Clerk, 0x081B34FC
+	.global FourIsland_Mart_Items
+	.set FourIsland_Mart_Items, 0x081B3522
+	.global FourIsland_Mart_EventScript_Camper
+	.set FourIsland_Mart_EventScript_Camper, 0x081B3536
+
+@ Whole exact large modified-script sweep: data/maps/SixIsland_PokemonCenter_1F/scripts.inc
+	.global SixIsland_PokemonCenter_1F_MapScripts
+	.set SixIsland_PokemonCenter_1F_MapScripts, 0x081B35B8
+	.global SixIsland_PokemonCenter_1F_OnTransition
+	.set SixIsland_PokemonCenter_1F_OnTransition, 0x081B35C8
+	.global SixIsland_PokemonCenter_1F_EventScript_ShowRival
+	.set SixIsland_PokemonCenter_1F_EventScript_ShowRival, 0x081B35D7
+	.global SixIsland_PokemonCenter_1F_OnFrame
+	.set SixIsland_PokemonCenter_1F_OnFrame, 0x081B35DB
+	.global SixIsland_PokemonCenter_1F_EventScript_RivalScene
+	.set SixIsland_PokemonCenter_1F_EventScript_RivalScene, 0x081B35E5
+	.global SixIsland_PokemonCenter_1F_Movement_RivalApproach
+	.set SixIsland_PokemonCenter_1F_Movement_RivalApproach, 0x081B3647
+	.global SixIsland_PokemonCenter_1F_Movement_RivalExit
+	.set SixIsland_PokemonCenter_1F_Movement_RivalExit, 0x081B364C
+	.global SixIsland_PokemonCenter_1F_Movement_PlayerWatchRivalExit
+	.set SixIsland_PokemonCenter_1F_Movement_PlayerWatchRivalExit, 0x081B3650
+	.global SixIsland_PokemonCenter_1F_EventScript_Nurse
+	.set SixIsland_PokemonCenter_1F_EventScript_Nurse, 0x081B3653
+	.global SixIsland_PokemonCenter_1F_EventScript_Hiker
+	.set SixIsland_PokemonCenter_1F_EventScript_Hiker, 0x081B365C
+	.global SixIsland_PokemonCenter_1F_EventScript_OldMan
+	.set SixIsland_PokemonCenter_1F_EventScript_OldMan, 0x081B3665
+
+@ Whole exact large modified-script sweep: data/maps/SixIsland_PokemonCenter_2F/scripts.inc
+	.global SixIsland_PokemonCenter_2F_MapScripts
+	.set SixIsland_PokemonCenter_2F_MapScripts, 0x081B366E
+	.global SixIsland_PokemonCenter_2F_EventScript_Colosseum
+	.set SixIsland_PokemonCenter_2F_EventScript_Colosseum, 0x081B3683
+	.global SixIsland_PokemonCenter_2F_EventScript_TradeCenter
+	.set SixIsland_PokemonCenter_2F_EventScript_TradeCenter, 0x081B3689
+	.global SixIsland_PokemonCenter_2F_EventScript_RecordCorner
+	.set SixIsland_PokemonCenter_2F_EventScript_RecordCorner, 0x081B368F
+
+@ Whole exact large modified-script sweep: data/maps/SixIsland_Harbor/scripts.inc
+	.global SixIsland_Harbor_MapScripts
+	.set SixIsland_Harbor_MapScripts, 0x081B3695
+	.global SixIsland_Harbor_EventScript_Sailor
+	.set SixIsland_Harbor_EventScript_Sailor, 0x081B3696
+
+@ Whole exact large modified-script sweep: data/maps/SixIsland_Mart/scripts.inc
+	.global SixIsland_Mart_MapScripts
+	.set SixIsland_Mart_MapScripts, 0x081B36B3
+	.global SixIsland_Mart_EventScript_Clerk
+	.set SixIsland_Mart_EventScript_Clerk, 0x081B36B4
+	.global SixIsland_Mart_Items
+	.set SixIsland_Mart_Items, 0x081B36DA
+	.global SixIsland_Mart_EventScript_Picnicker
+	.set SixIsland_Mart_EventScript_Picnicker, 0x081B36EE
+
+@ Whole exact large modified-script sweep: data/maps/ThreeIsland_Harbor/scripts.inc
+	.global ThreeIsland_Harbor_MapScripts
+	.set ThreeIsland_Harbor_MapScripts, 0x081B36F7
+	.global ThreeIsland_Harbor_EventScript_Sailor
+	.set ThreeIsland_Harbor_EventScript_Sailor, 0x081B36F8
+
+@ Whole exact large modified-script sweep: data/maps/FiveIsland_ResortGorgeous_House/scripts.inc
+	.global FiveIsland_ResortGorgeous_House_MapScripts
+	.set FiveIsland_ResortGorgeous_House_MapScripts, 0x081B370B
+	.global FiveIsland_ResortGorgeous_House_EventScript_Selphy
+	.set FiveIsland_ResortGorgeous_House_EventScript_Selphy, 0x081B370C
+	.global FiveIsland_ResortGorgeous_House_EventScript_RequestMon
+	.set FiveIsland_ResortGorgeous_House_EventScript_RequestMon, 0x081B374C
+	.global FiveIsland_ResortGorgeous_House_EventScript_RequestTookTooLong
+	.set FiveIsland_ResortGorgeous_House_EventScript_RequestTookTooLong, 0x081B3759
+	.global FiveIsland_ResortGorgeous_House_EventScript_CheckForRequestedMon
+	.set FiveIsland_ResortGorgeous_House_EventScript_CheckForRequestedMon, 0x081B3767
+	.global FiveIsland_ResortGorgeous_House_EventScript_ShowRequestedMon
+	.set FiveIsland_ResortGorgeous_House_EventScript_ShowRequestedMon, 0x081B3782
+	.global FiveIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerNorth
+	.set FiveIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerNorth, 0x081B381B
+	.global FiveIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerSouth
+	.set FiveIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerSouth, 0x081B3837
+	.global FiveIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerEast
+	.set FiveIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerEast, 0x081B384C
+	.global FiveIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerWest
+	.set FiveIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerWest, 0x081B3868
+	.global FiveIsland_ResortGorgeous_House_EventScript_NoRoomForReward
+	.set FiveIsland_ResortGorgeous_House_EventScript_NoRoomForReward, 0x081B3873
+	.global FiveIsland_ResortGorgeous_House_EventScript_JustFulfilledRequest
+	.set FiveIsland_ResortGorgeous_House_EventScript_JustFulfilledRequest, 0x081B3891
+	.global FiveIsland_ResortGorgeous_House_Movement_ButlerApproachPlayerNorth
+	.set FiveIsland_ResortGorgeous_House_Movement_ButlerApproachPlayerNorth, 0x081B389B
+	.global FiveIsland_ResortGorgeous_House_Movement_ButlerApproachPlayerSouth
+	.set FiveIsland_ResortGorgeous_House_Movement_ButlerApproachPlayerSouth, 0x081B38A3
+	.global FiveIsland_ResortGorgeous_House_Movement_ButlerApproachPlayerEast
+	.set FiveIsland_ResortGorgeous_House_Movement_ButlerApproachPlayerEast, 0x081B38A7
+	.global FiveIsland_ResortGorgeous_House_Movement_ButlerApproachPlayerWest
+	.set FiveIsland_ResortGorgeous_House_Movement_ButlerApproachPlayerWest, 0x081B38AC
+	.global FiveIsland_ResortGorgeous_House_Movement_ButlerEnter
+	.set FiveIsland_ResortGorgeous_House_Movement_ButlerEnter, 0x081B38AE
+	.global FiveIsland_ResortGorgeous_House_EventScript_Butler
+	.set FiveIsland_ResortGorgeous_House_EventScript_Butler, 0x081B38B0
+
+@ Whole exact large modified-script sweep: data/maps/SixIsland_WaterPath_House1/scripts.inc
+	.global SixIsland_WaterPath_House1_MapScripts
+	.set SixIsland_WaterPath_House1_MapScripts, 0x081B38BA
+	.global SixIsland_WaterPath_House1_EventScript_Beauty
+	.set SixIsland_WaterPath_House1_EventScript_Beauty, 0x081B38BB
+	.global SixIsland_WaterPath_House1_EventScript_NoHeracrossInParty
+	.set SixIsland_WaterPath_House1_EventScript_NoHeracrossInParty, 0x081B3933
+	.global SixIsland_WaterPath_House1_EventScript_DontShowMon
+	.set SixIsland_WaterPath_House1_EventScript_DontShowMon, 0x081B393D
+	.global SixIsland_WaterPath_House1_EventScript_ShownNonHeracross
+	.set SixIsland_WaterPath_House1_EventScript_ShownNonHeracross, 0x081B393F
+	.global SixIsland_WaterPath_House1_EventScript_ShownSmallHeracross
+	.set SixIsland_WaterPath_House1_EventScript_ShownSmallHeracross, 0x081B3949
+	.global SixIsland_WaterPath_House1_EventScript_ShownTiedHeracross
+	.set SixIsland_WaterPath_House1_EventScript_ShownTiedHeracross, 0x081B395C
+	.global SixIsland_WaterPath_House1_EventScript_ShownBigHeracross
+	.set SixIsland_WaterPath_House1_EventScript_ShownBigHeracross, 0x081B396F
+	.global SixIsland_WaterPath_House1_EventScript_NoRoomForNestBall
+	.set SixIsland_WaterPath_House1_EventScript_NoRoomForNestBall, 0x081B399B
+	.global SixIsland_WaterPath_House1_EventScript_SizeRecord
+	.set SixIsland_WaterPath_House1_EventScript_SizeRecord, 0x081B39A5
+	.global SixIsland_WaterPath_House1_EventScript_SizeRecordNonEmpty
+	.set SixIsland_WaterPath_House1_EventScript_SizeRecordNonEmpty, 0x081B39B9
+@ Whole exact knockout pass: data/maps/NavelRock_Summit/scripts.inc
+	.global NavelRock_Summit_MapScripts
+	.set NavelRock_Summit_MapScripts, 0x08165E9D
+	.global NavelRock_Summit_OnTransition
+	.set NavelRock_Summit_OnTransition, 0x08165EA8
+	.global NavelRock_Summit_EventScript_HideHoOh
+	.set NavelRock_Summit_EventScript_HideHoOh, 0x08165EBB
+	.global NavelRock_Summit_EventScript_TryShowHoOh
+	.set NavelRock_Summit_EventScript_TryShowHoOh, 0x08165EC4
+	.global NavelRock_Summit_OnResume
+	.set NavelRock_Summit_OnResume, 0x08165EDB
+	.global NavelRock_Summit_EventScript_TryRemoveHoOh
+	.set NavelRock_Summit_EventScript_TryRemoveHoOh, 0x08165EE5
+	.global NavelRock_Summit_EventScript_HoOh
+	.set NavelRock_Summit_EventScript_HoOh, 0x08165EF9
+	.global NavelRock_Summit_EventScript_DefeatedHoOh
+	.set NavelRock_Summit_EventScript_DefeatedHoOh, 0x08165FB2
+	.global NavelRock_Summit_EventScript_RanFromHoOh
+	.set NavelRock_Summit_EventScript_RanFromHoOh, 0x08165FC0
+
+@ Whole exact knockout pass: data/maps/SevenIsland_SevaultCanyon_Entrance/scripts.inc
+	.global SevenIsland_SevaultCanyon_Entrance_MapScripts
+	.set SevenIsland_SevaultCanyon_Entrance_MapScripts, 0x08169D37
+	.global SevenIsland_SevaultCanyon_Entrance_EventScript_RouteSign
+	.set SevenIsland_SevaultCanyon_Entrance_EventScript_RouteSign, 0x08169D38
+
+@ Whole exact knockout pass: data/maps/PewterCity_PokemonCenter_2F/scripts.inc
+	.global PewterCity_PokemonCenter_2F_MapScripts
+	.set PewterCity_PokemonCenter_2F_MapScripts, 0x0816BA95
+	.global PewterCity_PokemonCenter_2F_EventScript_Colosseum
+	.set PewterCity_PokemonCenter_2F_EventScript_Colosseum, 0x0816BAAA
+	.global PewterCity_PokemonCenter_2F_EventScript_TradeCenter
+	.set PewterCity_PokemonCenter_2F_EventScript_TradeCenter, 0x0816BAB0
+	.global PewterCity_PokemonCenter_2F_EventScript_RecordCorner
+	.set PewterCity_PokemonCenter_2F_EventScript_RecordCorner, 0x0816BAB6
+
+@ Whole exact knockout pass: data/maps/Route15_WestEntrance_2F/scripts.inc
+	.global Route15_WestEntrance_2F_MapScripts
+	.set Route15_WestEntrance_2F_MapScripts, 0x081A5131
+	.global Route15_WestEntrance_2F_EventScript_LeftBinoculars
+	.set Route15_WestEntrance_2F_EventScript_LeftBinoculars, 0x081A5132
+	.global Route15_WestEntrance_2F_EventScript_RightBinoculars
+	.set Route15_WestEntrance_2F_EventScript_RightBinoculars, 0x081A514F
+	.global Route15_WestEntrance_2F_EventScript_Aide
+	.set Route15_WestEntrance_2F_EventScript_Aide, 0x081A5158
+	.global Route15_WestEntrance_2F_EventScript_AlreadyGotExpShare
+	.set Route15_WestEntrance_2F_EventScript_AlreadyGotExpShare, 0x081A51DA
+	.global Route15_WestEntrance_2F_EventScript_GetAideRequestInfo
+	.set Route15_WestEntrance_2F_EventScript_GetAideRequestInfo, 0x081A51E4
+
+@ Whole exact knockout pass: data/maps/Route16_NorthEntrance_1F/scripts.inc
+	.global Route16_NorthEntrance_1F_MapScripts
+	.set Route16_NorthEntrance_1F_MapScripts, 0x081A53BC
+	.global Route16_NorthEntrance_1F_OnTransition
+	.set Route16_NorthEntrance_1F_OnTransition, 0x081A53C2
+	.global Route16_NorthEntrance_1F_EventScript_DisableNeedBikeTrigger
+	.set Route16_NorthEntrance_1F_EventScript_DisableNeedBikeTrigger, 0x081A53CF
+	.global Route16_NorthEntrance_1F_EventScript_Guard
+	.set Route16_NorthEntrance_1F_EventScript_Guard, 0x081A53D5
+	.global Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerTop
+	.set Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerTop, 0x081A53DE
+	.global Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerMidTop
+	.set Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerMidTop, 0x081A53EA
+	.global Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerMid
+	.set Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerMid, 0x081A53F6
+	.global Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerMidBottom
+	.set Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerMidBottom, 0x081A5402
+	.global Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerBottom
+	.set Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerBottom, 0x081A540E
+	.global Route16_NorthEntrance_1F_EventScript_NeedBikeTrigger
+	.set Route16_NorthEntrance_1F_EventScript_NeedBikeTrigger, 0x081A541A
+	.global Route16_NorthEntrance_1F_EventScript_PlayerWalkToCounterMidTop
+	.set Route16_NorthEntrance_1F_EventScript_PlayerWalkToCounterMidTop, 0x081A5473
+	.global Route16_NorthEntrance_1F_EventScript_PlayerWalkToCounterMid
+	.set Route16_NorthEntrance_1F_EventScript_PlayerWalkToCounterMid, 0x081A547E
+	.global Route16_NorthEntrance_1F_EventScript_PlayerWalkToCounterMidBottom
+	.set Route16_NorthEntrance_1F_EventScript_PlayerWalkToCounterMidBottom, 0x081A5489
+	.global Route16_NorthEntrance_1F_EventScript_PlayerWalkToCounterBottom
+	.set Route16_NorthEntrance_1F_EventScript_PlayerWalkToCounterBottom, 0x081A5494
+	.global Route16_NorthEntrance_1F_Movement_WalkUp
+	.set Route16_NorthEntrance_1F_Movement_WalkUp, 0x081A549F
+	.global Route16_NorthEntrance_1F_Movement_WalkUp2
+	.set Route16_NorthEntrance_1F_Movement_WalkUp2, 0x081A54A1
+	.global Route16_NorthEntrance_1F_Movement_WalkUp3
+	.set Route16_NorthEntrance_1F_Movement_WalkUp3, 0x081A54A4
+	.global Route16_NorthEntrance_1F_Movement_WalkUp4
+	.set Route16_NorthEntrance_1F_Movement_WalkUp4, 0x081A54A8
+	.global Route16_NorthEntrance_1F_Movement_WalkRight
+	.set Route16_NorthEntrance_1F_Movement_WalkRight, 0x081A54AD
+	.global Route16_NorthEntrance_1F_EventScript_OldMan
+	.set Route16_NorthEntrance_1F_EventScript_OldMan, 0x081A54AF
+
+@ Whole exact knockout pass: data/maps/Route18_EastEntrance_2F/scripts.inc
+	.global Route18_EastEntrance_2F_MapScripts
+	.set Route18_EastEntrance_2F_MapScripts, 0x081A5B97
+	.global Route18_EastEntrance_2F_EventScript_LeftBinoculars
+	.set Route18_EastEntrance_2F_EventScript_LeftBinoculars, 0x081A5B98
+	.global Route18_EastEntrance_2F_EventScript_RightBinoculars
+	.set Route18_EastEntrance_2F_EventScript_RightBinoculars, 0x081A5BA1
+	.global Route18_EastEntrance_2F_EventScript_Haden
+	.set Route18_EastEntrance_2F_EventScript_Haden, 0x081A5BAA
+	.global Route18_EastEntrance_2F_EventScript_DeclineTrade
+	.set Route18_EastEntrance_2F_EventScript_DeclineTrade, 0x081A5C04
+	.global Route18_EastEntrance_2F_EventScript_NotRequestedMon
+	.set Route18_EastEntrance_2F_EventScript_NotRequestedMon, 0x081A5C0E
+	.global Route18_EastEntrance_2F_EventScript_AlreadyTraded
+	.set Route18_EastEntrance_2F_EventScript_AlreadyTraded, 0x081A5C1C
+
+@ Whole exact knockout pass: data/maps/Route22_NorthEntrance/scripts.inc
+	.global Route22_NorthEntrance_MapScripts
+	.set Route22_NorthEntrance_MapScripts, 0x081A5C27
+	.global Route22_NorthEntrance_EventScript_BoulderBadgeGuard
+	.set Route22_NorthEntrance_EventScript_BoulderBadgeGuard, 0x081A5C28
+	.global Route22_NorthEntrance_EventScript_BoulderBadgeGuardTrigger
+	.set Route22_NorthEntrance_EventScript_BoulderBadgeGuardTrigger, 0x081A5C39
+
+@ Whole exact knockout pass: data/maps/SevenIsland_House_Room2/scripts.inc
+	.global SevenIsland_House_Room2_MapScripts
+	.set SevenIsland_House_Room2_MapScripts, 0x081B2F8B
+	.global SevenIsland_House_Room2_OnTransition
+	.set SevenIsland_House_Room2_OnTransition, 0x081B2F96
+	.global SevenIsland_House_Room2_OnFrame
+	.set SevenIsland_House_Room2_OnFrame, 0x081B2F9A
+	.global SevenIsland_House_Room2_EventScript_BattleVisitingTrainer
+	.set SevenIsland_House_Room2_EventScript_BattleVisitingTrainer, 0x081B2FA4
+	.global SevenIsland_House_Room2_EventScript_BattleTie
+	.set SevenIsland_House_Room2_EventScript_BattleTie, 0x081B300B
+	.global SevenIsland_House_Room2_EventScript_BattleWon
+	.set SevenIsland_House_Room2_EventScript_BattleWon, 0x081B3019
+	.global SevenIsland_House_Room2_EventScript_BattleLost
+	.set SevenIsland_House_Room2_EventScript_BattleLost, 0x081B3024
+	.global SevenIsland_House_Room2_Movement_PlayerEnterRoom
+	.set SevenIsland_House_Room2_Movement_PlayerEnterRoom, 0x081B302F
+	.global SevenIsland_House_Room2_Movement_PlayerExitRoom
+	.set SevenIsland_House_Room2_Movement_PlayerExitRoom, 0x081B3035
+
+@ Whole exact knockout pass: data/maps/SevenIsland_Mart/scripts.inc
+	.global SevenIsland_Mart_MapScripts
+	.set SevenIsland_Mart_MapScripts, 0x081B303D
+	.global SevenIsland_Mart_EventScript_Clerk
+	.set SevenIsland_Mart_EventScript_Clerk, 0x081B303E
+	.global SevenIsland_Mart_Items
+	.set SevenIsland_Mart_Items, 0x081B3065
+	.global SevenIsland_Mart_EventScript_Lass
+	.set SevenIsland_Mart_EventScript_Lass, 0x081B307B
+	.global SevenIsland_Mart_EventScript_Hiker
+	.set SevenIsland_Mart_EventScript_Hiker, 0x081B3084
+	.global SevenIsland_Mart_EventScript_Fisher
+	.set SevenIsland_Mart_EventScript_Fisher, 0x081B308D
+
+@ Whole exact knockout pass: data/maps/SevenIsland_PokemonCenter_1F/scripts.inc
+	.global SevenIsland_PokemonCenter_1F_MapScripts
+	.set SevenIsland_PokemonCenter_1F_MapScripts, 0x081B3096
+	.global SevenIsland_PokemonCenter_1F_OnTransition
+	.set SevenIsland_PokemonCenter_1F_OnTransition, 0x081B30A1
+	.global SevenIsland_PokemonCenter_1F_EventScript_Nurse
+	.set SevenIsland_PokemonCenter_1F_EventScript_Nurse, 0x081B30A5
+	.global SevenIsland_PokemonCenter_1F_EventScript_OldMan
+	.set SevenIsland_PokemonCenter_1F_EventScript_OldMan, 0x081B30AE
+	.global SevenIsland_PokemonCenter_1F_EventScript_Sailor
+	.set SevenIsland_PokemonCenter_1F_EventScript_Sailor, 0x081B30B7
+	.global SevenIsland_PokemonCenter_1F_EventScript_Beauty
+	.set SevenIsland_PokemonCenter_1F_EventScript_Beauty, 0x081B30C0
+
+@ Whole exact knockout pass: data/maps/SevenIsland_PokemonCenter_2F/scripts.inc
+	.global SevenIsland_PokemonCenter_2F_MapScripts
+	.set SevenIsland_PokemonCenter_2F_MapScripts, 0x081B30C9
+	.global SevenIsland_PokemonCenter_2F_EventScript_Colosseum
+	.set SevenIsland_PokemonCenter_2F_EventScript_Colosseum, 0x081B30DE
+	.global SevenIsland_PokemonCenter_2F_EventScript_TradeCenter
+	.set SevenIsland_PokemonCenter_2F_EventScript_TradeCenter, 0x081B30E4
+	.global SevenIsland_PokemonCenter_2F_EventScript_RecordCorner
+	.set SevenIsland_PokemonCenter_2F_EventScript_RecordCorner, 0x081B30EA
+
+@ Whole exact knockout pass: data/maps/OneIsland_PokemonCenter_1F/scripts.inc
+	.global OneIsland_PokemonCenter_1F_MapScripts
+	.set OneIsland_PokemonCenter_1F_MapScripts, 0x081B3105
+	.global OneIsland_PokemonCenter_1F_OnLoad
+	.set OneIsland_PokemonCenter_1F_OnLoad, 0x081B311A
+	.global OneIsland_PokemonCenter_1F_EventScript_SetRubyMetatile
+	.set OneIsland_PokemonCenter_1F_EventScript_SetRubyMetatile, 0x081B312F
+	.global OneIsland_PokemonCenter_1F_EventScript_SetSapphireMetatile
+	.set OneIsland_PokemonCenter_1F_EventScript_SetSapphireMetatile, 0x081B3139
+	.global OneIsland_PokemonCenter_1F_EventScript_SetNetworkMachineOn
+	.set OneIsland_PokemonCenter_1F_EventScript_SetNetworkMachineOn, 0x081B3143
+	.global OneIsland_PokemonCenter_1F_OnTransition
+	.set OneIsland_PokemonCenter_1F_OnTransition, 0x081B315B
+	.global OneIsland_PokemonCenter_1F_EventScript_SetCelioQuestDone
+	.set OneIsland_PokemonCenter_1F_EventScript_SetCelioQuestDone, 0x081B3180
+	.global OneIsland_PokemonCenter_1F_EventScript_SetBillCelioFirstMeetingPos
+	.set OneIsland_PokemonCenter_1F_EventScript_SetBillCelioFirstMeetingPos, 0x081B3186
+	.global OneIsland_PokemonCenter_1F_EventScript_SetBillCelioReadyToLeavePos
+	.set OneIsland_PokemonCenter_1F_EventScript_SetBillCelioReadyToLeavePos, 0x081B319D
+	.global OneIsland_PokemonCenter_1F_OnFrame
+	.set OneIsland_PokemonCenter_1F_OnFrame, 0x081B31B4
+	.global OneIsland_PokemonCenter_1F_EventScript_MeetCelioScene
+	.set OneIsland_PokemonCenter_1F_EventScript_MeetCelioScene, 0x081B31BE
+	.global OneIsland_PokemonCenter_1F_EventScript_IntroducePlayerChamp
+	.set OneIsland_PokemonCenter_1F_EventScript_IntroducePlayerChamp, 0x081B3341
+	.global OneIsland_PokemonCenter_1F_EventScript_IntroducePlayerNotChamp
+	.set OneIsland_PokemonCenter_1F_EventScript_IntroducePlayerNotChamp, 0x081B334A
+	.global OneIsland_PokemonCenter_1F_EventScript_ReceiveTownMapPage
+	.set OneIsland_PokemonCenter_1F_EventScript_ReceiveTownMapPage, 0x081B3353
+	.global OneIsland_PokemonCenter_1F_EventScript_ReceiveTownMap
+	.set OneIsland_PokemonCenter_1F_EventScript_ReceiveTownMap, 0x081B3365
+	.global OneIsland_PokemonCenter_1F_Movement_PlayerWalkToCelio
+	.set OneIsland_PokemonCenter_1F_Movement_PlayerWalkToCelio, 0x081B338A
+	.global OneIsland_PokemonCenter_1F_Movement_BillWalkToCelio
+	.set OneIsland_PokemonCenter_1F_Movement_BillWalkToCelio, 0x081B3393
+	.global OneIsland_PokemonCenter_1F_Movement_StepAsideLeft
+	.set OneIsland_PokemonCenter_1F_Movement_StepAsideLeft, 0x081B339E
+	.global OneIsland_PokemonCenter_1F_EventScript_Nurse
+	.set OneIsland_PokemonCenter_1F_EventScript_Nurse, 0x081B33A1
+	.global OneIsland_PokemonCenter_1F_EventScript_Bill
+	.set OneIsland_PokemonCenter_1F_EventScript_Bill, 0x081B33AA
+	.global OneIsland_PokemonCenter_1F_EventScript_BillGoTakeStroll
+	.set OneIsland_PokemonCenter_1F_EventScript_BillGoTakeStroll, 0x081B33BE
+	.global OneIsland_PokemonCenter_1F_EventScript_Celio
+	.set OneIsland_PokemonCenter_1F_EventScript_Celio, 0x081B33D2
+	.global OneIsland_PokemonCenter_1F_EventScript_CelioGiveBillFact
+	.set OneIsland_PokemonCenter_1F_EventScript_CelioGiveBillFact, 0x081B3442
+	.global OneIsland_PokemonCenter_1F_EventScript_BillFact1
+	.set OneIsland_PokemonCenter_1F_EventScript_BillFact1, 0x081B347A
+	.global OneIsland_PokemonCenter_1F_EventScript_BillFact2
+	.set OneIsland_PokemonCenter_1F_EventScript_BillFact2, 0x081B3491
+	.global OneIsland_PokemonCenter_1F_EventScript_CelioJustGivenSapphire
+	.set OneIsland_PokemonCenter_1F_EventScript_CelioJustGivenSapphire, 0x081B34A8
+	.global OneIsland_PokemonCenter_1F_EventScript_GiveCelioSapphire
+	.set OneIsland_PokemonCenter_1F_EventScript_GiveCelioSapphire, 0x081B34B2
+	.global OneIsland_PokemonCenter_1F_EventScript_ExplainRainbowPass
+	.set OneIsland_PokemonCenter_1F_EventScript_ExplainRainbowPass, 0x081B3547
+	.global OneIsland_PokemonCenter_1F_EventScript_GiveCelioRuby
+	.set OneIsland_PokemonCenter_1F_EventScript_GiveCelioRuby, 0x081B3551
+	.global OneIsland_PokemonCenter_1F_EventScript_DeclineHelpCelio
+	.set OneIsland_PokemonCenter_1F_EventScript_DeclineHelpCelio, 0x081B35A6
+	.global OneIsland_PokemonCenter_1F_EventScript_GiveRainbowPass
+	.set OneIsland_PokemonCenter_1F_EventScript_GiveRainbowPass, 0x081B35BF
+	.global OneIsland_PokemonCenter_1F_EventScript_CelioWaitingForRuby
+	.set OneIsland_PokemonCenter_1F_EventScript_CelioWaitingForRuby, 0x081B35FF
+	.global OneIsland_PokemonCenter_1F_EventScript_CelioRequestRuby
+	.set OneIsland_PokemonCenter_1F_EventScript_CelioRequestRuby, 0x081B3609
+	.global OneIsland_PokemonCenter_1F_EventScript_CelioPlayerMissingNationalDex
+	.set OneIsland_PokemonCenter_1F_EventScript_CelioPlayerMissingNationalDex, 0x081B3641
+	.global OneIsland_PokemonCenter_1F_Movement_CelioCheckMachine
+	.set OneIsland_PokemonCenter_1F_Movement_CelioCheckMachine, 0x081B364B
+	.global OneIsland_PokemonCenter_1F_Movement_CelioPutGemInMachine
+	.set OneIsland_PokemonCenter_1F_Movement_CelioPutGemInMachine, 0x081B364F
+	.global OneIsland_PokemonCenter_1F_EventScript_LittleBoy
+	.set OneIsland_PokemonCenter_1F_EventScript_LittleBoy, 0x081B3655
+	.global OneIsland_PokemonCenter_1F_EventScript_Hiker
+	.set OneIsland_PokemonCenter_1F_EventScript_Hiker, 0x081B365E
+	.global OneIsland_PokemonCenter_1F_EventScript_CrushGirl
+	.set OneIsland_PokemonCenter_1F_EventScript_CrushGirl, 0x081B3667
+	.global OneIsland_PokemonCenter_1F_EventScript_CrushGirlHoennLinked
+	.set OneIsland_PokemonCenter_1F_EventScript_CrushGirlHoennLinked, 0x081B367C
+	.global OneIsland_PokemonCenter_1F_EventScript_NetworkMachine
+	.set OneIsland_PokemonCenter_1F_EventScript_NetworkMachine, 0x081B3686
+	.global OneIsland_PokemonCenter_1F_EventScript_NetworkMachineLinkedWithKanto
+	.set OneIsland_PokemonCenter_1F_EventScript_NetworkMachineLinkedWithKanto, 0x081B36A3
+	.global OneIsland_PokemonCenter_1F_EventScript_NetworkMachineLinkedWithHoenn
+	.set OneIsland_PokemonCenter_1F_EventScript_NetworkMachineLinkedWithHoenn, 0x081B36AD
+	.global OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerTop
+	.set OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerTop, 0x081B36B7
+	.global OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerMidTop
+	.set OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerMidTop, 0x081B36C3
+	.global OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerMidBottom
+	.set OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerMidBottom, 0x081B36CF
+	.global OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerBottom
+	.set OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerBottom, 0x081B36DB
+	.global OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandScene
+	.set OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandScene, 0x081B36E7
+	.global OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillTop
+	.set OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillTop, 0x081B37F1
+	.global OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillMidTop
+	.set OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillMidTop, 0x081B37FC
+	.global OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillMidBottom
+	.set OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillMidBottom, 0x081B3807
+	.global OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillBottom
+	.set OneIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillBottom, 0x081B3812
+	.global OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillTop
+	.set OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillTop, 0x081B381D
+	.global OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillMidTop
+	.set OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillMidTop, 0x081B3821
+	.global OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillMidBottom
+	.set OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillMidBottom, 0x081B3823
+	.global OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillBottom
+	.set OneIsland_PokemonCenter_1F_Movement_PlayerWalkToBillBottom, 0x081B3827
+	.global OneIsland_PokemonCenter_1F_Movement_DelayWalkInPlaceLeft
+	.set OneIsland_PokemonCenter_1F_Movement_DelayWalkInPlaceLeft, 0x081B382C
+	.global OneIsland_PokemonCenter_1F_Movement_WalkInPlaceDown
+	.set OneIsland_PokemonCenter_1F_Movement_WalkInPlaceDown, 0x081B3831
+	.global OneIsland_PokemonCenter_1F_Movement_PlayerExit
+	.set OneIsland_PokemonCenter_1F_Movement_PlayerExit, 0x081B3833
+	.global OneIsland_PokemonCenter_1F_Movement_BillExit
+	.set OneIsland_PokemonCenter_1F_Movement_BillExit, 0x081B383A
+
+@ Whole exact knockout pass: data/maps/OneIsland_Harbor/scripts.inc
+	.global OneIsland_Harbor_MapScripts
+	.set OneIsland_Harbor_MapScripts, 0x081B3885
+	.global OneIsland_Harbor_OnWarp
+	.set OneIsland_Harbor_OnWarp, 0x081B3890
+	.global OneIsland_Harbor_EventScript_TurnPlayerNorth
+	.set OneIsland_Harbor_EventScript_TurnPlayerNorth, 0x081B389A
+	.global OneIsland_Harbor_OnFrame
+	.set OneIsland_Harbor_OnFrame, 0x081B389F
+	.global OneIsland_Harbor_EventScript_PlayerEnterHarborFirstTime
+	.set OneIsland_Harbor_EventScript_PlayerEnterHarborFirstTime, 0x081B38A9
+	.global OneIsland_Harbor_Movement_PlayerExitHarbor
+	.set OneIsland_Harbor_Movement_PlayerExitHarbor, 0x081B38C6
+	.global OneIsland_Harbor_EventScript_Sailor
+	.set OneIsland_Harbor_EventScript_Sailor, 0x081B38CA
+
+@ Whole exact knockout pass: data/maps/TwoIsland_JoyfulGameCorner/scripts.inc
+	.global TwoIsland_JoyfulGameCorner_MapScripts
+	.set TwoIsland_JoyfulGameCorner_MapScripts, 0x081B38DD
+	.global TwoIsland_JoyfulGameCorner_OnTransition
+	.set TwoIsland_JoyfulGameCorner_OnTransition, 0x081B38F2
+	.global TwoIsland_JoyfulGameCorner_EventScript_SetLostelleReturnedPos
+	.set TwoIsland_JoyfulGameCorner_EventScript_SetLostelleReturnedPos, 0x081B38FC
+	.global TwoIsland_JoyfulGameCorner_OnWarp
+	.set TwoIsland_JoyfulGameCorner_OnWarp, 0x081B3911
+	.global TwoIsland_JoyfulGameCorner_EventScript_TurnPlayerNorth
+	.set TwoIsland_JoyfulGameCorner_EventScript_TurnPlayerNorth, 0x081B3923
+	.global TwoIsland_JoyfulGameCorner_OnFrame
+	.set TwoIsland_JoyfulGameCorner_OnFrame, 0x081B3928
+	.global TwoIsland_JoyfulGameCorner_EventScript_FoundLostelleScene
+	.set TwoIsland_JoyfulGameCorner_EventScript_FoundLostelleScene, 0x081B3942
+	.global TwoIsland_JoyfulGameCorner_EventScript_HelpFindLostelleScene
+	.set TwoIsland_JoyfulGameCorner_EventScript_HelpFindLostelleScene, 0x081B396C
+	.global TwoIsland_JoyfulGameCorner_Movement_DaddyPacing
+	.set TwoIsland_JoyfulGameCorner_Movement_DaddyPacing, 0x081B3A2D
+	.global TwoIsland_JoyfulGameCorner_Movement_DaddyApproachPlayer
+	.set TwoIsland_JoyfulGameCorner_Movement_DaddyApproachPlayer, 0x081B3A34
+	.global TwoIsland_JoyfulGameCorner_Movement_PlayerFaceDaddy
+	.set TwoIsland_JoyfulGameCorner_Movement_PlayerFaceDaddy, 0x081B3A39
+	.global TwoIsland_JoyfulGameCorner_Movement_BikerLookAround
+	.set TwoIsland_JoyfulGameCorner_Movement_BikerLookAround, 0x081B3A3C
+	.global TwoIsland_JoyfulGameCorner_EventScript_InfoMan
+	.set TwoIsland_JoyfulGameCorner_EventScript_InfoMan, 0x081B3A42
+	.global TwoIsland_JoyfulGameCorner_EventScript_GetGamesGoingSoon
+	.set TwoIsland_JoyfulGameCorner_EventScript_GetGamesGoingSoon, 0x081B3A62
+	.global TwoIsland_JoyfulGameCorner_EventScript_LostellesDaddy
+	.set TwoIsland_JoyfulGameCorner_EventScript_LostellesDaddy, 0x081B3A6C
+	.global TwoIsland_JoyfulGameCorner_EventScript_GiveDaddyMeteorite
+	.set TwoIsland_JoyfulGameCorner_EventScript_GiveDaddyMeteorite, 0x081B3A97
+	.global TwoIsland_JoyfulGameCorner_EventScript_ReceiveMoonStone
+	.set TwoIsland_JoyfulGameCorner_EventScript_ReceiveMoonStone, 0x081B3AD1
+	.global TwoIsland_JoyfulGameCorner_EventScript_GetGameCornerRunning
+	.set TwoIsland_JoyfulGameCorner_EventScript_GetGameCornerRunning, 0x081B3B02
+	.global TwoIsland_JoyfulGameCorner_EventScript_NoRoomForMoonStone
+	.set TwoIsland_JoyfulGameCorner_EventScript_NoRoomForMoonStone, 0x081B3B0C
+	.global TwoIsland_JoyfulGameCorner_EventScript_Lostelle
+	.set TwoIsland_JoyfulGameCorner_EventScript_Lostelle, 0x081B3B19
+
+@ Whole exact knockout pass: data/maps/FourIsland_House2/scripts.inc
+	.global FourIsland_House2_MapScripts
+	.set FourIsland_House2_MapScripts, 0x081B41C5
+
+@ Whole exact knockout pass: data/maps/FiveIsland_Harbor/scripts.inc
+	.global FiveIsland_Harbor_MapScripts
+	.set FiveIsland_Harbor_MapScripts, 0x081B425B
+	.global FiveIsland_Harbor_EventScript_Sailor
+	.set FiveIsland_Harbor_EventScript_Sailor, 0x081B425C
+
+@ Standard item-ball scripts verified byte-for-byte at original Omega placement.
+	.global Route2_EventScript_ItemEther
+	.set Route2_EventScript_ItemEther, 0x081BE58E
+	.global Route2_EventScript_ItemParalyzeHeal
+	.set Route2_EventScript_ItemParalyzeHeal, 0x081BE59B
+	.global ViridianForest_EventScript_ItemPokeBall
+	.set ViridianForest_EventScript_ItemPokeBall, 0x081BE5A8
+	.global ViridianForest_EventScript_ItemAntidote
+	.set ViridianForest_EventScript_ItemAntidote, 0x081BE5B5
+	.global ViridianForest_EventScript_ItemPotion
+	.set ViridianForest_EventScript_ItemPotion, 0x081BE5C2
+	.global MtMoon_1F_EventScript_ItemParalyzeHeal
+	.set MtMoon_1F_EventScript_ItemParalyzeHeal, 0x081BE5CF
+	.global MtMoon_1F_EventScript_ItemTM09
+	.set MtMoon_1F_EventScript_ItemTM09, 0x081BE5DC
+	.global MtMoon_1F_EventScript_ItemPotion
+	.set MtMoon_1F_EventScript_ItemPotion, 0x081BE5E9
+	.global MtMoon_1F_EventScript_ItemRareCandy
+	.set MtMoon_1F_EventScript_ItemRareCandy, 0x081BE5F6
+	.global MtMoon_1F_EventScript_ItemEscapeRope
+	.set MtMoon_1F_EventScript_ItemEscapeRope, 0x081BE603
+	.global MtMoon_1F_EventScript_ItemMoonStone
+	.set MtMoon_1F_EventScript_ItemMoonStone, 0x081BE610
+	.global MtMoon_B2F_EventScript_ItemStarPiece
+	.set MtMoon_B2F_EventScript_ItemStarPiece, 0x081BE61D
+	.global MtMoon_B2F_EventScript_ItemTM46
+	.set MtMoon_B2F_EventScript_ItemTM46, 0x081BE62A
+	.global Route4_EventScript_ItemLuckyEgg
+	.set Route4_EventScript_ItemLuckyEgg, 0x081BE637
+	.global Route24_EventScript_ItemTM45
+	.set Route24_EventScript_ItemTM45, 0x081BE644
+	.global Route25_EventScript_ItemTM43
+	.set Route25_EventScript_ItemTM43, 0x081BE651
+	.global SSAnne_1F_Room2_EventScript_ItemTM31
+	.set SSAnne_1F_Room2_EventScript_ItemTM31, 0x081BE65E
+	.global SSAnne_2F_Room2_EventScript_ItemStardust
+	.set SSAnne_2F_Room2_EventScript_ItemStardust, 0x081BE66B
+	.global SSAnne_2F_Room4_EventScript_ItemXAttack
+	.set SSAnne_2F_Room4_EventScript_ItemXAttack, 0x081BE678
+	.global SSAnne_B1F_Room2_EventScript_ItemTM44
+	.set SSAnne_B1F_Room2_EventScript_ItemTM44, 0x081BE685
+	.global SSAnne_B1F_Room3_EventScript_ItemEther
+	.set SSAnne_B1F_Room3_EventScript_ItemEther, 0x081BE692
+	.global SSAnne_B1F_Room5_EventScript_ItemSuperPotion
+	.set SSAnne_B1F_Room5_EventScript_ItemSuperPotion, 0x081BE69F
+	.global SSAnne_Kitchen_EventScript_ItemGreatBall
+	.set SSAnne_Kitchen_EventScript_ItemGreatBall, 0x081BE6AC
+	.global Route9_EventScript_ItemTM40
+	.set Route9_EventScript_ItemTM40, 0x081BE6B9
+	.global RocketHideout_B1F_EventScript_ItemEscapeRope
+	.set RocketHideout_B1F_EventScript_ItemEscapeRope, 0x081BE6C6
+	.global RocketHideout_B1F_EventScript_ItemHyperPotion
+	.set RocketHideout_B1F_EventScript_ItemHyperPotion, 0x081BE6D3
+	.global RocketHideout_B2F_EventScript_ItemXSpeed
+	.set RocketHideout_B2F_EventScript_ItemXSpeed, 0x081BE6E0
+	.global RocketHideout_B2F_EventScript_ItemMoonStone
+	.set RocketHideout_B2F_EventScript_ItemMoonStone, 0x081BE6ED
+	.global RocketHideout_B2F_EventScript_ItemTM12
+	.set RocketHideout_B2F_EventScript_ItemTM12, 0x081BE6FA
+	.global RocketHideout_B2F_EventScript_ItemSuperPotion
+	.set RocketHideout_B2F_EventScript_ItemSuperPotion, 0x081BE707
+	.global RocketHideout_B3F_EventScript_ItemRareCandy
+	.set RocketHideout_B3F_EventScript_ItemRareCandy, 0x081BE714
+	.global RocketHideout_B3F_EventScript_ItemTM21
+	.set RocketHideout_B3F_EventScript_ItemTM21, 0x081BE721
+	.global RocketHideout_B4F_EventScript_ItemTM49
+	.set RocketHideout_B4F_EventScript_ItemTM49, 0x081BE72E
+	.global RocketHideout_B4F_EventScript_ItemMaxEther
+	.set RocketHideout_B4F_EventScript_ItemMaxEther, 0x081BE73B
+	.global RocketHideout_B4F_EventScript_ItemCalcium
+	.set RocketHideout_B4F_EventScript_ItemCalcium, 0x081BE748
+	.global PokemonTower_3F_EventScript_ItemEscapeRope
+	.set PokemonTower_3F_EventScript_ItemEscapeRope, 0x081BE755
+	.global PokemonTower_4F_EventScript_ItemElixir
+	.set PokemonTower_4F_EventScript_ItemElixir, 0x081BE762
+	.global PokemonTower_4F_EventScript_ItemAwakening
+	.set PokemonTower_4F_EventScript_ItemAwakening, 0x081BE76F
+	.global PokemonTower_4F_EventScript_ItemGreatBall
+	.set PokemonTower_4F_EventScript_ItemGreatBall, 0x081BE77C
+	.global PokemonTower_5F_EventScript_ItemNugget
+	.set PokemonTower_5F_EventScript_ItemNugget, 0x081BE789
+	.global PokemonTower_6F_EventScript_ItemRareCandy
+	.set PokemonTower_6F_EventScript_ItemRareCandy, 0x081BE796
+	.global PokemonTower_6F_EventScript_ItemXAccuracy
+	.set PokemonTower_6F_EventScript_ItemXAccuracy, 0x081BE7A3
+	.global Route12_EventScript_ItemTM48
+	.set Route12_EventScript_ItemTM48, 0x081BE7B0
+	.global Route12_EventScript_ItemIron
+	.set Route12_EventScript_ItemIron, 0x081BE7BD
+	.global Route15_EventScript_ItemTM18
+	.set Route15_EventScript_ItemTM18, 0x081BE7CA
+	.global SafariZone_Center_EventScript_ItemNugget
+	.set SafariZone_Center_EventScript_ItemNugget, 0x081BE7D7
+	.global SafariZone_East_EventScript_ItemMaxPotion
+	.set SafariZone_East_EventScript_ItemMaxPotion, 0x081BE7E4
+	.global SafariZone_East_EventScript_ItemFullRestore
+	.set SafariZone_East_EventScript_ItemFullRestore, 0x081BE7F1
+	.global SafariZone_East_EventScript_ItemTM11
+	.set SafariZone_East_EventScript_ItemTM11, 0x081BE7FE
+	.global SafariZone_East_EventScript_ItemLeafStone
+	.set SafariZone_East_EventScript_ItemLeafStone, 0x081BE80B
+	.global SafariZone_North_EventScript_ItemProtein
+	.set SafariZone_North_EventScript_ItemProtein, 0x081BE818
+	.global SafariZone_North_EventScript_ItemTM47
+	.set SafariZone_North_EventScript_ItemTM47, 0x081BE825
+	.global SafariZone_West_EventScript_ItemTM32
+	.set SafariZone_West_EventScript_ItemTM32, 0x081BE832
+	.global SafariZone_West_EventScript_ItemGoldTeeth
+	.set SafariZone_West_EventScript_ItemGoldTeeth, 0x081BE83F
+	.global SafariZone_West_EventScript_ItemMaxPotion
+	.set SafariZone_West_EventScript_ItemMaxPotion, 0x081BE84C
+	.global SafariZone_West_EventScript_ItemMaxRevive
+	.set SafariZone_West_EventScript_ItemMaxRevive, 0x081BE859
+	.global SilphCo_3F_EventScript_ItemHyperPotion
+	.set SilphCo_3F_EventScript_ItemHyperPotion, 0x081BE866
+	.global SilphCo_4F_EventScript_ItemMaxRevive
+	.set SilphCo_4F_EventScript_ItemMaxRevive, 0x081BE873
+	.global SilphCo_4F_EventScript_ItemEscapeRope
+	.set SilphCo_4F_EventScript_ItemEscapeRope, 0x081BE880
+	.global SilphCo_4F_EventScript_ItemFullHeal
+	.set SilphCo_4F_EventScript_ItemFullHeal, 0x081BE88D
+	.global SilphCo_5F_EventScript_ItemProtein
+	.set SilphCo_5F_EventScript_ItemProtein, 0x081BE89A
+	.global SilphCo_5F_EventScript_ItemTM01
+	.set SilphCo_5F_EventScript_ItemTM01, 0x081BE8A7
+	.global SilphCo_5F_EventScript_ItemCardKey
+	.set SilphCo_5F_EventScript_ItemCardKey, 0x081BE8B4
+	.global SilphCo_6F_EventScript_ItemHPUp
+	.set SilphCo_6F_EventScript_ItemHPUp, 0x081BE8C1
+	.global SilphCo_6F_EventScript_ItemXSpecial
+	.set SilphCo_6F_EventScript_ItemXSpecial, 0x081BE8CE
+	.global SilphCo_7F_EventScript_ItemCalcium
+	.set SilphCo_7F_EventScript_ItemCalcium, 0x081BE8DB
+	.global SilphCo_7F_EventScript_ItemTM08
+	.set SilphCo_7F_EventScript_ItemTM08, 0x081BE8E8
+	.global SilphCo_10F_EventScript_ItemCarbos
+	.set SilphCo_10F_EventScript_ItemCarbos, 0x081BE8F5
+	.global SilphCo_10F_EventScript_ItemUltraBall
+	.set SilphCo_10F_EventScript_ItemUltraBall, 0x081BE902
+	.global SilphCo_10F_EventScript_ItemRareCandy
+	.set SilphCo_10F_EventScript_ItemRareCandy, 0x081BE90F
+	.global PowerPlant_EventScript_ItemMaxPotion
+	.set PowerPlant_EventScript_ItemMaxPotion, 0x081BE91C
+	.global PowerPlant_EventScript_ItemTM17
+	.set PowerPlant_EventScript_ItemTM17, 0x081BE929
+	.global PowerPlant_EventScript_ItemTM25
+	.set PowerPlant_EventScript_ItemTM25, 0x081BE936
+	.global PowerPlant_EventScript_ItemThunderStone
+	.set PowerPlant_EventScript_ItemThunderStone, 0x081BE943
+	.global PowerPlant_EventScript_ItemElixir
+	.set PowerPlant_EventScript_ItemElixir, 0x081BE950
+	.global PokemonMansion_1F_EventScript_ItemCarbos
+	.set PokemonMansion_1F_EventScript_ItemCarbos, 0x081BE95D
+	.global PokemonMansion_1F_EventScript_ItemEscapeRope
+	.set PokemonMansion_1F_EventScript_ItemEscapeRope, 0x081BE96A
+	.global PokemonMansion_2F_EventScript_ItemCalcium
+	.set PokemonMansion_2F_EventScript_ItemCalcium, 0x081BE977
+	.global PokemonMansion_3F_EventScript_ItemMaxPotion
+	.set PokemonMansion_3F_EventScript_ItemMaxPotion, 0x081BE984
+	.global PokemonMansion_3F_EventScript_ItemIron
+	.set PokemonMansion_3F_EventScript_ItemIron, 0x081BE991
+	.global PokemonMansion_B1F_EventScript_ItemTM14
+	.set PokemonMansion_B1F_EventScript_ItemTM14, 0x081BE99E
+	.global PokemonMansion_B1F_EventScript_ItemFullRestore
+	.set PokemonMansion_B1F_EventScript_ItemFullRestore, 0x081BE9AB
+	.global PokemonMansion_B1F_EventScript_ItemTM22
+	.set PokemonMansion_B1F_EventScript_ItemTM22, 0x081BE9B8
+	.global PokemonMansion_B1F_EventScript_ItemSecretKey
+	.set PokemonMansion_B1F_EventScript_ItemSecretKey, 0x081BE9C5
+	.global VictoryRoad_1F_EventScript_ItemRareCandy
+	.set VictoryRoad_1F_EventScript_ItemRareCandy, 0x081BE9D2
+	.global VictoryRoad_1F_EventScript_ItemTM02
+	.set VictoryRoad_1F_EventScript_ItemTM02, 0x081BE9DF
+	.global VictoryRoad_2F_EventScript_ItemGuardSpec
+	.set VictoryRoad_2F_EventScript_ItemGuardSpec, 0x081BE9EC
+	.global VictoryRoad_2F_EventScript_ItemTM07
+	.set VictoryRoad_2F_EventScript_ItemTM07, 0x081BE9F9
+	.global VictoryRoad_2F_EventScript_ItemFullHeal
+	.set VictoryRoad_2F_EventScript_ItemFullHeal, 0x081BEA06
+	.global VictoryRoad_2F_EventScript_ItemTM37
+	.set VictoryRoad_2F_EventScript_ItemTM37, 0x081BEA13
+	.global VictoryRoad_3F_EventScript_ItemMaxRevive
+	.set VictoryRoad_3F_EventScript_ItemMaxRevive, 0x081BEA20
+	.global VictoryRoad_3F_EventScript_ItemTM50
+	.set VictoryRoad_3F_EventScript_ItemTM50, 0x081BEA2D
+	.global CeruleanCave_1F_EventScript_ItemMaxElixir
+	.set CeruleanCave_1F_EventScript_ItemMaxElixir, 0x081BEA3A
+	.global CeruleanCave_1F_EventScript_ItemNugget
+	.set CeruleanCave_1F_EventScript_ItemNugget, 0x081BEA47
+	.global CeruleanCave_1F_EventScript_ItemFullRestore
+	.set CeruleanCave_1F_EventScript_ItemFullRestore, 0x081BEA54
+	.global CeruleanCave_2F_EventScript_ItemFullRestore
+	.set CeruleanCave_2F_EventScript_ItemFullRestore, 0x081BEA61
+	.global CeruleanCave_2F_EventScript_ItemPPUp
+	.set CeruleanCave_2F_EventScript_ItemPPUp, 0x081BEA6E
+	.global CeruleanCave_2F_EventScript_ItemUltraBall
+	.set CeruleanCave_2F_EventScript_ItemUltraBall, 0x081BEA7B
+	.global CeruleanCave_B1F_EventScript_ItemMaxRevive
+	.set CeruleanCave_B1F_EventScript_ItemMaxRevive, 0x081BEA88
+	.global CeruleanCave_B1F_EventScript_ItemUltraBall
+	.set CeruleanCave_B1F_EventScript_ItemUltraBall, 0x081BEA95
+	.global FuchsiaCity_WardensHouse_EventScript_ItemRareCandy
+	.set FuchsiaCity_WardensHouse_EventScript_ItemRareCandy, 0x081BEAA2
+	.global TwoIsland_EventScript_ItemRevive
+	.set TwoIsland_EventScript_ItemRevive, 0x081BEAAF
+	.global ThreeIsland_EventScript_ItemZinc
+	.set ThreeIsland_EventScript_ItemZinc, 0x081BEABC
+	.global ViridianForest_EventScript_ItemPotion2
+	.set ViridianForest_EventScript_ItemPotion2, 0x081BEAC9
+	.global MtMoon_B2F_EventScript_ItemRevive
+	.set MtMoon_B2F_EventScript_ItemRevive, 0x081BEAD6
+	.global MtMoon_B2F_EventScript_ItemAntidote
+	.set MtMoon_B2F_EventScript_ItemAntidote, 0x081BEAE3
+	.global Route11_EventScript_ItemXDefend
+	.set Route11_EventScript_ItemXDefend, 0x081BEAF0
+	.global Route9_EventScript_ItemBurnHeal
+	.set Route9_EventScript_ItemBurnHeal, 0x081BEAFD
+	.global RockTunnel_1F_EventScript_ItemRepel
+	.set RockTunnel_1F_EventScript_ItemRepel, 0x081BEB0A
+	.global RockTunnel_1F_EventScript_ItemPearl
+	.set RockTunnel_1F_EventScript_ItemPearl, 0x081BEB17
+	.global RockTunnel_1F_EventScript_ItemEscapeRope
+	.set RockTunnel_1F_EventScript_ItemEscapeRope, 0x081BEB24
+	.global RockTunnel_B1F_EventScript_ItemRevive
+	.set RockTunnel_B1F_EventScript_ItemRevive, 0x081BEB31
+	.global RockTunnel_B1F_EventScript_ItemMaxEther
+	.set RockTunnel_B1F_EventScript_ItemMaxEther, 0x081BEB3E
+	.global SilphCo_8F_EventScript_ItemIron
+	.set SilphCo_8F_EventScript_ItemIron, 0x081BEB4B
+	.global SilphCo_11F_EventScript_ItemZinc
+	.set SilphCo_11F_EventScript_ItemZinc, 0x081BEB58
+	.global PokemonMansion_1F_EventScript_ItemProtein
+	.set PokemonMansion_1F_EventScript_ItemProtein, 0x081BEB65
+	.global PokemonMansion_2F_EventScript_ItemZinc
+	.set PokemonMansion_2F_EventScript_ItemZinc, 0x081BEB72
+	.global PokemonMansion_2F_EventScript_ItemHPUp
+	.set PokemonMansion_2F_EventScript_ItemHPUp, 0x081BEB7F
+	.global ViridianCity_EventScript_ItemPotion
+	.set ViridianCity_EventScript_ItemPotion, 0x081BEB8C
+	.global Route11_EventScript_ItemGreatBall
+	.set Route11_EventScript_ItemGreatBall, 0x081BEB99
+	.global Route11_EventScript_ItemAwakening
+	.set Route11_EventScript_ItemAwakening, 0x081BEBA6
+	.global PokemonTower_5F_EventScript_ItemCleanseTag
+	.set PokemonTower_5F_EventScript_ItemCleanseTag, 0x081BEBB3
+	.global CeladonCity_EventScript_ItemEther
+	.set CeladonCity_EventScript_ItemEther, 0x081BEBC0
+	.global RocketHideout_B3F_EventScript_ItemBlackGlasses
+	.set RocketHideout_B3F_EventScript_ItemBlackGlasses, 0x081BEBCD
+	.global SafariZone_North_EventScript_ItemQuickClaw
+	.set SafariZone_North_EventScript_ItemQuickClaw, 0x081BEBDA
+	.global SeafoamIslands_1F_EventScript_ItemIceHeal
+	.set SeafoamIslands_1F_EventScript_ItemIceHeal, 0x081BEBE7
+	.global SeafoamIslands_B1F_EventScript_ItemWaterStone
+	.set SeafoamIslands_B1F_EventScript_ItemWaterStone, 0x081BEBF4
+	.global SeafoamIslands_B1F_EventScript_ItemRevive
+	.set SeafoamIslands_B1F_EventScript_ItemRevive, 0x081BEC01
+	.global SeafoamIslands_B2F_EventScript_ItemBigPearl
+	.set SeafoamIslands_B2F_EventScript_ItemBigPearl, 0x081BEC0E
+	.global SeafoamIslands_B4F_EventScript_ItemUltraBall
+	.set SeafoamIslands_B4F_EventScript_ItemUltraBall, 0x081BEC1B
+	.global FourIsland_EventScript_ItemStarPiece
+	.set FourIsland_EventScript_ItemStarPiece, 0x081BEC28
+	.global FourIsland_EventScript_ItemStardust
+	.set FourIsland_EventScript_ItemStardust, 0x081BEC35
+	.global OneIsland_KindleRoad_EventScript_ItemEther
+	.set OneIsland_KindleRoad_EventScript_ItemEther, 0x081BEC42
+	.global OneIsland_KindleRoad_EventScript_ItemMaxRepel
+	.set OneIsland_KindleRoad_EventScript_ItemMaxRepel, 0x081BEC4F
+	.global OneIsland_KindleRoad_EventScript_ItemCarbos
+	.set OneIsland_KindleRoad_EventScript_ItemCarbos, 0x081BEC5C
+	.global FiveIsland_Meadow_EventScript_ItemMaxPotion
+	.set FiveIsland_Meadow_EventScript_ItemMaxPotion, 0x081BEC69
+	.global FiveIsland_Meadow_EventScript_ItemPPUp
+	.set FiveIsland_Meadow_EventScript_ItemPPUp, 0x081BEC76
+	.global FiveIsland_MemorialPillar_EventScript_ItemMetalCoat
+	.set FiveIsland_MemorialPillar_EventScript_ItemMetalCoat, 0x081BEC83
+	.global SixIsland_OutcastIsland_EventScript_ItemPPUp
+	.set SixIsland_OutcastIsland_EventScript_ItemPPUp, 0x081BEC90
+	.global SixIsland_WaterPath_EventScript_ItemElixir
+	.set SixIsland_WaterPath_EventScript_ItemElixir, 0x081BEC9D
+	.global SixIsland_WaterPath_EventScript_ItemDragonScale
+	.set SixIsland_WaterPath_EventScript_ItemDragonScale, 0x081BECAA
+	.global SixIsland_RuinValley_EventScript_ItemFullRestore
+	.set SixIsland_RuinValley_EventScript_ItemFullRestore, 0x081BECB7
+	.global SixIsland_RuinValley_EventScript_ItemHPUp
+	.set SixIsland_RuinValley_EventScript_ItemHPUp, 0x081BECC4
+	.global SixIsland_RuinValley_EventScript_ItemSunStone
+	.set SixIsland_RuinValley_EventScript_ItemSunStone, 0x081BECD1
+	.global SevenIsland_SevaultCanyon_EventScript_ItemKingsRock
+	.set SevenIsland_SevaultCanyon_EventScript_ItemKingsRock, 0x081BECDE
+	.global SevenIsland_SevaultCanyon_EventScript_ItemMaxElixir
+	.set SevenIsland_SevaultCanyon_EventScript_ItemMaxElixir, 0x081BECEB
+	.global SevenIsland_SevaultCanyon_EventScript_ItemNugget
+	.set SevenIsland_SevaultCanyon_EventScript_ItemNugget, 0x081BECF8
+	.global ThreeIsland_BerryForest_EventScript_ItemMaxEther
+	.set ThreeIsland_BerryForest_EventScript_ItemMaxEther, 0x081BED05
+	.global ThreeIsland_BerryForest_EventScript_ItemFullHeal
+	.set ThreeIsland_BerryForest_EventScript_ItemFullHeal, 0x081BED12
+	.global ThreeIsland_BerryForest_EventScript_ItemMaxElixir
+	.set ThreeIsland_BerryForest_EventScript_ItemMaxElixir, 0x081BED1F
+	.global MtEmber_Exterior_EventScript_ItemUltraBall
+	.set MtEmber_Exterior_EventScript_ItemUltraBall, 0x081BED2C
+	.global MtEmber_Exterior_EventScript_ItemFireStone
+	.set MtEmber_Exterior_EventScript_ItemFireStone, 0x081BED39
+	.global MtEmber_Exterior_EventScript_ItemDireHit
+	.set MtEmber_Exterior_EventScript_ItemDireHit, 0x081BED46
+	.global FourIsland_IcefallCave_1F_EventScript_ItemUltraBall
+	.set FourIsland_IcefallCave_1F_EventScript_ItemUltraBall, 0x081BED53
+	.global FourIsland_IcefallCave_1F_EventScript_ItemHM07
+	.set FourIsland_IcefallCave_1F_EventScript_ItemHM07, 0x081BED60
+	.global FourIsland_IcefallCave_B1F_EventScript_ItemFullRestore
+	.set FourIsland_IcefallCave_B1F_EventScript_ItemFullRestore, 0x081BED6D
+	.global FourIsland_IcefallCave_B1F_EventScript_ItemNeverMeltIce
+	.set FourIsland_IcefallCave_B1F_EventScript_ItemNeverMeltIce, 0x081BED7A
+	.global FiveIsland_RocketWarehouse_EventScript_ItemBigPearl
+	.set FiveIsland_RocketWarehouse_EventScript_ItemBigPearl, 0x081BED87
+	.global FiveIsland_RocketWarehouse_EventScript_ItemTM36
+	.set FiveIsland_RocketWarehouse_EventScript_ItemTM36, 0x081BED94
+	.global FiveIsland_RocketWarehouse_EventScript_ItemPearl
+	.set FiveIsland_RocketWarehouse_EventScript_ItemPearl, 0x081BEDA1
+	.global FiveIsland_RocketWarehouse_EventScript_ItemUpGrade
+	.set FiveIsland_RocketWarehouse_EventScript_ItemUpGrade, 0x081BEDAE
+	.global FiveIsland_LostCave_Room10_EventScript_ItemSilkScarf
+	.set FiveIsland_LostCave_Room10_EventScript_ItemSilkScarf, 0x081BEDBB
+	.global FiveIsland_LostCave_Room11_EventScript_ItemLaxIncense
+	.set FiveIsland_LostCave_Room11_EventScript_ItemLaxIncense, 0x081BEDC8
+	.global FiveIsland_LostCave_Room12_EventScript_ItemSeaIncense
+	.set FiveIsland_LostCave_Room12_EventScript_ItemSeaIncense, 0x081BEDD5
+	.global FiveIsland_LostCave_Room13_EventScript_ItemMaxRevive
+	.set FiveIsland_LostCave_Room13_EventScript_ItemMaxRevive, 0x081BEDE2
+	.global FiveIsland_LostCave_Room14_EventScript_ItemRareCandy
+	.set FiveIsland_LostCave_Room14_EventScript_ItemRareCandy, 0x081BEDEF
+	.global SevenIsland_SevaultCanyon_House_EventScript_ItemLuckyPunch
+	.set SevenIsland_SevaultCanyon_House_EventScript_ItemLuckyPunch, 0x081BEDFC
+	.global SilphCo_4F_EventScript_ItemTM41
+	.set SilphCo_4F_EventScript_ItemTM41, 0x081BEE09
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_MapScripts
+	.set PalletTown_ProfessorOaksLab_MapScripts, 0x0816A243
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_ReadyOakForNationalDexScene
+	.set PalletTown_ProfessorOaksLab_EventScript_ReadyOakForNationalDexScene, 0x0816A298
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_OakBringDexesToDeskSouth
+	.set PalletTown_ProfessorOaksLab_EventScript_OakBringDexesToDeskSouth, 0x0816A4E6
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_OakBringDexesToDeskEast
+	.set PalletTown_ProfessorOaksLab_EventScript_OakBringDexesToDeskEast, 0x0816A4FF
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerLeft
+	.set PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerLeft, 0x0816A611
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerMid
+	.set PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerMid, 0x0816A61D
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerRight
+	.set PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerRight, 0x0816A629
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_RivalApproachForBattleSquirtleRight
+	.set PalletTown_ProfessorOaksLab_EventScript_RivalApproachForBattleSquirtleRight, 0x0816A6C6
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_RivalBattleSquirtle
+	.set PalletTown_ProfessorOaksLab_EventScript_RivalBattleSquirtle, 0x0816A6D6
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_RivalApproachForBattleCharmanderRight
+	.set PalletTown_ProfessorOaksLab_EventScript_RivalApproachForBattleCharmanderRight, 0x0816A783
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_RivalBattleCharmander
+	.set PalletTown_ProfessorOaksLab_EventScript_RivalBattleCharmander, 0x0816A793
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_DexSceneOakWalkToDeskSouth
+	.set PalletTown_ProfessorOaksLab_EventScript_DexSceneOakWalkToDeskSouth, 0x0816AC39
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_DexSceneOakWalkToDeskEast
+	.set PalletTown_ProfessorOaksLab_EventScript_DexSceneOakWalkToDeskEast, 0x0816AC52
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_RatePokedex
+	.set PalletTown_ProfessorOaksLab_EventScript_RatePokedex, 0x0816AD00
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalEnterEastWest
+	.set PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalEnterEastWest, 0x0816AE9B
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_RivalWalksToSquirtle
+	.set PalletTown_ProfessorOaksLab_EventScript_RivalWalksToSquirtle, 0x0816B10C
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_SquirtleBall
+	.set PalletTown_ProfessorOaksLab_EventScript_SquirtleBall, 0x0816B19C
+
+@ Exact internal unit from data/maps/PalletTown_ProfessorOaksLab/scripts.inc
+	.global PalletTown_ProfessorOaksLab_EventScript_Aide1
+	.set PalletTown_ProfessorOaksLab_EventScript_Aide1, 0x0816B212
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_Movement_PlayerWalkToGymNorth
+	.set PewterCity_Movement_PlayerWalkToGymNorth, 0x08166D02
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_Movement_GuideWalkToGymEast
+	.set PewterCity_Movement_GuideWalkToGymEast, 0x08166D34
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_Movement_GuideWalkToGymNorth
+	.set PewterCity_Movement_GuideWalkToGymNorth, 0x08166DA6
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_GymGuideTriggerTop
+	.set PewterCity_EventScript_GymGuideTriggerTop, 0x08166DDF
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_GymGuideTriggerMid
+	.set PewterCity_EventScript_GymGuideTriggerMid, 0x08166DEB
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_GymGuideTriggerBottom
+	.set PewterCity_EventScript_GymGuideTriggerBottom, 0x08166DF7
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_GymGuideTriggerRight
+	.set PewterCity_EventScript_GymGuideTriggerRight, 0x08166E03
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_GymGuideTrigger
+	.set PewterCity_EventScript_GymGuideTrigger, 0x08166E0F
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_WalkToGymTop
+	.set PewterCity_EventScript_WalkToGymTop, 0x08166E5B
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_WalkToGymMid
+	.set PewterCity_EventScript_WalkToGymMid, 0x08166E77
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_WalkToGymRight
+	.set PewterCity_EventScript_WalkToGymRight, 0x08166EAF
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_Movement_PlayerWalkToMuseumNorth
+	.set PewterCity_Movement_PlayerWalkToMuseumNorth, 0x08167191
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_Movement_GuideWalkToMuseumNorth
+	.set PewterCity_Movement_GuideWalkToMuseumNorth, 0x081671AD
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_Movement_PlayerWalkToMuseumWest
+	.set PewterCity_Movement_PlayerWalkToMuseumWest, 0x081671FF
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_Movement_GuideWalkToMuseumWest
+	.set PewterCity_Movement_GuideWalkToMuseumWest, 0x0816721B
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_RunningShoesAide
+	.set PewterCity_EventScript_RunningShoesAide, 0x081672FA
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_RunningShoesAideTriggerTop
+	.set PewterCity_EventScript_RunningShoesAideTriggerTop, 0x08167308
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_RunningShoesAideTriggerMid
+	.set PewterCity_EventScript_RunningShoesAideTriggerMid, 0x08167315
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_RunningShoesAideTriggerBottom
+	.set PewterCity_EventScript_RunningShoesAideTriggerBottom, 0x08167322
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_AideApproachPlayer1
+	.set PewterCity_EventScript_AideApproachPlayer1, 0x0816742B
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_AideApproachPlayer2
+	.set PewterCity_EventScript_AideApproachPlayer2, 0x08167437
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_AideApproachPlayer3
+	.set PewterCity_EventScript_AideApproachPlayer3, 0x0816744D
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_EventScript_OmegaTogepiEggReceived
+	.set PewterCity_EventScript_OmegaTogepiEggReceived, 0x081674E8
+
+@ Exact internal unit from data/maps/PewterCity/scripts.inc
+	.global PewterCity_Text_OmegaTogepiEggObtained
+	.set PewterCity_Text_OmegaTogepiEggObtained, 0x08167540
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_Erik
+	.set CinnabarIsland_Gym_EventScript_Erik, 0x0816F22A
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_Avery
+	.set CinnabarIsland_Gym_EventScript_Avery, 0x0816F241
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_Quinn
+	.set CinnabarIsland_Gym_EventScript_Quinn, 0x0816F2D2
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_GymGuy
+	.set CinnabarIsland_Gym_EventScript_GymGuy, 0x0816F356
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_CorrectAnswer
+	.set CinnabarIsland_Gym_EventScript_CorrectAnswer, 0x0816F3D2
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_IncorrectAnswer
+	.set CinnabarIsland_Gym_EventScript_IncorrectAnswer, 0x0816F3DF
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_QuinnApproachLeft
+	.set CinnabarIsland_Gym_EventScript_QuinnApproachLeft, 0x0816F45F
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_Quiz2Left
+	.set CinnabarIsland_Gym_EventScript_Quiz2Left, 0x0816F488
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_Quiz2
+	.set CinnabarIsland_Gym_EventScript_Quiz2, 0x0816F4A0
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_Quiz2Incorrect
+	.set CinnabarIsland_Gym_EventScript_Quiz2Incorrect, 0x0816F4EC
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_Quiz3Left
+	.set CinnabarIsland_Gym_EventScript_Quiz3Left, 0x0816F566
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_Quiz3Right
+	.set CinnabarIsland_Gym_EventScript_Quiz3Right, 0x0816F572
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_Quiz3Incorrect
+	.set CinnabarIsland_Gym_EventScript_Quiz3Incorrect, 0x0816F5CA
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_DerekApproachLeft
+	.set CinnabarIsland_Gym_EventScript_DerekApproachLeft, 0x0816F6FE
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_Quiz5Left
+	.set CinnabarIsland_Gym_EventScript_Quiz5Left, 0x0816F743
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_Quiz5Right
+	.set CinnabarIsland_Gym_EventScript_Quiz5Right, 0x0816F74F
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_Quiz6Complete
+	.set CinnabarIsland_Gym_EventScript_Quiz6Complete, 0x0816F86E
+
+@ Exact internal unit from data/maps/CinnabarIsland_Gym/scripts.inc
+	.global CinnabarIsland_Gym_EventScript_Quiz6Incorrect
+	.set CinnabarIsland_Gym_EventScript_Quiz6Incorrect, 0x0816F87E
+
+
+	@ Fire Red Omega region-map names reuse strings from the exact event bank.
+	.global OmegaMapName_AncientLabyrinth
+	.set OmegaMapName_AncientLabyrinth, 0x0871BA74
+	.global OmegaMapName_ChronumTower
+	.set OmegaMapName_ChronumTower, 0x08721ACC
+	.global OmegaMapName_YggdrasillForest
+	.set OmegaMapName_YggdrasillForest, 0x08721ADC
+	.global OmegaMapName_FlameSanctuary
+	.set OmegaMapName_FlameSanctuary, 0x087219FC
+	.global OmegaMapName_AquaSanctuary
+	.set OmegaMapName_AquaSanctuary, 0x0871BEE8
+	.global OmegaMapName_VoltSanctuary
+	.set OmegaMapName_VoltSanctuary, 0x08721A4C
+	.global OmegaMapName_TravelersTomb
+	.set OmegaMapName_TravelersTomb, 0x0871BD38

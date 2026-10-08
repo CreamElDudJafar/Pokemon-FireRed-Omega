@@ -65,6 +65,51 @@ SECTIONS {
     	*(.rodata*);
     } > ROM =0
 
+    omega_treecko 0x08800000 :
+    {
+        data/omega_expansion.o(omega_treecko);
+    } > ROM =0xFF
+
+    omega_mudkip 0x088002FA :
+    {
+        data/omega_expansion.o(omega_mudkip);
+    } > ROM =0xFF
+
+    omega_torchic 0x08800996 :
+    {
+        data/omega_expansion.o(omega_torchic);
+    } > ROM =0xFF
+
+    omega_chikorita 0x08800B9A :
+    {
+        data/omega_expansion.o(omega_chikorita);
+    } > ROM =0xFF
+
+    omega_cyndaquil 0x08800DBB :
+    {
+        data/omega_expansion.o(omega_cyndaquil);
+    } > ROM =0xFF
+
+    omega_totodile 0x08800FBE :
+    {
+        data/omega_expansion.o(omega_totodile);
+    } > ROM =0xFF
+
+    omega_bulbasaur 0x0880131C :
+    {
+        data/omega_expansion.o(omega_bulbasaur);
+    } > ROM =0xFF
+
+    omega_charmander 0x0880164D :
+    {
+        data/omega_expansion.o(omega_charmander);
+    } > ROM =0xFF
+
+    omega_squirtle 0x08801732 :
+    {
+        data/omega_expansion.o(omega_squirtle);
+    } > ROM =0xFF
+
     /* DWARF debug sections.
        Symbols in the DWARF debugging sections are relative to the beginning
        of the section so we begin them at 0.  */

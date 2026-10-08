@@ -10,8 +10,11 @@
 
 	.section .rodata
 
-	.include "data/layouts/layouts.inc"
-	.include "data/layouts/layouts_table.inc"
-	.include "data/maps/headers.inc"
-	.include "data/maps/groups.inc"
+	.include "data/omega/layout/layouts_base.inc"
+	.include "data/omega/layout/headers_base.inc"
+	.include "data/omega/layout/groups_base.inc"
+
+@ Temporary exact-size compensation for relocated full pointer tables.
+.space 0x06A8, 0
 	.include "data/maps/connections.inc"
+

@@ -1,0 +1,16 @@
+Fire Red Omega Pass 12 - final residual cleanup
+Baseline: verified Pass 11 ROM, 568 differing bytes vs original Omega.
+
+Changes:
+1. 0x08EB0B20-0x08EB0B73: exact 0x54-byte relocated music/data prefix.
+   The stale src/wild_encounter.o .rodata contribution is excluded from extra.
+2. gText_PokeSum_EggOrigin_TravelingMan: Omega text restored to "a beautiful lady."
+3. gMetatiles_General +0x2E0: exact 16 source-asset bytes restored.
+4. map_data_rules.mk: maps.o/map_events.o retain dependency prerequisites but no longer
+   define competing recipes; authoritative Omega exact-object recipes remain in Makefile.
+   This removes the repeated overriding/ignoring-recipe warnings without changing output.
+
+Verified investigation for next residual pass:
+- mus_rs_vs_trainer Omega header has 10 tracks (current source has 8).
+- Omega header points relocated tracks into 0x08EBxxxx and uses relocated voicegroup data.
+- Do not expand this song section blindly; section-size compensation must be reconstructed.

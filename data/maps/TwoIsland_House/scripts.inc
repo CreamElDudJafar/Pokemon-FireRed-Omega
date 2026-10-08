@@ -118,3 +118,10 @@ TwoIsland_House_EventScript_SetHasTinyMushrooms::
 TwoIsland_House_EventScript_SetHasBothMushrooms::
 	setflag HAS_BOTH_MUSHROOMS
 	return
+
+TwoIsland_House_EventScript_OmegaWorker::
+	lock
+	faceplayer
+	msgbox TwoIsland_House_Text_OmegaWorker, MSGBOX_AUTOCLOSE
+	release
+	end

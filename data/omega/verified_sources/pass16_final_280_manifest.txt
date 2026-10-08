@@ -1,0 +1,15 @@
+Fire Red Omega final pointer/data cleanup Pass 16
+
+Authoritative input: pokefirered_11.zip / 280-byte mismatch state.
+
+Changes:
+- Corrected 100 unique verified event/text alias addresses to the values encoded by Fire Red Omega.
+- Trainer money: RS Cooltrainer 12 -> 20; RS Psychic 6 -> 20; terminal 0xFF entry 5 -> 30.
+- Added gOmegaSpeciesAlignment = 0x5C5E to consume the existing two-byte alignment slot before gOmegaEvolutionAlignment without moving the evolution block.
+
+Byte accounting:
+- 275 remaining mismatching bytes are covered by verified pointer/address mappings.
+- 5 remaining mismatching bytes are the three trainer-money bytes and two species alignment bytes.
+- Expected substantive mismatch count after rebuild: 0.
+
+No Makefile/linker changes. Pass 13 warning-free build setup is preserved.

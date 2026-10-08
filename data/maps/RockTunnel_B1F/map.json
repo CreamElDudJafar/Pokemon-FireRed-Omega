@@ -4,7 +4,7 @@
   "layout": "LAYOUT_ROCK_TUNNEL_B1F",
   "music": "MUS_MT_MOON",
   "region_map_section": "MAPSEC_ROCK_TUNNEL",
-  "requires_flash": true,
+  "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",
   "allow_cycling": true,
@@ -27,7 +27,8 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "RockTunnel_B1F_EventScript_Cooper",
-      "flag": "0"
+      "flag": "0",
+      "object_id": "1"
     },
     {
       "type": "object",
@@ -41,7 +42,8 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "RockTunnel_B1F_EventScript_Dudley",
-      "flag": "0"
+      "flag": "0",
+      "object_id": "2"
     },
     {
       "type": "object",
@@ -55,7 +57,8 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "RockTunnel_B1F_EventScript_Sofia",
-      "flag": "0"
+      "flag": "0",
+      "object_id": "3"
     },
     {
       "type": "object",
@@ -69,7 +72,8 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "RockTunnel_B1F_EventScript_Allen",
-      "flag": "0"
+      "flag": "0",
+      "object_id": "4"
     },
     {
       "type": "object",
@@ -83,7 +87,8 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "RockTunnel_B1F_EventScript_Eric",
-      "flag": "0"
+      "flag": "0",
+      "object_id": "5"
     },
     {
       "type": "object",
@@ -97,7 +102,8 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "RockTunnel_B1F_EventScript_Steve",
-      "flag": "0"
+      "flag": "0",
+      "object_id": "6"
     },
     {
       "type": "object",
@@ -111,7 +117,8 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "RockTunnel_B1F_EventScript_Martha",
-      "flag": "0"
+      "flag": "0",
+      "object_id": "7"
     },
     {
       "type": "object",
@@ -125,21 +132,8 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "RockTunnel_B1F_EventScript_Winston",
-      "flag": "0"
-    },
-    {
-      "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
-      "x": 2,
-      "y": 29,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
-      "movement_range_x": 1,
-      "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "RockTunnel_B1F_EventScript_RockSlideTutor",
-      "flag": "0"
+      "flag": "0",
+      "object_id": "8"
     },
     {
       "type": "object",
@@ -153,7 +147,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RockTunnel_B1F_EventScript_ItemRevive",
-      "flag": "FLAG_HIDE_ROCK_TUNNEL_B1F_REVIVE"
+      "flag": "FLAG_HIDE_ROCK_TUNNEL_B1F_REVIVE",
+      "object_id": "10"
     },
     {
       "type": "object",
@@ -167,7 +162,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RockTunnel_B1F_EventScript_ItemMaxEther",
-      "flag": "FLAG_HIDE_ROCK_TUNNEL_B1F_MAX_ETHER"
+      "flag": "FLAG_HIDE_ROCK_TUNNEL_B1F_MAX_ETHER",
+      "object_id": "11"
     },
     {
       "type": "object",
@@ -181,7 +177,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_12"
+      "flag": "FLAG_TEMP_12",
+      "object_id": "12"
     },
     {
       "type": "object",
@@ -195,7 +192,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_13"
+      "flag": "FLAG_TEMP_13",
+      "object_id": "13"
     },
     {
       "type": "object",
@@ -209,7 +207,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_14"
+      "flag": "FLAG_TEMP_14",
+      "object_id": "14"
     },
     {
       "type": "object",
@@ -223,7 +222,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_15"
+      "flag": "FLAG_TEMP_15",
+      "object_id": "15"
     },
     {
       "type": "object",
@@ -237,7 +237,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_16"
+      "flag": "FLAG_TEMP_16",
+      "object_id": "16"
     },
     {
       "type": "object",
@@ -251,7 +252,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_17"
+      "flag": "FLAG_TEMP_17",
+      "object_id": "17"
     },
     {
       "type": "object",
@@ -265,7 +267,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_18"
+      "flag": "FLAG_TEMP_18",
+      "object_id": "18"
     },
     {
       "type": "object",
@@ -279,7 +282,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_19"
+      "flag": "FLAG_TEMP_19",
+      "object_id": "19"
     },
     {
       "type": "object",
@@ -293,7 +297,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_1A"
+      "flag": "FLAG_TEMP_1A",
+      "object_id": "20"
     },
     {
       "type": "object",
@@ -307,7 +312,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_1B"
+      "flag": "FLAG_TEMP_1B",
+      "object_id": "21"
     },
     {
       "type": "object",
@@ -321,7 +327,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_1C"
+      "flag": "FLAG_TEMP_1C",
+      "object_id": "22"
     },
     {
       "type": "object",
@@ -335,7 +342,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_1D"
+      "flag": "FLAG_TEMP_1D",
+      "object_id": "23"
     },
     {
       "type": "object",
@@ -349,7 +357,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_1E"
+      "flag": "FLAG_TEMP_1E",
+      "object_id": "24"
     },
     {
       "type": "object",
@@ -363,7 +372,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_1F"
+      "flag": "FLAG_TEMP_1F",
+      "object_id": "25"
     },
     {
       "type": "object",
@@ -377,7 +387,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_11"
+      "flag": "FLAG_TEMP_11",
+      "object_id": "26"
     }
   ],
   "warp_events": [

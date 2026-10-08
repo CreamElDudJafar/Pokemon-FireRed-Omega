@@ -464,3 +464,4 @@ CeladonCity_GameCorner_EventScript_UnusableSlotMachine2::
 CeladonCity_GameCorner_EventScript_UnusableSlotMachine3::
 	msgbox CeladonCity_GameCorner_Text_SomeonesKeys, MSGBOX_SIGN
 	end
+

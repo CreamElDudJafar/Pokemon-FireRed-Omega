@@ -1,0 +1,75 @@
+{
+  "id": "MAP_OMEGA_GROUP43_MAP13",
+  "name": "OmegaGroup43_Map13",
+  "layout": "LAYOUT_OMEGA_GROUP43_MAP13",
+  "music": "MUS_SEVII_DUNGEON",
+  "region_map_section": "MAPSEC_SEVII_ISLE_7",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "type": "object",
+      "object_id": "1",
+      "graphics_id": "OBJ_EVENT_GFX_MEW",
+      "x": 53,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "8",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "OmegaGroup43_Map13_EventScript_Object1",
+      "flag": "0x79c"
+    },
+    {
+      "type": "object",
+      "object_id": "2",
+      "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_M",
+      "x": 16,
+      "y": 21,
+      "elevation": 0,
+      "movement_type": "9",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "OmegaGroup43_Map13_EventScript_Object2",
+      "flag": "0"
+    },
+    {
+      "type": "object",
+      "object_id": "3",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKER",
+      "x": 14,
+      "y": 21,
+      "elevation": 0,
+      "movement_type": "10",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "OmegaGroup43_Map13_EventScript_Object3",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 45,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_SIX_ISLAND_ALTERING_CAVE",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

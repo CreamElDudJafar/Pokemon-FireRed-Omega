@@ -23,3 +23,14 @@ SafariZone_SecretHouse_EventScript_ExplainSurf::
 	msgbox SafariZone_SecretHouse_Text_ExplainSurf
 	release
 	end
+
+SafariZone_SecretHouse_EventScript_OmegaWorker::
+	lock
+	faceplayer
+	msgbox SafariZone_SecretHouse_Text_OmegaWorker, MSGBOX_AUTOCLOSE
+	release
+	end
+
+SafariZone_SecretHouse_Text_OmegaWorker::
+	.string "You should check out the waters\n"
+	.string "west of CERULEAN CITY.$"

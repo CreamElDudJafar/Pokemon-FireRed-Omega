@@ -1,0 +1,65 @@
+Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchic::
+	lock
+	faceplayer
+	goto_if_set FLAG_GOT_TORCHIC_OMEGA, Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchicAlreadyReceived
+	msgbox Route2_ViridianForest_NorthEntrance_Text_OmegaTorchicIntro
+	setvar VAR_TEMP_1, SPECIES_TORCHIC
+	givemon SPECIES_TORCHIC, 10
+	goto_if_eq VAR_RESULT, 0, Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchicReceivedParty
+	goto_if_eq VAR_RESULT, 1, Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchicReceivedPC
+	goto_if_eq VAR_RESULT, 2, Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchicFinish
+	release
+	end
+
+	.byte 0xFF
+
+Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchicAlreadyReceived::
+	msgbox Route2_ViridianForest_NorthEntrance_Text_OmegaTorchicPost, MSGBOX_AUTOCLOSE
+	release
+	end
+
+	.byte 0xFF
+
+Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchicReceivedParty::
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	playfanfare MUS_LEVEL_UP
+	message Route2_ViridianForest_NorthEntrance_Text_OmegaTorchicObtained
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_TORCHIC
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchicFinish
+	call EventScript_GetGiftMonPartySlot
+	call EventScript_ChangePokemonNickname
+	goto Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchicFinish
+
+	.byte 0xFF
+
+Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchicReceivedPC::
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	playfanfare MUS_LEVEL_UP
+	message Route2_ViridianForest_NorthEntrance_Text_OmegaTorchicObtained
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_TORCHIC
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchicFinish
+	call EventScript_NameReceivedBoxMon
+	goto Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchicTransferredToPC
+
+
+	.byte 0xFF
+
+Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchicFinish::
+	textcolor NPC_TEXT_COLOR_MALE
+	faceplayer
+	msgbox Route2_ViridianForest_NorthEntrance_Text_OmegaTorchicExplain
+	setflag FLAG_GOT_TORCHIC_OMEGA
+	release
+	end
+
+	.byte 0xFF
+
+Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchicTransferredToPC::
+	call EventScript_TransferredToPC
+	goto Route2_ViridianForest_NorthEntrance_EventScript_OmegaTorchicFinish

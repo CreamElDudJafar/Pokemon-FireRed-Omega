@@ -1391,7 +1391,13 @@ static const s8 sNatureStatTable[NUM_NATURES][NUM_NATURE_STATS] =
 #include "data/pokemon/cry_ids.h"
 #include "data/pokemon/experience_tables.h"
 #include "data/pokemon/species_info.h"
+
 #include "data/pokemon/level_up_learnsets.h"
+
+// The u16 occupies the two bytes GCC otherwise emits as zero alignment padding.
+const u16 gOmegaEvolutionPreAlignment = 0x5C5E;
+const u32 gOmegaEvolutionAlignment = 0x0000FFFF;
+
 #include "data/pokemon/evolution.h"
 #include "data/pokemon/level_up_learnset_pointers.h"
 

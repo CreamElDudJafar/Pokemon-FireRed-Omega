@@ -1,0 +1,7 @@
+Omega large event scaffold collapse pass 9
+Current Pass 8 scaffold: 0x08840000-0x0885E7D2 (0x1E7D3 bytes)
+Live symbols mapped: 3999
+Unique exact byte anchors used: 60145
+Monotonic exact anchor runs used: 2676
+Expected result: omega_relocated_event_scripts emits zero bytes; original exact Omega event bank remains at 0x0815F9B4-0x081C68E9.
+The prior readable data/event_scripts.s is retained as data/omega/verified_sources/event_scripts_pre_collapse_pass9.s.

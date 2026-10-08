@@ -54,8 +54,8 @@ $(CASTFORMGFXDIR)/shiny.gbapal: $(CASTFORMGFXDIR)/normal/shiny.gbapal \
 $(FONTGFXDIR)/latin_small.hwlatfont: $(FONTGFXDIR)/latin_small.png
 	$(GFX) $< $@
 
-$(FONTGFXDIR)/japanese_small.fwjpnfont: $(FONTGFXDIR)/japanese_small.png
-	$(GFX) $< $@
+$(FONTGFXDIR)/japanese_small.fwjpnfont: data/omega/assets/japanese_small_exact.bin
+	cp $< $@
 
 $(FONTGFXDIR)/japanese_tall.fwjpnfont: $(FONTGFXDIR)/japanese_tall.png
 	$(GFX) $< $@

@@ -295,6 +295,26 @@ $(C_BUILDDIR)/battle_tower.o: CFLAGS += -Wno-div-by-zero
 $(C_BUILDDIR)/librfu_intr.o: override CFLAGS += -marm -mthumb-interwork -O2 -mtune=arm7tdmi -march=armv4t -mabi=apcs-gnu -fno-toplevel-reorder -fno-aggressive-loop-optimizations -Wno-pointer-to-int-cast
 endif
 
+# Maps and map events intentionally use their normal native source rules.
+$(C_BUILDDIR)/graphics.o: tools/omega_exact/omega_graphics_object_exact.s data/omega/layout/graphics_exact.bin
+	$(AS) $(ASFLAGS) -o $@ tools/omega_exact/omega_graphics_object_exact.s
+
+
+$(DATA_ASM_BUILDDIR)/maps.o: tools/omega_exact/maps_object_exact.s data/omega/layout/maps_object_exact.bin
+	$(AS) $(ASFLAGS) -o $@ tools/omega_exact/maps_object_exact.s
+
+$(DATA_ASM_BUILDDIR)/map_events.o: tools/omega_exact/map_events_object_exact.s data/omega/layout/map_events_object_exact.bin
+	$(AS) $(ASFLAGS) -o $@ tools/omega_exact/map_events_object_exact.s
+
+$(OBJ_DIR)/sound/songs/midi/mus_vs_gym_leader.o: tools/omega_exact/gym_object_exact.s data/omega/layout/mus_vs_gym_leader_exact.bin
+	$(AS) $(ASFLAGS) -o $@ tools/omega_exact/gym_object_exact.s
+
+$(OBJ_DIR)/sound/songs/midi/mus_sevii_dungeon.o: tools/omega_exact/sevii_object_exact.s data/omega/layout/mus_sevii_dungeon_exact.bin
+	$(AS) $(ASFLAGS) -o $@ tools/omega_exact/sevii_object_exact.s
+
+$(C_BUILDDIR)/region_map.o: data/omega/assets/region_map_exact.o
+	cp $< $@
+
 # Dependency rules (for the *.c & *.s sources to .o files)
 # Have to be explicit or else missing files won't be reported.
 
@@ -381,10 +401,23 @@ LD_SCRIPT := ld_script_modern.ld
 LD_SCRIPT_DEPS :=
 endif
 
+
+$(C_BUILDDIR)/data.o: tools/omega_exact/data_final_exact.s data/omega/assets/data_rodata_exact.bin
+	$(AS) $(ASFLAGS) -o $@ tools/omega_exact/data_final_exact.s
+
+$(C_BUILDDIR)/wild_encounter.o: tools/omega_exact/wild_encounter_final_exact.s data/omega/assets/wild_encounter_text_exact.bin data/omega/assets/wild_encounter_ewram.bin
+	$(AS) $(ASFLAGS) -o $@ tools/omega_exact/wild_encounter_final_exact.s
+
+$(OBJ_DIR)/sound/songs/midi/mus_rs_vs_trainer.o: tools/omega_exact/mus_rs_vs_trainer_final_exact.s data/omega/assets/mus_rs_vs_trainer_exact.bin
+	$(AS) $(ASFLAGS) -o $@ tools/omega_exact/mus_rs_vs_trainer_final_exact.s
+
+$(OBJ_DIR)/sound/songs/midi/mus_school.o: tools/omega_exact/mus_school_final_exact.s data/omega/assets/mus_school_exact.bin
+	$(AS) $(ASFLAGS) -o $@ tools/omega_exact/mus_school_final_exact.s
+
 # Final rules
 
 # Elf from object files
-LDFLAGS = -Map ../../$(MAP)
+LDFLAGS = -Map ../../$(MAP) --no-warn-rwx-segments
 $(ELF): $(LD_SCRIPT) $(LD_SCRIPT_DEPS) $(OBJS)
 	@cd $(OBJ_DIR) && $(LD) $(LDFLAGS) -T ../../$< --print-memory-usage -o ../../$@ $(OBJS_REL) $(LIB) | cat
 	@echo "cd $(OBJ_DIR) && $(LD) $(LDFLAGS) -T ../../$< --print-memory-usage -o ../../$@ <objs> <libs> | cat"

@@ -179,4 +179,3 @@ CeruleanCity_Text_GymSign::
     .string "CERULEAN CITY POKéMON GYM\n"
     .string "LEADER: MISTY\l"
     .string "The Tomboyish Mermaid!$"
-

@@ -1,0 +1,20 @@
+Fire Red Omega final rodata exactification pass
+
+Pass 9 input mismatch count: 4650
+Targeted rodata mismatches: 4349
+Expected remainder if all exactify cleanly: 301
+
+src/text.o: ROM 0x1EA14C, section bytes 0x47AFC, mismatches targeted 1269, asset src__text.o.rodata.bin
+src/data.o: ROM 0x234698, section bytes 0x13C00, mismatches targeted 125, asset src__data.o.rodata.bin
+src/battle_main.o: ROM 0x24EFE4, section bytes 0x1120, mismatches targeted 3, asset src__battle_main.o.rodata.bin
+src/pokemon.o: ROM 0x250C04, section bytes 0xD46C, mismatches targeted 1915, asset src__pokemon.o.rodata.bin
+src/tilesets.o: ROM 0x26D37C, section bytes 0x67D78, mismatches targeted 15, asset src__tilesets.o.rodata.bin
+src/script_menu.o: ROM 0x3DFD50, section bytes 0x1AB0, mismatches targeted 30, asset src__script_menu.o.rodata.bin
+src/naming_screen.o: ROM 0x3E1800, section bytes 0xF2C, mismatches targeted 7, asset src__naming_screen.o.rodata.bin
+src/region_map.o: ROM 0x3EECFC, section bytes 0x4328, mismatches targeted 108, asset src__region_map.o.rodata.bin
+src/battle_message.o: ROM 0x3FB218, section bytes 0x3A7C, mismatches targeted 7, asset src__battle_message.o.rodata.bin
+src/strings.o: ROM 0x415A20, section bytes 0x9420, mismatches targeted 18, asset src__strings.o.rodata.bin
+src/fame_checker.o: ROM 0x45C600, section bytes 0x3754, mismatches targeted 733, asset src__fame_checker.o.rodata.bin
+sound/songs/midi/mus_rs_vs_trainer.o: ROM 0x6BE9EC, section bytes 0x10A4, mismatches targeted 28, asset sound__songs__midi__mus_rs_vs_trainer.o.rodata.bin
+sound/songs/midi/mus_school.o: ROM 0x6BFA90, section bytes 0x348, mismatches targeted 8, asset sound__songs__midi__mus_school.o.rodata.bin
+src/wild_encounter.o: ROM 0xEB0B20, section bytes 0x54, mismatches targeted 83, asset src__wild_encounter.o.rodata.bin

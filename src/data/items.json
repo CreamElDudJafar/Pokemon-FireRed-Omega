@@ -35,7 +35,7 @@
     {
       "english": "ULTRA BALL",
       "itemId": "ITEM_ULTRA_BALL",
-      "price": 1200,
+      "price": 775,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A very high-grade BALL that offers\\na higher POKéMON catch rate than\\na GREAT BALL.",
@@ -355,7 +355,7 @@
     {
       "english": "SUPER POTION",
       "itemId": "ITEM_SUPER_POTION",
-      "price": 700,
+      "price": 450,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 50,
       "description_english": "A spray-type wound medicine.\\nIt restores the HP of one POKéMON\\nby 50 points.",
@@ -1347,7 +1347,7 @@
     {
       "english": "MAX REPEL",
       "itemId": "ITEM_MAX_REPEL",
-      "price": 700,
+      "price": 555,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 250,
       "description_english": "Prevents weak wild POKéMON from\\nappearing for 250 steps.",
@@ -1507,7 +1507,7 @@
     {
       "english": "MOON STONE",
       "itemId": "ITEM_MOON_STONE",
-      "price": 0,
+      "price": 2100,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A peculiar stone that makes certain\\nspecies of POKéMON evolve.\\nIt is as black as the night sky.",
@@ -1651,7 +1651,7 @@
     {
       "english": "TINYMUSHROOM",
       "itemId": "ITEM_TINY_MUSHROOM",
-      "price": 500,
+      "price": 5000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A small and rare mushroom.\\nIt is quite popular among certain\\npeople.",
@@ -1667,7 +1667,7 @@
     {
       "english": "BIG MUSHROOM",
       "itemId": "ITEM_BIG_MUSHROOM",
-      "price": 5000,
+      "price": 10000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A large and rare mushroom.\\nIt is very popular among certain\\npeople.",
@@ -3347,7 +3347,7 @@
     {
       "english": "MYSTIC WATER",
       "itemId": "ITEM_MYSTIC_WATER",
-      "price": 100,
+      "price": 9000,
       "holdEffect": "HOLD_EFFECT_WATER_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA teardrop-shaped gem that boosts\\nthe power of WATER-type moves.",
@@ -3379,7 +3379,7 @@
     {
       "english": "POISON BARB",
       "itemId": "ITEM_POISON_BARB",
-      "price": 100,
+      "price": 9000,
       "holdEffect": "HOLD_EFFECT_POISON_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA small, poisonous barb that boosts\\nthe power of POISON-type moves.",
@@ -4831,7 +4831,7 @@
     {
       "english": "TM13",
       "itemId": "ITEM_TM13",
-      "price": 3000,
+      "price": 9000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "An icy-cold beam is shot at the\\nfoe. It may leave the target\\nfrozen.",
@@ -5018,7 +5018,7 @@
     {
       "english": "TM24",
       "itemId": "ITEM_TM24",
-      "price": 3000,
+      "price": 9000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A massive jolt of electricity is\\nlaunched at the foe. It may cause\\nparalysis.",
@@ -5205,7 +5205,7 @@
     {
       "english": "TM35",
       "itemId": "ITEM_TM35",
-      "price": 3000,
+      "price": 9000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "The foe is roasted with a heavy\\nblast of fire. It may leave the\\ntarget with a burn.",

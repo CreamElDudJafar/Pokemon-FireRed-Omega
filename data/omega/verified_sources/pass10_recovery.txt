@@ -1,0 +1,1 @@
+Pass 10 recovery: removes failed relocatable-object rodata mutation hooks. Rebuild the 14 affected objects once, then normal link. Pass 8/9 exact object/linker work remains unchanged.

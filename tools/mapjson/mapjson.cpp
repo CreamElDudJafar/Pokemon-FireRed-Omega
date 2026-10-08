@@ -230,7 +230,12 @@ string generate_map_events_text(Json map_data) {
 
             // If no type field is present, assume it's a regular object event.
             if (type == "" || type == "object") {
-                text << "\tobject_event " << i + 1 << ", "
+                // object_id is optional. Normally object event IDs are sequential, but
+                // some ROM hacks preserve IDs after removing an earlier object.
+                string object_id = obj_event.object_items().find("object_id") != obj_event.object_items().end()
+                                     ? json_to_string(obj_event, "object_id")
+                                     : std::to_string(i + 1);
+                text << "\tobject_event " << object_id << ", "
                      << json_to_string(obj_event, "graphics_id") << ", "
                      << json_to_string(obj_event, "x") << ", "
                      << json_to_string(obj_event, "y") << ", "
@@ -243,7 +248,10 @@ string generate_map_events_text(Json map_data) {
                      << json_to_string(obj_event, "script") << ", "
                      << json_to_string(obj_event, "flag") << "\n";
             } else if (type == "clone") {
-                text << "\tclone_event " << i + 1 << ", "
+                string object_id = obj_event.object_items().find("object_id") != obj_event.object_items().end()
+                                     ? json_to_string(obj_event, "object_id")
+                                     : std::to_string(i + 1);
+                text << "\tclone_event " << object_id << ", "
                      << json_to_string(obj_event, "graphics_id") << ", "
                      << json_to_string(obj_event, "x") << ", "
                      << json_to_string(obj_event, "y") << ", "
@@ -412,8 +420,12 @@ void process_event_constants(const vector<string> &map_filepaths, string output_
         auto obj_events = map_data["object_events"].array_items();
         for (unsigned int i = 0; i < obj_events.size(); i++) {
             auto obj_event = obj_events[i];
-            if (obj_event.object_items().find("local_id") != obj_event.object_items().end())
-                map_ids_text << "#define " << json_to_string(obj_event, "local_id") << " " << i + 1 << "\n";
+            if (obj_event.object_items().find("local_id") != obj_event.object_items().end()) {
+                string object_id = obj_event.object_items().find("object_id") != obj_event.object_items().end()
+                                     ? json_to_string(obj_event, "object_id")
+                                     : std::to_string(i + 1);
+                map_ids_text << "#define " << json_to_string(obj_event, "local_id") << " " << object_id << "\n";
+            }
         }
         // Get IDs from the warp events.
         auto warp_events = map_data["warp_events"].array_items();

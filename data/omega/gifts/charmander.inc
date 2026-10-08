@@ -1,0 +1,65 @@
+RockTunnel_1F_EventScript_OmegaCharmander::
+	lock
+	faceplayer
+	goto_if_set FLAG_GOT_CHARMANDER_OMEGA, RockTunnel_1F_EventScript_OmegaCharmanderAlreadyReceived
+	msgbox RockTunnel_1F_Text_OmegaCharmanderIntro
+	setvar VAR_TEMP_1, SPECIES_CHARMANDER
+	givemon SPECIES_CHARMANDER, 20
+	goto_if_eq VAR_RESULT, 0, RockTunnel_1F_EventScript_OmegaCharmanderReceivedParty
+	goto_if_eq VAR_RESULT, 1, RockTunnel_1F_EventScript_OmegaCharmanderReceivedPC
+	goto_if_eq VAR_RESULT, 2, RockTunnel_1F_EventScript_OmegaCharmanderFinish
+	release
+	end
+
+	.byte 0xFF
+
+RockTunnel_1F_EventScript_OmegaCharmanderAlreadyReceived::
+	msgbox RockTunnel_1F_Text_OmegaCharmanderPost, MSGBOX_AUTOCLOSE
+	release
+	end
+
+	.byte 0xFF
+
+RockTunnel_1F_EventScript_OmegaCharmanderReceivedParty::
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	playfanfare MUS_LEVEL_UP
+	message RockTunnel_1F_Text_OmegaObtainedCharmander
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_CHARMANDER
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, RockTunnel_1F_EventScript_OmegaCharmanderFinish
+	call EventScript_GetGiftMonPartySlot
+	call EventScript_ChangePokemonNickname
+	goto RockTunnel_1F_EventScript_OmegaCharmanderFinish
+
+	.byte 0xFF
+
+RockTunnel_1F_EventScript_OmegaCharmanderReceivedPC::
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	playfanfare MUS_LEVEL_UP
+	message RockTunnel_1F_Text_OmegaObtainedCharmander
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_CHARMANDER
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, RockTunnel_1F_EventScript_OmegaCharmanderFinish
+	call EventScript_NameReceivedBoxMon
+	goto RockTunnel_1F_EventScript_OmegaCharmanderTransferredToPC
+
+
+	.byte 0xFF
+
+RockTunnel_1F_EventScript_OmegaCharmanderFinish::
+	textcolor NPC_TEXT_COLOR_MALE
+	faceplayer
+	msgbox RockTunnel_1F_Text_OmegaCharmanderExplain
+	setflag FLAG_GOT_CHARMANDER_OMEGA
+	release
+	end
+
+	.byte 0xFF
+
+RockTunnel_1F_EventScript_OmegaCharmanderTransferredToPC::
+	call EventScript_TransferredToPC
+	goto RockTunnel_1F_EventScript_OmegaCharmanderFinish

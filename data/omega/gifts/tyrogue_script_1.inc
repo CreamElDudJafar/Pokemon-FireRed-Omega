@@ -1,0 +1,4 @@
+SaffronCity_EventScript_OmegaTyrogueAlreadyReceived::
+	msgbox SaffronCity_Text_OmegaTyroguePost, MSGBOX_AUTOCLOSE
+	release
+	end

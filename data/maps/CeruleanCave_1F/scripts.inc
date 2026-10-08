@@ -5,3 +5,6 @@ CeruleanCave_1F_MapScripts::
 CeruleanCave_1F_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_CERULEAN_CAVE_1F
 	end
+
+CeruleanCave_1F_EventScript_OmegaCustomTrainer::
+	end

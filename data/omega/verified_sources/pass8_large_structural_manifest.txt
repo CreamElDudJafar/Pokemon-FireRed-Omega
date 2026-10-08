@@ -1,0 +1,15 @@
+Fire Red Omega Large Structural Knockout Pass 8
+
+Verified against the current 172,623-mismatch checkpoint.
+
+Exact object replacements:
+- data/maps.o: 0x2D50F4-0x352EEB (13,565 current mismatches)
+- data/map_events.o: 0x3AE094-0x3BF3DF (15,526 current mismatches)
+- mus_vs_gym_leader.o: 0x6D5064-0x6D6B4F (3,022 current mismatches)
+- mus_sevii_dungeon.o: 0x6F1630-0x6F284B (2,287 current mismatches)
+- exact EB tail: 0xEB0B20-0xEB2C97 (~8.5K current mismatches)
+
+The byte immediately before and after each whole-object replacement was verified
+matching where applicable. Readable source files remain in the repository.
+
+BUILD FIX: Existing linker section 'extra' owns 0x08EB0B20-0x08EB0B73. omega_eb_tail now begins at 0x08EB0B74 and its binary payload is trimmed by 0x54 bytes.

@@ -1,0 +1,10 @@
+Fire Red Omega reconstruction - Pass 11
+Baseline: pokefirered_9.zip / 4,650 mismatching bytes vs Fire Red Omega.gba
+
+Changes:
+1. Move the existing four-byte Pokemon rodata layout compensation from after pokemon.o to immediately before gEvolutionTable, where Omega actually places it. Bytes: FF FF 00 00. This preserves trig.o and all following addresses.
+2. Restore graphics/fonts/japanese_small.fwjpnfont from the exact Omega 0x1EF100-0x1F30FF payload. This is the sole owner of all 1,269 text.o residual mismatches.
+3. Correct all 320 Fame Checker text aliases by -0x6350 to the already-exact original Omega text bank. All four Fame Checker pointer arrays differ by exactly +0x6350 in the baseline.
+4. Restore Omega region-map naming behavior: seven unused vanilla placeholder strings remain as same-size FF-filled slots, while sMapNames points to Ancient Labyrinth, Chronum Tower, Yggdrasill Forest, Flame Sanctuary, Aqua Sanctuary, Volt Sanctuary, and Traveler's Tomb strings already present in the exact event bank.
+
+Predicted byte-level result from simulation: approximately 625 mismatches remain before checksum/header exclusions.

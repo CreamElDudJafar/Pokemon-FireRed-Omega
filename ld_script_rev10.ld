@@ -1028,7 +1028,869 @@ SECTIONS {
         data/multiboot_pokemon_colosseum.o(.rodata);
     } > ROM =0
 
-    gfx_data 0x08D00000 :
+    /* Fire Red Omega expanded event data.
+     * First verified block: Treecko gift starts at ROM 0x800000. */
+    omega_treecko 0x08800000 :
+    {
+        data/omega_expansion.o(omega_treecko);
+    } > ROM =0xFF
+
+omega_mudkip_script_0 0x088002FA :
+{
+    data/omega_expansion.o(omega_mudkip_script_0);
+} > ROM =0xFF
+
+omega_mudkip_script_1 0x08800345 :
+{
+    data/omega_expansion.o(omega_mudkip_script_1);
+} > ROM =0xFF
+
+omega_mudkip_script_2 0x08800421 :
+{
+    data/omega_expansion.o(omega_mudkip_script_2);
+} > ROM =0xFF
+
+omega_mudkip_script_3 0x08800454 :
+{
+    data/omega_expansion.o(omega_mudkip_script_3);
+} > ROM =0xFF
+
+omega_mudkip_script_4 0x08800482 :
+{
+    data/omega_expansion.o(omega_mudkip_script_4);
+} > ROM =0xFF
+
+omega_mudkip_script_5 0x088004A6 :
+{
+    data/omega_expansion.o(omega_mudkip_script_5);
+} > ROM =0xFF
+
+omega_mudkip_text_0 0x0880052B :
+{
+    data/omega_expansion.o(omega_mudkip_text_0);
+} > ROM =0xFF
+
+omega_mudkip_text_1 0x0880054D :
+{
+    data/omega_expansion.o(omega_mudkip_text_1);
+} > ROM =0xFF
+
+omega_mudkip_text_2 0x08800569 :
+{
+    data/omega_expansion.o(omega_mudkip_text_2);
+} > ROM =0xFF
+
+omega_mudkip_text_3 0x088005AD :
+{
+    data/omega_expansion.o(omega_mudkip_text_3);
+} > ROM =0xFF
+
+omega_torchic_script_0 0x08800996 :
+{
+    data/omega_expansion.o(omega_torchic_script_0);
+} > ROM =0xFF
+
+omega_torchic_script_1 0x088009E1 :
+{
+    data/omega_expansion.o(omega_torchic_script_1);
+} > ROM =0xFF
+
+omega_torchic_script_2 0x088009EC :
+{
+    data/omega_expansion.o(omega_torchic_script_2);
+} > ROM =0xFF
+
+omega_torchic_script_3 0x08800A1F :
+{
+    data/omega_expansion.o(omega_torchic_script_3);
+} > ROM =0xFF
+
+omega_torchic_script_4 0x08800A4D :
+{
+    data/omega_expansion.o(omega_torchic_script_4);
+} > ROM =0xFF
+
+omega_torchic_script_5 0x08800A71 :
+{
+    data/omega_expansion.o(omega_torchic_script_5);
+} > ROM =0xFF
+
+omega_torchic_text_0 0x08800AF6 :
+{
+    data/omega_expansion.o(omega_torchic_text_0);
+} > ROM =0xFF
+
+omega_torchic_text_1 0x08800B18 :
+{
+    data/omega_expansion.o(omega_torchic_text_1);
+} > ROM =0xFF
+
+omega_torchic_text_2 0x08800B32 :
+{
+    data/omega_expansion.o(omega_torchic_text_2);
+} > ROM =0xFF
+
+omega_torchic_text_3 0x08800B77 :
+{
+    data/omega_expansion.o(omega_torchic_text_3);
+} > ROM =0xFF
+
+omega_chikorita_script_0 0x08800B9A :
+{
+    data/omega_expansion.o(omega_chikorita_script_0);
+} > ROM =0xFF
+
+omega_chikorita_script_1 0x08800BE5 :
+{
+    data/omega_expansion.o(omega_chikorita_script_1);
+} > ROM =0xFF
+
+omega_chikorita_script_2 0x08800BF0 :
+{
+    data/omega_expansion.o(omega_chikorita_script_2);
+} > ROM =0xFF
+
+omega_chikorita_script_3 0x08800C23 :
+{
+    data/omega_expansion.o(omega_chikorita_script_3);
+} > ROM =0xFF
+
+omega_chikorita_script_4 0x08800C51 :
+{
+    data/omega_expansion.o(omega_chikorita_script_4);
+} > ROM =0xFF
+
+omega_chikorita_script_5 0x08800C75 :
+{
+    data/omega_expansion.o(omega_chikorita_script_5);
+} > ROM =0xFF
+
+omega_chikorita_text_0 0x08800CFA :
+{
+    data/omega_expansion.o(omega_chikorita_text_0);
+} > ROM =0xFF
+
+omega_chikorita_text_1 0x08800D3D :
+{
+    data/omega_expansion.o(omega_chikorita_text_1);
+} > ROM =0xFF
+
+omega_chikorita_text_2 0x08800D5D :
+{
+    data/omega_expansion.o(omega_chikorita_text_2);
+} > ROM =0xFF
+
+omega_chikorita_text_3 0x08800DA4 :
+{
+    data/omega_expansion.o(omega_chikorita_text_3);
+} > ROM =0xFF
+
+omega_cyndaquil_script_0 0x08800DBB :
+{
+    data/omega_expansion.o(omega_cyndaquil_script_0);
+} > ROM =0xFF
+
+omega_cyndaquil_script_1 0x08800E06 :
+{
+    data/omega_expansion.o(omega_cyndaquil_script_1);
+} > ROM =0xFF
+
+omega_cyndaquil_script_2 0x08800E11 :
+{
+    data/omega_expansion.o(omega_cyndaquil_script_2);
+} > ROM =0xFF
+
+omega_cyndaquil_script_3 0x08800E44 :
+{
+    data/omega_expansion.o(omega_cyndaquil_script_3);
+} > ROM =0xFF
+
+omega_cyndaquil_script_4 0x08800E72 :
+{
+    data/omega_expansion.o(omega_cyndaquil_script_4);
+} > ROM =0xFF
+
+omega_cyndaquil_script_5 0x08800E96 :
+{
+    data/omega_expansion.o(omega_cyndaquil_script_5);
+} > ROM =0xFF
+
+omega_cyndaquil_text_0 0x08800F1B :
+{
+    data/omega_expansion.o(omega_cyndaquil_text_0);
+} > ROM =0xFF
+
+omega_cyndaquil_text_1 0x08800F3D :
+{
+    data/omega_expansion.o(omega_cyndaquil_text_1);
+} > ROM =0xFF
+
+omega_cyndaquil_text_2 0x08800F5E :
+{
+    data/omega_expansion.o(omega_cyndaquil_text_2);
+} > ROM =0xFF
+
+omega_cyndaquil_text_3 0x08800FA4 :
+{
+    data/omega_expansion.o(omega_cyndaquil_text_3);
+} > ROM =0xFF
+
+omega_totodile_script_0 0x08800FBE :
+{
+    data/omega_expansion.o(omega_totodile_script_0);
+} > ROM =0xFF
+
+omega_totodile_script_1 0x08801009 :
+{
+    data/omega_expansion.o(omega_totodile_script_1);
+} > ROM =0xFF
+
+omega_totodile_script_2 0x08801014 :
+{
+    data/omega_expansion.o(omega_totodile_script_2);
+} > ROM =0xFF
+
+omega_totodile_script_3 0x08801047 :
+{
+    data/omega_expansion.o(omega_totodile_script_3);
+} > ROM =0xFF
+
+omega_totodile_script_4 0x08801075 :
+{
+    data/omega_expansion.o(omega_totodile_script_4);
+} > ROM =0xFF
+
+omega_totodile_script_5 0x08801099 :
+{
+    data/omega_expansion.o(omega_totodile_script_5);
+} > ROM =0xFF
+
+omega_totodile_text_0 0x0880111E :
+{
+    data/omega_expansion.o(omega_totodile_text_0);
+} > ROM =0xFF
+
+omega_totodile_text_1 0x08801159 :
+{
+    data/omega_expansion.o(omega_totodile_text_1);
+} > ROM =0xFF
+
+omega_totodile_text_2 0x08801174 :
+{
+    data/omega_expansion.o(omega_totodile_text_2);
+} > ROM =0xFF
+
+omega_totodile_text_3 0x088011BB :
+{
+    data/omega_expansion.o(omega_totodile_text_3);
+} > ROM =0xFF
+
+omega_bulbasaur_script_0 0x0880131C :
+{
+    data/omega_expansion.o(omega_bulbasaur_script_0);
+} > ROM =0xFF
+
+omega_bulbasaur_script_1 0x08801367 :
+{
+    data/omega_expansion.o(omega_bulbasaur_script_1);
+} > ROM =0xFF
+
+omega_bulbasaur_script_2 0x08801372 :
+{
+    data/omega_expansion.o(omega_bulbasaur_script_2);
+} > ROM =0xFF
+
+omega_bulbasaur_script_3 0x088013A5 :
+{
+    data/omega_expansion.o(omega_bulbasaur_script_3);
+} > ROM =0xFF
+
+omega_bulbasaur_script_4 0x088013D3 :
+{
+    data/omega_expansion.o(omega_bulbasaur_script_4);
+} > ROM =0xFF
+
+omega_bulbasaur_script_5 0x088013F7 :
+{
+    data/omega_expansion.o(omega_bulbasaur_script_5);
+} > ROM =0xFF
+
+omega_bulbasaur_text_0 0x0880147C :
+{
+    data/omega_expansion.o(omega_bulbasaur_text_0);
+} > ROM =0xFF
+
+omega_bulbasaur_text_1 0x088014AE :
+{
+    data/omega_expansion.o(omega_bulbasaur_text_1);
+} > ROM =0xFF
+
+omega_bulbasaur_text_2 0x088014CC :
+{
+    data/omega_expansion.o(omega_bulbasaur_text_2);
+} > ROM =0xFF
+
+omega_bulbasaur_text_3 0x08801512 :
+{
+    data/omega_expansion.o(omega_bulbasaur_text_3);
+} > ROM =0xFF
+
+omega_charmander_script_0 0x0880164D :
+{
+    data/omega_expansion.o(omega_charmander_script_0);
+} > ROM =0xFF
+
+omega_charmander_script_1 0x08801698 :
+{
+    data/omega_expansion.o(omega_charmander_script_1);
+} > ROM =0xFF
+
+omega_charmander_script_2 0x088016A3 :
+{
+    data/omega_expansion.o(omega_charmander_script_2);
+} > ROM =0xFF
+
+omega_charmander_script_3 0x088016D6 :
+{
+    data/omega_expansion.o(omega_charmander_script_3);
+} > ROM =0xFF
+
+omega_charmander_script_4 0x08801704 :
+{
+    data/omega_expansion.o(omega_charmander_script_4);
+} > ROM =0xFF
+
+omega_charmander_script_5 0x08801728 :
+{
+    data/omega_expansion.o(omega_charmander_script_5);
+} > ROM =0xFF
+
+omega_squirtle_script_0 0x08801732 :
+{
+    data/omega_expansion.o(omega_squirtle_script_0);
+} > ROM =0xFF
+
+omega_squirtle_script_1 0x0880177D :
+{
+    data/omega_expansion.o(omega_squirtle_script_1);
+} > ROM =0xFF
+
+omega_charmander_text_0 0x088017AD :
+{
+    data/omega_expansion.o(omega_charmander_text_0);
+} > ROM =0xFF
+
+omega_charmander_text_1 0x088017DF :
+{
+    data/omega_expansion.o(omega_charmander_text_1);
+} > ROM =0xFF
+
+omega_charmander_text_2 0x088017FC :
+{
+    data/omega_expansion.o(omega_charmander_text_2);
+} > ROM =0xFF
+
+omega_charmander_text_3 0x08801843 :
+{
+    data/omega_expansion.o(omega_charmander_text_3);
+} > ROM =0xFF
+
+omega_squirtle_script_2 0x0880186A :
+{
+    data/omega_expansion.o(omega_squirtle_script_2);
+} > ROM =0xFF
+
+omega_squirtle_script_3 0x0880189D :
+{
+    data/omega_expansion.o(omega_squirtle_script_3);
+} > ROM =0xFF
+
+omega_squirtle_script_4 0x088018CB :
+{
+    data/omega_expansion.o(omega_squirtle_script_4);
+} > ROM =0xFF
+
+omega_squirtle_script_5 0x088018EF :
+{
+    data/omega_expansion.o(omega_squirtle_script_5);
+} > ROM =0xFF
+
+omega_squirtle_text_0 0x08801974 :
+{
+    data/omega_expansion.o(omega_squirtle_text_0);
+} > ROM =0xFF
+
+omega_squirtle_text_1 0x088019A0 :
+{
+    data/omega_expansion.o(omega_squirtle_text_1);
+} > ROM =0xFF
+
+omega_squirtle_text_2 0x088019BE :
+{
+    data/omega_expansion.o(omega_squirtle_text_2);
+} > ROM =0xFF
+
+omega_squirtle_text_3 0x08801A06 :
+{
+    data/omega_expansion.o(omega_squirtle_text_3);
+} > ROM =0xFF
+
+omega_porygon_script_0 0x08801C4E :
+{
+    data/omega_expansion.o(omega_porygon_script_0);
+} > ROM =0xFF
+
+omega_porygon_script_1 0x08801C99 :
+{
+    data/omega_expansion.o(omega_porygon_script_1);
+} > ROM =0xFF
+
+omega_porygon_script_2 0x08801CA4 :
+{
+    data/omega_expansion.o(omega_porygon_script_2);
+} > ROM =0xFF
+
+omega_porygon_script_3 0x08801CD7 :
+{
+    data/omega_expansion.o(omega_porygon_script_3);
+} > ROM =0xFF
+
+omega_porygon_script_4 0x08801D05 :
+{
+    data/omega_expansion.o(omega_porygon_script_4);
+} > ROM =0xFF
+
+omega_porygon_script_5 0x08801D29 :
+{
+    data/omega_expansion.o(omega_porygon_script_5);
+} > ROM =0xFF
+
+omega_porygon_text_0 0x08801DAE :
+{
+    data/omega_expansion.o(omega_porygon_text_0);
+} > ROM =0xFF
+
+omega_porygon_text_1 0x08801E1A :
+{
+    data/omega_expansion.o(omega_porygon_text_1);
+} > ROM =0xFF
+
+omega_porygon_text_2 0x08801E43 :
+{
+    data/omega_expansion.o(omega_porygon_text_2);
+} > ROM =0xFF
+
+omega_porygon_text_3 0x08801E88 :
+{
+    data/omega_expansion.o(omega_porygon_text_3);
+} > ROM =0xFF
+
+omega_tyrogue_script_0 0x0880253D :
+{
+    data/omega_expansion.o(omega_tyrogue_script_0);
+} > ROM =0xFF
+
+omega_tyrogue_script_1 0x08802588 :
+{
+    data/omega_expansion.o(omega_tyrogue_script_1);
+} > ROM =0xFF
+
+omega_tyrogue_script_2 0x08802593 :
+{
+    data/omega_expansion.o(omega_tyrogue_script_2);
+} > ROM =0xFF
+
+omega_tyrogue_script_3 0x088025C6 :
+{
+    data/omega_expansion.o(omega_tyrogue_script_3);
+} > ROM =0xFF
+
+omega_tyrogue_script_4 0x088025F4 :
+{
+    data/omega_expansion.o(omega_tyrogue_script_4);
+} > ROM =0xFF
+
+omega_tyrogue_script_5 0x08802618 :
+{
+    data/omega_expansion.o(omega_tyrogue_script_5);
+} > ROM =0xFF
+
+omega_tyrogue_text_0 0x0880269D :
+{
+    data/omega_expansion.o(omega_tyrogue_text_0);
+} > ROM =0xFF
+
+omega_tyrogue_text_1 0x088026DD :
+{
+    data/omega_expansion.o(omega_tyrogue_text_1);
+} > ROM =0xFF
+
+omega_tyrogue_text_2 0x08802716 :
+{
+    data/omega_expansion.o(omega_tyrogue_text_2);
+} > ROM =0xFF
+
+omega_tyrogue_text_3 0x0880275B :
+{
+    data/omega_expansion.o(omega_tyrogue_text_3);
+} > ROM =0xFF
+
+
+
+
+omega_group43_map00_legendary 0x088027EE :
+{
+    data/omega_expansion.o(omega_group43_map00_legendary);
+} > ROM =0xFF
+
+omega_group43_map01_legendary 0x0880289E :
+{
+    data/omega_expansion.o(omega_group43_map01_legendary);
+} > ROM =0xFF
+
+omega_group43_map02_legendary 0x0880294B :
+{
+    data/omega_expansion.o(omega_group43_map02_legendary);
+} > ROM =0xFF
+
+omega_group43_map03_legendary 0x088029F8 :
+{
+    data/omega_expansion.o(omega_group43_map03_legendary);
+} > ROM =0xFF
+
+omega_group43_map04_legendary 0x08802A9A :
+{
+    data/omega_expansion.o(omega_group43_map04_legendary);
+} > ROM =0xFF
+
+omega_group43_map05_legendary 0x08802B3C :
+{
+    data/omega_expansion.o(omega_group43_map05_legendary);
+} > ROM =0xFF
+
+omega_group43_map06_legendary 0x08802BDE :
+{
+    data/omega_expansion.o(omega_group43_map06_legendary);
+} > ROM =0xFF
+
+omega_group43_map07_legendary 0x08802C80 :
+{
+    data/omega_expansion.o(omega_group43_map07_legendary);
+} > ROM =0xFF
+
+omega_group43_map08_legendary 0x08802D22 :
+{
+    data/omega_expansion.o(omega_group43_map08_legendary);
+} > ROM =0xFF
+
+omega_group43_map09_legendary 0x08802DC4 :
+{
+    data/omega_expansion.o(omega_group43_map09_legendary);
+} > ROM =0xFF
+
+omega_group43_map10_legendary 0x08802E66 :
+{
+    data/omega_expansion.o(omega_group43_map10_legendary);
+} > ROM =0xFF
+
+omega_group43_map11_legendary 0x08802F09 :
+{
+    data/omega_expansion.o(omega_group43_map11_legendary);
+} > ROM =0xFF
+
+omega_group43_map13_legendary 0x08803227 :
+{
+    data/omega_expansion.o(omega_group43_map13_legendary);
+} > ROM =0xFF
+
+omega_group43_map03_trainer 0x08803634 :
+{
+    data/omega_expansion.o(omega_group43_map03_trainer);
+} > ROM =0xFF
+
+omega_group43_map04_trainer 0x088036A8 :
+{
+    data/omega_expansion.o(omega_group43_map04_trainer);
+} > ROM =0xFF
+
+omega_group43_map05_trainer 0x08803701 :
+{
+    data/omega_expansion.o(omega_group43_map05_trainer);
+} > ROM =0xFF
+
+omega_group43_map06_trainer 0x08803771 :
+{
+    data/omega_expansion.o(omega_group43_map06_trainer);
+} > ROM =0xFF
+
+omega_group43_map07_trainer 0x088037DF :
+{
+    data/omega_expansion.o(omega_group43_map07_trainer);
+} > ROM =0xFF
+
+omega_group43_map10_trainer 0x08803885 :
+{
+    data/omega_expansion.o(omega_group43_map10_trainer);
+} > ROM =0xFF
+
+omega_group43_map13_trainer1 0x08803923 :
+{
+    data/omega_expansion.o(omega_group43_map13_trainer1);
+} > ROM =0xFF
+
+omega_group43_map13_trainer2 0x088039D6 :
+{
+    data/omega_expansion.o(omega_group43_map13_trainer2);
+} > ROM =0xFF
+
+omega_group43_map11_warp 0x08803BB4 :
+{
+    data/omega_expansion.o(omega_group43_map11_warp);
+} > ROM =0xFF
+
+omega_group43_map12_warp 0x08803CB6 :
+{
+    data/omega_expansion.o(omega_group43_map12_warp);
+} > ROM =0xFF
+
+omega_group43_map12_legendary 0x08804147 :
+{
+    data/omega_expansion.o(omega_group43_map12_legendary);
+} > ROM =0xFF
+
+omega_group43_map03_bg1 0x088041ED :
+{
+    data/omega_expansion.o(omega_group43_map03_bg1);
+} > ROM =0xFF
+
+omega_altering_cave_trainer_exact 0x08803FE0 :
+{
+    data/omega_expansion.o(omega_altering_cave_trainer_exact);
+} > ROM =0xFF
+
+omega_tail_fragment_80408a 0x0880408A :
+{
+    data/omega_expansion.o(omega_tail_fragment_80408a);
+} > ROM =0xFF
+
+
+
+omega_group43_gap_8041c6 0x088041C6 :
+{
+    data/omega_expansion.o(omega_group43_gap_8041c6);
+} > ROM =0xFF
+
+omega_expansion_final_byte 0x0880423D :
+{
+    data/omega_expansion.o(omega_expansion_final_byte);
+} > ROM =0xFF
+
+omega_expansion_exact_803d00_803dff 0x08803D00 :
+{
+    data/omega_expansion.o(omega_expansion_exact_803d00_803dff);
+} > ROM =0xFF
+
+omega_expansion_exact_803e00_803eff 0x08803E00 :
+{
+    data/omega_expansion.o(omega_expansion_exact_803e00_803eff);
+} > ROM =0xFF
+
+omega_expansion_exact_803f00_803fdf 0x08803F00 :
+{
+    data/omega_expansion.o(omega_expansion_exact_803f00_803fdf);
+} > ROM =0xFF
+
+omega_group43_gap_803a8d 0x08803A8D :
+{
+    data/omega_expansion.o(omega_group43_gap_803a8d);
+} > ROM =0xFF
+
+omega_group43_gap_803bc8 0x08803BC8 :
+{
+    data/omega_expansion.o(omega_group43_gap_803bc8);
+} > ROM =0xFF
+
+omega_group43_gap_803cca 0x08803CCA :
+{
+    data/omega_expansion.o(omega_group43_gap_803cca);
+} > ROM =0xFF
+
+omega_exact_gap_803000_803014 0x08803000 :
+{
+    data/omega_expansion.o(omega_exact_gap_803000_803014);
+} > ROM =0xFF
+
+omega_exact_gap_803018_80301f 0x08803018 :
+{
+    data/omega_expansion.o(omega_exact_gap_803018_80301f);
+} > ROM =0xFF
+
+omega_exact_gap_803021_80302a 0x08803021 :
+{
+    data/omega_expansion.o(omega_exact_gap_803021_80302a);
+} > ROM =0xFF
+
+omega_exact_gap_80304a_80304a 0x0880304A :
+{
+    data/omega_expansion.o(omega_exact_gap_80304a_80304a);
+} > ROM =0xFF
+
+omega_exact_gap_80304c_803149 0x0880304C :
+{
+    data/omega_expansion.o(omega_exact_gap_80304c_803149);
+} > ROM =0xFF
+
+omega_exact_gap_80314d_803154 0x0880314D :
+{
+    data/omega_expansion.o(omega_exact_gap_80314d_803154);
+} > ROM =0xFF
+
+omega_exact_gap_803156_80315f 0x08803156 :
+{
+    data/omega_expansion.o(omega_exact_gap_803156_80315f);
+} > ROM =0xFF
+
+omega_exact_gap_80317f_80317f 0x0880317F :
+{
+    data/omega_expansion.o(omega_exact_gap_80317f_80317f);
+} > ROM =0xFF
+
+omega_exact_gap_803181_8031eb 0x08803181 :
+{
+    data/omega_expansion.o(omega_exact_gap_803181_8031eb);
+} > ROM =0xFF
+
+omega_exact_gap_80321f_803225 0x0880321F :
+{
+    data/omega_expansion.o(omega_exact_gap_80321f_803225);
+} > ROM =0xFF
+
+omega_exact_gap_8032c7_8032ce 0x088032C7 :
+{
+    data/omega_expansion.o(omega_exact_gap_8032c7_8032ce);
+} > ROM =0xFF
+
+omega_exact_gap_8032d0_8032f9 0x088032D0 :
+{
+    data/omega_expansion.o(omega_exact_gap_8032d0_8032f9);
+} > ROM =0xFF
+
+omega_exact_gap_8032fb_803357 0x088032FB :
+{
+    data/omega_expansion.o(omega_exact_gap_8032fb_803357);
+} > ROM =0xFF
+
+omega_exact_gap_803359_803359 0x08803359 :
+{
+    data/omega_expansion.o(omega_exact_gap_803359_803359);
+} > ROM =0xFF
+
+omega_exact_gap_80335c_803378 0x0880335C :
+{
+    data/omega_expansion.o(omega_exact_gap_80335c_803378);
+} > ROM =0xFF
+
+omega_exact_gap_80337a_80337a 0x0880337A :
+{
+    data/omega_expansion.o(omega_exact_gap_80337a_80337a);
+} > ROM =0xFF
+
+omega_exact_gap_80337c_8033bb 0x0880337C :
+{
+    data/omega_expansion.o(omega_exact_gap_80337c_8033bb);
+} > ROM =0xFF
+
+omega_exact_gap_8033bd_8033e2 0x088033BD :
+{
+    data/omega_expansion.o(omega_exact_gap_8033bd_8033e2);
+} > ROM =0xFF
+
+omega_exact_gap_80343e_803460 0x0880343E :
+{
+    data/omega_expansion.o(omega_exact_gap_80343e_803460);
+} > ROM =0xFF
+
+omega_exact_gap_803462_803462 0x08803462 :
+{
+    data/omega_expansion.o(omega_exact_gap_803462_803462);
+} > ROM =0xFF
+
+omega_exact_gap_803483_80349c 0x08803483 :
+{
+    data/omega_expansion.o(omega_exact_gap_803483_80349c);
+} > ROM =0xFF
+
+omega_exact_gap_80349e_80349f 0x0880349E :
+{
+    data/omega_expansion.o(omega_exact_gap_80349e_80349f);
+} > ROM =0xFF
+
+omega_exact_gap_8034a1_8034b6 0x088034A1 :
+{
+    data/omega_expansion.o(omega_exact_gap_8034a1_8034b6);
+} > ROM =0xFF
+
+omega_exact_gap_8034b8_803532 0x088034B8 :
+{
+    data/omega_expansion.o(omega_exact_gap_8034b8_803532);
+} > ROM =0xFF
+
+omega_exact_gap_803534_803534 0x08803534 :
+{
+    data/omega_expansion.o(omega_exact_gap_803534_803534);
+} > ROM =0xFF
+
+omega_exact_gap_803536_803546 0x08803536 :
+{
+    data/omega_expansion.o(omega_exact_gap_803536_803546);
+} > ROM =0xFF
+
+omega_exact_gap_803548_803548 0x08803548 :
+{
+    data/omega_expansion.o(omega_exact_gap_803548_803548);
+} > ROM =0xFF
+
+omega_exact_gap_80354a_80357f 0x0880354A :
+{
+    data/omega_expansion.o(omega_exact_gap_80354a_80357f);
+} > ROM =0xFF
+
+omega_exact_gap_803581_803598 0x08803581 :
+{
+    data/omega_expansion.o(omega_exact_gap_803581_803598);
+} > ROM =0xFF
+
+omega_exact_gap_80359a_8035dc 0x0880359A :
+{
+    data/omega_expansion.o(omega_exact_gap_80359a_8035dc);
+} > ROM =0xFF
+
+omega_exact_gap_8035de_8035de 0x088035DE :
+{
+    data/omega_expansion.o(omega_exact_gap_8035de_8035de);
+} > ROM =0xFF
+
+omega_exact_gap_8035e0_8035e6 0x088035E0 :
+{
+    data/omega_expansion.o(omega_exact_gap_8035e0_8035e6);
+} > ROM =0xFF
+
+omega_exact_gap_8035e8_8035e8 0x088035E8 :
+{
+    data/omega_expansion.o(omega_exact_gap_8035e8_8035e8);
+} > ROM =0xFF
+
+omega_exact_gap_8035ea_803631 0x088035EA :
+{
+    data/omega_expansion.o(omega_exact_gap_8035ea_803631);
+} > ROM =0xFF
+
+omega_exact_gap_803633_803633 0x08803633 :
+{
+    data/omega_expansion.o(omega_exact_gap_803633_803633);
+} > ROM =0xFF
+
+gfx_data 0x08D00000 :
     ALIGN(4)
     {
         src/graphics.o(.rodata);

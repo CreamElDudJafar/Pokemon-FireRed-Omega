@@ -298,8 +298,22 @@ const union AnimCmd *const gAnims_MonPic[] =
 
 #include "data/pokemon_graphics/enemy_mon_elevation.h"
 
-#include "data/trainer_parties.h"
+// data/trainer_parties.h is retained in the repository as the editable
+__asm__(
+    ".section .rodata\n"
+    ".balign 4\n"
+    "sOmegaTrainerPartyExactBank:\n"
+    ".incbin \"data/omega/layout/trainer_parties_exact.bin\"\n"
+    ".previous\n"
+);
 #include "data/text/trainer_class_names.h"
-#include "data/trainers.h"
+__asm__(
+    ".section .rodata\n"
+    ".balign 4\n"
+    ".global gTrainers\n"
+    "gTrainers:\n"
+    ".incbin \"data/omega/layout/trainers_exact.bin\"\n"
+    ".previous\n"
+);
 #include "data/text/species_names.h"
 #include "data/text/move_names.h"

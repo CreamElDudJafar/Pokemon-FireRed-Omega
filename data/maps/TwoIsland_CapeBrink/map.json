@@ -28,6 +28,13 @@
       "elevation": 0,
       "dest_map": "MAP_TWO_ISLAND_CAPE_BRINK_HOUSE",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 15,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_OMEGA_GROUP43_MAP01",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [],

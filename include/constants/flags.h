@@ -1315,6 +1315,7 @@
 #define FLAG_0x4FD               0x4FD
 #define FLAG_0x4FE               0x4FE
 #define FLAG_0x4FF               0x4FF
+#define FLAG_GOT_LAPRAS_FROM_FUCHSIA                    0x67E
 
 #define TRAINER_FLAGS_START      (FLAG_0x4FF + 1)
 #define TRAINER_FLAGS_END        (TRAINER_FLAGS_START + MAX_TRAINERS_COUNT - 1) // 0x7FF
@@ -1370,6 +1371,14 @@
 #define FLAG_BADGE07_GET                                            (SYS_FLAGS + 0x26)
 #define FLAG_BADGE08_GET                                            (SYS_FLAGS + 0x27)
 #define NUM_BADGES                                                  (1 + FLAG_BADGE08_GET - FLAG_BADGE01_GET)
+
+
+#define FLAG_HIDE_PEWTER_CITY_SUN_STONE                    0x66C
+#define FLAG_HIDE_CELADON_CITY_SUN_STONE                   0x66D
+#define FLAG_HIDE_ROUTE6_WATER_STONE                       0x66E
+#define FLAG_HIDE_ROUTE11_FIRE_STONE                       0x66F
+#define FLAG_HIDE_VERMILION_CITY_THUNDER_STONE             0x67A
+#define FLAG_HIDE_ROUTE9_LEAF_STONE                        0x67B
 
 #define FLAG_SYS_POKEMON_GET                                        (SYS_FLAGS + 0x28)
 #define FLAG_SYS_POKEDEX_GET                                        (SYS_FLAGS + 0x29)
@@ -1532,4 +1541,13 @@
 // FLAG_SPECIAL_FLAG_0x4002 - 0x407F also exist and are unused
 #define SPECIAL_FLAGS_END             (SPECIAL_FLAGS_START + 0x7F)
 
+#define FLAG_GOT_BULBASAUR_OMEGA                                     0x62C
+#define FLAG_GOT_TREECKO_OMEGA                                       0x61A
+#define FLAG_GOT_TORCHIC_OMEGA                                       0x61B
+#define FLAG_GOT_MUDKIP_OMEGA                                        0x61C
+#define FLAG_GOT_CHARMANDER_OMEGA                                    0x62D
+#define FLAG_GOT_SQUIRTLE_OMEGA                                      0x62E
+#define FLAG_GOT_CHIKORITA_OMEGA                                     0x61D
+#define FLAG_GOT_CYNDAQUIL_OMEGA                                     0x61E
+#define FLAG_GOT_TOTODILE_OMEGA                                      0x61F
 #endif // GUARD_CONSTANTS_FLAGS_H

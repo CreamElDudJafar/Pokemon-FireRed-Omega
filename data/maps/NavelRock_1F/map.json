@@ -27,8 +27,8 @@
       "x": 8,
       "y": 23,
       "elevation": 3,
-      "dest_map": "MAP_NAVEL_ROCK_EXTERIOR",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_SIX_ISLAND_ALTERING_CAVE",
+      "dest_warp_id": "2"
     }
   ],
   "coord_events": [],

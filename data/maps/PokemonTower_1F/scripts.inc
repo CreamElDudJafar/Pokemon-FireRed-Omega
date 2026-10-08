@@ -35,3 +35,10 @@ PokemonTower_1F_EventScript_Woman2MalePlayer::
 PokemonTower_1F_EventScript_WorkerF::
 	msgbox PokemonTower_1F_Text_ErectedInMemoryOfDeadMons, MSGBOX_NPC
 	end
+
+PokemonTower_1F_EventScript_OmegaChanneler::
+	lock
+	faceplayer
+	msgbox PokemonTower_1F_Text_OmegaChanneler, MSGBOX_AUTOCLOSE
+	release
+	end

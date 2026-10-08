@@ -188,8 +188,8 @@
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
-      "x": 36,
-      "y": 15,
+      "x": 12,
+      "y": 30,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -339,6 +339,13 @@
       "y": 39,
       "elevation": 0,
       "dest_map": "MAP_MT_EMBER_RUBY_PATH_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_OMEGA_GROUP43_MAP00",
       "dest_warp_id": "0"
     }
   ],

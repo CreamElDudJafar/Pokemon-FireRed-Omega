@@ -235,3 +235,34 @@ ViridianCity_EventScript_DoTutorialBattle::
 	giveitem ITEM_TEACHY_TV
 	msgbox ViridianCity_Text_WatchThatToLearnBasics
 	return
+
+ViridianCity_EventScript_OldRodFishingGuru::
+	lock
+	faceplayer
+	goto_if_set FLAG_GOT_OLD_ROD, ViridianCity_EventScript_OldRodAlreadyGot
+	msgbox VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, ViridianCity_EventScript_GiveOldRod
+	msgbox VermilionCity_House1_Text_OhThatsSoDisappointing
+	release
+	end
+
+ViridianCity_EventScript_OldRodAlreadyGot::
+	msgbox VermilionCity_House1_Text_HowAreTheFishBiting
+	release
+	end
+
+ViridianCity_EventScript_GiveOldRod::
+	checkitemspace ITEM_OLD_ROD
+	goto_if_eq VAR_RESULT, FALSE, ViridianCity_EventScript_NoRoomForOldRod
+	additem ITEM_OLD_ROD
+	msgbox VermilionCity_House1_Text_TakeThisAndFish
+	msgreceiveditem ViridianCity_Text_ReceivedOldRodFromFishingGuru, ITEM_OLD_ROD
+	setflag FLAG_GOT_OLD_ROD
+	msgbox VermilionCity_House1_Text_FishingIsAWayOfLife
+	release
+	end
+
+ViridianCity_EventScript_NoRoomForOldRod::
+	msgbox VermilionCity_House1_Text_NoRoomForNiceGift
+	release
+	end

@@ -1,0 +1,10 @@
+Pass 10 build integration fix
+=============================
+The first Pass 10 appended exact-rodata stamp prerequisites to $(ELF), but an already-current default build could report "Nothing to be done" before entering the intended correction path.
+
+This cumulative fix changes the default target from:
+    all: rom
+to:
+    all: omega_pass10
+
+omega_pass10 first materializes all OMEGA_FINAL_RODATA_STAMPS, then removes only the final ELF and ROM and invokes a final relink. It does not run make clean and does not delete/recompile the full object tree.

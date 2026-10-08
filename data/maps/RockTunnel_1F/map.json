@@ -4,7 +4,7 @@
   "layout": "LAYOUT_ROCK_TUNNEL_1F",
   "music": "MUS_MT_MOON",
   "region_map_section": "MAPSEC_ROCK_TUNNEL",
-  "requires_flash": true,
+  "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",
   "allow_cycling": true,
@@ -154,6 +154,36 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RockTunnel_1F_EventScript_ItemEscapeRope",
       "flag": "FLAG_HIDE_ROCK_TUNNEL_1F_ESCAPE_ROPE"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
+      "x": 44,
+      "y": 14,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RockTunnel_B1F_EventScript_RockSlideTutor",
+      "flag": "0",
+      "object_id": "11"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_WORKER_M",
+      "x": 30,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RockTunnel_1F_EventScript_OmegaCharmander",
+      "flag": "0",
+      "object_id": "12"
     }
   ],
   "warp_events": [

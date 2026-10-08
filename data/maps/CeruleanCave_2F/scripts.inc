@@ -1,2 +1,7 @@
 CeruleanCave_2F_MapScripts::
 	.byte 0
+
+CeruleanCave_2F_EventScript_OmegaTrainer::
+	trainerbattle TRAINER_BATTLE_SINGLE, TRAINER_AQUA_LEADER, 0, CeruleanCave_2F_Text_OmegaTrainerIntro, CeruleanCave_2F_Text_OmegaTrainerDefeat
+	msgbox CeruleanCave_2F_Text_OmegaTrainerAfter, MSGBOX_AUTOCLOSE
+	end

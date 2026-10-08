@@ -1,0 +1,6 @@
+Combined Oak/Pewter/Cinnabar internal exact-unit reconstruction.
+Each removed unit was compared byte-for-byte against Fire Red Omega before aliasing.
+
+data/maps/PalletTown_ProfessorOaksLab/scripts.inc: 18 exact units, 364 emitted bytes
+data/maps/PewterCity/scripts.inc: 24 exact units, 626 emitted bytes
+data/maps/CinnabarIsland_Gym/scripts.inc: 18 exact units, 325 emitted bytes

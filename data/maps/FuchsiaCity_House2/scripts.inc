@@ -30,3 +30,61 @@ FuchsiaCity_House2_EventScript_NoRoomForGoodRod::
 	msgbox FuchsiaCity_House2_Text_YouHaveNoRoomForGift
 	release
 	end
+
+FuchsiaCity_House2_EventScript_LaprasScientist::
+	lock
+	faceplayer
+	goto_if_set FLAG_GOT_LAPRAS_FROM_FUCHSIA, FuchsiaCity_House2_EventScript_AlreadyGotLapras
+	msgbox FuchsiaCity_House2_Text_HaveLapras
+	setvar VAR_TEMP_1, SPECIES_LAPRAS
+	givemon SPECIES_LAPRAS, 40
+	goto_if_eq VAR_RESULT, 0, FuchsiaCity_House2_EventScript_ReceiveLaprasParty
+	goto_if_eq VAR_RESULT, 1, FuchsiaCity_House2_EventScript_ReceiveLaprasPC
+	goto_if_eq VAR_RESULT, 2, FuchsiaCity_House2_EventScript_EndReceiveLapras
+	release
+	end
+
+FuchsiaCity_House2_EventScript_AlreadyGotLapras::
+	msgbox FuchsiaCity_House2_Text_LaprasIsAmazing, MSGBOX_AUTOCLOSE
+	release
+	end
+
+FuchsiaCity_House2_EventScript_ReceiveLaprasParty::
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	playfanfare MUS_LEVEL_UP
+	message FuchsiaCity_House2_Text_ObtainedLapras
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_LAPRAS
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, FuchsiaCity_House2_EventScript_EndReceiveLapras
+	call EventScript_GetGiftMonPartySlot
+	call EventScript_ChangePokemonNickname
+	goto FuchsiaCity_House2_EventScript_EndReceiveLapras
+	end
+
+FuchsiaCity_House2_EventScript_ReceiveLaprasPC::
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	playfanfare MUS_LEVEL_UP
+	message FuchsiaCity_House2_Text_ObtainedLapras
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_LAPRAS
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, FuchsiaCity_House2_EventScript_EndReceiveLapras
+	call EventScript_NameReceivedBoxMon
+	goto FuchsiaCity_House2_EventScript_LaprasTransferredToPC
+	end
+
+FuchsiaCity_House2_EventScript_LaprasTransferredToPC::
+	call EventScript_TransferredToPC
+	goto FuchsiaCity_House2_EventScript_EndReceiveLapras
+	end
+
+FuchsiaCity_House2_EventScript_EndReceiveLapras::
+	textcolor NPC_TEXT_COLOR_MALE
+	faceplayer
+	msgbox FuchsiaCity_House2_Text_ExplainLapras
+	setflag FLAG_GOT_LAPRAS_FROM_FUCHSIA
+	release
+	end

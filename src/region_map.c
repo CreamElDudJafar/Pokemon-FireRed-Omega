@@ -388,6 +388,14 @@ static void InitFlyMap(void);
 static void FreeFlyMap(u8);
 static void SetFlyWarpDestination(u16);
 
+extern const u8 OmegaMapName_AncientLabyrinth[];
+extern const u8 OmegaMapName_ChronumTower[];
+extern const u8 OmegaMapName_YggdrasillForest[];
+extern const u8 OmegaMapName_FlameSanctuary[];
+extern const u8 OmegaMapName_AquaSanctuary[];
+extern const u8 OmegaMapName_VoltSanctuary[];
+extern const u8 OmegaMapName_TravelersTomb[];
+
 #include "data/region_map/region_map_entry_strings.h"
 
 static const u16 sTopBar_Pal[] = INCBIN_U16("graphics/region_map/top_bar.gbapal"); // Palette for the top bar and dynamic text color

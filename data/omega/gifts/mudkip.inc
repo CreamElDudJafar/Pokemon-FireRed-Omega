@@ -1,0 +1,65 @@
+PewterCity_PokemonCenter_1F_EventScript_OmegaMudkip::
+	lock
+	faceplayer
+	goto_if_set FLAG_GOT_MUDKIP_OMEGA, PewterCity_PokemonCenter_1F_EventScript_OmegaMudkipAlreadyReceived
+	msgbox PewterCity_PokemonCenter_1F_Text_OmegaMudkipIntro
+	setvar VAR_TEMP_1, SPECIES_MUDKIP
+	givemon SPECIES_MUDKIP, 10
+	goto_if_eq VAR_RESULT, 0, PewterCity_PokemonCenter_1F_EventScript_OmegaMudkipReceivedParty
+	goto_if_eq VAR_RESULT, 1, PewterCity_PokemonCenter_1F_EventScript_OmegaMudkipReceivedPC
+	goto_if_eq VAR_RESULT, 2, PewterCity_PokemonCenter_1F_EventScript_OmegaMudkipFinish
+	release
+	end
+
+	.byte 0xFF
+
+PewterCity_PokemonCenter_1F_EventScript_OmegaMudkipAlreadyReceived::
+	msgbox PewterCity_PokemonCenter_1F_Text_OmegaMudkipPost, MSGBOX_AUTOCLOSE
+	release
+	end
+
+	.byte 0xFF
+
+PewterCity_PokemonCenter_1F_EventScript_OmegaMudkipReceivedParty::
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	playfanfare MUS_LEVEL_UP
+	message PewterCity_PokemonCenter_1F_Text_OmegaMudkipObtained
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_MUDKIP
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PewterCity_PokemonCenter_1F_EventScript_OmegaMudkipFinish
+	call EventScript_GetGiftMonPartySlot
+	call EventScript_ChangePokemonNickname
+	goto PewterCity_PokemonCenter_1F_EventScript_OmegaMudkipFinish
+
+	.byte 0xFF
+
+PewterCity_PokemonCenter_1F_EventScript_OmegaMudkipReceivedPC::
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	playfanfare MUS_LEVEL_UP
+	message PewterCity_PokemonCenter_1F_Text_OmegaMudkipObtained
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_MUDKIP
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PewterCity_PokemonCenter_1F_EventScript_OmegaMudkipFinish
+	call EventScript_NameReceivedBoxMon
+	goto PewterCity_PokemonCenter_1F_EventScript_OmegaMudkipTransferredToPC
+
+
+	.byte 0xFF
+
+PewterCity_PokemonCenter_1F_EventScript_OmegaMudkipFinish::
+	textcolor NPC_TEXT_COLOR_MALE
+	faceplayer
+	msgbox PewterCity_PokemonCenter_1F_Text_OmegaMudkipExplain
+	setflag FLAG_GOT_MUDKIP_OMEGA
+	release
+	end
+
+	.byte 0xFF
+
+PewterCity_PokemonCenter_1F_EventScript_OmegaMudkipTransferredToPC::
+	call EventScript_TransferredToPC
+	goto PewterCity_PokemonCenter_1F_EventScript_OmegaMudkipFinish

@@ -1,0 +1,7 @@
+Pass 14 - Egg-origin string alignment fix
+
+Omega reference bytes at the end of gText_PokeSum_EggOrigin_TravelingMan contain FF FF.
+Pass 12 emitted only the normal FF terminator, shifting all following strings one byte earlier.
+charmap.txt defines '$' = FF, so the source text now ends with "a beautiful lady.$".
+The explicit $ emits the first FF and the normal encoded-string terminator emits the second FF.
+No linker, Makefile, or Pass 13 warning-cleanup files are changed by this pass.

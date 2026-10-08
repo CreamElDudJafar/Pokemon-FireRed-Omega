@@ -1,0 +1,11 @@
+Fire Red Omega Pass 15 - final residual collapse
+Baseline: 538 differing bytes versus Fire Red Omega.gba.
+Changes:
+- Correct 101 stale exact event/text alias addresses (104 exported labels).
+- Exact final src/data.o rodata contribution with exported symbols preserved.
+- Exact final mus_rs_vs_trainer and mus_school objects.
+- Exact wild_encounter .text with original 13-byte EWRAM state preserved; its duplicate rodata is omitted because the authoritative bytes already live in omega_wild_exact.
+- Restore exact 0x08EB0B20-0x08EB0B73 relocated music prefix.
+- Correct EventScript_CancelMessageBox and EventScript_ReleaseEnd exact aliases.
+- Correct remaining General/Viridian Forest metatile attribute bytes.
+No compiled ROM post-patching is used.
